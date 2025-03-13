@@ -107,9 +107,6 @@ def UltimoEstado():
     salida = False
 
 
-
-
-
 def chatBot():
     global EstadoSig
     global EstadoAnt
