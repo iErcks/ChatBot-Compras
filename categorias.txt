@@ -1,0 +1,582 @@
+1 Soporte y ayuda
+2 Pedidos
+3 Seguimiento de pedidos
+4 Rastreo
+5 Fecha tentativa de entrega
+6 Problemas con el pedido
+7 Retardos
+8 Paquete dañado
+9 Paquete abierto
+10 No llego el pedido
+11 Llego otro pedido
+12 Paquete incompleto
+13 Direccion incorrecta
+14 Cancelar pedido
+15 Razon
+16 Modificar direccion
+17 Antes de un envio
+18 Despues de comprar un producto
+19 Añadir reseña
+20 Tipos de reseñas
+21 Sobre vendedores
+22 Sobre productos
+23 Sobre experiencias con paqueteria
+24 Formas de escribir una reseña
+25 Asignar una calificación
+26 Agregar fotos
+27 Administar mis reseñas
+28 Eliminar reseñas
+29 Actualizar reseñas
+30 Reembolsos
+31 Métodos de reembolso
+32 Devolución a tarjeta original
+33 Crédito Amazon
+34 Otros métodos alternativos
+35 Procesamiento
+36 Tiempos estimados según método
+37 Reembolso parcial vs. completo
+38 Verificación de recepción de reembolso
+39 Fecha estimada de reembolso
+40 Resolución de problemas
+41 Reembolso no recibido
+42 Monto incorrecto
+43 Método de reembolso incorrecto
+44 Escalamiento a servicio humano
+45 Devoluciones
+46 Iniciación de Devolución
+47 Motivos de devolución
+48 Problemas con el producto
+49 Garantía (Error de fábrica)
+50 Producto equivocado
+51 Insatisfecho
+52 No cumplió expectativas
+53 No me gustó
+54 Prefiero no responder Seguimiento de devolución
+55 Reglas de verificación
+56 Verificación de elegibilidad según política
+57 Solicitud de evidencia fotográfica
+58 Comparación con descripción original
+59 Verificación de fecha de compra
+60 Seguimiento de Devolución
+61 Estados de la devolución
+62 Solicitada
+63 Aprobada
+64 En proceso
+65 Recolección programada
+66 Recibida
+67 Procesada
+68 Completada
+69 Información de seguimiento
+70 Estado actual
+71 Fecha de recolección
+72 Historial de cambios de estado
+73 Logística de Devolución
+74 Opciones de devolución
+75 Recolección a domicilio
+76 Entrega en sucursal
+77 Envío por cuenta propia
+78 Instrucciones específicas
+79 Instrucciones de empaquetado
+80 Requisitos de documentación
+81 Instrucciones de recolección
+82 Ubicación de sucursales cercanas
+83 Gestión de recolección
+84 Programación inicial
+85 Reprogramación por vencimiento
+86 Cancelación de recolección
+87 Promociones
+88 Gestión de promociones activas
+89 Catálogo de promociones
+90 Descuentos directos
+91 Ofertas por temporada
+92 Cupones de descuento
+93 Promociones por categoría
+94 Ofertas relámpago
+95 Parámetros de promociones
+96 Fechas de validez
+97 Requisitos de compra mínima
+98 Restricciones geográficas
+99 Limitaciones por cuenta
+100 Verificación de elegibilidad
+101 Criterios de usuario
+102 Historial de compras
+103 Membresía (Prime/no Prime)
+104 Ubicación geográfica
+105 Antigüedad de cuenta
+106 Criterios de producto
+107 Categorías elegibles
+108 Exclusiones específicas
+109 Marcas participantes
+110 Rangos de precio
+111 Recomendaciones personalizadas
+112 Motor de sugerencias
+113 Basado en historial
+114 Basado en intereses declarados
+115 Basado en tendencias
+116 Combinación de promociones
+117 Compatibilidad entre promociones
+118 Optimización de beneficios
+119 Sugerencias de complementos
+120 Metodos de pago
+121 Problemas con el pago
+122 Impuestos y cargos
+123 Incluye impuestos
+124 Cargos de envio
+125 Cargos desconocidos o incorrectos
+126 Ver mis transacciones
+127 Cargo de autorizacion
+128 Cambiar metodo de pago
+129 Metodos de pago digitales
+130 kueski pay
+131 Pago rechazado
+132 Costo con financiamiento
+133 Meses sin intereses
+134 Tarjetas de regalo
+135 Tarjetas
+136 Vales de despensa
+137 Efectivo
+138 Recordatorios y notificaciones
+139 Pago pendiente
+140 Pago rechazado
+141 Pago aceptado
+142 Factura
+143 Facturacion
+144 Billetera
+145 Actualizar informacion
+146 Vales de despensa
+147 Kueski pay
+148 Meses sin intereses
+149 Costo con financiamiento
+150 Metodos de pago digitales
+151 Tarjetas de regalo
+152 Tarjetas
+153 Efectivo
+154 Recordatorios y notificaciones
+155 Pagos
+156 Compras
+157 Entregas
+158 Devoluciones
+159 Cuenta
+160 Registro y Creación de Cuenta
+161 Como crear una cuenta
+162 Verificacion de correo o numero de telefono
+163 Problemas al registrarse
+164 Inicio de Sesion y Seguridad
+165 Olvide mi contraseña
+166 Restablecer contraseña
+167 Autenticacion en dos pasos
+168 Problemas con el inicio de sesion
+169 Datos personales y Configuracion
+170 Actualizar correo electronico
+171 Cambiar numero de telefono
+172 Modificar direccion de entrega
+173 Gestionar preferencias de comunicacion
+174 Metodos de Pago y Facturacion
+175 Agregar o eliminar tarjetas
+176 Problemas con pagos rechazados
+177 Ver y descargar facturas
+178 Historial de Pedidos y Devoluciones
+179 Ver pedidos anteriores
+180 Solicitar devolucion o rembolso
+181 Estado de una devolucion
+182 Quejas y reclamos
+183 Pedidos y Entregas
+184 Pedido no recibido
+185 Producto dañado o incorrecto
+186 Retrasos en la entrega
+187 Facturacion y Pagos
+188 Cobros indebidos
+189 Problemas con reembolsos
+190 Facturacion incorrecta
+191 Soporte Tecnico
+192 Problemas con la aplicacion o el sitio web
+193 Errores en la cuenta o datos personales
+194 Servivio al cliente
+195 Atencion deficiente
+196 Problemas con soporte via chat o telefono
+197 Politicas y Resmbolsos
+198 No aceptan mi devolucion
+199 Problemas con garantias
+200 Seguridad y Privacidad
+201 Cuenta comprometida o hackeada
+202 Uso indebido de datos personales
+203 Compras
+204 Promociones
+205 Descuentos
+206 Cómo aplicar un descuento
+207 ¿Cómo activar un cupón?
+208 Pasos para activar un cupón
+209 Busca el producto elegible.
+210 Haz clic en "Activar cupón".
+211 Agrega el producto al carrito.
+212 Verifica que el descuento se aplique antes de pagar.
+213 Problemas comunes al activar cupones
+214 "Cupón no aplicable": Verifica que el producto sea elegible.
+215 "Cupón ya utilizado": Revisa si el cupón tiene límite de usos.
+216 "Código inválido": Asegúrate de que el código esté bien escrito.
+217 ¿Los descuentos son automáticos?
+218 Descuentos automáticos vs. manuales
+219 Descuentos automáticos: Se aplican sin necesidad de código.
+220 Descuentos manuales: Requieren ingresar un código o activar un
+221 ¿Se pueden combinar múltiples descuentos?
+222 Restricciones de combinación
+223 Algunos descuentos no son acumulables.
+224 Verifica los términos de cada promoción.
+225 Productos con descuento
+226 ¿Qué productos tienen descuento hoy?
+227 Categorías con descuento
+228 Electrónica
+229 Hogar
+230 Moda
+231 ¿Cómo encontrar productos con descuento?
+232 Filtros de búsqueda
+233 Usa el filtro "Ofertas" en la barra de búsqueda.
+234 Revisa la sección "Ofertas del día".
+235 Restricciones de descuentos
+236 ¿Hay un límite de descuentos por usuario?
+237 Límites y condiciones
+238 Algunos descuentos tienen un límite por cuenta.
+239 Revisa los términos de la promoción.
+240 ¿Los descuentos aplican para productos internacionales?
+241 Restricciones geográficas
+242 Algunos descuentos solo aplican para productos locales.
+243 Verifica la ubicación del vendedor.
+244 Cashback
+245 Cómo funciona el cashback
+246 ¿Qué es el cashback?
+247 Definición y beneficios
+248 Reembolso de un porcentaje de tu compra.
+249 Puede ser en efectivo o crédito de Amazon.
+250 ¿Cómo activar el cashback?
+251 Pasos para activar cashback
+252 Busca productos elegibles.
+253 Activa la oferta de cashback.
+254 Realiza la compra.
+255 Recibe el cashback en tu cuenta.
+256 Problemas con el cashback
+257 ¿Por qué no recibí mi cashback?
+258 Causas comunes
+259 El producto no era elegible.
+260 No se activó la oferta antes de comprar.
+261 El cashback tarda en procesarse.
+262 ¿Cómo reclamar cashback no acreditado?
+263 Proceso de reclamación
+264 Revisa los términos de la promoción.
+265 Contacta a soporte con el número de pedido.
+266 Términos y condiciones
+267 ¿El cashback aplica para productos internacionales?
+268 Restricciones geográficas
+269 Algunas ofertas solo aplican para compras locales.
+270 ¿El cashback expira?
+271 Vigencia del cashback
+272 Revisa la fecha de expiración en los términos.
+273 Cupones
+274 Cómo usar cupones
+275 ¿Dónde encuentro cupones?
+276 Sección de cupones
+277 Visita la página "Cupones" en Amazon.
+278 Busca cupones en productos específicos.
+279 ¿Cómo activar un cupón?
+280 Pasos para activar un cupón
+281 Haz clic en "Activar cupón".
+282 Agrega el producto al carrito.
+283 Verifica que el descuento se aplique.
+284 Problemas con cupones
+285 ¿Por qué no se aplicó mi cupón?
+286 Causas comunes
+287 El producto no es elegible.
+288 El cupón ya fue utilizado.
+289 El cupón expiró.
+290 Ofertas relámpago
+291 Cómo participar en ofertas relámpago
+292 ¿Qué son las ofertas relámpago?
+293 Definición y características
+294 Descuentos por tiempo limitado.
+295 Límite de unidades por usuario.
+296 ¿Cómo recibir notificaciones de ofertas relámpago?
+297 Configuración de alertas
+298 Activa las notificaciones en la app.
+299 Guarda productos para recibir alertas.
+300 Problemas comunes
+301 ¿Por qué no puedo agregar el producto al carrito?
+302 Causas comunes
+303 El producto se agotó.
+304 Llegaste al límite de unidades por usuario.
+305 Promociones bancarias
+306 Meses sin intereses
+307 ¿Cómo aplicar meses sin intereses?
+308 Pasos para usar meses sin intereses
+309 Selecciona un producto elegible.
+310 Elige "Meses sin intereses" al pagar.
+311 Selecciona el plazo deseado.
+312 ¿Por qué no aparece la opción de meses sin intereses?
+313 Causas comunes
+314 El producto no es elegible.
+315 Tu tarjeta no participa en la promoción.
+316 Descuentos con tarjetas
+317 ¿Cómo aplicar un descuento bancario?
+318 Pasos para usar descuentos bancarios
+319 Selecciona un producto elegible.
+320 Usa una tarjeta participante al pagar.
+321 Verifica que el descuento se aplique.
+322 Promociones Prime
+323 Ofertas exclusivas
+324 ¿Qué es Prime Day?
+325 Definición y beneficios
+326 Evento anual con descuentos exclusivos para miembros Prime.
+327 ¿Cómo acceder a ofertas Prime?
+328 Pasos para acceder
+329 Asegúrate de tener una membresía Prime activa.
+330 Visita la sección "Ofertas Prime".
+331 Problemas comunes
+332 ¿Por qué no veo las promociones Prime?
+333 Causas comunes
+334 No tienes una membresía Prime activa.
+335 Las promociones ya expiraron.
+336 Devoluciones y promociones
+337 ¿Pierdo el descuento si devuelvo un producto?
+338 Política de devoluciones con promociones
+339 Si devuelves un producto, el descuento no se aplica.
+340 El reembolso será por el monto pagado después del descuento.
+341 ¿Cómo afecta una devolución al cashback?
+342 Proceso de devolución con cashback
+343 Si devuelves un producto, el cashback se cancela.
+344 Si el cashback ya fue acreditado, se descontará del reembolso
+345 Productos
+346 Tecnologia
+347 Celulares y accesorios
+348 Informacion Celulares
+349 Problemas Celulares
+350 Reparaciones y Refacciones Celulares
+351 Garantías Celulares
+352 Devolución Celulares
+353 Computo
+354 Informacion Computo
+355 Problemas Computo
+356 Reparaciones y Refacciones Computo
+357 Garantías Computo
+358 Devoluciones Computo
+359 SmartWatch
+360 Informacion SmartWatch
+361 Problemas SmartWatch
+362 Reparaciones y Refacciones SmartWatch
+363 Garantías SmartWatch
+364 Devoluciónes SmartWatch
+365 Audifonos
+366 Informacion Audifonos
+367 Problemas Audifonos
+368 Reparaciones y Refacciones Audifonos
+369 Garantías Audifonos
+370 Devoluciónes Audifonos
+371 Camara y fotografia
+372 Informacion Camaras y Fotografia
+373 Problemas Camaras y Fotografia
+374 Problemas Camaras y Fotografia
+375 Reparaciones y Refacciones Camaras y Fotografia
+376 Devoluciónes Camaras y Fotografia
+377 Television y Video
+378 Informacion Television y Video
+379 Problemas Television y Video
+380 Problemas Television y Video
+381 Reparaciones y Refacciones Television y Video
+382 Garantías Television y Video
+383 Audio y Equipos de Sonido
+384 Informacion Audio y Equipo de Sonido
+385 Problemas Audio y Equipo de Sonido
+386 Reparaciones y Refacciones Audio y Equipo de Sonido
+387 Garantías Audio y Equipo de Sonido
+388 Devoluciones Audio y Equipo de Sonido
+389 Instrumentos musicales
+390 Informacion Instrumentos Musicales
+391 Problemas Instrumentos Musicales
+392 Reparaciones y Refacciones Instrumentos Musicales
+393 Garantías Instrumentos Musicales
+394 Devoluciones Instrumentos Musicales
+395 Componentes
+396 Informacion Componentes
+397 Problemas Componentes
+398 Reparaciones y Refacciones Componentes
+399 Garantías Componentes
+400 Devoluciones Componentes
+401 Pilas y cargadores
+402 Informacion Pilas y Cargadores
+403 Problemas Pilas y Cargadores
+404 Reparaciones y Refacciones Pilas y Cargadores
+405 Garantías Pilas y Cargadores
+406 Devoluciones Pilas y Cargadores
+407 Tabletas
+408 Informacion Tabletas
+409 Problemas Tabletas
+410 Reparacion y Refacciones Tabletas
+411 Garantías Tabletas
+412 Devoluciones Tabletas
+413 Oficina y papeleria
+414 Informacion Oficina y Papeleria
+415 Problemas Oficina y Papeleria
+416 Reparaciones y Refacciones Oficina y Papeleria
+417 Garantías Oficina y Papeleria
+418 Devoluciones Oficina y Papeleria
+419 Hogar y Cocina
+420 Electrodomesticos
+421 Lavadoras
+422 Informacion Lavadoras
+423 Problemas Lavadoras
+424 Reparaciones y Refacciones Lavadoras
+425 Garantías Lavadoras
+426 Devoluciones Lavadoras
+427 Refirgeradores
+428 Informacion Refrigeradores
+429 Problemas Refrigeradores
+430 Reparaciones y Refacciones Refrigeradores
+431 Garantías Refrigeradores
+432 Devoluciones Refrigeradores
+433 Estufas
+434 Informacion Estufas
+435 Problemas Estufas
+436 Reparaciones y Refacciones Estufas
+437 Garantías Estufas
+438 Devoluciones Estufas
+439 Climatizacion y Calefaccion
+440 Informacion Climatizacion y Calefaccion
+441 Problemas Climatizacion y Calefaccion
+442 Reparaciones y Refacciones Climatizacion y Calefaccion
+443 Garantías Climatizacion y Calefaccion
+444 Devoluciones Climatizacion y Calefaccion
+445 Iluminacion
+446 Informacion Iluminacion
+447 Problemas Iluminacion
+448 Reparaciones y Refacciones Iluminacion
+449 Garantías Iluminacion
+450 Devoluciones Iluminacion
+451 Ropa
+452 Tallas Ropa
+453 Informacion Ropa
+454 Genero ropa
+455 Reseñas Ropa
+456 Promociones ropa
+457 Garantias ropa
+458 Devoluciones Ropa
+459 Muebles y decoración
+460 Libreros para sala
+461 Informacion Libreros para Sala
+462 Problemas Libreros para Sala
+463 Reparaciones y Refacciones Libreros para Sala
+464 Garantias Libreros para Sala
+465 Devoluciones Libreros para Sala
+466 Muebles para TV
+467 Informacion Muebles para TV
+468 Problemas Muebles para TV
+469 Reparaciones y Refacciones Muebles para TV
+470 Garantias Muebles para TV
+471 Devoluciones Muebles para TV
+472 Comodas y Cajoneras
+473 Informacion Comodas y Cajoneras
+474 Problemas Comodas y Cajoneras
+475 Reparaciones y Refacciones Comodas y Cajoneras
+476 Garantias Comodas y Cajoneras
+477 Devoluciones Comodas y Cajoneras
+478 Buros
+479 Informacion Buros
+480 Problemas Buros
+481 Reparaciones y Refacciones Buros
+482 Garantias Buros
+483 Devoluciones Buros
+484 Mesas de Sala
+485 Informacion Mesas de Sala
+486 Problemas Mesas de Sala
+487 Reparaciones y Refacciones Mesas de Sala
+488 Garantias Mesas de Sala
+489 Devoluciones Mesas de Sala
+490 Mesas de Comedor
+491 Informacion Mesas de Comedor
+492 Problemas Mesas de Comedor
+493 Reparaciones y Refacciones Mesas de Comedor
+494 Garantias Mesas de Comedor
+495 Devoluciones Mesas de Comedor
+496 Decorado del Hogar
+497 Informacion Decorado del Hogar
+498 Problemas Decorado del Hogar
+499 Reparaciones y Refacciones Decorado del Hogar
+500 Garantias Decorado del Hogar
+501 Devoluciones Decorado del Hogar
+502 Baño
+503 Regaderas
+504 Higiene
+505 Cuidado personal
+506 Genero
+507 Cara
+508 Cuerpo
+509 Entretenimiento
+510 Videojuegos
+511 Libros
+512 Juegos de mesa
+513 Mascotas
+514 Gatos
+515 Perros
+516 Peces
+517 Deportes
+518 Futbol
+519 Beisbol
+520 Tenis
+521 Voleibol
+522 Artes Marciales
+523 Atletismo
+524 Balonmano
+525 Basquetbol
+526 Billar
+527 Boliche
+528 Box
+529 Badminton
+530 Caza
+531 Ciclismo
+532 Correr
+533 Criquet
+534 Deportes acuaticos
+535 Deportes Ecuestres
+536 Deportes de disco
+537 Deportes de invierno
+538 Futbol Americano
+539 Gimnasia
+540 Hockey
+541 Lucha Libre
+542 Patinaje
+543 Pesca
+544 Ping Pong
+545 Polo
+546 Pádel
+547 Ropa deportiva
+548 Rugby
+549 Softball
+550 Tiro con Arco
+551 Trofeos,medallas y premios
+552 Juguetes
+553 Niños
+554 Niñas
+555 Mesa
+556 Educativos
+557 Peluches
+558 Bebés
+559 Bloques
+560 Juguetes electronicos
+561 Al aire libre
+562 Disfraces
+563 Auto
+564 Accesorios para coche
+565 Aceites y fluidos
+566 Cuidado de coche y moto
+567 Herramientas para coche
+568 Llantas y rines para coche
+569 Partes y refacciones
+570 Pintura
+571 Jardin
+572 Parrillas
+573 Muebles para patio
+574 Sillas para patio
+575 Tolods,sombrillas y pérgolas
+576 Macetas
+577 Iluminación de exteriores
+578 Podadoras y tractores
+579 Decoración
+580 Albercas y jacuzzis
+581 Plantas artificiales
+582 Herramienta de jardineria

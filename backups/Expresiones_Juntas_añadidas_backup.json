@@ -78,12 +78,6 @@
         "Respuesta": "Parece ser que hubo una equivocación con tu dirección. Lo que puedes hacer es reportarlo para solucionarlo.¿Te gustaria reportarlo?"
     },
     {
-        "nombre": "Cancelar pedido",
-        "id": "1.1.3",
-        "Expresion": "cancelar|pedido|cancelación|anular|devolución|reembolso|eliminar pedido|quitar pedido|no quiero|no deseo|error en el pedido",
-        "Respuesta": "Entiendo que deseas cancelar un pedido. Para ayudarte, necesito algunos detalles. Por favor, proporciona el número de pedido o el correo electrónico asociado a la cuenta desde la que realizaste la compra. Si prefieres, también puedes cancelar el pedido directamente desde la sección 'Mis Pedidos' en tu cuenta de Amazon."
-    },
-    {
         "nombre": "Razon",
         "id": "1.1.3.1",
         "Expresion": "equivocacion de direccion|mala direccion|direccion incorrecta|incorrecta|paquete en otra dirreccion|equivocación de dirección|mala dirección|dirección incorrecta|incorrecta|paquete en otra dirrección|otra direccion|no es mi dirección",
@@ -94,12 +88,6 @@
         "id": "1.1.4",
         "Expresion": "actualizar direccion|modificar direccion|cambiar direccion|editar direccion|direccion|direccion de envio|modificar direccion de entrega",
         "Respuesta": "Para modificar su dirección, debe dirigirse a la sección de configuración de su cuenta, datos personales y seguir los pasos que se le indican. ¿Necesita ayuda con algo más?"
-    },
-    {
-        "nombre": "Antes de un envio",
-        "id": "1.1.4.1",
-        "Expresion": "envio|antes del envio|preparar envio|preparacion de envio|etiqueta|empaquetar|empaque|embalaje|documentos de envio|guia de envio|seguimiento|rastreo|estado del envio|fecha de envio|horario de envio|direccion de envio|informacion de envio",
-        "Respuesta": "Para preparar tu envío, asegúrate de que el paquete esté correctamente empaquetado y etiquetado. Si necesitas generar una guía de envío o tienes dudas sobre el proceso, puedes consultar nuestra guía de envíos en la sección de ayuda o contactar con nuestro soporte para más detalles."
     },
     {
         "nombre": "Despues de comprar un producto",
@@ -582,12 +570,6 @@
         "Respuesta": "¡Hola! Algunos de nuestros descuentos y ofertas especiales requieren que realices una compra mínima para poder aprovecharlos. El monto puede variar según la promoción, así que te recomiendo revisar los detalles específicos en la página de la oferta. Por ejemplo, algunas promociones requieren compras desde $25, mientras que otras podrían aplicar a partir de $50 o más. Si tienes una promoción específica en mente, estaré encantado de ayudarte a verificar los requisitos exactos. ¿Necesitas información sobre alguna promoción en particular?"
     },
     {
-        "nombre": "Restricciones geográficas",
-        "id": "1.5.1.2.3",
-        "Expresion": "restricciones|geográficas|geograficas|ubicación|ubicacion|localización|localizacion|país|pais|región|region|zona|área|area|limites|límites|disponibilidad|cobertura",
-        "Respuesta": "Entiendo que tienes preguntas sobre restricciones geográficas. Estas restricciones pueden afectar la disponibilidad de productos o servicios en tu ubicación. ¿Necesitas ayuda para verificar si un producto está disponible en tu área o tienes alguna otra duda relacionada con la cobertura geográfica?"
-    },
-    {
         "nombre": "Limitaciones por cuenta",
         "id": "1.5.1.2.4",
         "Expresion": "limitaciones|cuenta|restricciones por cuenta|limites por cuenta|límites por cuenta|cuantas veces|cuántas veces|numero de usos|número de usos|maximo de usos|máximo de usos|veces permitidas|usos permitidos|usos por persona|usos por cliente|usos por comprador|usos por usuario|limite de compras|límite de compras|compras maximas|compras máximas|cantidad maxima|cantidad máxima|maximo permitido|máximo permitido|cuota|quota|tope|limitar|limita|limitado|múltiples cuentas|multiples cuentas|una sola vez|varias veces|repetir compra|repetir uso|reutilizar|reuso|aprovechamiento|abuso|fraude|politica de uso|política de uso|condiciones de uso|terminos de uso|términos de uso|restriccion|restricción|limitante|restringido|uso excesivo|no puedo usar mas|no puedo usar más|agotado cupo|unidades limitadas|intentos|intentos maximos|intentos máximos|cantidad por cliente|intentos permitidos|uso compartido|compartir cuenta|usar en otra cuenta",
@@ -978,12 +960,6 @@
         "Respuesta": "Entiendo, le recomiendo intente nuevamente el proceso de registro o verifique que los datos que está ingresando sean correctos."
     },
     {
-        "nombre": "Inicio de Sesion y Seguridad",
-        "id": "1.8.2",
-        "Expresion": "inicio de sesion|seguridad|acceso|contraseña|cuenta|login|autenticacion|verificacion|bloqueo|recuperar|proteccion|clave|usuario|identidad|seguro|confianza",
-        "Respuesta": "Parece que tienes alguna duda relacionada con el inicio de sesión o la seguridad de tu cuenta. ¿Necesitas ayuda para recuperar tu contraseña, configurar la autenticación en dos pasos o resolver algún problema de acceso? Estoy aquí para ayudarte."
-    },
-    {
         "nombre": "Olvide mi contraseña",
         "id": "1.8.2.1",
         "Expresion": "(?:olvidé|olvide|restablecer|recuperar) (?:mi )?(?:contraseña|clave)",
@@ -1002,18 +978,6 @@
         "Respuesta": "Para activar la autenticación en dos pasos debe seguir las intrucciones que se han enviado a su correo electrónico. ¿Necesita ayuda con algo más?"
     },
     {
-        "nombre": "Problemas con el inicio de sesion",
-        "id": "1.8.2.4",
-        "Expresion": "inicio de sesion|login|acceso|cuenta|usuario|contraseña|problemas de acceso|error de login|no puedo entrar|no puedo iniciar sesion|problemas con el inicio de sesion",
-        "Respuesta": "Parece que estás teniendo problemas con el inicio de sesión. Por favor, verifica que tu nombre de usuario y contraseña sean correctos. Si has olvidado tu contraseña, puedes utilizar la opción 'Recuperar contraseña'. Si el problema persiste, no dudes en contactarnos para obtener asistencia adicional."
-    },
-    {
-        "nombre": "Datos personales y Configuracion",
-        "id": "1.8.3",
-        "Expresion": "datos personales|configuracion|ajustes|perfil|informacion personal|privacidad|seguridad|cuenta|usuario|preferencias|configurar|modificar|editar|actualizar",
-        "Respuesta": "Parece que necesitas ayuda con la configuración de tus datos personales o preferencias. ¿Qué aspecto específico necesitas ajustar? Puedo guiarte para modificar tu perfil, actualizar tu información personal o cambiar la configuración de privacidad y seguridad de tu cuenta."
-    },
-    {
         "nombre": "Actualizar correo electronico",
         "id": "1.8.3.1",
         "Expresion": "actualizar correo electronico|actualizar correo|cambiar correo electronico|cambiar correo|modificar correo electronico|modificar correo",
@@ -1026,12 +990,6 @@
         "Respuesta": "Para actualizar su número de teléfono, debe dirigirse a la sección de configuración de su cuenta, datos personales y seguir los pasos que se le indican. ¿Necesita ayuda con algo más?"
     },
     {
-        "nombre": "Modificar direccion de entrega",
-        "id": "1.8.3.3",
-        "Expresion": "modificar|direccion|entrega|cambiar|dirección|envío|domicilio|pedido|ubicación|actualizar",
-        "Respuesta": "Para modificar la dirección de entrega de tu pedido, por favor proporciona el número de pedido y la nueva dirección. Si necesitas más ayuda, no dudes en decírmelo."
-    },
-    {
         "nombre": "Gestionar preferencias de comunicacion",
         "id": "1.8.3.4",
         "Expresion": "notificacion|preferencias de comunicacion|preferencias|comunicacion|comunicacion|notificaciones|notificaciones de correo|notificaciones de telefono|notificaciones de sms|notificaciones de whatsapp|notificaciones de telegram",
@@ -1042,12 +1000,6 @@
         "id": "1.8.4",
         "Expresion": "(?:tarjeta(?:s)? (?:de (?:crédito|debito))?|pago(?:s)?|factura(?:ción|cion)|(?:métodos|metodos) (?:de pago|facturación)|paypal|pago (?:en efectivo|en línea)",
         "Respuesta": "¿En qué puedo ayudarte con tus métodos de pago o facturación?"
-    },
-    {
-        "nombre": "Agregar o eliminar tarjetas",
-        "id": "1.8.4.1",
-        "Expresion": "agregar|eliminar|tarjeta|tarjetas|agregar tarjeta|eliminar tarjeta|agregar o eliminar tarjeta|agregar o eliminar tarjetas|necesito agregar tarjeta|necesito eliminar tarjeta|ayuda con tarjeta|soporte con tarjeta|duda con tarjeta|problema con tarjeta",
-        "Respuesta": "Para agregar o eliminar una tarjeta en tu cuenta de Amazon, sigue estos pasos: 1. Inicia sesión en tu cuenta. 2. Ve a 'Tu cuenta' y selecciona 'Métodos de pago'. 3. Para agregar una tarjeta, haz clic en 'Agregar un método de pago' y completa la información requerida. Para eliminar una tarjeta, selecciona la tarjeta que deseas eliminar y haz clic en 'Eliminar'. Si necesitas más ayuda, no dudes en contactarnos."
     },
     {
         "nombre": "Problemas con pagos rechazados",
@@ -1072,18 +1024,6 @@
         "id": "1.8.5.1",
         "Expresion": "historial de compras|historial compras|historial pedidos|historial de pedidos|pedidos recientes|pedidos anteriores|ver pedidos|ver pedidos anteriores|ver compras|ver compras anteriores|ver historial de compras|ver historial de pedidos|ver historial de compras|ver historial de pedidos",
         "Respuesta": "Para ver sus pedidos anteriores, debe dirigirse a la sección de historial de pedidos de su cuenta y seguir los pasos que se le indican. ¿Necesita ayuda con algo más?"
-    },
-    {
-        "nombre": "Solicitar devolucion o rembolso",
-        "id": "1.8.5.2",
-        "Expresion": "devolucion|rembolso|solicitar devolucion|solicitar rembolso|necesito devolucion|necesito rembolso|quiero devolucion|quiero rembolso|ayuda con devolucion|ayuda con rembolso|problema con devolucion|problema con rembolso",
-        "Respuesta": "Para solicitar una devolución o reembolso, por favor, sigue estos pasos: 1. Ve a 'Mis pedidos' en tu cuenta de Amazon. 2. Selecciona el pedido que deseas devolver. 3. Haz clic en 'Devolver o reemplazar artículos'. 4. Sigue las instrucciones en pantalla para completar la solicitud. Si necesitas más ayuda, no dudes en contactarnos."
-    },
-    {
-        "nombre": "Estado de una devolucion",
-        "id": "1.8.5.3",
-        "Expresion": "devolucion|estado|seguimiento|rastreo|consulta|informacion|saber|donde|como|ayuda|soporte|necesito|ayudame|ayudar|duda",
-        "Respuesta": "Para consultar el estado de tu devolución, por favor proporciona el número de seguimiento o el ID de la devolución. Estaré encantado de ayudarte a rastrear tu pedido y resolver cualquier duda que tengas."
     },
     {
         "nombre": "Quejas y reclamos",
@@ -1116,12 +1056,6 @@
         "Respuesta": "Lamentamos los inconvenientes. Por favor, proporciona tu número de pedido para verificar el estado de la entrega y le haremos llegar un reporte por correo. ¿Necesitas ayuda con algo más?"
     },
     {
-        "nombre": "Facturacion y Pagos",
-        "id": "1.9.2",
-        "Expresion": "facturacion|pagos|factura|pago|recibo|cuenta|deuda|saldo|metodo de pago|tarjeta|transferencia|efectivo|pagar|facturar|pagos y facturacion",
-        "Respuesta": "Entiendo que tienes alguna consulta relacionada con facturación o pagos. ¿Necesitas ayuda con una factura, un método de pago o tienes alguna duda sobre cómo realizar un pago? Estoy aquí para ayudarte."
-    },
-    {
         "nombre": "Cobros indebidos",
         "id": "1.9.2.1",
         "Expresion": "cobros indebidos|me cobraron de más|cargo incorrecto|pago no autorizado|factura incorrecta",
@@ -1134,64 +1068,10 @@
         "Respuesta": "Lamentamos los inconvenientes. Por favor, proporciona el número de pedido o factura para revisar el estado de tu reembolso. ¿Necesitas ayuda con algo más?"
     },
     {
-        "nombre": "Facturacion incorrecta",
-        "id": "1.9.2.3",
-        "Expresion": "facturacion|factura|error en la factura|factura incorrecta|problema con la factura|cobro incorrecto|error de cobro|pago incorrecto|pago erroneo|reclamo de factura|revisar factura|corregir factura",
-        "Respuesta": "Entiendo que tienes un problema con la facturación. Por favor, proporciona el número de pedido o factura para que pueda revisar el cobro y ayudarte a resolver este inconveniente."
-    },
-    {
-        "nombre": "Soporte Tecnico",
-        "id": "1.9.3",
-        "Expresion": "soporte|ayuda|soporte y ayuda|necesito|ayudame|ayudar|tecnico|duda|problema|falla|error|asistencia|consultar|pregunta|solución|reparar|reparación|servicio técnico|soporte técnico|ayuda técnica",
-        "Respuesta": "¡Claro! Estoy aquí para ayudarte con cualquier problema técnico que tengas. ¿Podrías describirme el problema o la duda que tienes para poder asistirte mejor?"
-    },
-    {
-        "nombre": "Problemas con la aplicacion o el sitio web",
-        "id": "1.9.3.1",
-        "Expresion": "problema|aplicacion|sitio web|error|fallo|no funciona|no carga|bloqueo|incidente|bug|soporte|ayuda|necesito|ayudame|ayudar|tecnico|duda",
-        "Respuesta": "Entiendo que estás teniendo problemas con la aplicación o el sitio web. Por favor, describe el problema con más detalle para que pueda ayudarte mejor. Si es un error técnico, intenta reiniciar la aplicación o limpiar la caché del navegador. Si el problema persiste, estaré aquí para guiarte."
-    },
-    {
         "nombre": "Errores en la cuenta o datos personales",
         "id": "1.9.3.2",
         "Expresion": "errores en mi cuenta|datos personales incorrectos|información equivocada en mi perfil|problemas con mis datos|cuenta con errores",
         "Respuesta": "Lamentamos los inconvenientes. Por favor, describe el error que estás viendo en tu cuenta o datos personales para ayudarte a corregirlo. ¿Necesitas ayuda con algo más?"
-    },
-    {
-        "nombre": "Servivio al cliente",
-        "id": "1.9.4",
-        "Expresion": "servicio al cliente|soporte|ayuda|soporte y ayuda|necesito|ayudame|ayudar|tecnico|duda|asistencia|consultar|pregunta|problema|resolver|informacion|contacto|servicio|cliente|atencion",
-        "Respuesta": "¡Claro! Estoy aquí para ayudarte con cualquier duda o problema que tengas relacionado con el servicio al cliente. ¿En qué puedo asistirte hoy?"
-    },
-    {
-        "nombre": "Atencion deficiente",
-        "id": "1.9.4.1",
-        "Expresion": "atencion|deficiente|problema|fallo|error|incidencia|asistencia|soporte|ayuda|necesito|ayudame|ayudar|tecnico|duda|falla|inconveniente|dificultad|reclamo|queja",
-        "Respuesta": "Entiendo que estás experimentando algún problema o dificultad. Por favor, describe con más detalle el inconveniente que estás enfrentando para que podamos brindarte la mejor asistencia posible."
-    },
-    {
-        "nombre": "Problemas con soporte via chat o telefono",
-        "id": "1.9.4.2",
-        "Expresion": "soporte|ayuda|soporte y ayuda|necesito|ayudame|ayudar|tecnico|duda|problema|chat|telefono|asistencia|consultar|pregunta|solución|resolver|error|falla|incidente|contacto",
-        "Respuesta": "Entiendo que estás teniendo problemas con el soporte vía chat o teléfono. Estoy aquí para ayudarte. Por favor, describe el problema que estás enfrentando y te proporcionaré la asistencia necesaria o te guiaré para contactar al equipo de soporte adecuado."
-    },
-    {
-        "nombre": "Politicas y Resmbolsos",
-        "id": "1.9.5",
-        "Expresion": "politica|politicas|reembolso|reembolsos|devolucion|devoluciones|garantia|garantias|reclamo|reclamos|ayuda con politica|ayuda con reembolso|necesito reembolso|como reclamar|como devolver|problema con compra|problema con producto",
-        "Respuesta": "Entiendo que tienes alguna duda o problema relacionado con políticas, reembolsos o devoluciones. Por favor, proporciona más detalles sobre tu situación para que pueda ayudarte de la mejor manera posible. ¿Necesitas información sobre cómo solicitar un reembolso, cómo hacer una devolución o tienes alguna otra consulta?"
-    },
-    {
-        "nombre": "No aceptan mi devolucion",
-        "id": "1.9.5.1",
-        "Expresion": "devolucion|reembolso|no aceptan|problema con devolucion|reclamo devolucion|no me devuelven|quiero devolver|no puedo devolver|reclamo reembolso|ayuda con devolucion",
-        "Respuesta": "Entiendo que tienes problemas con la devolución de un producto. Por favor, proporciona más detalles sobre tu situación, como el número de pedido y el motivo de la devolución, para que pueda ayudarte a resolver este problema."
-    },
-    {
-        "nombre": "Problemas con garantias",
-        "id": "1.9.5.2",
-        "Expresion": "garant[ií]a|problema|falla|defecto|reclamo|reparaci[oó]n|cobertura|soporte|ayuda|necesito|ay[uú]dame|ayudar|t[ée]cnico|duda",
-        "Respuesta": "Entiendo que tienes un problema con una garantía. Por favor, proporciona más detalles sobre el producto y el problema que estás experimentando para que pueda ayudarte mejor."
     },
     {
         "nombre": "Seguridad y Privacidad",
@@ -1236,226 +1116,10 @@
         "Respuesta": "Para aplicar un descuento, primero revisa si hay algún código o cupón disponible."
     },
     {
-        "nombre": "¿Cómo activar un cupón?",
-        "id": "2.1.1.1.1",
-        "Expresion": "activar|cupon|cómo activar|activar cupón|usar cupón|código promocional|promoción|descuento|oferta",
-        "Respuesta": "Para activar un cupón en Amazon, sigue estos pasos: 1. Inicia sesión en tu cuenta de Amazon. 2. Navega hasta la página del producto al que deseas aplicar el cupón. 3. Si el cupón está disponible, verás una opción para 'Activar cupón' debajo del precio. 4. Haz clic en 'Activar cupón'. 5. Procede a la compra y el descuento se aplicará automáticamente al finalizar la compra. Si tienes algún problema, no dudes en contactarnos para más ayuda."
-    },
-    {
         "nombre": "Pasos para activar un cupón",
         "id": "2.1.3.1.2.1",
         "Expresion": ".*(pasos para activar un cupon|activar cupon|usar cupon|aplicar cupon|pasos para cupon).*",
         "Respuesta": "Busca el producto elegible.\nHaz clic en \"Activar cupón\".\nAgrega el producto al carrito.\nVerifica que el descuento se aplique antes de pagar."
-    },
-    {
-        "nombre": "Busca el producto elegible.",
-        "id": "2.1.1.1.1.1.1",
-        "Expresion": "busca|producto|elegible|encontrar|localizar|seleccionar|escoger|disponible|compatible|apto",
-        "Respuesta": "Parece que estás buscando un producto elegible. ¿Podrías proporcionarme más detalles sobre el producto que necesitas? Estoy aquí para ayudarte a encontrarlo."
-    },
-    {
-        "nombre": "Haz clic en \"Activar cupón\".",
-        "id": "2.1.1.1.1.1.2",
-        "Expresion": "activar|cupón|activar cupón|haz clic|clic en activar|cupón activado|activar descuento|descuento activado",
-        "Respuesta": "Para activar un cupón, simplemente haz clic en el botón que dice 'Activar cupón' en la página del producto o en la lista de cupones disponibles. Una vez activado, el descuento se aplicará automáticamente al realizar la compra. Si tienes alguna duda o necesitas más ayuda, no dudes en preguntar."
-    },
-    {
-        "nombre": "Agrega el producto al carrito.",
-        "id": "2.1.1.1.1.1.3",
-        "Expresion": "agrega|añade|pon|coloca|mete|agregar|añadir|poner|colocar|meter|carrito|comprar|compra|producto",
-        "Respuesta": "Para agregar un producto al carrito, simplemente haz clic en el botón 'Agregar al carrito' que aparece en la página del producto. Si necesitas ayuda adicional, no dudes en decírmelo."
-    },
-    {
-        "nombre": "Verifica que el descuento se aplique antes de pagar.",
-        "id": "2.1.1.1.1.1.4",
-        "Expresion": "descuento|aplicar descuento|verificar descuento|descuento antes de pagar|descuento en el pago|descuento no aplica|descuento no se aplica|descuento no funciona|descuento incorrecto|descuento no aparece",
-        "Respuesta": "Para asegurarte de que el descuento se aplique correctamente antes de finalizar tu compra, revisa que el código de descuento esté bien ingresado en el campo correspondiente. Si el descuento no se aplica, verifica que el código no haya expirado y que el producto sea elegible para la promoción. Si necesitas más ayuda, no dudes en contactarnos."
-    },
-    {
-        "nombre": "Problemas comunes al activar cupones",
-        "id": "2.1.1.1.1.2",
-        "Expresion": "activar|cupon|cupones|problema|comun|activacion|no funciona|error|dificultad|incidencia",
-        "Respuesta": "Parece que estás teniendo problemas para activar un cupón. No te preocupes, te puedo ayudar. Por favor, verifica que el código del cupón esté correctamente ingresado y que no haya expirado. Si el problema persiste, proporciona más detalles para que pueda asistirte mejor."
-    },
-    {
-        "nombre": "\"Cupón no aplicable\": Verifica que el producto sea elegible.",
-        "id": "2.1.1.1.1.2.1",
-        "Expresion": "cupón|cupon|no aplicable|elegible|verifica|producto|aplicar|descuento|promoción|promocion|código|codigo|oferta",
-        "Respuesta": "Para asegurarte de que el cupón sea aplicable, verifica que el producto sea elegible para la promoción. Si tienes dudas, revisa los términos y condiciones de la oferta o contáctanos para más ayuda."
-    },
-    {
-        "nombre": "\"Cupón ya utilizado\": Revisa si el cupón tiene límite de usos.",
-        "id": "2.1.1.1.1.2.2",
-        "Expresion": "cupón|cupon|código|codigo|utilizado|usado|usar|usos|límite|limite|revisar|verificar|validez|valido|válido|promoción|promocion|descuento|oferta",
-        "Respuesta": "Parece que estás teniendo problemas con un cupón. Por favor, revisa si el cupón tiene un límite de usos o si ya ha sido utilizado. Si necesitas más ayuda, no dudes en contactarnos."
-    },
-    {
-        "nombre": "\"Código inválido\": Asegúrate de que el código esté bien escrito.",
-        "id": "2.1.1.1.1.2.3",
-        "Expresion": "código inválido|error de código|código incorrecto|código no válido|código mal escrito|código erróneo|problema con el código|validar código|verificar código|revisar código",
-        "Respuesta": "Parece que estás teniendo problemas con un código. Asegúrate de que el código esté bien escrito y que no contenga errores tipográficos. Si el problema persiste, verifica que estés utilizando el código correcto para la promoción o producto que estás intentando aplicar. Si necesitas más ayuda, no dudes en contactarnos."
-    },
-    {
-        "nombre": "¿Los descuentos son automáticos?",
-        "id": "2.1.1.1.2",
-        "Expresion": "descuentos|automáticos|descuentos automáticos|aplican descuentos|como funcionan los descuentos|descuentos aplicados|descuentos en amazon|promociones|ofertas|cupones",
-        "Respuesta": "Los descuentos en Amazon suelen aplicarse automáticamente al agregar productos elegibles a tu carrito. Si el producto tiene un descuento activo, verás el precio reducido en la página del producto y en el resumen de tu pedido. Si tienes un código de cupón, asegúrate de ingresarlo durante el proceso de pago para aplicar el descuento correspondiente."
-    },
-    {
-        "nombre": "Descuentos automáticos vs. manuales",
-        "id": "2.1.1.1.2.1",
-        "Expresion": "descuentos|automaticos|manuales|promociones|ofertas|rebajas|descuento automatico|descuento manual|cupones|codigos de descuento",
-        "Respuesta": "Entiendo que tienes preguntas sobre descuentos automáticos y manuales. Los descuentos automáticos se aplican directamente al realizar la compra, mientras que los manuales requieren que ingreses un código o cupón. ¿Necesitas ayuda para aplicar un descuento o tienes alguna duda específica sobre cómo funcionan?"
-    },
-    {
-        "nombre": "Descuentos automáticos: Se aplican sin necesidad de código.",
-        "id": "2.1.1.1.2.1.1",
-        "Expresion": "descuentos|automaticos|aplican|codigo|promocion|oferta|ahorro|rebaja|descuento automatico|sin codigo",
-        "Respuesta": "Los descuentos automáticos se aplican directamente en tu compra sin necesidad de ingresar un código. Si tienes alguna duda sobre cómo funcionan o si no ves el descuento aplicado, no dudes en contactarnos para ayudarte."
-    },
-    {
-        "nombre": "Descuentos manuales: Requieren ingresar un código o activar un",
-        "id": "2.1.1.1.2.1.2",
-        "Expresion": "descuento|código|activar|promoción|cupón|oferta|descuentos manuales|código promocional",
-        "Respuesta": "Para aplicar un descuento manual, necesitas ingresar un código promocional durante el proceso de compra o activar la oferta correspondiente. Si tienes un código, asegúrate de introducirlo en el campo indicado antes de finalizar tu pedido. Si necesitas ayuda para activar un descuento o tienes alguna duda, no dudes en decírmelo."
-    },
-    {
-        "nombre": "¿Se pueden combinar múltiples descuentos?",
-        "id": "2.1.1.1.3",
-        "Expresion": "combinar|descuentos|múltiples|aplicar|promociones|cupones|ofertas|descuentos múltiples|combinar descuentos|promociones combinadas",
-        "Respuesta": "Sí, en Amazon es posible combinar múltiples descuentos en muchos casos, como cupones, ofertas y promociones. Sin embargo, esto depende de las políticas específicas de cada producto o vendedor. Te recomiendo revisar los términos y condiciones de cada descuento para confirmar si pueden aplicarse juntos. Si tienes dudas, no dudes en contactar al servicio de atención al cliente para obtener más detalles."
-    },
-    {
-        "nombre": "Restricciones de combinación",
-        "id": "2.1.1.1.3.1",
-        "Expresion": "restricciones|combinación|restricciones de combinación|limitaciones|combinar|restricciones al combinar|problemas de combinación|dificultades de combinación",
-        "Respuesta": "Entiendo que tienes preguntas sobre las restricciones de combinación. Estas restricciones pueden limitar cómo ciertos productos o servicios pueden ser combinados. ¿Podrías proporcionar más detalles sobre tu consulta para que pueda ayudarte mejor?"
-    },
-    {
-        "nombre": "Algunos descuentos no son acumulables.",
-        "id": "2.1.1.1.3.1.1",
-        "Expresion": "descuentos|acumulables|no acumulables|promociones|ofertas|cupones|descuento no acumulable|no se acumula|no combinable",
-        "Respuesta": "Entendemos que tienes dudas sobre los descuentos y su acumulación. Algunos descuentos no son acumulables, lo que significa que no pueden combinarse con otras promociones o cupones. Si tienes alguna pregunta específica sobre un descuento en particular, no dudes en proporcionarnos más detalles para ayudarte mejor."
-    },
-    {
-        "nombre": "Verifica los términos de cada promoción.",
-        "id": "2.1.1.1.3.1.2",
-        "Expresion": "promoción|términos|condiciones|oferta|descuento|beneficio|verifica|verificar|detalles|reglas",
-        "Respuesta": "Para verificar los términos de cada promoción, te recomiendo revisar la sección de detalles de la oferta en la página del producto. Allí encontrarás toda la información sobre las condiciones, beneficios y cualquier restricción que pueda aplicar. Si tienes alguna duda específica, no dudes en preguntar."
-    },
-    {
-        "nombre": "Productos con descuento",
-        "id": "2.1.1.2",
-        "Expresion": "descuento|oferta|rebaja|promocion|productos con descuento|ahorro|economia|precio reducido|liquidacion|gangas",
-        "Respuesta": "¡Claro! En la sección de 'Productos con descuento' encontrarás una amplia variedad de artículos con precios reducidos. ¿Hay algún producto en particular que estés buscando o en qué puedo ayudarte?"
-    },
-    {
-        "nombre": "¿Qué productos tienen descuento hoy?",
-        "id": "2.1.1.2.1",
-        "Expresion": "descuento|oferta|promoción|rebaja|descuentos|ofertas|promociones|rebajas|hoy|actual|día",
-        "Respuesta": "Actualmente, tenemos varias ofertas y descuentos disponibles. Puedes revisar nuestras promociones en la sección de 'Ofertas del Día' o filtrar por productos con descuento en la página principal. ¿Te gustaría que te guíe a alguna categoría en particular?"
-    },
-    {
-        "nombre": "Categorías con descuento",
-        "id": "2.1.1.2.1.1",
-        "Expresion": "descuento|ofertas|promociones|rebajas|descuentos especiales|precios bajos|ahorrar|economizar|descuento en categorías",
-        "Respuesta": "¡Claro! Parece que estás interesado en categorías con descuento. En esta sección encontrarás productos con ofertas especiales, promociones y precios reducidos. ¿Te gustaría que te muestre algunas opciones o tienes alguna categoría específica en mente?"
-    },
-    {
-        "nombre": "Electrónica",
-        "id": "2.1.1.2.1.1.1",
-        "Expresion": "electrónica|tecnología|gadgets|dispositivos|aparatos|electrodomésticos|smartphones|tablets|computadoras|accesorios electrónicos|componentes electrónicos|hardware|software|sistemas electrónicos",
-        "Respuesta": "Parece que estás interesado en productos de electrónica. ¿Necesitas ayuda para encontrar un dispositivo específico, como un smartphone, una tablet o un accesorio? Estoy aquí para ayudarte a encontrar lo que buscas."
-    },
-    {
-        "nombre": "Hogar",
-        "id": "2.1.1.2.1.1.2",
-        "Expresion": "hogar|muebles|decoración|electrodomésticos|limpieza|organización|jardín|baño|cocina|habitación|iluminación|textiles|almacenamiento",
-        "Respuesta": "Parece que estás buscando algo relacionado con el hogar. ¿Necesitas ayuda para encontrar muebles, electrodomésticos, productos de limpieza o algo más específico? Estoy aquí para ayudarte."
-    },
-    {
-        "nombre": "Moda",
-        "id": "2.1.1.2.1.1.3",
-        "Expresion": "moda|ropa|vestimenta|estilo|tendencia|accesorios|zapatos|comprar ropa|outfit|look",
-        "Respuesta": "¡Claro! En la categoría de Moda encontrarás una amplia variedad de ropa, accesorios y calzado para todos los estilos y ocasiones. ¿Buscas algo en particular o necesitas recomendaciones?"
-    },
-    {
-        "nombre": "¿Cómo encontrar productos con descuento?",
-        "id": "2.1.1.2.2",
-        "Expresion": "como encontrar|encontrar|buscar|ver|hallar productos|articulos|items con descuento|en oferta|en promocion|rebajados|donde estan|encuentro|veo|busco las ofertas|los descuentos|las promociones|buscar ofertas|descuentos|promociones|productos baratos|mejores ofertas|ver descuentos|encontrar gangas|productos rebajados|como ver ofertas|donde hay descuentos",
-        "Respuesta": "Hay varias formas sencillas de encontrar productos con descuento en nuestra plataforma: 1) Usa el filtro 'Ofertas' en la barra de búsqueda, 2) Visita nuestra sección 'Ofertas del día', 3) Activa las notificaciones de ofertas en la app, o 4) Revisa las etiquetas de descuento en los productos. ¿Te gustaría que te explique alguno de estos métodos con más detalle?"
-    },
-    {
-        "nombre": "Filtros de búsqueda",
-        "id": "2.1.1.2.2.1",
-        "Expresion": "filtros |de|para|busqueda|buscar|usar|aplicar|poner|opciones de filtrado|filtrar|productos|resultados|busqueda|ordenar por precio|filtrar por descuento|filtrar ofertas|ordenar resultados|filtros de precio|filtros de categoria|como filtrar|busqueda avanzada|filtros de ordenamiento",
-        "Respuesta": "Nuestros filtros de búsqueda te ayudan a encontrar exactamente lo que buscas. Puedes filtrar por: 1) Rango de precio, 2) Porcentaje de descuento, 3) Categorías específicas, 4) Calificación del producto, 5) Envío gratis, y más. Los filtros aparecen en el lado izquierdo de tu pantalla después de realizar una búsqueda. ¿Qué tipo de filtro te interesa utilizar?"
-    },
-    {
-        "nombre": "Usa el filtro \"Ofertas\" en la barra de búsqueda.",
-        "id": "2.1.1.2.2.1.1",
-        "Expresion": "ofertas|filtro|barra de búsqueda|buscar ofertas|filtrar ofertas|promociones|descuentos|rebajas",
-        "Respuesta": "Para encontrar ofertas en Amazon, puedes usar el filtro \"Ofertas\" en la barra de búsqueda. Simplemente escribe lo que estás buscando y luego selecciona la opción \"Ofertas\" en los filtros disponibles. ¡Así podrás encontrar productos con descuentos especiales!"
-    },
-    {
-        "nombre": "Revisa la sección \"Ofertas del día\".",
-        "id": "2.1.1.2.2.1.2",
-        "Expresion": "ofertas|ofertas del día|promociones|descuentos|rebajas|compras|comprar|productos en oferta|mejores ofertas|ofertas especiales",
-        "Respuesta": "Puedes encontrar las mejores ofertas en la sección 'Ofertas del día'. Allí encontrarás productos con descuentos especiales y promociones limitadas. ¡No te las pierdas!"
-    },
-    {
-        "nombre": "Restricciones de descuentos",
-        "id": "2.1.1.2.3",
-        "Expresion": "descuentos|restricciones|cupones|promociones|oferta|rebaja|descuento|ahorro|economizar|beneficio",
-        "Respuesta": "Entiendo que tienes preguntas sobre las restricciones de descuentos. ¿Necesitas ayuda para entender cómo aplicar un descuento, verificar si un producto es elegible para una promoción o tienes alguna otra duda relacionada con ofertas y cupones? Estoy aquí para ayudarte."
-    },
-    {
-        "nombre": "¿Hay un límite de descuentos por usuario?",
-        "id": "2.1.1.2.3.1",
-        "Expresion": "límite|descuento|usuario|cantidad|restricción|cupón|promoción|oferta|beneficio|descuentos por usuario",
-        "Respuesta": "Sí, puede haber un límite de descuentos por usuario dependiendo de la promoción o oferta específica. Te recomendamos revisar los términos y condiciones de la oferta para conocer los detalles exactos. Si necesitas más ayuda, no dudes en contactarnos."
-    },
-    {
-        "nombre": "Límites y condiciones",
-        "id": "2.1.1.2.3.1.1",
-        "Expresion": "límites|condiciones|términos|políticas|reglas|normas|restricciones|acuerdos|contratos|cláusulas",
-        "Respuesta": "Entiendo que tienes preguntas sobre los límites y condiciones. ¿Necesitas ayuda para entender alguna cláusula específica o tienes dudas sobre cómo se aplican estas políticas? Estoy aquí para ayudarte."
-    },
-    {
-        "nombre": "Algunos descuentos tienen un límite por cuenta.",
-        "id": "2.1.1.2.3.1.1.1",
-        "Expresion": "descuentos|límite|cuenta|límite por cuenta|promoción|oferta|restricción|condición|beneficio|cupón",
-        "Respuesta": "Entiendo que tienes preguntas sobre los descuentos y sus límites por cuenta. Los descuentos pueden tener restricciones específicas, como un límite por cuenta o condiciones de uso. Si necesitas más detalles sobre cómo aplicar un descuento o verificar si tu cuenta ya ha alcanzado el límite, puedo ayudarte a revisarlo o guiarte en el proceso."
-    },
-    {
-        "nombre": "Revisa los términos de la promoción.",
-        "id": "2.1.1.2.3.1.1.2",
-        "Expresion": "promoción|términos|condiciones|oferta|descuento|beneficio|ventaja|reglas|requisitos|detalles",
-        "Respuesta": "Para revisar los términos de la promoción, te recomiendo visitar la sección de 'Términos y Condiciones' en la página de la oferta. Allí encontrarás toda la información detallada sobre los requisitos, beneficios y cualquier otra condición aplicable. Si tienes alguna duda adicional, no dudes en contactarnos."
-    },
-    {
-        "nombre": "¿Los descuentos aplican para productos internacionales?",
-        "id": "2.1.1.2.3.2",
-        "Expresion": "descuentos|productos internacionales|aplican descuentos|descuentos internacionales|descuentos en productos|descuentos para internacionales|descuentos en envíos internacionales",
-        "Respuesta": "Los descuentos pueden variar según el producto y su origen. Te recomendamos revisar la página del producto para ver si aplican descuentos en envíos internacionales o si hay promociones disponibles. Si necesitas más ayuda, no dudes en contactarnos."
-    },
-    {
-        "nombre": "Restricciones geográficas",
-        "id": "2.1.1.2.3.2.1",
-        "Expresion": "restricciones geográficas|ubicación|país|región|zona|geografía|limites|área|territorio|localización|cobertura|disponibilidad geográfica",
-        "Respuesta": "Entiendo que tienes preguntas sobre restricciones geográficas. Estas restricciones pueden afectar la disponibilidad de productos o servicios en ciertas áreas. ¿Necesitas saber si un producto está disponible en tu región o tienes alguna otra duda relacionada con la ubicación?"
-    },
-    {
-        "nombre": "Algunos descuentos solo aplican para productos locales.",
-        "id": "2.1.1.2.3.2.1.1",
-        "Expresion": "descuentos|ofertas|promociones|productos locales|descuentos locales|ofertas locales|promociones locales|descuentos aplican|ofertas aplican|promociones aplican",
-        "Respuesta": "Algunos descuentos y promociones solo aplican para productos locales. Si tienes alguna duda sobre si un producto califica para un descuento, no dudes en preguntar y te ayudaré a verificar."
-    },
-    {
-        "nombre": "Verifica la ubicación del vendedor.",
-        "id": "2.1.1.2.3.2.1.2",
-        "Expresion": "ubicación|vendedor|localización|dónde está|dónde se encuentra|verificar ubicación|ubicación del vendedor|localizar vendedor|dónde está el vendedor|dónde se encuentra el vendedor",
-        "Respuesta": "Para verificar la ubicación del vendedor, por favor revisa la sección de información del vendedor en la página del producto. Allí encontrarás detalles sobre su ubicación y otros datos relevantes. Si necesitas más ayuda, no dudes en contactarnos."
     },
     {
         "nombre": "Cashback",
@@ -1468,168 +1132,6 @@
         "id": "2.1.2.1",
         "Expresion": ".*(como funciona el cashback|que es el cashback|definicion y beneficios|funcion cashback).*",
         "Respuesta": "Definición y beneficios\nReembolso de un porcentaje de tu compra.\nPuede ser en efectivo o crédito de Amazon."
-    },
-    {
-        "nombre": "¿Qué es el cashback?",
-        "id": "2.1.2.1.1",
-        "Expresion": "cashback|reembolso|devolución|dinero|ahorro|beneficio|recompensa|pago|reintegro|promoción|oferta|descuento|ventaja|ganancia|economía|finanzas|tarjeta|compra|transacción",
-        "Respuesta": "El cashback es un beneficio que te permite recuperar un porcentaje del dinero gastado en tus compras. Es una forma de ahorro o recompensa que ofrecen algunas tarjetas de crédito, aplicaciones o programas de fidelización. Si tienes más preguntas sobre cómo funciona el cashback, no dudes en consultarnos."
-    },
-    {
-        "nombre": "Definición y beneficios",
-        "id": "2.1.2.1.1.1",
-        "Expresion": "definicion|beneficios|que es|para que sirve|ventajas|caracteristicas|propiedades|uso|utilidad|funcion",
-        "Respuesta": "La categoría 'Definición y beneficios' se enfoca en explicar qué es un producto o servicio y cuáles son sus ventajas. Si tienes preguntas sobre cómo funciona o qué beneficios ofrece, estaré encantado de ayudarte."
-    },
-    {
-        "nombre": "Reembolso de un porcentaje de tu compra.",
-        "id": "2.1.2.1.1.1.1",
-        "Expresion": "reembolso|devolución|porcentaje|compra|dinero|reembolsar|devolver|reintegro|reembolso de dinero|reembolso de compra",
-        "Respuesta": "Entiendo que estás interesado en obtener un reembolso de un porcentaje de tu compra. Para ayudarte con esto, necesitaré algunos detalles adicionales, como el número de pedido y el motivo del reembolso. ¿Podrías proporcionarme esa información?"
-    },
-    {
-        "nombre": "Puede ser en efectivo o crédito de Amazon.",
-        "id": "2.1.2.1.1.1.2",
-        "Expresion": "efectivo|crédito|pago|amazon pay|método de pago|forma de pago|pagar|dinero|tarjeta|transferencia",
-        "Respuesta": "Puedes realizar tu pago en efectivo o utilizando crédito de Amazon. ¿Necesitas más información sobre cómo procesar tu pago?"
-    },
-    {
-        "nombre": "¿Cómo activar el cashback?",
-        "id": "2.1.2.1.2",
-        "Expresion": "activar|cashback|como activar|beneficio|reembolso|dinero de vuelta|promocion|descuento|recompensa",
-        "Respuesta": "Para activar el cashback, primero asegúrate de que tu cuenta esté vinculada a la promoción. Luego, realiza tus compras a través de los enlaces o tiendas participantes. El cashback se acreditará automáticamente en tu cuenta después de que se confirme la compra. Si tienes alguna duda o necesitas más ayuda, no dudes en contactarnos."
-    },
-    {
-        "nombre": "Pasos para activar cashback",
-        "id": "2.1.2.1.2.1",
-        "Expresion": "activar|cashback|pasos|como|activar cashback|necesito|ayuda|soporte|ayudame|duda|proceso|beneficio|recompensa",
-        "Respuesta": "Para activar el cashback, sigue estos pasos: 1) Inicia sesión en tu cuenta de Amazon. 2) Navega hasta la sección de 'Cashback' en tu perfil. 3) Selecciona la opción 'Activar Cashback'. 4) Confirma tu elección. Si tienes alguna duda o necesitas más ayuda, no dudes en contactarnos."
-    },
-    {
-        "nombre": "Busca productos elegibles.",
-        "id": "2.1.2.1.2.1.1",
-        "Expresion": "busca|productos|elegibles|encontrar|localizar|disponibles|seleccionar|opciones|catálogo|oferta|compra|adquirir|búsqueda|filtro|resultados",
-        "Respuesta": "Puedo ayudarte a buscar productos elegibles en nuestro catálogo. Por favor, proporciona más detalles sobre lo que estás buscando, como el tipo de producto, marca o características específicas que necesitas."
-    },
-    {
-        "nombre": "Activa la oferta de cashback.",
-        "id": "2.1.2.1.2.1.2",
-        "Expresion": "cashback|oferta|activa|activar|promocion|descuento|beneficio|ahorro|dinero|reembolso",
-        "Respuesta": "Para activar la oferta de cashback, sigue estos pasos: 1) Inicia sesión en tu cuenta de Amazon. 2) Navega hasta la sección de ofertas y promociones. 3) Busca la oferta de cashback y haz clic en 'Activar oferta'. 4) Realiza tus compras como de costumbre y el cashback se aplicará automáticamente. Si tienes alguna duda o necesitas más ayuda, no dudes en contactarnos."
-    },
-    {
-        "nombre": "Realiza la compra.",
-        "id": "2.1.2.1.2.1.3",
-        "Expresion": "compra|realizar compra|comprar|adquirir|pagar|finalizar compra|proceso de compra|carrito|checkout|pago",
-        "Respuesta": "¡Claro! Estoy aquí para ayudarte con tu compra. ¿Necesitas ayuda para agregar productos al carrito, revisar el proceso de pago o tienes alguna duda sobre el envío? Cuéntame cómo puedo asistirte."
-    },
-    {
-        "nombre": "Recibe el cashback en tu cuenta.",
-        "id": "2.1.2.1.2.1.4",
-        "Expresion": "cashback|recibe cashback|cuenta cashback|dinero devuelto|reembolso|beneficio cashback|ahorro cashback",
-        "Respuesta": "Para recibir el cashback en tu cuenta, asegúrate de que tu cuenta esté correctamente vinculada y que cumplas con los requisitos de la promoción. Si tienes alguna duda o necesitas ayuda, no dudes en contactarnos."
-    },
-    {
-        "nombre": "Problemas con el cashback",
-        "id": "2.1.2.2",
-        "Expresion": "cashback|problemas con cashback|reclamo cashback|no recibí cashback|cashback no funciona|error cashback|ayuda cashback|soporte cashback|duda cashback|necesito ayuda con cashback",
-        "Respuesta": "Entiendo que tienes un problema con el cashback. Por favor, proporciona más detalles sobre el problema, como el número de pedido o la fecha en que deberías haber recibido el cashback. Esto nos ayudará a resolver tu consulta de manera más eficiente."
-    },
-    {
-        "nombre": "¿Por qué no recibí mi cashback?",
-        "id": "2.1.2.2.1",
-        "Expresion": "cashback|no recibí|no he recibido|falta cashback|problema cashback|error cashback|reclamo cashback|no me llegó|no llegó|no aparece|no se acreditó|no se ha acreditado|no se ha recibido|no se recibió|no se ha cobrado|no se cobró",
-        "Respuesta": "Entiendo que no has recibido tu cashback. Por favor, verifica que hayas cumplido con los requisitos necesarios para obtenerlo, como realizar la compra a través del enlace correcto y dentro del período válido. Si todo está en orden, te recomiendo contactar al soporte de Amazon para que revisen tu caso y te asistan en la acreditación del cashback. ¿Necesitas ayuda para contactar al soporte?"
-    },
-    {
-        "nombre": "Causas comunes",
-        "id": "2.1.2.2.1.1",
-        "Expresion": "por que no funciona|no aplica|falla|cuales son las causas|que puede estar mal|problemas comunes|razones tipicas|motivos por los que|errores comunes|fallas usuales|que hice mal|problemas conocidos|situaciones frecuentes",
-        "Respuesta": "Existen varias razones comunes por las que podrías tener problemas con tu cashback o descuento: 1) El producto no es elegible para la promoción, 2) No se activó la oferta antes de realizar la compra, 3) La promoción expiró, o 4) No se cumplieron los requisitos mínimos. ¿Te gustaría que revisemos tu caso específico para identificar el problema?"
-    },
-    {
-        "nombre": "El producto no era elegible.",
-        "id": "2.1.2.2.1.1.1",
-        "Expresion": "producto no |elegible|valido|aplica|articulo no |participa|califica|no esta incluido|participa en la |producto |excluido|no disponible para|productos no |participantes|articulos excluidos|restricciones de producto|limitaciones de oferta",
-        "Respuesta": "Si el producto no es elegible para cashback, esto puede deberse a que: 1) Pertenece a una categoría excluida, 2) Es un artículo de terceros vendedores que no participan, o 3) Está fuera de la promoción específica. Te recomendamos verificar siempre los términos y condiciones donde se listan los productos participantes. ¿Necesitas ayuda para encontrar productos elegibles para cashback?"
-    },
-    {
-        "nombre": "No se activó la oferta antes de comprar.",
-        "id": "2.1.2.2.1.1.2",
-        "Expresion": "olvide activar|no active|no aplique|no (active|aplique|aplique antes de comprar|aplique antes del pago)|como activar|como aplicar|cuando (debo|tengo que|hay que|tengo que activar|tengo que aplicar|tengo que activar antes de comprar|tengo que aplicar antes de comprar|tengo que activar antes del pago|tengo que aplicar antes del pago)|error al activar|no |sabia|conocia que debia|tenia que | activar|activacion previa|anterior|olvidé el paso de activacion|falta de activacion|activar cashback",
-        "Respuesta": "Es importante activar el cashback ANTES de realizar la compra. Si no lo activaste, lamentablemente no se puede aplicar retroactivamente. Para futuras compras, recuerda: 1) Buscar la oferta de cashback, 2) Hacer clic en 'Activar oferta', 3) Verificar que aparezca como 'Activada', y solo entonces 4) Realizar la compra. ¿Te gustaría que te muestre dónde encontrar y activar las ofertas de cashback?"
-    },
-    {
-        "nombre": "El cashback tarda en procesarse.",
-        "id": "2.1.2.2.1.1.3",
-        "Expresion": "cashback|tarda|procesar|demora|retraso|tiempo|espera|cuanto|cuándo|cuando|cuanto tiempo|cuándo llega|cuando llega",
-        "Respuesta": "El cashback puede tardar en procesarse entre 24 y 48 horas hábiles. Si ha pasado más tiempo, te recomendamos revisar los términos y condiciones de la promoción o contactar con nuestro servicio de atención al cliente para obtener más detalles."
-    },
-    {
-        "nombre": "¿Cómo reclamar cashback no acreditado?",
-        "id": "2.1.2.2.2",
-        "Expresion": "reclamar|cashback|no acreditado|reclamo|dinero|devolución|problema|ayuda|soporte|necesito|ayudame|duda|error|falta|pago",
-        "Respuesta": "Para reclamar un cashback no acreditado, por favor revisa primero los términos y condiciones de la promoción. Si cumples con los requisitos y el cashback no ha sido acreditado, contacta con nuestro servicio de atención al cliente proporcionando los detalles de la compra y el problema. Estaremos encantados de ayudarte a resolverlo."
-    },
-    {
-        "nombre": "Proceso de reclamación",
-        "id": "2.1.2.2.2.1",
-        "Expresion": "reclamacion|reclamo|reclamar|problema|queja|solicitud|resolver|solucion|ayuda con reclamacion|necesito ayuda con mi reclamacion|como hacer una reclamacion|proceso de reclamacion",
-        "Respuesta": "Entiendo que necesitas ayuda con el proceso de reclamación. Para iniciar una reclamación, por favor proporciona los detalles de tu pedido y el problema que has encontrado. Estaré encantado de guiarte a través del proceso y asegurarme de que tu problema se resuelva de la mejor manera posible."
-    },
-    {
-        "nombre": "Revisa los términos de la promoción.",
-        "id": "2.1.2.2.2.1.1",
-        "Expresion": "promoción|términos|condiciones|oferta|descuento|cupón|beneficio|ventaja|reglas|requisitos",
-        "Respuesta": "Para revisar los términos de la promoción, te recomiendo visitar la sección de 'Términos y Condiciones' en la página de la oferta. Allí encontrarás toda la información detallada sobre los requisitos, beneficios y cualquier otra condición aplicable. Si tienes alguna duda específica, no dudes en preguntar."
-    },
-    {
-        "nombre": "Contacta a soporte con el número de pedido.",
-        "id": "2.1.2.2.2.1.2",
-        "Expresion": "soporte|ayuda|soporte y ayuda|necesito|ayudame|ayudar|tecnico|duda|contacta|pedido|número de pedido|problema|asistencia|consultar|información|solución|resolver|incidencia",
-        "Respuesta": "Claro, para ayudarte con tu pedido, necesitaré el número de pedido. Por favor, proporcióname el número de pedido para que pueda contactar a soporte y resolver cualquier duda o problema que tengas."
-    },
-    {
-        "nombre": "Términos y condiciones",
-        "id": "2.1.2.3",
-        "Expresion": "términos|condiciones|términos y condiciones|contrato|legal|políticas|normas|acuerdo|cláusulas|reglas",
-        "Respuesta": "Parece que tienes preguntas sobre nuestros términos y condiciones. Aquí te proporcionamos información relevante sobre nuestras políticas y acuerdos. Si necesitas detalles específicos o tienes dudas, no dudes en preguntar."
-    },
-    {
-        "nombre": "¿El cashback aplica para productos internacionales?",
-        "id": "2.1.2.3.1",
-        "Expresion": "cashback|aplica|productos internacionales|internacional|compra internacional|beneficio internacional|reembolso internacional",
-        "Respuesta": "El cashback puede variar dependiendo del producto y el vendedor. Para productos internacionales, te recomendamos revisar los términos y condiciones del vendedor o contactar directamente con el servicio de atención al cliente de Amazon para confirmar si aplica el cashback en tu compra."
-    },
-    {
-        "nombre": "Restricciones geográficas",
-        "id": "2.1.2.3.1.1",
-        "Expresion": "restricciones geográficas|limitaciones geográficas|ubicación restringida|área restringida|zona restringida|geolocalización|bloqueo geográfico|acceso geográfico|restricción de ubicación|limitación de ubicación",
-        "Respuesta": "Las restricciones geográficas pueden limitar el acceso a ciertos productos o servicios dependiendo de tu ubicación. Si tienes problemas para acceder a algo debido a estas restricciones, te recomiendo verificar tu configuración de ubicación o contactar con el soporte para obtener más detalles."
-    },
-    {
-        "nombre": "Algunas ofertas solo aplican para compras locales.",
-        "id": "2.1.2.3.1.1.1",
-        "Expresion": "ofertas|compras locales|descuentos locales|promociones locales|beneficios locales|condiciones locales|restricciones locales",
-        "Respuesta": "Algunas ofertas y promociones solo están disponibles para compras realizadas en tu región local. Si tienes alguna duda sobre las condiciones o restricciones, no dudes en preguntar."
-    },
-    {
-        "nombre": "¿El cashback expira?",
-        "id": "2.1.2.3.2",
-        "Expresion": "cashback|expira|vencimiento|tiempo límite|validez|¿cuánto dura el cashback?|¿el cashback tiene fecha de vencimiento?|¿cuándo caduca el cashback?",
-        "Respuesta": "El cashback suele tener un período de validez que varía según la promoción o el programa. Te recomiendo revisar los términos y condiciones específicos de la oferta o contactar con el servicio de atención al cliente para obtener detalles precisos sobre la fecha de vencimiento."
-    },
-    {
-        "nombre": "Vigencia del cashback",
-        "id": "2.1.2.3.2.1",
-        "Expresion": "vigencia|cashback|validez|tiempo|duracion|expira|vencimiento|cuanto tiempo|cuando expira|cuando vence",
-        "Respuesta": "La vigencia del cashback puede variar según la promoción o el programa en el que participes. Por lo general, el cashback tiene una validez de 30 días a partir de la fecha en que se acredita en tu cuenta. Te recomiendo revisar los términos y condiciones específicos de la oferta para conocer los detalles exactos. Si necesitas más ayuda, no dudes en preguntar."
-    },
-    {
-        "nombre": "Revisa la fecha de expiración en los términos.",
-        "id": "2.1.2.3.2.1.1",
-        "Expresion": "fecha de expiración|términos|vencimiento|expira|condiciones|vigencia|validez|expiración",
-        "Respuesta": "Para revisar la fecha de expiración en los términos, por favor dirígete a la sección correspondiente en tu cuenta o consulta el documento de términos y condiciones que recibiste al realizar la compra. Si necesitas más ayuda, no dudes en contactarnos."
     },
     {
         "nombre": "Cupones",
@@ -1650,148 +1152,16 @@
         "Respuesta": "Sección de cupones\nVisita la página \"Cupones\" en Amazon.\nBusca cupones en productos específicos."
     },
     {
-        "nombre": "Sección de cupones",
-        "id": "2.1.3.1.1.1",
-        "Expresion": "cupones|descuentos|ofertas|promociones|códigos|códigos de descuento|ahorrar|ahorro|cupón|cupon",
-        "Respuesta": "¡Claro! En la sección de cupones encontrarás descuentos y ofertas especiales para ahorrar en tus compras. ¿Necesitas ayuda para encontrar algún cupón en particular o tienes alguna duda sobre cómo aplicarlos?"
-    },
-    {
-        "nombre": "Visita la página \"Cupones\" en Amazon.",
-        "id": "2.1.3.1.1.1.1",
-        "Expresion": "cupones|descuentos|ofertas|promociones|códigos|ahorrar|ahorro|economizar|economía|descuento|cupón|código promocional",
-        "Respuesta": "Puedes encontrar cupones y ofertas en la página de 'Cupones' de Amazon. Allí encontrarás descuentos en una variedad de productos. ¿Necesitas ayuda para acceder a la página o tienes alguna pregunta sobre cómo usar los cupones?"
-    },
-    {
-        "nombre": "Busca cupones en productos específicos.",
-        "id": "2.1.3.1.1.1.2",
-        "Expresion": "cupones|descuentos|promociones|ofertas|códigos|códigos de descuento|buscar cupones|buscar descuentos|buscar promociones|buscar ofertas|buscar códigos|buscar códigos de descuento",
-        "Respuesta": "Puedo ayudarte a buscar cupones o descuentos en productos específicos. Por favor, proporciona el nombre del producto o la categoría en la que estás interesado, y te ayudaré a encontrar las mejores ofertas disponibles."
-    },
-    {
-        "nombre": "¿Cómo activar un cupón?",
-        "id": "2.1.3.1.2",
-        "Expresion": "activar|cupon|cómo activar|activar cupón|código promocional|promoción|descuento|oferta|beneficio|utilizar cupón",
-        "Respuesta": "Para activar un cupón en Amazon, sigue estos pasos: 1. Inicia sesión en tu cuenta de Amazon. 2. Navega hasta la página del cupón que deseas activar. 3. Haz clic en el botón 'Activar cupón'. 4. Una vez activado, el descuento se aplicará automáticamente al realizar la compra del producto elegible. Si tienes alguna duda o necesitas más ayuda, no dudes en contactarnos."
-    },
-    {
         "nombre": "Pasos para activar un cupón",
         "id": "2.1.3.1.2.1",
         "Expresion": ".*(pasos para activar un cupon|activar cupon|usar cupon|aplicar cupon|pasos para cupon).*",
         "Respuesta": "Busca el producto elegible.\nHaz clic en \"Activar cupón\".\nAgrega el producto al carrito.\nVerifica que el descuento se aplique antes de pagar."
     },
     {
-        "nombre": "Haz clic en \"Activar cupón\".",
-        "id": "2.1.3.1.2.1.1",
-        "Expresion": "activar|cupon|haz clic|click|activar cupon|como activar|activar el cupon|quiero activar|necesito activar|ayuda con el cupon|soporte para cupon",
-        "Respuesta": "Para activar un cupón en Amazon, sigue estos pasos: 1. Encuentra el cupón que deseas activar en la página del producto. 2. Haz clic en el botón que dice \"Activar cupón\". 3. Una vez activado, el descuento se aplicará automáticamente al finalizar tu compra. Si tienes alguna dificultad, no dudes en contactarnos para más ayuda."
-    },
-    {
-        "nombre": "Agrega el producto al carrito.",
-        "id": "2.1.3.1.2.1.2",
-        "Expresion": "como agregar|agregar|añadir|poner|al|en el carrito|agregar producto|añadir al carrito|añadir a la cesta|poner en el carrito|meter en el carrito|donde esta el boton de agregar al carrito|no puedo agregar al carrito|carrito de compras|añadir a la cesta|boton de agregar|agregar a mi pedido",
-        "Respuesta": "Para agregar un producto al carrito, simplemente busca el botón 'Agregar al carrito' o 'Añadir a la cesta' que aparece junto al producto. Este botón generalmente es de color azul o naranja y está ubicado debajo del precio. Si estás en la app móvil, desliza hacia abajo en la página del producto para encontrar el botón. ¿Tienes problemas para encontrar esta opción?"
-    },
-    {
-        "nombre": "Verifica que el descuento se aplique.",
-        "id": "2.1.3.1.2.1.3",
-        "Expresion": "como verificar|verificar|comprobar|revisar|si|que|el descuento|la oferta|el cupon|la promocion|aplico|aplique|aplica|donde veo|aparece|no veo|no aparece|revisar descuento|confirmar descuento|verificar precio final|comprobar oferta|descuento no aparece|precio con descuento|validar cupon|descuento no funciona",
-        "Respuesta": "Para verificar que el descuento se haya aplicado correctamente: 1) Revisa el subtotal en tu carrito de compras, 2) Busca la línea que muestra 'Descuento aplicado' en color verde, 3) Comprueba que el precio final refleje la reducción. Si no ves el descuento, asegúrate de que el cupón esté activo y que el producto sea elegible. ¿Necesitas ayuda para verificar tu descuento?"
-    },
-    {
-        "nombre": "Problemas con cupones",
-        "id": "2.1.3.2",
-        "Expresion": "cupon|cupones|problema con cupon|problema con cupones|no funciona el cupon|no funciona mi cupon|error en el cupon|error en los cupones|no puedo usar el cupon|no puedo usar los cupones|ayuda con cupon|ayuda con cupones|soporte para cupon|soporte para cupones|necesito ayuda con el cupon|necesito ayuda con los cupones|duda sobre el cupon|duda sobre los cupones",
-        "Respuesta": "Entiendo que estás teniendo problemas con los cupones. Por favor, verifica que el código del cupón esté correctamente ingresado y que cumpla con las condiciones de uso. Si el problema persiste, proporciona más detalles para que pueda asistirte mejor."
-    },
-    {
-        "nombre": "¿Por qué no se aplicó mi cupón?",
-        "id": "2.1.3.2.1",
-        "Expresion": "cupón|descuento|promoción|oferta|no aplica|no se aplicó|no funciona|problema|error|código|válido|inválido|aplicar|usar|utilizar",
-        "Respuesta": "Entiendo que tienes problemas para aplicar un cupón. Por favor, verifica que el código del cupón esté correctamente ingresado y que cumpla con los términos y condiciones de la promoción. Si el problema persiste, proporciona el código del cupón y los detalles de tu pedido para que podamos ayudarte mejor."
-    },
-    {
-        "nombre": "Causas comunes",
-        "id": "2.1.3.2.1.1",
-        "Expresion": "causas|comunes|problemas|frecuentes|motivos|razones|origen|fuente|inconvenientes|dificultades",
-        "Respuesta": "Las causas comunes suelen ser problemas frecuentes que pueden surgir en diferentes situaciones. Si necesitas ayuda para identificar o resolver alguno de estos problemas, no dudes en preguntar y te brindaré la asistencia necesaria."
-    },
-    {
-        "nombre": "El producto no es elegible.",
-        "id": "2.1.3.2.1.1.1",
-        "Expresion": "no elegible|no es elegible|no califica|no cumple|no apto|no válido|no aplica|no disponible|no se puede|no acepta",
-        "Respuesta": "Parece que el producto que estás consultando no es elegible para ciertas condiciones o beneficios. ¿Podrías proporcionarme más detalles sobre el problema para que pueda ayudarte mejor?"
-    },
-    {
-        "nombre": "El cupón ya fue utilizado.",
-        "id": "2.1.3.2.1.1.2",
-        "Expresion": "cupón|utilizado|usado|canjeado|aplicado|validez|vencido|no funciona|no válido|no sirve|problema|error|invalido|inutilizable",
-        "Respuesta": "Parece que estás teniendo problemas con un cupón que ya fue utilizado. Te recomiendo verificar si el cupón ha sido aplicado correctamente en tu pedido. Si el problema persiste, por favor, proporciona más detalles o el código del cupón para que podamos ayudarte mejor."
-    },
-    {
-        "nombre": "El cupón expiró.",
-        "id": "2.1.3.2.1.1.3",
-        "Expresion": "cupón|expiró|vencido|caducado|no funciona|no válido|inválido|problema|error|solución|ayuda|soporte|necesito|ayúdame|asistencia",
-        "Respuesta": "Parece que estás teniendo problemas con un cupón expirado. Por favor, verifica la fecha de vencimiento del cupón. Si necesitas más ayuda o el cupón no funciona a pesar de estar vigente, no dudes en contactarnos para que podamos asistirte."
-    },
-    {
         "nombre": "Ofertas relámpago",
         "id": "2.1.4",
         "Expresion": "Ofertas|relámpago|descuentos|flash|promociones|rápidas|rebajas|express|ofertas|rápidas|descuentos|express|promociones|flash|rebajas|rápidas|ofertas|express|descuentos|rápidos|promociones|express|rebajas|flash|ofertas|flash|descuentos|relámpago|promociones|relámpago|rebajas|relámpago|oferta|flash|descuento|relámpago|promoción|rápida|rebaja|express|oferta|rápida|descuento|express|promoción|flash|rebaja|rápida|oferta|express|descuento|rápido|promoción|express|rebaja|flash|oferta|relámpago|descuento|flash|promoción|relámpago|rebaja|relámpago|ofertas|tiempo|limitado|descuentos|corta|duración|promociones|duración|limitada|rebajas|pocas|horas|ofertas|pocas|horas|descuentos|horas|límitadas|promociones|por|horas|rebajas|por|horas|ofertón|express|descuentazo|rápido|súper|oferta|limitada|super|oferta|limitada|promoción|por|tiempo|limitado|descuento|rápido|oferta|fugaz|rebaja|rápida|oferta|rápida|descuento|urgente|promoción|urgente|rebaja|urgente|ofertas|temporales|deal|of|the|day|oferta|del|día|descuento|del|día|promoción|del|día|rebaja|del|día|ofertas|24|horas|descuentos|24|horas|promociones|24|horas|rebajas|24|horas|ofertas|día|descuentos|día|promociones|día|rebajas|día|relampago|relámpago|relampagos|superoferta",
         "Respuesta": "Las ofertas relámpago son uno de los tipos de descuento más emocionantes en Amazon. Son promociones con tiempo limitado que normalmente duran entre 4 y 12 horas, o hasta que se agoten las unidades disponibles. Encontrarás estas ofertas destacadas en nuestra sección 'Ofertas del día' con un contador que muestra el tiempo restante y el porcentaje de unidades ya reclamadas. Los miembros Prime tienen acceso exclusivo 30 minutos antes que el resto de usuarios a ciertas ofertas relámpago. Te recomiendo revisar esta sección varias veces al día, especialmente durante eventos como Prime Day o Black Friday, ya que las mejores ofertas se agotan rápidamente. ¿Te gustaría que configure alertas para notificarte cuando haya ofertas relámpago en alguna categoría que te interese?"
-    },
-    {
-        "nombre": "Cómo participar en ofertas relámpago",
-        "id": "2.1.4.1",
-        "Expresion": "participar|ofertas relámpago|relámpago|como participar|ofertas|flash deals|flash sale|ofertas flash|como comprar|compra rápida|compra relámpago",
-        "Respuesta": "Para participar en las ofertas relámpago, sigue estos pasos: 1) Navega hasta la sección de 'Ofertas Relámpago' en Amazon. 2) Selecciona el producto que te interesa. 3) Asegúrate de estar listo para comprar en el momento en que la oferta esté activa, ya que estas ofertas tienen una duración limitada. 4) Haz clic en 'Comprar ahora' o 'Añadir al carrito' tan pronto como la oferta comience. ¡Así podrás aprovechar los descuentos antes de que se agoten!"
-    },
-    {
-        "nombre": "¿Qué son las ofertas relámpago?",
-        "id": "2.1.4.1.1",
-        "Expresion": "ofertas relámpago|qué son|qué es|qué significa|qué ofertas|relámpago|ofertas rápidas|ofertas limitadas|ofertas especiales|qué son las ofertas|qué son las relámpago|qué son ofertas relámpago|qué significa ofertas relámpago|qué son las ofertas relámpago",
-        "Respuesta": "Las ofertas relámpago en Amazon son promociones limitadas en tiempo que ofrecen descuentos significativos en productos seleccionados. Estas ofertas suelen durar unas pocas horas o hasta que se agoten las existencias. Son una excelente manera de ahorrar en productos populares, pero es importante actuar rápido, ya que las existencias son limitadas y las ofertas pueden agotarse rápidamente."
-    },
-    {
-        "nombre": "Definición y características",
-        "id": "2.1.4.1.1.1",
-        "Expresion": "definición|características|qué es|qué son|explicación|descripción|información|detalles|concepto|definir|caracterizar",
-        "Respuesta": "Claro, puedo ayudarte con la definición y características de lo que necesites. ¿Podrías especificar el producto o tema sobre el que deseas información?"
-    },
-    {
-        "nombre": "Descuentos por tiempo limitado.",
-        "id": "2.1.4.1.1.1.1",
-        "Expresion": "descuentos|ofertas|promociones|tiempo limitado|rebajas|descuento por tiempo|oferta limitada|promoción limitada|rebaja por tiempo",
-        "Respuesta": "¡Genial! Parece que estás interesado en nuestros descuentos por tiempo limitado. Tenemos más de 300 ofertas exclusivas que podrían interesarte. ¿Te gustaría que te muestre algunas de las mejores promociones disponibles en este momento?"
-    },
-    {
-        "nombre": "Límite de unidades por usuario.",
-        "id": "2.1.4.1.1.1.2",
-        "Expresion": "límite|unidades|usuario|restricción|cantidad|máximo|compra|pedido",
-        "Respuesta": "El límite de unidades por usuario es de 301. Esto significa que cada usuario puede adquirir un máximo de 301 unidades de este producto. Si necesitas comprar más, por favor contáctanos para ver si podemos ayudarte."
-    },
-    {
-        "nombre": "¿Cómo recibir notificaciones de ofertas relámpago?",
-        "id": "2.1.4.1.2",
-        "Expresion": "notificaciones|ofertas|relampago|recibir|avisos|alertas|promociones|descuentos|flash|sales|notificar|informar",
-        "Respuesta": "Para recibir notificaciones de ofertas relámpago en Amazon, sigue estos pasos: 1) Abre la app de Amazon. 2) Ve a 'Configuración' o 'Notificaciones'. 3) Activa las notificaciones para ofertas relámpago. Así, serás el primero en enterarte de las mejores promociones."
-    },
-    {
-        "nombre": "Configuración de alertas",
-        "id": "2.1.4.1.2.1",
-        "Expresion": "configuración|alertas|configurar|notificaciones|recordatorios|avisos|configuración de alertas|configurar alertas|notificarme|recordarme|avisarme",
-        "Respuesta": "Para configurar alertas, por favor sigue estos pasos: 1. Ve a la sección de 'Configuración' en tu cuenta. 2. Selecciona 'Alertas y Notificaciones'. 3. Elige el tipo de alerta que deseas configurar. 4. Ajusta los parámetros según tus preferencias. Si necesitas más ayuda, no dudes en contactarnos."
-    },
-    {
-        "nombre": "Activa las notificaciones en la app.",
-        "id": "2.1.4.1.2.1.1",
-        "Expresion": "notificaciones|activar notificaciones|habilitar notificaciones|recibir notificaciones|configurar notificaciones|app|aplicacion|alertas|avisos",
-        "Respuesta": "Para activar las notificaciones en la app, sigue estos pasos: \n1. Abre la aplicación. \n2. Ve a 'Configuración' o 'Ajustes'. \n3. Busca la opción 'Notificaciones'. \n4. Activa las notificaciones según tus preferencias. \nSi necesitas más ayuda, no dudes en preguntar."
-    },
-    {
-        "nombre": "Guarda productos para recibir alertas.",
-        "id": "2.1.4.1.2.1.2",
-        "Expresion": "guarda|productos|alertas|recibir|notificaciones|aviso|recordatorio|monitoreo|seguimiento|vigilancia",
-        "Respuesta": "Parece que estás interesado en recibir alertas sobre productos. ¿Te gustaría configurar una notificación para recibir avisos sobre cambios de precio, disponibilidad o promociones de un producto en particular?"
     },
     {
         "nombre": "Problemas comunes",
@@ -1806,24 +1176,6 @@
         "Respuesta": "El artículo pudo agotarse o tal vez llegaste al límite de unidades."
     },
     {
-        "nombre": "Causas comunes",
-        "id": "2.1.4.2.1.1",
-        "Expresion": "causas|comunes|problemas|frecuentes|motivos|razones|origen|fuente|inconvenientes|dificultades",
-        "Respuesta": "Parece que estás buscando información sobre las causas comunes de algún problema. ¿Podrías darme más detalles sobre el tema o producto en el que estás interesado? Estoy aquí para ayudarte a identificar y resolver cualquier inconveniente."
-    },
-    {
-        "nombre": "El producto se agotó.",
-        "id": "2.1.4.2.1.1.1",
-        "Expresion": "agotado|no hay stock|sin existencias|no disponible|se acabó|no queda|no hay más|no hay producto|no hay unidades|no hay inventario",
-        "Respuesta": "Lamentamos informarte que el producto que buscas está agotado en este momento. Te recomendamos revisar nuevamente más tarde o explorar opciones similares en nuestra tienda. Si necesitas ayuda para encontrar un producto alternativo, no dudes en decírmelo."
-    },
-    {
-        "nombre": "Llegaste al límite de unidades por usuario.",
-        "id": "2.1.4.2.1.1.2",
-        "Expresion": "límite|unidades|usuario|máximo|compra|restricción|exceder|superar|cantidad|permite",
-        "Respuesta": "Hemos detectado que has alcanzado el límite de unidades permitidas para este producto por usuario. Si necesitas adquirir más, por favor contáctanos para explorar opciones adicionales o revisar si hay excepciones aplicables."
-    },
-    {
         "nombre": "Promociones bancarias",
         "id": "2.1.5",
         "Expresion": ".*(promociones bancarias|descuento con tarjeta|meses sin intereses).*",
@@ -1836,60 +1188,6 @@
         "Respuesta": "El pago a Meses sin intereses (MSI) con tu tarjeta de crédito te permite dividir el total de tu pedido y pagar\nal emisor de tu tarjeta de crédito durante un periodo específico sin pagar el costo total del pedido de una vez\ncuando te lo enviamos.\n\nSi tu pedido es elegible y tu tarjeta de crédito participa en el programa, MSI se ofrecerá como opción de pago\nmediante tarjeta de crédito en el proceso de finalización de la compra. Ve a Pedidos participantes en el programa\nMeses sin intereses para obtener más información sobre los pedidos y las tarjetas de crédito que se incluyen en el\nprograma. Para mas informacion visitar:\nhttps://www.amazon.com.mx/gp/help/customer/display.html?nodeId=GJ4PXR6QUTCPLHFB.\nhttps://www.amazon.com.mx/gp/help/customer/display.html?nodeId=G202057370."
     },
     {
-        "nombre": "¿Cómo aplicar meses sin intereses?",
-        "id": "2.1.5.1.1",
-        "Expresion": "meses sin intereses|como aplicar|aplicar meses sin intereses|financiamiento|pagos diferidos|sin intereses|credito|tarjeta de credito|promociones de pago",
-        "Respuesta": "Para aplicar meses sin intereses en tus compras, asegúrate de que el producto o servicio que deseas adquirir sea elegible para esta promoción. Al momento de pagar, selecciona la opción de 'Meses sin intereses' en el proceso de pago y elige el número de meses que mejor se adapte a tus necesidades. Recuerda que esta opción está disponible solo con ciertas tarjetas de crédito participantes. Si tienes dudas, revisa los términos y condiciones de la promoción o contacta a tu banco para más detalles."
-    },
-    {
-        "nombre": "Pasos para usar meses sin intereses",
-        "id": "2.1.5.1.1.1",
-        "Expresion": "meses sin intereses|como usar meses sin intereses|pasos para meses sin intereses|informacion sobre meses sin intereses|como funciona meses sin intereses|ayuda con meses sin intereses|dudas sobre meses sin intereses",
-        "Respuesta": "Para usar meses sin intereses, sigue estos pasos: 1) Selecciona el producto que deseas comprar. 2) Al momento de pagar, elige la opción de 'Meses sin intereses'. 3) Selecciona el número de meses que mejor se adapte a tus necesidades. 4) Completa tu compra y disfruta de tu producto mientras pagas en cómodas mensualidades sin intereses. Si tienes más dudas, no dudes en preguntar."
-    },
-    {
-        "nombre": "Selecciona un producto elegible.",
-        "id": "2.1.5.1.1.1.1",
-        "Expresion": "selecciona|elegible|producto|elegir|opción|selección|disponible|compra|adquirir|seleccionar",
-        "Respuesta": "Para seleccionar un producto elegible, por favor revisa las opciones disponibles en nuestra plataforma. Asegúrate de que el producto cumpla con los requisitos necesarios para ser considerado elegible. Si necesitas ayuda para encontrar un producto específico, no dudes en preguntar."
-    },
-    {
-        "nombre": "Elige \"Meses sin intereses\" al pagar.",
-        "id": "2.1.5.1.1.1.2",
-        "Expresion": "meses sin intereses|pago sin intereses|financiamiento|pago a plazos|cuotas sin intereses|pago diferido|opciones de pago|plan de pagos",
-        "Respuesta": "Puedes elegir la opción de 'Meses sin intereses' al realizar tu pago. Esta opción te permite dividir el costo de tu compra en pagos mensuales sin cargos adicionales por intereses. Selecciona esta opción en el proceso de pago para disfrutar de esta facilidad."
-    },
-    {
-        "nombre": "Selecciona el plazo deseado.",
-        "id": "2.1.5.1.1.1.3",
-        "Expresion": "plazo|selecciona|deseado|tiempo|duracion|periodo|opcion|elegir|seleccionar|contrato|vencimiento",
-        "Respuesta": "Para seleccionar el plazo deseado, por favor indica el tiempo o duración que prefieres para tu contrato o servicio. Estoy aquí para ayudarte a elegir la mejor opción."
-    },
-    {
-        "nombre": "¿Por qué no aparece la opción de meses sin intereses?",
-        "id": "2.1.5.1.2",
-        "Expresion": "meses sin intereses|opción de meses sin intereses|no aparece|no encuentro|problema con meses sin intereses|duda sobre meses sin intereses|ayuda con meses sin intereses|soporte meses sin intereses|por qué no aparece|no veo la opción",
-        "Respuesta": "Entiendo que tienes problemas para encontrar la opción de meses sin intereses. Esto puede deberse a varias razones, como que el producto no sea elegible para esta promoción, que el método de pago seleccionado no lo permita, o que la promoción haya finalizado. Te recomiendo verificar las condiciones del producto y asegurarte de que estás utilizando un método de pago compatible. Si el problema persiste, no dudes en contactarnos para obtener más ayuda."
-    },
-    {
-        "nombre": "Causas comunes",
-        "id": "2.1.5.1.2.1",
-        "Expresion": "causas|comunes|problemas|motivos|razones|origen|fuente|por qué|porque|por que",
-        "Respuesta": "Las causas comunes pueden incluir una variedad de factores que contribuyen a un problema específico. Si necesitas ayuda para identificar o resolver alguna de estas causas, no dudes en preguntar y estaré encantado de ayudarte."
-    },
-    {
-        "nombre": "El producto no es elegible.",
-        "id": "2.1.5.1.2.1.1",
-        "Expresion": "no elegible|no es elegible|no califica|no cumple|no apto|no válido|no aplica|no disponible|no se puede|no acepta|no cumple requisitos|no cumple condiciones",
-        "Respuesta": "Lamentamos que el producto no sea elegible. Por favor, verifica los requisitos o condiciones necesarias para asegurarte de que cumples con ellos. Si necesitas más ayuda, no dudes en contactarnos."
-    },
-    {
-        "nombre": "Tu tarjeta no participa en la promoción.",
-        "id": "2.1.5.1.2.1.2",
-        "Expresion": "tarjeta|promoción|participa|no participa|participar|promocional|beneficio|descuento|oferta|cupón|cupon|válido|valido|válida|valida",
-        "Respuesta": "Lamentamos informarte que tu tarjeta no participa en la promoción actual. Si tienes alguna otra pregunta o necesitas asistencia con otra promoción, no dudes en contactarnos."
-    },
-    {
         "nombre": "Descuentos con tarjetas",
         "id": "2.1.5.2",
         "Expresion": ".*(descuentos con tarjetas|promo bancaria|ahorro bancario).*",
@@ -1900,30 +1198,6 @@
         "id": "2.1.5.2.1",
         "Expresion": ".*(como aplicar descuento bancario|activar promo banco).*",
         "Respuesta": "Pasos para usar descuentos bancarios\nSelecciona un producto elegible.\nUsa una tarjeta participante al pagar.\nVerifica que el descuento se aplique."
-    },
-    {
-        "nombre": "Pasos para usar descuentos bancarios",
-        "id": "2.1.5.2.1.1",
-        "Expresion": "descuentos|bancarios|pasos|usar|aplicar|cupones|promociones|beneficios|ahorrar|descuento bancario|como usar|instrucciones|guia|ayuda con descuentos",
-        "Respuesta": "Para usar descuentos bancarios, sigue estos pasos: 1. Verifica si tu banco tiene promociones activas. 2. Asegúrate de que tu tarjeta esté registrada en el programa de descuentos. 3. Realiza tu compra en Amazon utilizando la tarjeta elegible. 4. Confirma que el descuento se aplicó antes de finalizar la compra. Si tienes dudas, revisa los términos y condiciones de la promoción o contacta a tu banco para más detalles."
-    },
-    {
-        "nombre": "Selecciona un producto elegible.",
-        "id": "2.1.5.2.1.1.1",
-        "Expresion": "selecciona|elegible|producto|elige|escoge|opción|opciones|disponible|disponibilidad|selección|elegir|escoger",
-        "Respuesta": "Parece que estás buscando un producto elegible. ¿Necesitas ayuda para seleccionar el producto adecuado o tienes alguna duda sobre los productos disponibles?"
-    },
-    {
-        "nombre": "Usa una tarjeta participante al pagar.",
-        "id": "2.1.5.2.1.1.2",
-        "Expresion": "tarjeta|participante|pagar|usar tarjeta|tarjeta participante|pago con tarjeta|tarjeta de pago|metodo de pago|forma de pago",
-        "Respuesta": "Para usar una tarjeta participante al pagar, asegúrate de que la tarjeta esté activa y sea válida. Durante el proceso de pago, selecciona la opción de pago con tarjeta e ingresa los datos requeridos. Si tienes alguna duda o problema, no dudes en contactarnos para obtener asistencia."
-    },
-    {
-        "nombre": "Verifica que el descuento se aplique.",
-        "id": "2.1.5.2.1.1.3",
-        "Expresion": "descuento|aplicar descuento|verificar descuento|descuento aplicado|oferta|promoción|código de descuento|cupon|rebaja|reducción de precio",
-        "Respuesta": "Para verificar que el descuento se haya aplicado correctamente, por favor revisa el resumen de tu pedido antes de finalizar la compra. Si el descuento no aparece, asegúrate de haber ingresado correctamente el código de descuento o cupón en el campo correspondiente. Si el problema persiste, no dudes en contactarnos para que podamos ayudarte."
     },
     {
         "nombre": "Promociones Prime",
@@ -1944,40 +1218,10 @@
         "Respuesta": "Es un evento anual con grandes descuentos exclusivos para miembros Prime."
     },
     {
-        "nombre": "Definición y beneficios",
-        "id": "2.1.6.1.1.1",
-        "Expresion": "definición|beneficios|qué es|para qué sirve|ventajas|características|propiedades|uso|utilidad|funcionalidad",
-        "Respuesta": "La categoría 'Definición y beneficios' se enfoca en explicar qué es un producto o servicio y cuáles son sus ventajas. Aquí encontrarás información detallada sobre sus características, propiedades y cómo puede ser útil para ti. ¿Hay algo específico que te gustaría saber?"
-    },
-    {
-        "nombre": "Evento anual con descuentos exclusivos para miembros Prime.",
-        "id": "2.1.6.1.1.1.1",
-        "Expresion": "evento|anual|descuentos|exclusivos|miembros|prime|ofertas|especiales|promociones|black friday|cyber monday",
-        "Respuesta": "¡Claro! Parece que estás interesado en nuestro evento anual con descuentos exclusivos para miembros Prime. Durante este evento, los miembros Prime disfrutan de ofertas especiales en una amplia variedad de productos. ¿Te gustaría recibir más información sobre cómo participar o sobre las ofertas disponibles?"
-    },
-    {
         "nombre": "¿Cómo acceder a ofertas Prime?",
         "id": "2.1.6.1.2",
         "Expresion": ".*(como acceder.*ofertas prime|entrar a promo prime).*",
         "Respuesta": "Pasos para acceder\nAsegúrate de tener una membresía Prime activa.\nVisita la sección \"Ofertas Prime\"."
-    },
-    {
-        "nombre": "Pasos para acceder",
-        "id": "2.1.6.1.2.1",
-        "Expresion": "acceder|pasos|como acceder|ingresar|entrar|iniciar sesion|acceso|procedimiento|guia|tutorial",
-        "Respuesta": "Para acceder, sigue estos pasos: 1. Ve a la página de inicio. 2. Haz clic en 'Iniciar sesión'. 3. Ingresa tus credenciales. 4. Si es tu primera vez, regístrate. Si necesitas más ayuda, no dudes en contactarnos."
-    },
-    {
-        "nombre": "Asegúrate de tener una membresía Prime activa.",
-        "id": "2.1.6.1.2.1.1",
-        "Expresion": "membresia|prime|activa|suscripcion|renovar|cancelar|beneficios|ventajas|descuentos|envio gratis",
-        "Respuesta": "Para disfrutar de los beneficios de Amazon Prime, como envíos rápidos y gratuitos, acceso a Prime Video y más, asegúrate de tener una membresía Prime activa. Si necesitas ayuda para activar, renovar o cancelar tu membresía, estoy aquí para asistirte. ¿En qué más puedo ayudarte?"
-    },
-    {
-        "nombre": "Visita la sección \"Ofertas Prime\".",
-        "id": "2.1.6.1.2.1.2",
-        "Expresion": "ofertas|prime|ofertas prime|descuentos|promociones|rebajas|compras|ahorrar|mejores ofertas|ofertas exclusivas",
-        "Respuesta": "¡Claro! En la sección de Ofertas Prime encontrarás descuentos exclusivos y promociones especiales para miembros Prime. ¿Te gustaría que te muestre algunas ofertas destacadas o necesitas ayuda para acceder a esta sección?"
     },
     {
         "nombre": "Problemas comunes",
@@ -1990,24 +1234,6 @@
         "id": "2.1.6.2.1",
         "Expresion": ".*(por que no veo.*promociones prime|no aparecen ofertas prime).*",
         "Respuesta": "Verifica tu suscripción Prime y las fechas en que las ofertas están disponibles."
-    },
-    {
-        "nombre": "Causas comunes",
-        "id": "2.1.6.2.1.1",
-        "Expresion": "causas|comunes|problemas|fallos|errores|averías|incidentes|dificultades|inconvenientes|situaciones",
-        "Respuesta": "Parece que estás buscando información sobre causas comunes de problemas. ¿Podrías darme más detalles sobre el tema específico que te interesa? Estoy aquí para ayudarte."
-    },
-    {
-        "nombre": "No tienes una membresía Prime activa.",
-        "id": "2.1.6.2.1.1.1",
-        "Expresion": "membresía|prime|activa|no tienes|no tengo|activar|renovar|cancelar|suscripción|beneficios|ventajas|desactivada|inactiva",
-        "Respuesta": "Parece que tienes preguntas sobre tu membresía Prime. Te puedo ayudar a activarla, renovarla o cancelarla. También puedo explicarte los beneficios que ofrece. ¿En qué puedo asistirte?"
-    },
-    {
-        "nombre": "Las promociones ya expiraron.",
-        "id": "2.1.6.2.1.1.2",
-        "Expresion": "promocion|promociones|expirar|expirado|expirada|expiradas|oferta|ofertas|descuento|descuentos|terminar|terminado|terminada|terminadas|finalizar|finalizado|finalizada|finalizadas",
-        "Respuesta": "Lamentamos informarte que las promociones que mencionas ya han expirado. Te recomendamos revisar nuestras ofertas actuales para encontrar nuevas oportunidades de ahorro. Si necesitas más ayuda, no dudes en contactarnos."
     },
     {
         "nombre": "Devoluciones y promociones",
@@ -2028,52 +1254,16 @@
         "Respuesta": "Si devuelves un artículo con descuento, se anula esa promoción al reembolsar."
     },
     {
-        "nombre": "Si devuelves un producto, el descuento no se aplica.",
-        "id": "2.1.7.1.1.1",
-        "Expresion": "devolver|devolución|descuento|no aplica|reembolso|política de devolución|condiciones de devolución|proceso de devolución|devolver producto",
-        "Respuesta": "Si devuelves un producto, el descuento aplicado en la compra no se mantendrá. Esto significa que el reembolso se calculará sobre el precio original sin el descuento. Si tienes más preguntas sobre el proceso de devolución o necesitas ayuda, no dudes en contactarnos."
-    },
-    {
-        "nombre": "El reembolso será por el monto pagado después del descuento.",
-        "id": "2.1.7.1.1.2",
-        "Expresion": "reembolso|monto|descuento|devolución|dinero|pago|reembolsar|reembolsado",
-        "Respuesta": "El reembolso se realizará por el monto que pagaste después de aplicar cualquier descuento. Si tienes alguna duda sobre el proceso de reembolso o necesitas más detalles, no dudes en preguntar."
-    },
-    {
         "nombre": "¿Cómo afecta una devolución al cashback?",
         "id": "2.1.7.2",
         "Expresion": ".*(como afecta devolucion cashback|regresar producto con reembolsos|afecta cashback al devolver|problema con devolver cashback|devolucion y cashback).*",
         "Respuesta": "Por lo general, si regresas el producto, se cancela o descuenta el cashback."
     },
     {
-        "nombre": "Proceso de devolución con cashback",
-        "id": "2.1.7.2.1",
-        "Expresion": "devolucion|devoluciones|cashback|reembolso|reembolsos|dinero de vuelta|proceso de devolucion|devolver producto|solicitar devolucion|devolucion con cashback",
-        "Respuesta": "Para iniciar el proceso de devolución con cashback, por favor proporciona el número de pedido y el motivo de la devolución. Te guiaré paso a paso para completar el proceso y asegurarnos de que recibas tu reembolso lo antes posible."
-    },
-    {
-        "nombre": "Si devuelves un producto, el cashback se cancela.",
-        "id": "2.1.7.2.1.1",
-        "Expresion": "devolver|devolución|devoluciones|cashback|reembolso|cancelar|producto|artículo|compra|compra|reclamo|reclamar",
-        "Respuesta": "Si devuelves un producto, el cashback asociado a esa compra se cancelará automáticamente. Si tienes alguna duda sobre el proceso de devolución o el cashback, no dudes en contactarnos para más detalles."
-    },
-    {
-        "nombre": "Si el cashback ya fue acreditado, se descontará del reembolso",
-        "id": "2.1.7.2.1.1.1",
-        "Expresion": "cashback|acreditado|reembolso|descontado|devolución|dinero|reintegro|crédito|saldo|pago",
-        "Respuesta": "Si el cashback ya fue acreditado a tu cuenta, se descontará automáticamente del monto total del reembolso. Esto asegura que no recibas un beneficio doble. Si tienes más preguntas o necesitas detalles adicionales, no dudes en contactarnos."
-    },
-    {
         "nombre": "Productos",
         "id": "2.2",
         "Expresion": "producto|productos|articulo|articulos|items",
         "Respuesta": "¿De que categoría es tu producto?\nTecnología\nHogar y Cocina (Electrodomesticos, ropa, Muebles y decoracion, baño)\nHigiene\nEntretenimiento\nMascotas\nDeportes\nJuguetes\nAutos\nJardin"
-    },
-    {
-        "nombre": "Tecnologia",
-        "id": "2.2.1",
-        "Expresion": "tecnologia|soporte tecnico|ayuda tecnica|problema tecnico|fallo tecnico|duda tecnica|necesito ayuda|ayudame|soporte|ayuda|soporte y ayuda|tecnico|duda",
-        "Respuesta": "Parece que tienes una consulta relacionada con tecnología. ¿En qué puedo ayudarte? ¿Necesitas soporte técnico, ayuda con un dispositivo o tienes alguna duda específica?"
     },
     {
         "nombre": "Celulares y Accesorios",
@@ -2104,12 +1294,6 @@
         "id": "2.2.1.1.4",
         "Expresion": "garantia|garantias|garantía|garantías",
         "Respuesta": "Para hacer válida tu garantía, por favor revisa los términos y condiciones proporcionados por el fabricante. Si necesitas asistencia, contacta al servicio al cliente del fabricante o al vendedor."
-    },
-    {
-        "nombre": "Devolución Celulares",
-        "id": "2.2.1.1.5",
-        "Expresion": "devolucion|devolver|celular|celulares|problema|falla|error|garantia|reembolso|cambio|reemplazo|defectuoso|mal estado|no funciona|no sirve|dañado|averiado",
-        "Respuesta": "Entiendo que tienes un problema con tu celular y necesitas ayuda con una devolución. Por favor, proporciona más detalles sobre el problema que estás experimentando, como el modelo del celular, el motivo de la devolución y cualquier otra información relevante. Esto nos ayudará a procesar tu solicitud de manera más eficiente."
     },
     {
         "nombre": "Computo",
@@ -2177,11 +1361,6 @@
         "Expresion": "garantia|garantias|garantía|garantías",
         "Respuesta": "Para hacer válida tu garantía, por favor revisa los términos y condiciones proporcionados por el fabricante. Si necesitas asistencia, contacta al servicio al cliente del fabricante o al vendedor."
     },
-    {"nombre": "Devoluciónes SmartWatch",
-    "id": "2.2.1.3.5",
-    "Expresion": "devolver |smartwatch|reloj inteligente|smart watch|watch|devolucion |de|del|como devolver|regresar|quiero devolver|regresar|politica de devolucion |reembolso |no me gusta|no funciona|no sirve|cambiar|garantia |falla |defectuoso",
-    "Respuesta": "Para devolver tu smartwatch, tienes hasta 30 días después de la compra. El proceso es sencillo: 1) Inicia la devolución desde tu cuenta, 2) Asegúrate de incluir todos los accesorios originales y el empaque, 3) Imprime la etiqueta de devolución que te proporcionamos, y 4) Envía el producto. Si el smartwatch está defectuoso o no funciona correctamente, la devolución es gratuita. ¿Necesitas ayuda para iniciar el proceso de devolución?"
-},
     {
         "nombre": "Audifonos",
         "id": "2.2.1.4",
@@ -2213,18 +1392,6 @@
         "Respuesta": "Para hacer válida tu garantía, por favor revisa los términos y condiciones proporcionados por el fabricante. Si necesitas asistencia, contacta al servicio al cliente del fabricante o al vendedor."
     },
     {
-        "nombre": "Devoluciónes Audifonos",
-        "id": "2.2.1.4.5",
-        "Expresion": "devolucion|devoluciones|audifonos|auriculares|devolver|reembolso|problema|error|defecto|garantia|reclamo|insatisfecho|insatisfecha|no funciona|mal estado|dañado|dañada",
-        "Respuesta": "Entiendo que tienes un problema con tus audífonos y deseas realizar una devolución. Por favor, proporciona más detalles sobre el problema que estás experimentando y el número de pedido para que pueda ayudarte con el proceso de devolución o reembolso."
-    },
-    {
-        "nombre": "Camara y fotografia",
-        "id": "2.2.1.5",
-        "Expresion": "camara|camaras|fotografia|fotos|fotografico|lente|objetivo|iluminacion|flash|tripode|video|videocamara|fotografo|fotografica|fotografico",
-        "Respuesta": "Parece que estás interesado en cámaras y fotografía. ¿Necesitas ayuda para elegir una cámara, accesorios o tienes alguna pregunta técnica sobre fotografía? Estoy aquí para ayudarte."
-    },
-    {
         "nombre": "Informacion Camaras y Fotografia",
         "id": "2.2.1.5.1",
         "Expresion": "informacion|información|saber|conocer|detalles|caracteristicas",
@@ -2247,12 +1414,6 @@
         "id": "2.2.1.5.4",
         "Expresion": "reparacion|reparaciones|refaccion|refacciones|arreglar|arreglo|componer|composicion",
         "Respuesta": "Para reparaciones y refacciones de tu cámara o equipo de fotografía, te recomendamos contactar al servicio técnico autorizado de la marca. Puedes encontrar información de contacto en el sitio web oficial del fabricante."
-    },
-    {
-        "nombre": "Devoluciónes Camaras y Fotografia",
-        "id": "2.2.1.5.5",
-        "Expresion": "devolucion|devoluciones|camara|camaras|fotografia|foto|fotos|problema|error|fallo|garantia|reembolso|cambio|defectuoso|defectuosa|dañado|dañada|mal estado|no funciona|no sirve|ayuda|soporte|necesito|ayudame|ayudar|tecnico|duda",
-        "Respuesta": "Entiendo que tienes un problema con una cámara o producto de fotografía. Para ayudarte con la devolución, revisión o garantía, necesitaré algunos detalles como el número de pedido y una descripción del problema. ¿Puedes proporcionarme esa información?"
     },
     {
         "nombre": "Television y Video",
@@ -2289,12 +1450,6 @@
         "id": "2.2.1.6.5",
         "Expresion": "garantia|garantias|garantía|garantías",
         "Respuesta": "Para hacer válida tu garantía, por favor revisa los términos y condiciones proporcionados por el fabricante. Si necesitas asistencia, contacta al servicio al cliente del fabricante o al vendedor."
-    },
-    {
-        "nombre": "Audio y Equipos de Sonido",
-        "id": "2.2.1.7",
-        "Expresion": "audio|sonido|equipos de sonido|altavoz|parlante|bocina|amplificador|micrófono|auricular|audífono|sistema de sonido|home theater|barra de sonido|subwoofer|reproductor de audio|receptor de audio|mezclador de audio",
-        "Respuesta": "Parece que estás interesado en productos de audio y equipos de sonido. ¿Necesitas ayuda para elegir un altavoz, un sistema de home theater, o quizás un micrófono? Estoy aquí para ayudarte a encontrar lo que necesitas."
     },
     {
         "nombre": "Informacion Audio y Equipo de Sonido",
@@ -2453,12 +1608,6 @@
         "Respuesta": "Lamentamos que estés teniendo problemas con tu tableta. Por favor, intenta los siguientes pasos:\n1. Reinicia tu dispositivo.\n2. Asegúrate de que el software esté actualizado.\n3. Verifica que todos los componentes estén correctamente conectados.\nSi el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.\nEn caso de tener una garantía vigente, verifica los términos y condiciones para hacer válida la misma."
     },
     {
-        "nombre": "Reparacion y Refacciones Tabletas",
-        "id": "2.2.1.11.3",
-        "Expresion": "reparacion|refacciones|tabletas|arreglar|arreglo|dañado|roto|pantalla|bateria|problema|falla|averia|servicio tecnico|mantenimiento|reemplazo|piezas|componentes|fix|fixear|reparar|reparado|reparada|reparación|refacción|refaccionar|refaccionado|refaccionada",
-        "Respuesta": "Entiendo que necesitas ayuda con la reparación o refacciones de tu tableta. ¿Podrías proporcionarme más detalles sobre el problema que estás experimentando? Por ejemplo, ¿es un problema con la pantalla, la batería o algún otro componente? Esto me ayudará a ofrecerte la mejor solución."
-    },
-    {
         "nombre": "Garantías Tabletas",
         "id": "2.2.1.11.4",
         "Expresion": "garantia|garantias|garantía|garantías",
@@ -2553,12 +1702,6 @@
         "id": "2.2.2.1.1.5",
         "Expresion": "devolucion|devoluciones|devolver|regresar|reembolso|reembolsos",
         "Respuesta": "Para realizar una devolución de tu lavadora, por favor sigue las políticas de devolución del vendedor. Asegúrate de tener el recibo de compra y de que el producto esté en las condiciones especificadas en la política de devoluciones."
-    },
-    {
-        "nombre": "Refirgeradores",
-        "id": "2.2.2.1.2",
-        "Expresion": "refrigerador|refri|nevera|congelador|enfriador|electrodoméstico|aparato|heladera|conservación|temperatura|frío",
-        "Respuesta": "Parece que estás interesado en refrigeradores. ¿Necesitas ayuda para elegir el modelo adecuado, conocer las características o resolver algún problema con tu equipo actual? Estoy aquí para ayudarte."
     },
     {
         "nombre": "Informacion Refrigeradores",
@@ -2745,12 +1888,6 @@
         "id": "2.2.2.2.7",
         "Expresion": "devolucion|devoluciones|devolver|regresar|reembolso|reembolsos",
         "Respuesta": "Para realizar una devolución de tu ropa, por favor sigue las políticas de devolución del vendedor. Asegúrate de tener el recibo de compra y de que la prenda esté en las condiciones especificadas en la política de devoluciones."
-    },
-    {
-        "nombre": "Muebles y decoración",
-        "id": "2.2.2.3",
-        "Expresion": "muebles|decoración|decorar|sillón|sofá|mesa|silla|estantería|armario|estilo|diseño|interior|hogar|living|sala|comedor|habitación|dormitorio|oficina|mueble|decorativo|accesorio|iluminación|lámpara|alfombra|cuadro|espejo|estantería|repisa|organizador|tapizado|tapicería|textil|cojín|mantel|cortina|persiana|estilo|diseño|interiorismo|decorador|decorativa|decorativos",
-        "Respuesta": "Parece que estás interesado en muebles y decoración. ¿Necesitas ayuda para elegir un mueble, accesorios decorativos o ideas para decorar tu espacio? Estoy aquí para ayudarte."
     },
     {
         "nombre": "Libreros para Sala",
@@ -3005,18 +2142,6 @@
         "Respuesta": "Para realizar una devolución del decorado de tu hogar, por favor sigue las políticas de devolución del vendedor. Asegúrate de tener el recibo de compra y de que el producto esté en las condiciones especificadas en la política de devoluciones."
     },
     {
-        "nombre": "Baño",
-        "id": "2.2.2.4",
-        "Expresion": "baño|aseo|lavabo|ducha|inodoro|sanitario|higiene|accesorios baño|artículos baño|necesito baño|ayuda baño|soporte baño|duda baño|reparación baño|instalación baño|mantenimiento baño",
-        "Respuesta": "Parece que estás buscando información o ayuda relacionada con la categoría de Baño. ¿En qué puedo ayudarte? ¿Necesitas recomendaciones de productos, consejos de instalación o tienes alguna duda específica sobre artículos de baño?"
-    },
-    {
-        "nombre": "Regaderas",
-        "id": "2.2.2.4.1",
-        "Expresion": "regadera|ducha|baño|agua|chorro|lluvia|presión|accesorio de baño|accesorio para baño|accesorio baño|accesorio ducha|accesorio regadera|accesorio para ducha|accesorio para regadera",
-        "Respuesta": "Parece que estás buscando información sobre regaderas. Las regaderas son accesorios esenciales para el baño que te permiten disfrutar de una experiencia de ducha cómoda y relajante. ¿Necesitas ayuda para elegir una regadera con características específicas, como ajuste de presión, tipo de chorro o material? Estoy aquí para ayudarte."
-    },
-    {
         "nombre": "Higiene",
         "id": "2.2.2.5",
         "Expresion": "productos higiene|aseo|higiene|",
@@ -3027,12 +2152,6 @@
         "id": "2.2.2.5.1",
         "Expresion": "cuidado personal|higiene personal|rutina de cuidado",
         "Respuesta": "¿Estás buscando algo para tu rutina de cuidado personal? Puedo ayudarte a encontrarlo."
-    },
-    {
-        "nombre": "Genero",
-        "id": "2.2.2.5.2",
-        "Expresion": "productos (para|de) (hombre|mujer)|articulos (para|de) (hombre|mujer)|higiene (masculina|femenina)|cuidado (masculino|femenino)|productos de belleza (para|de) (hombre|mujer)|desodorantes? (para|de) (hombre|mujer)|cremas? (para|de) (hombre|mujer)|afeitado|rasurado|depilacion|productos de aseo personal (para|de) (hombre|mujer)|cuidado personal por genero",
-        "Respuesta": "Contamos con una amplia gama de productos de higiene y cuidado personal específicos tanto para hombres como para mujeres. Nuestra selección incluye desde productos básicos de aseo hasta artículos especializados de cuidado personal. ¿Buscas productos para hombre o para mujer? ¿Hay algún artículo específico que necesites?"
     },
     {
         "nombre": "Cara",
@@ -3155,12 +2274,6 @@
         "Respuesta": "Seccion de Billar.¿Que articulo de billar buscas?"
     },
     {
-        "nombre": "Boliche",
-        "id": "2.2.5.10",
-        "Expresion": "boliche|bolos|juego de bolos|pista de bolos|bolichera|bolichero|equipo de boliche|accesorios de boliche|bolas de boliche|zapatos de boliche",
-        "Respuesta": "¡Claro! En la categoría de Boliche, puedes encontrar una variedad de productos relacionados con este deporte, como bolas, zapatos, accesorios y más. ¿Necesitas ayuda para encontrar algo en particular o tienes alguna pregunta sobre los productos disponibles?"
-    },
-    {
         "nombre": "Box",
         "id": "2.2.5.11",
         "Expresion": "box",
@@ -3213,12 +2326,6 @@
         "id": "2.2.5.19",
         "Expresion": "disco|frisbee|ultimate",
         "Respuesta": "Seccion de Deportes de Disco. ¿Qué artículo de disco buscas?"
-    },
-    {
-        "nombre": "Deportes de invierno",
-        "id": "2.2.5.20",
-        "Expresion": "deportes|invierno|esquí|snowboard|patinaje|hielo|frío|nieve|equipo de invierno|ropa térmica",
-        "Respuesta": "Parece que estás interesado en deportes de invierno. ¿Necesitas ayuda para encontrar equipos de esquí, snowboard, ropa térmica o accesorios para el frío? Estoy aquí para ayudarte."
     },
     {
         "nombre": "Futbol Americano",
@@ -3299,76 +2406,16 @@
         "Respuesta": "Seccion de Tiro con Arco. ¿Qué artículo de tiro con arco buscas?"
     },
     {
-        "nombre": "Trofeos,medallas y premios",
-        "id": "2.2.5.34",
-        "Expresion": "trofeos|medallas|premios|reconocimientos|galardones|insignias|distinciones|premiacion|trofeo|medalla|premio",
-        "Respuesta": "¡Claro! En la categoría de 'Trofeos, medallas y premios' encontrarás una amplia variedad de productos para reconocer logros y celebrar éxitos. ¿Necesitas ayuda para elegir un trofeo, una medalla o algún otro tipo de premio? Estoy aquí para ayudarte."
-    },
-    {
         "nombre": "Juguetes",
         "id": "2.2.6",
         "Expresion": "juguete|juguetes|juguetería",
         "Respuesta": "Seccion de Juguetes. ¿Qué tipo de juguete estás buscando?"
     },
     {
-        "nombre": "Niños",
-        "id": "2.2.6.1",
-        "Expresion": "niños|niño|infantil|pequeños|pequeño|juegos para niños|ropa para niños|juguetes|juguete|educativo|educación infantil|actividades para niños|regalos para niños",
-        "Respuesta": "Parece que estás buscando productos relacionados con niños. En nuestra sección de 'Niños' encontrarás una amplia variedad de artículos como juguetes, ropa, libros educativos y mucho más. ¿Necesitas ayuda para encontrar algo en particular?"
-    },
-    {
-        "nombre": "Niñas",
-        "id": "2.2.6.2",
-        "Expresion": "niñas|niña|infantil|chicas|chica|ropa de niña|moda infantil|accesorios para niñas|zapatos de niña|juegos de niñas",
-        "Respuesta": "Parece que estás buscando productos para niñas. En nuestra sección de 'Niñas' encontrarás una amplia variedad de ropa, calzado, accesorios y juguetes diseñados especialmente para ellas. ¿Hay algo en particular que estés buscando?"
-    },
-    {
-        "nombre": "Mesa",
-        "id": "2.2.6.3",
-        "Expresion": "mesa|mesas|mueble|muebles|comedor|sala|decoracion|decoración|interior|exterior|madera|madera|vidrio|metal|patio|jardin|jardín|oficina|hogar|estilo|diseño|diseño de interiores|mesa de centro|mesa de comedor|mesa de trabajo|mesa plegable|mesa extensible|mesa de exterior|mesa de jardín|mesa de patio",
-        "Respuesta": "¡Hola! Parece que estás interesado en mesas. ¿Necesitas ayuda para elegir una mesa para tu comedor, sala, oficina o jardín? ¿O tal vez tienes alguna duda sobre materiales como madera, vidrio o metal? Estoy aquí para ayudarte."
-    },
-    {
-        "nombre": "Educativos",
-        "id": "2.2.6.4",
-        "Expresion": "educacion|aprendizaje|estudio|estudiar|aprender|clases|curso|cursos|material educativo|libros educativos|recursos educativos|enseñanza|formacion|academico|escolar",
-        "Respuesta": "Parece que estás interesado en productos educativos. En nuestra categoría de 'Educativos' encontrarás una amplia variedad de recursos, desde libros y cursos hasta materiales de enseñanza. ¿Necesitas ayuda para encontrar algo en particular?"
-    },
-    {
         "nombre": "Peluches",
         "id": "2.2.6.5",
         "Expresion": "peluche|peluches|muñecos de peluche|osito|oso de peluche|muñeco suave",
         "Respuesta": "Seccion de Peluches. ¿Qué tipo de peluche estás buscando?"
-    },
-    {
-        "nombre": "Bebés",
-        "id": "2.2.6.6",
-        "Expresion": "bebé|bebés|recién nacido|recién nacidos|niño|niños|infantil|infantes|maternidad|puericultura|pañales|biberón|chupete|juguetes bebé|ropa bebé|cuna|carrito|silla de paseo|moises|baño bebé",
-        "Respuesta": "Parece que estás buscando productos relacionados con bebés. En la categoría de Bebés, puedes encontrar una amplia variedad de artículos como pañales, biberones, chupetes, juguetes, ropa, cunas, carritos y mucho más. ¿Hay algo específico que necesitas para tu bebé?"
-    },
-    {
-        "nombre": "Bloques",
-        "id": "2.2.6.7",
-        "Expresion": "bloques|construccion|juegos de bloques|lego|armar|construir|montar|piezas|juguetes educativos",
-        "Respuesta": "Parece que estás interesado en la categoría de Bloques. ¿Necesitas ayuda para encontrar algún tipo específico de bloques, como bloques de construcción, juegos de bloques educativos o algo más? Estoy aquí para ayudarte."
-    },
-    {
-        "nombre": "Juguetes electronicos",
-        "id": "2.2.6.8",
-        "Expresion": "juguetes|electronicos|juguetes electronicos|juegos|tecnologia|niños|niñas|diversion|educativos|baterias|pilas|control remoto|robot|dron|interactivo",
-        "Respuesta": "Parece que estás interesado en juguetes electrónicos. Estos productos incluyen una variedad de opciones como robots, drones, juguetes interactivos y más. ¿Necesitas ayuda para elegir el adecuado o tienes alguna pregunta específica sobre un producto?"
-    },
-    {
-        "nombre": "Al aire libre",
-        "id": "2.2.6.9",
-        "Expresion": "aire libre|exterior|camping|senderismo|acampada|excursion|naturaleza|aventura|montaña|bosque|parque|jardín|terraza|balcón|patio|barbacoa|picnic|deportes al aire libre|equipo de camping|mochila|tienda de campaña|saco de dormir|linterna|brújula|botas de montaña|ropa de exterior",
-        "Respuesta": "Parece que estás interesado en productos relacionados con actividades al aire libre. En esta categoría encontrarás desde equipo de camping y senderismo hasta accesorios para tu jardín o terraza. ¿Necesitas ayuda para encontrar algo en particular?"
-    },
-    {
-        "nombre": "Disfraces",
-        "id": "2.2.6.10",
-        "Expresion": "disfraz|disfraces|fiesta|halloween|carnaval|traje|vestuario|disfrazarse|disfrazado|disfrazar",
-        "Respuesta": "¡Claro! En nuestra sección de disfraces encontrarás una gran variedad de opciones para fiestas, Halloween, carnavales y más. ¿Buscas algo en particular o necesitas ayuda para elegir el disfraz perfecto?"
     },
     {
         "nombre": "Auto",
@@ -3419,12 +2466,6 @@
         "Respuesta": "Seccion de Pintura para Auto. ¿Qué tipo o color de pintura necesitas?"
     },
     {
-        "nombre": "Jardin",
-        "id": "2.2.8",
-        "Expresion": "jardin|jardinería|plantas|flores|herramientas de jardín|macetas|riego|huerto|paisajismo|cesped|abono|semillas|herramientas|mangueras|decoración exterior|terraza|patio|jardín vertical|jardín urbano",
-        "Respuesta": "Parece que estás interesado en productos relacionados con jardinería. En nuestra categoría de Jardín encontrarás una amplia variedad de artículos como plantas, herramientas de jardinería, macetas, sistemas de riego y mucho más. ¿Hay algo específico que estés buscando o en lo que necesites ayuda?"
-    },
-    {
         "nombre": "Parrillas",
         "id": "2.2.8.1",
         "Expresion": "parrilla|parrillas|asador|asadores|bbq|barbacoa",
@@ -3441,12 +2482,6 @@
         "id": "2.2.8.3",
         "Expresion": "sillas de jardín|sillas para patio|sillas exteriores|reposeras",
         "Respuesta": "Seccion de Sillas para Patio. ¿Qué tipo de silla buscas?"
-    },
-    {
-        "nombre": "Tolods,sombrillas y pérgolas",
-        "id": "2.2.8.4",
-        "Expresion": "tolods|sombrillas|pérgolas|sombrilla|pérgola|toldo|protección solar|exterior|terraza|jardín|sombra",
-        "Respuesta": "Parece que estás interesado en productos relacionados con tolods, sombrillas o pérgolas. Estos artículos son ideales para protegerte del sol y disfrutar de tu espacio exterior. ¿Necesitas ayuda para elegir el modelo adecuado o tienes alguna pregunta específica sobre estos productos?"
     },
     {
         "nombre": "Macetas",
@@ -3483,8 +2518,7 @@
         "id": "2.2.8.10",
         "Expresion": "plantas artificiales|flores artificiales|hojas decorativas|arreglos artificiales",
         "Respuesta": "Seccion de Plantas Artificiales. ¿Qué tipo de planta decorativa buscas?"
-    },
-    {
+    },{
         "nombre": "Herramienta de jardineria",
         "id": "2.2.8.11",
         "Expresion": "herramientas|jardin|jardineria|pala|rastrillo|tijeras|podadora|regadera|manguera|azadon|machete|carretilla|cultivador|guantes|jardinero|sembrar|podar|cortar|plantar|herramientas para plantas|jardin|jardinería|herramienta de jardín|herramientas de jardinería|césped|plantas|flores|poda|riego|manguera|rastrillo|pala|tijeras|desbrozadora|cortacésped|abono|fertilizante|maceta|huerto",

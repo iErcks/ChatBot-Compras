@@ -1,0 +1,41 @@
+170 Requisitos para crear una cuenta
+176 Cambiar nombre de usuario
+177 Bloqueo de cuenta
+178 Datos personales y perfil
+177 Bloqueo de cuenta
+178 Datos personales y perfil
+183 Cambiar foto de perfil
+184 Eliminar datos personales
+185 Desactivar notificaciones
+186 Cambiar frecuencia de notificaciones
+191 Métodos de pago aceptados
+192 Cambiar método de pago predeterminado
+196 Estado de deovlucion o reembolso
+197 Cancelar pedido
+198 Seguimiento de pedidos
+199 Devolución de productos defectuosos
+200 Eliminar cuenta
+201 Contactar con soporte
+202 Reportar un problema técnico
+203 Política de privacidad
+204 Cerrar sesión en todos los dispositivos
+232 Problemas comunes al activar cupones
+233 ¿Los descuentos son automáticos?
+234 ¿Se pueden combinar múltiples descuentos?
+235 Productos con descuento
+236 ¿Qué productos tienen descuento hoy?
+237 Categorías con descuento
+238 ¿Cómo encontrar productos con descuento?
+239 Restricciones de descuentos
+240 ¿Hay un límite de descuentos por usuario?
+241 Restricciones geográficas
+244 ¿Cómo activar el cashback?
+245 Problemas con el cashback
+246 ¿Por qué no recibí mi cashback?
+247 ¿Cómo reclamar cashback no acreditado?
+248 Términos y condiciones
+249 ¿El cashback aplica para productos internacionales?
+250 ¿El cashback expira?
+254 ¿Cómo activar un cupón?
+255 Problemas con cupones
+256 ¿Por qué no se aplicó mi cupón?

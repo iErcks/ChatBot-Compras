@@ -2,7 +2,7 @@ import json
 import re
 
 # Cargar el archivo JSON
-with open('c:\\Users\\erick\\OneDrive\\Documentos\\ISC\\Semestre7\\MachineLearning\\ChatBot\\Expresiones_Juntas.json', 'r', encoding='utf-8') as file:
+with open('D:\cursor_optativas\ml\ChatBot-Compras\Expresiones_Juntas.json', 'r', encoding='utf-8') as file:
     mybd = json.load(file)
 
 
