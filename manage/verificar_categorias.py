@@ -3,7 +3,7 @@ import requests
 import time
 
 # Configura tu API key de Deepseek
-DEEPSEEK_API_KEY = 'sk-9f3783391ed648998d4fbd35cd246d49'
+DEEPSEEK_API_KEY = 'api key'
 
 def get_deepseek_completion(categoria):
     """
