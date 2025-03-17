@@ -168,7 +168,7 @@
         "number": 24
     },
     {
-        "nombre": "Asignar una calificación",
+        "nombre": "Asignar una calificacion",
         "id": "1.2.2.1",
         "Expresion": "asignar|añadir|calificacion|poner|dar",
         "Respuesta": "Para poder asignar una calificación debes de dirigirte al producto y escribir una reseña, ahi puedes agregar una calificación al producto.",
@@ -182,7 +182,7 @@
         "number": 26
     },
     {
-        "nombre": "Administar mis reseñas",
+        "nombre": "Administrar mis reseñas",
         "id": "1.2.3",
         "Expresion": "administrar|ver|revisar|verificar",
         "Respuesta": "¿Deseas elminar alguna reseña o actualizar?",
