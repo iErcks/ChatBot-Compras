@@ -1,0 +1,2912 @@
+[
+    {
+        "id": "1",
+        "nombre": "Soporte y ayuda",
+        "number": 1
+    },
+    {
+        "id": "1.1",
+        "nombre": "Pedidos",
+        "number": 2
+    },
+    {
+        "id": "1.1.1",
+        "nombre": "Seguimiento de pedidos",
+        "number": 3
+    },
+    {
+        "id": "1.1.1.1",
+        "nombre": "Rastreo",
+        "number": 4
+    },
+    {
+        "id": "1.1.1.2",
+        "nombre": "Fecha tentativa de entrega",
+        "number": 5
+    },
+    {
+        "id": "1.1.2",
+        "nombre": "Problemas con el pedido",
+        "number": 6
+    },
+    {
+        "id": "1.1.2.1",
+        "nombre": "Retardos",
+        "number": 7
+    },
+    {
+        "id": "1.1.2.2",
+        "nombre": "Paquete dañado",
+        "number": 8
+    },
+    {
+        "id": "1.1.2.3",
+        "nombre": "Paquete abierto",
+        "number": 9
+    },
+    {
+        "id": "1.1.2.4",
+        "nombre": "No llego el pedido",
+        "number": 10
+    },
+    {
+        "id": "1.1.2.5",
+        "nombre": "Llego otro pedido",
+        "number": 11
+    },
+    {
+        "id": "1.1.2.6",
+        "nombre": "Paquete incompleto",
+        "number": 12
+    },
+    {
+        "id": "1.1.2.7",
+        "nombre": "Direccion incorrecta",
+        "number": 13
+    },
+    {
+        "id": "1.1.3",
+        "nombre": "Cancelar pedido",
+        "number": 14
+    },
+    {
+        "id": "1.1.3.1",
+        "nombre": "Razon",
+        "number": 15
+    },
+    {
+        "id": "1.1.4",
+        "nombre": "Modificar direccion",
+        "number": 16
+    },
+    {
+        "id": "1.1.4.1",
+        "nombre": "Antes de un envio",
+        "number": 17
+    },
+    {
+        "id": "1.1.4.2",
+        "nombre": "Despues de comprar un producto",
+        "number": 18
+    },
+    {
+        "id": "1.2",
+        "nombre": "Añadir reseña",
+        "number": 19
+    },
+    {
+        "id": "1.2.1",
+        "nombre": "Tipos de reseñas",
+        "number": 20
+    },
+    {
+        "id": "1.2.1.1",
+        "nombre": "Sobre vendedores",
+        "number": 21
+    },
+    {
+        "id": "1.2.1.2",
+        "nombre": "Sobre productos",
+        "number": 22
+    },
+    {
+        "id": "1.2.1.3",
+        "nombre": "Sobre experiencias con paqueteria",
+        "number": 23
+    },
+    {
+        "id": "1.2.2",
+        "nombre": "Formas de escribir una reseña",
+        "number": 24
+    },
+    {
+        "id": "1.2.2.1",
+        "nombre": "Asignar una calificación",
+        "number": 25
+    },
+    {
+        "id": "1.2.2.2",
+        "nombre": "Agregar fotos",
+        "number": 26
+    },
+    {
+        "id": "1.2.3",
+        "nombre": "Administar mis reseñas",
+        "number": 27
+    },
+    {
+        "id": "1.2.3.1",
+        "nombre": "Eliminar reseñas",
+        "number": 28
+    },
+    {
+        "id": "1.2.3.2",
+        "nombre": "Actualizar reseñas",
+        "number": 29
+    },
+    {
+        "id": "1.3",
+        "nombre": "Reembolsos",
+        "number": 30
+    },
+    {
+        "id": "1.3.1",
+        "nombre": "Métodos de reembolso",
+        "number": 31
+    },
+    {
+        "id": "1.3.1.1",
+        "nombre": "Devolución a tarjeta original",
+        "number": 32
+    },
+    {
+        "id": "1.3.1.2",
+        "nombre": "Crédito Amazon",
+        "number": 33
+    },
+    {
+        "id": "1.3.1.3",
+        "nombre": "Otros métodos alternativos",
+        "number": 34
+    },
+    {
+        "id": "1.3.2",
+        "nombre": "Procesamiento",
+        "number": 35
+    },
+    {
+        "id": "1.3.2.1",
+        "nombre": "Tiempos estimados según método",
+        "number": 36
+    },
+    {
+        "id": "1.3.2.2",
+        "nombre": "Reembolso parcial vs. completo",
+        "number": 37
+    },
+    {
+        "id": "1.3.2.3",
+        "nombre": "Verificación de recepción de reembolso",
+        "number": 38
+    },
+    {
+        "id": "1.3.2.4",
+        "nombre": "Fecha estimada de reembolso",
+        "number": 39
+    },
+    {
+        "id": "1.3.3",
+        "nombre": "Resolución de problemas",
+        "number": 40
+    },
+    {
+        "id": "1.3.3.1",
+        "nombre": "Reembolso no recibido",
+        "number": 41
+    },
+    {
+        "id": "1.3.3.2",
+        "nombre": "Monto incorrecto",
+        "number": 42
+    },
+    {
+        "id": "1.3.3.3",
+        "nombre": "Método de reembolso incorrecto",
+        "number": 43
+    },
+    {
+        "id": "1.3.3.4",
+        "nombre": "Escalamiento a servicio humano",
+        "number": 44
+    },
+    {
+        "id": "1.4",
+        "nombre": "Devoluciones",
+        "number": 45
+    },
+    {
+        "id": "1.4.1",
+        "nombre": "Iniciación de Devolución",
+        "number": 46
+    },
+    {
+        "id": "1.4.1.1",
+        "nombre": "Motivos de devolución",
+        "number": 47
+    },
+    {
+        "id": "1.4.1.1.1",
+        "nombre": "Problemas con el producto",
+        "number": 48
+    },
+    {
+        "id": "1.4.1.1.2",
+        "nombre": "Garantía (Error de fábrica)",
+        "number": 49
+    },
+    {
+        "id": "1.4.1.1.3",
+        "nombre": "Producto equivocado",
+        "number": 50
+    },
+    {
+        "id": "1.4.1.1.4",
+        "nombre": "Insatisfecho",
+        "number": 51
+    },
+    {
+        "id": "1.4.1.1.5",
+        "nombre": "No cumplió expectativas",
+        "number": 52
+    },
+    {
+        "id": "1.4.1.1.6",
+        "nombre": "No me gustó",
+        "number": 53
+    },
+    {
+        "id": "1.4.1.1.7",
+        "nombre": "Prefiero no responder Seguimiento de devolución",
+        "number": 54
+    },
+    {
+        "id": "1.4.1.2",
+        "nombre": "Reglas de verificación",
+        "number": 55
+    },
+    {
+        "id": "1.4.1.2.1",
+        "nombre": "Verificación de elegibilidad según política",
+        "number": 56
+    },
+    {
+        "id": "1.4.1.2.2",
+        "nombre": "Solicitud de evidencia fotográfica",
+        "number": 57
+    },
+    {
+        "id": "1.4.1.2.3",
+        "nombre": "Comparación con descripción original",
+        "number": 58
+    },
+    {
+        "id": "1.4.1.2.4",
+        "nombre": "Verificación de fecha de compra",
+        "number": 59
+    },
+    {
+        "id": "1.4.2",
+        "nombre": "Seguimiento de Devolución",
+        "number": 60
+    },
+    {
+        "id": "1.4.2.1",
+        "nombre": "Estados de la devolución",
+        "number": 61
+    },
+    {
+        "id": "1.4.2.1.1",
+        "nombre": "Solicitada",
+        "number": 62
+    },
+    {
+        "id": "1.4.2.1.2",
+        "nombre": "Aprobada",
+        "number": 63
+    },
+    {
+        "id": "1.4.2.1.3",
+        "nombre": "En proceso",
+        "number": 64
+    },
+    {
+        "id": "1.4.2.1.4",
+        "nombre": "Recolección programada",
+        "number": 65
+    },
+    {
+        "id": "1.4.2.1.5",
+        "nombre": "Recibida",
+        "number": 66
+    },
+    {
+        "id": "1.4.2.1.6",
+        "nombre": "Procesada",
+        "number": 67
+    },
+    {
+        "id": "1.4.2.1.7",
+        "nombre": "Completada",
+        "number": 68
+    },
+    {
+        "id": "1.4.2.2",
+        "nombre": "Información de seguimiento",
+        "number": 69
+    },
+    {
+        "id": "1.4.2.2.1",
+        "nombre": "Estado actual",
+        "number": 70
+    },
+    {
+        "id": "1.4.2.2.2",
+        "nombre": "Fecha de recolección",
+        "number": 71
+    },
+    {
+        "id": "1.4.2.2.3",
+        "nombre": "Historial de cambios de estado",
+        "number": 72
+    },
+    {
+        "id": "1.4.3",
+        "nombre": "Logística de Devolución",
+        "number": 73
+    },
+    {
+        "id": "1.4.3.1",
+        "nombre": "Opciones de devolución",
+        "number": 74
+    },
+    {
+        "id": "1.4.3.1.1",
+        "nombre": "Recolección a domicilio",
+        "number": 75
+    },
+    {
+        "id": "1.4.3.1.2",
+        "nombre": "Entrega en sucursal",
+        "number": 76
+    },
+    {
+        "id": "1.4.3.1.3",
+        "nombre": "Envío por cuenta propia",
+        "number": 77
+    },
+    {
+        "id": "1.4.3.2",
+        "nombre": "Instrucciones específicas",
+        "number": 78
+    },
+    {
+        "id": "1.4.3.2.1",
+        "nombre": "Instrucciones de empaquetado",
+        "number": 79
+    },
+    {
+        "id": "1.4.3.2.2",
+        "nombre": "Requisitos de documentación",
+        "number": 80
+    },
+    {
+        "id": "1.4.3.2.3",
+        "nombre": "Instrucciones de recolección",
+        "number": 81
+    },
+    {
+        "id": "1.4.3.2.4",
+        "nombre": "Ubicación de sucursales cercanas",
+        "number": 82
+    },
+    {
+        "id": "1.4.3.3",
+        "nombre": "Gestión de recolección",
+        "number": 83
+    },
+    {
+        "id": "1.4.3.3.1",
+        "nombre": "Programación inicial",
+        "number": 84
+    },
+    {
+        "id": "1.4.3.3.2",
+        "nombre": "Reprogramación por vencimiento",
+        "number": 85
+    },
+    {
+        "id": "1.4.3.3.3",
+        "nombre": "Cancelación de recolección",
+        "number": 86
+    },
+    {
+        "id": "1.5",
+        "nombre": "Promociones",
+        "number": 87
+    },
+    {
+        "id": "1.5.1",
+        "nombre": "Gestión de promociones activas",
+        "number": 88
+    },
+    {
+        "id": "1.5.1.1",
+        "nombre": "Catálogo de promociones",
+        "number": 89
+    },
+    {
+        "id": "1.5.1.1.1",
+        "nombre": "Descuentos directos",
+        "number": 90
+    },
+    {
+        "id": "1.5.1.1.2",
+        "nombre": "Ofertas por temporada",
+        "number": 91
+    },
+    {
+        "id": "1.5.1.1.3",
+        "nombre": "Cupones de descuento",
+        "number": 92
+    },
+    {
+        "id": "1.5.1.1.4",
+        "nombre": "Promociones por categoría",
+        "number": 93
+    },
+    {
+        "id": "1.5.1.1.5",
+        "nombre": "Ofertas relámpago",
+        "number": 94
+    },
+    {
+        "id": "1.5.1.2",
+        "nombre": "Parámetros de promociones",
+        "number": 95
+    },
+    {
+        "id": "1.5.1.2.1",
+        "nombre": "Fechas de validez",
+        "number": 96
+    },
+    {
+        "id": "1.5.1.2.2",
+        "nombre": "Requisitos de compra mínima",
+        "number": 97
+    },
+    {
+        "id": "1.5.1.2.3",
+        "nombre": "Restricciones geográficas",
+        "number": 98
+    },
+    {
+        "id": "1.5.1.2.4",
+        "nombre": "Limitaciones por cuenta",
+        "number": 99
+    },
+    {
+        "id": "1.5.2",
+        "nombre": "Verificación de elegibilidad",
+        "number": 100
+    },
+    {
+        "id": "1.5.2.1",
+        "nombre": "Criterios de usuario",
+        "number": 101
+    },
+    {
+        "id": "1.5.2.1.1",
+        "nombre": "Historial de compras",
+        "number": 102
+    },
+    {
+        "id": "1.5.2.1.2",
+        "nombre": "Membresía (Prime/no Prime)",
+        "number": 103
+    },
+    {
+        "id": "1.5.2.1.3",
+        "nombre": "Ubicación geográfica",
+        "number": 104
+    },
+    {
+        "id": "1.5.2.1.4",
+        "nombre": "Antigüedad de cuenta",
+        "number": 105
+    },
+    {
+        "id": "1.5.2.2",
+        "nombre": "Criterios de producto",
+        "number": 106
+    },
+    {
+        "id": "1.5.2.2.1",
+        "nombre": "Categorías elegibles",
+        "number": 107
+    },
+    {
+        "id": "1.5.2.2.2",
+        "nombre": "Exclusiones específicas",
+        "number": 108
+    },
+    {
+        "id": "1.5.2.2.3",
+        "nombre": "Marcas participantes",
+        "number": 109
+    },
+    {
+        "id": "1.5.2.2.4",
+        "nombre": "Rangos de precio",
+        "number": 110
+    },
+    {
+        "id": "1.5.3",
+        "nombre": "Recomendaciones personalizadas",
+        "number": 111
+    },
+    {
+        "id": "1.5.3.1",
+        "nombre": "Motor de sugerencias",
+        "number": 112
+    },
+    {
+        "id": "1.5.3.1.1",
+        "nombre": "Basado en historial",
+        "number": 113
+    },
+    {
+        "id": "1.5.3.1.2",
+        "nombre": "Basado en intereses declarados",
+        "number": 114
+    },
+    {
+        "id": "1.5.3.1.3",
+        "nombre": "Basado en tendencias",
+        "number": 115
+    },
+    {
+        "id": "1.5.3.2",
+        "nombre": "Combinación de promociones",
+        "number": 116
+    },
+    {
+        "id": "1.5.3.2.1",
+        "nombre": "Compatibilidad entre promociones",
+        "number": 117
+    },
+    {
+        "id": "1.5.3.2.2",
+        "nombre": "Optimización de beneficios",
+        "number": 118
+    },
+    {
+        "id": "1.5.3.2.3",
+        "nombre": "Sugerencias de complementos",
+        "number": 119
+    },
+    {
+        "id": "1.6",
+        "nombre": "Metodos de pago",
+        "number": 120
+    },
+    {
+        "id": "1.6.1",
+        "nombre": "Problemas con el pago",
+        "number": 121
+    },
+    {
+        "id": "1.6.1.1",
+        "nombre": "Impuestos y cargos",
+        "number": 122
+    },
+    {
+        "id": "1.6.1.1.1",
+        "nombre": "Incluye impuestos",
+        "number": 123
+    },
+    {
+        "id": "1.6.1.1.2",
+        "nombre": "Cargos de envio",
+        "number": 124
+    },
+    {
+        "id": "1.6.1.1.3",
+        "nombre": "Cargos desconocidos o incorrectos",
+        "number": 125
+    },
+    {
+        "id": "1.6.1.1.4",
+        "nombre": "Ver mis transacciones",
+        "number": 126
+    },
+    {
+        "id": "1.6.1.1.5",
+        "nombre": "Cargo de autorizacion",
+        "number": 127
+    },
+    {
+        "id": "1.6.1.2",
+        "nombre": "Cambiar metodo de pago",
+        "number": 128
+    },
+    {
+        "id": "1.6.1.3",
+        "nombre": "Metodos de pago digitales",
+        "number": 129
+    },
+    {
+        "id": "1.6.1.4",
+        "nombre": "kueski pay",
+        "number": 130
+    },
+    {
+        "id": "1.6.1.5",
+        "nombre": "Pago rechazado",
+        "number": 131
+    },
+    {
+        "id": "1.6.1.6",
+        "nombre": "Costo con financiamiento",
+        "number": 132
+    },
+    {
+        "id": "1.6.1.7",
+        "nombre": "Meses sin intereses",
+        "number": 133
+    },
+    {
+        "id": "1.6.1.8",
+        "nombre": "Tarjetas de regalo",
+        "number": 134
+    },
+    {
+        "id": "1.6.1.9",
+        "nombre": "Tarjetas",
+        "number": 135
+    },
+    {
+        "id": "1.6.1.10",
+        "nombre": "Vales de despensa",
+        "number": 136
+    },
+    {
+        "id": "1.6.1.11",
+        "nombre": "Efectivo",
+        "number": 137
+    },
+    {
+        "id": "1.6.2",
+        "nombre": "Recordatorios y notificaciones",
+        "number": 138
+    },
+    {
+        "id": "1.6.2.1",
+        "nombre": "Pago pendiente",
+        "number": 139
+    },
+    {
+        "id": "1.6.2.2",
+        "nombre": "Pago rechazado",
+        "number": 140
+    },
+    {
+        "id": "1.6.2.3",
+        "nombre": "Pago aceptado",
+        "number": 141
+    },
+    {
+        "id": "1.6.2.4",
+        "nombre": "Factura",
+        "number": 142
+    },
+    {
+        "id": "1.6.3",
+        "nombre": "Facturacion",
+        "number": 143
+    },
+    {
+        "id": "1.6.4",
+        "nombre": "Billetera",
+        "number": 144
+    },
+    {
+        "id": "1.6.5",
+        "nombre": "Actualizar informacion",
+        "number": 145
+    },
+    {
+        "id": "1.6.6",
+        "nombre": "Vales de despensa",
+        "number": 146
+    },
+    {
+        "id": "1.6.7",
+        "nombre": "Kueski pay",
+        "number": 147
+    },
+    {
+        "id": "1.6.8",
+        "nombre": "Meses sin intereses",
+        "number": 148
+    },
+    {
+        "id": "1.6.9",
+        "nombre": "Costo con financiamiento",
+        "number": 149
+    },
+    {
+        "id": "1.6.10",
+        "nombre": "Metodos de pago digitales",
+        "number": 150
+    },
+    {
+        "id": "1.6.11",
+        "nombre": "Tarjetas de regalo",
+        "number": 151
+    },
+    {
+        "id": "1.6.12",
+        "nombre": "Tarjetas",
+        "number": 152
+    },
+    {
+        "id": "1.6.13",
+        "nombre": "Efectivo",
+        "number": 153
+    },
+    {
+        "id": "1.7",
+        "nombre": "Recordatorios y notificaciones",
+        "number": 154
+    },
+    {
+        "id": "1.7.1",
+        "nombre": "Pagos",
+        "number": 155
+    },
+    {
+        "id": "1.7.2",
+        "nombre": "Compras",
+        "number": 156
+    },
+    {
+        "id": "1.7.3",
+        "nombre": "Entregas",
+        "number": 157
+    },
+    {
+        "id": "1.7.4",
+        "nombre": "Devoluciones",
+        "number": 158
+    },
+    {
+        "id": "1.8",
+        "nombre": "Cuenta",
+        "number": 159
+    },
+    {
+        "id": "1.8.1",
+        "nombre": "Registro y Creación de Cuenta",
+        "number": 160
+    },
+    {
+        "id": "1.8.1.1",
+        "nombre": "Como crear una cuenta",
+        "number": 161
+    },
+    {
+        "id": "1.8.1.2",
+        "nombre": "Verificacion de correo o numero de telefono",
+        "number": 162
+    },
+    {
+        "id": "1.8.1.3",
+        "nombre": "Problemas al registrarse",
+        "number": 163
+    },
+    {
+        "id": "1.8.2",
+        "nombre": "Inicio de Sesion y Seguridad",
+        "number": 164
+    },
+    {
+        "id": "1.8.2.1",
+        "nombre": "Olvide mi contraseña",
+        "number": 165
+    },
+    {
+        "id": "1.8.2.2",
+        "nombre": "Restablecer contraseña",
+        "number": 166
+    },
+    {
+        "id": "1.8.2.3",
+        "nombre": "Autenticacion en dos pasos",
+        "number": 167
+    },
+    {
+        "id": "1.8.2.4",
+        "nombre": "Problemas con el inicio de sesion",
+        "number": 168
+    },
+    {
+        "id": "1.8.3",
+        "nombre": "Datos personales y Configuracion",
+        "number": 169
+    },
+    {
+        "id": "1.8.3.1",
+        "nombre": "Actualizar correo electronico",
+        "number": 170
+    },
+    {
+        "id": "1.8.3.2",
+        "nombre": "Cambiar numero de telefono",
+        "number": 171
+    },
+    {
+        "id": "1.8.3.3",
+        "nombre": "Modificar direccion de entrega",
+        "number": 172
+    },
+    {
+        "id": "1.8.3.4",
+        "nombre": "Gestionar preferencias de comunicacion",
+        "number": 173
+    },
+    {
+        "id": "1.8.4",
+        "nombre": "Metodos de Pago y Facturacion",
+        "number": 174
+    },
+    {
+        "id": "1.8.4.1",
+        "nombre": "Agregar o eliminar tarjetas",
+        "number": 175
+    },
+    {
+        "id": "1.8.4.2",
+        "nombre": "Problemas con pagos rechazados",
+        "number": 176
+    },
+    {
+        "id": "1.8.4.3",
+        "nombre": "Ver y descargar facturas",
+        "number": 177
+    },
+    {
+        "id": "1.8.5",
+        "nombre": "Historial de Pedidos y Devoluciones",
+        "number": 178
+    },
+    {
+        "id": "1.8.5.1",
+        "nombre": "Ver pedidos anteriores",
+        "number": 179
+    },
+    {
+        "id": "1.8.5.2",
+        "nombre": "Solicitar devolucion o rembolso",
+        "number": 180
+    },
+    {
+        "id": "1.8.5.3",
+        "nombre": "Estado de una devolucion",
+        "number": 181
+    },
+    {
+        "id": "1.9",
+        "nombre": "Quejas y reclamos",
+        "number": 182
+    },
+    {
+        "id": "1.9.1",
+        "nombre": "Pedidos y Entregas",
+        "number": 183
+    },
+    {
+        "id": "1.9.1.1",
+        "nombre": "Pedido no recibido",
+        "number": 184
+    },
+    {
+        "id": "1.9.1.2",
+        "nombre": "Producto dañado o incorrecto",
+        "number": 185
+    },
+    {
+        "id": "1.9.1.3",
+        "nombre": "Retrasos en la entrega",
+        "number": 186
+    },
+    {
+        "id": "1.9.2",
+        "nombre": "Facturacion y Pagos",
+        "number": 187
+    },
+    {
+        "id": "1.9.2.1",
+        "nombre": "Cobros indebidos",
+        "number": 188
+    },
+    {
+        "id": "1.9.2.2",
+        "nombre": "Problemas con reembolsos",
+        "number": 189
+    },
+    {
+        "id": "1.9.2.3",
+        "nombre": "Facturacion incorrecta",
+        "number": 190
+    },
+    {
+        "id": "1.9.3",
+        "nombre": "Soporte Tecnico",
+        "number": 191
+    },
+    {
+        "id": "1.9.3.1",
+        "nombre": "Problemas con la aplicacion o el sitio web",
+        "number": 192
+    },
+    {
+        "id": "1.9.3.2",
+        "nombre": "Errores en la cuenta o datos personales",
+        "number": 193
+    },
+    {
+        "id": "1.9.4",
+        "nombre": "Servivio al cliente",
+        "number": 194
+    },
+    {
+        "id": "1.9.4.1",
+        "nombre": "Atencion deficiente",
+        "number": 195
+    },
+    {
+        "id": "1.9.4.2",
+        "nombre": "Problemas con soporte via chat o telefono",
+        "number": 196
+    },
+    {
+        "id": "1.9.5",
+        "nombre": "Politicas y Resmbolsos",
+        "number": 197
+    },
+    {
+        "id": "1.9.5.1",
+        "nombre": "No aceptan mi devolucion",
+        "number": 198
+    },
+    {
+        "id": "1.9.5.2",
+        "nombre": "Problemas con garantias",
+        "number": 199
+    },
+    {
+        "id": "1.9.6",
+        "nombre": "Seguridad y Privacidad",
+        "number": 200
+    },
+    {
+        "id": "1.9.6.1",
+        "nombre": "Cuenta comprometida o hackeada",
+        "number": 201
+    },
+    {
+        "id": "1.9.6.2",
+        "nombre": "Uso indebido de datos personales",
+        "number": 202
+    },
+    {
+        "id": "2",
+        "nombre": "Compras",
+        "number": 203
+    },
+    {
+        "id": "2.1",
+        "nombre": "Promociones",
+        "number": 204
+    },
+    {
+        "id": "2.1.1",
+        "nombre": "Descuentos",
+        "number": 205
+    },
+    {
+        "id": "2.1.1.1",
+        "nombre": "Cómo aplicar un descuento",
+        "number": 206
+    },
+    {
+        "id": "2.1.1.1.1",
+        "nombre": "¿Cómo activar un cupón?",
+        "number": 207
+    },
+    {
+        "id": "2.1.1.1.1.1",
+        "nombre": "Pasos para activar un cupón",
+        "number": 208
+    },
+    {
+        "id": "2.1.1.1.1.1.1",
+        "nombre": "Busca el producto elegible.",
+        "number": 209
+    },
+    {
+        "id": "2.1.1.1.1.1.2",
+        "nombre": "Haz clic en \"Activar cupón\".",
+        "number": 210
+    },
+    {
+        "id": "2.1.1.1.1.1.3",
+        "nombre": "Agrega el producto al carrito.",
+        "number": 211
+    },
+    {
+        "id": "2.1.1.1.1.1.4",
+        "nombre": "Verifica que el descuento se aplique antes de pagar.",
+        "number": 212
+    },
+    {
+        "id": "2.1.1.1.1.2",
+        "nombre": "Problemas comunes al activar cupones",
+        "number": 213
+    },
+    {
+        "id": "2.1.1.1.1.2.1",
+        "nombre": "\"Cupón no aplicable\": Verifica que el producto sea elegible.",
+        "number": 214
+    },
+    {
+        "id": "2.1.1.1.1.2.2",
+        "nombre": "\"Cupón ya utilizado\": Revisa si el cupón tiene límite de usos.",
+        "number": 215
+    },
+    {
+        "id": "2.1.1.1.1.2.3",
+        "nombre": "\"Código inválido\": Asegúrate de que el código esté bien escrito.",
+        "number": 216
+    },
+    {
+        "id": "2.1.1.1.2",
+        "nombre": "¿Los descuentos son automáticos?",
+        "number": 217
+    },
+    {
+        "id": "2.1.1.1.2.1",
+        "nombre": "Descuentos automáticos vs. manuales",
+        "number": 218
+    },
+    {
+        "id": "2.1.1.1.2.1.1",
+        "nombre": "Descuentos automáticos: Se aplican sin necesidad de código.",
+        "number": 219
+    },
+    {
+        "id": "2.1.1.1.2.1.2",
+        "nombre": "Descuentos manuales: Requieren ingresar un código o activar un",
+        "number": 220
+    },
+    {
+        "id": "2.1.1.1.3",
+        "nombre": "¿Se pueden combinar múltiples descuentos?",
+        "number": 221
+    },
+    {
+        "id": "2.1.1.1.3.1",
+        "nombre": "Restricciones de combinación",
+        "number": 222
+    },
+    {
+        "id": "2.1.1.1.3.1.1",
+        "nombre": "Algunos descuentos no son acumulables.",
+        "number": 223
+    },
+    {
+        "id": "2.1.1.1.3.1.2",
+        "nombre": "Verifica los términos de cada promoción.",
+        "number": 224
+    },
+    {
+        "id": "2.1.1.2",
+        "nombre": "Productos con descuento",
+        "number": 225
+    },
+    {
+        "id": "2.1.1.2.1",
+        "nombre": "¿Qué productos tienen descuento hoy?",
+        "number": 226
+    },
+    {
+        "id": "2.1.1.2.1.1",
+        "nombre": "Categorías con descuento",
+        "number": 227
+    },
+    {
+        "id": "2.1.1.2.1.1.1",
+        "nombre": "Electrónica",
+        "number": 228
+    },
+    {
+        "id": "2.1.1.2.1.1.2",
+        "nombre": "Hogar",
+        "number": 229
+    },
+    {
+        "id": "2.1.1.2.1.1.3",
+        "nombre": "Moda",
+        "number": 230
+    },
+    {
+        "id": "2.1.1.2.2",
+        "nombre": "¿Cómo encontrar productos con descuento?",
+        "number": 231
+    },
+    {
+        "id": "2.1.1.2.2.1",
+        "nombre": "Filtros de búsqueda",
+        "number": 232
+    },
+    {
+        "id": "2.1.1.2.2.1.1",
+        "nombre": "Usa el filtro \"Ofertas\" en la barra de búsqueda.",
+        "number": 233
+    },
+    {
+        "id": "2.1.1.2.2.1.2",
+        "nombre": "Revisa la sección \"Ofertas del día\".",
+        "number": 234
+    },
+    {
+        "id": "2.1.1.2.3",
+        "nombre": "Restricciones de descuentos",
+        "number": 235
+    },
+    {
+        "id": "2.1.1.2.3.1",
+        "nombre": "¿Hay un límite de descuentos por usuario?",
+        "number": 236
+    },
+    {
+        "id": "2.1.1.2.3.1.1",
+        "nombre": "Límites y condiciones",
+        "number": 237
+    },
+    {
+        "id": "2.1.1.2.3.1.1.1",
+        "nombre": "Algunos descuentos tienen un límite por cuenta.",
+        "number": 238
+    },
+    {
+        "id": "2.1.1.2.3.1.1.2",
+        "nombre": "Revisa los términos de la promoción.",
+        "number": 239
+    },
+    {
+        "id": "2.1.1.2.3.2",
+        "nombre": "¿Los descuentos aplican para productos internacionales?",
+        "number": 240
+    },
+    {
+        "id": "2.1.1.2.3.2.1",
+        "nombre": "Restricciones geográficas",
+        "number": 241
+    },
+    {
+        "id": "2.1.1.2.3.2.1.1",
+        "nombre": "Algunos descuentos solo aplican para productos locales.",
+        "number": 242
+    },
+    {
+        "id": "2.1.1.2.3.2.1.2",
+        "nombre": "Verifica la ubicación del vendedor.",
+        "number": 243
+    },
+    {
+        "id": "2.1.2",
+        "nombre": "Cashback",
+        "number": 244
+    },
+    {
+        "id": "2.1.2.1",
+        "nombre": "Cómo funciona el cashback",
+        "number": 245
+    },
+    {
+        "id": "2.1.2.1.1",
+        "nombre": "¿Qué es el cashback?",
+        "number": 246
+    },
+    {
+        "id": "2.1.2.1.1.1",
+        "nombre": "Definición y beneficios",
+        "number": 247
+    },
+    {
+        "id": "2.1.2.1.1.1.1",
+        "nombre": "Reembolso de un porcentaje de tu compra.",
+        "number": 248
+    },
+    {
+        "id": "2.1.2.1.1.1.2",
+        "nombre": "Puede ser en efectivo o crédito de Amazon.",
+        "number": 249
+    },
+    {
+        "id": "2.1.2.1.2",
+        "nombre": "¿Cómo activar el cashback?",
+        "number": 250
+    },
+    {
+        "id": "2.1.2.1.2.1",
+        "nombre": "Pasos para activar cashback",
+        "number": 251
+    },
+    {
+        "id": "2.1.2.1.2.1.1",
+        "nombre": "Busca productos elegibles.",
+        "number": 252
+    },
+    {
+        "id": "2.1.2.1.2.1.2",
+        "nombre": "Activa la oferta de cashback.",
+        "number": 253
+    },
+    {
+        "id": "2.1.2.1.2.1.3",
+        "nombre": "Realiza la compra.",
+        "number": 254
+    },
+    {
+        "id": "2.1.2.1.2.1.4",
+        "nombre": "Recibe el cashback en tu cuenta.",
+        "number": 255
+    },
+    {
+        "id": "2.1.2.2",
+        "nombre": "Problemas con el cashback",
+        "number": 256
+    },
+    {
+        "id": "2.1.2.2.1",
+        "nombre": "¿Por qué no recibí mi cashback?",
+        "number": 257
+    },
+    {
+        "id": "2.1.2.2.1.1",
+        "nombre": "Causas comunes",
+        "number": 258
+    },
+    {
+        "id": "2.1.2.2.1.1.1",
+        "nombre": "El producto no era elegible.",
+        "number": 259
+    },
+    {
+        "id": "2.1.2.2.1.1.2",
+        "nombre": "No se activó la oferta antes de comprar.",
+        "number": 260
+    },
+    {
+        "id": "2.1.2.2.1.1.3",
+        "nombre": "El cashback tarda en procesarse.",
+        "number": 261
+    },
+    {
+        "id": "2.1.2.2.2",
+        "nombre": "¿Cómo reclamar cashback no acreditado?",
+        "number": 262
+    },
+    {
+        "id": "2.1.2.2.2.1",
+        "nombre": "Proceso de reclamación",
+        "number": 263
+    },
+    {
+        "id": "2.1.2.2.2.1.1",
+        "nombre": "Revisa los términos de la promoción.",
+        "number": 264
+    },
+    {
+        "id": "2.1.2.2.2.1.2",
+        "nombre": "Contacta a soporte con el número de pedido.",
+        "number": 265
+    },
+    {
+        "id": "2.1.2.3",
+        "nombre": "Términos y condiciones",
+        "number": 266
+    },
+    {
+        "id": "2.1.2.3.1",
+        "nombre": "¿El cashback aplica para productos internacionales?",
+        "number": 267
+    },
+    {
+        "id": "2.1.2.3.1.1",
+        "nombre": "Restricciones geográficas",
+        "number": 268
+    },
+    {
+        "id": "2.1.2.3.1.1.1",
+        "nombre": "Algunas ofertas solo aplican para compras locales.",
+        "number": 269
+    },
+    {
+        "id": "2.1.2.3.2",
+        "nombre": "¿El cashback expira?",
+        "number": 270
+    },
+    {
+        "id": "2.1.2.3.2.1",
+        "nombre": "Vigencia del cashback",
+        "number": 271
+    },
+    {
+        "id": "2.1.2.3.2.1.1",
+        "nombre": "Revisa la fecha de expiración en los términos.",
+        "number": 272
+    },
+    {
+        "id": "2.1.3",
+        "nombre": "Cupones",
+        "number": 273
+    },
+    {
+        "id": "2.1.3.1",
+        "nombre": "Cómo usar cupones",
+        "number": 274
+    },
+    {
+        "id": "2.1.3.1.1",
+        "nombre": "¿Dónde encuentro cupones?",
+        "number": 275
+    },
+    {
+        "id": "2.1.3.1.1.1",
+        "nombre": "Sección de cupones",
+        "number": 276
+    },
+    {
+        "id": "2.1.3.1.1.1.1",
+        "nombre": "Visita la página \"Cupones\" en Amazon.",
+        "number": 277
+    },
+    {
+        "id": "2.1.3.1.1.1.2",
+        "nombre": "Busca cupones en productos específicos.",
+        "number": 278
+    },
+    {
+        "id": "2.1.3.1.2",
+        "nombre": "¿Cómo activar un cupón?",
+        "number": 279
+    },
+    {
+        "id": "2.1.3.1.2.1",
+        "nombre": "Pasos para activar un cupón",
+        "number": 280
+    },
+    {
+        "id": "2.1.3.1.2.1.1",
+        "nombre": "Haz clic en \"Activar cupón\".",
+        "number": 281
+    },
+    {
+        "id": "2.1.3.1.2.1.2",
+        "nombre": "Agrega el producto al carrito.",
+        "number": 282
+    },
+    {
+        "id": "2.1.3.1.2.1.3",
+        "nombre": "Verifica que el descuento se aplique.",
+        "number": 283
+    },
+    {
+        "id": "2.1.3.2",
+        "nombre": "Problemas con cupones",
+        "number": 284
+    },
+    {
+        "id": "2.1.3.2.1",
+        "nombre": "¿Por qué no se aplicó mi cupón?",
+        "number": 285
+    },
+    {
+        "id": "2.1.3.2.1.1",
+        "nombre": "Causas comunes",
+        "number": 286
+    },
+    {
+        "id": "2.1.3.2.1.1.1",
+        "nombre": "El producto no es elegible.",
+        "number": 287
+    },
+    {
+        "id": "2.1.3.2.1.1.2",
+        "nombre": "El cupón ya fue utilizado.",
+        "number": 288
+    },
+    {
+        "id": "2.1.3.2.1.1.3",
+        "nombre": "El cupón expiró.",
+        "number": 289
+    },
+    {
+        "id": "2.1.4",
+        "nombre": "Ofertas relámpago",
+        "number": 290
+    },
+    {
+        "id": "2.1.4.1",
+        "nombre": "Cómo participar en ofertas relámpago",
+        "number": 291
+    },
+    {
+        "id": "2.1.4.1.1",
+        "nombre": "¿Qué son las ofertas relámpago?",
+        "number": 292
+    },
+    {
+        "id": "2.1.4.1.1.1",
+        "nombre": "Definición y características",
+        "number": 293
+    },
+    {
+        "id": "2.1.4.1.1.1.1",
+        "nombre": "Descuentos por tiempo limitado.",
+        "number": 294
+    },
+    {
+        "id": "2.1.4.1.1.1.2",
+        "nombre": "Límite de unidades por usuario.",
+        "number": 295
+    },
+    {
+        "id": "2.1.4.1.2",
+        "nombre": "¿Cómo recibir notificaciones de ofertas relámpago?",
+        "number": 296
+    },
+    {
+        "id": "2.1.4.1.2.1",
+        "nombre": "Configuración de alertas",
+        "number": 297
+    },
+    {
+        "id": "2.1.4.1.2.1.1",
+        "nombre": "Activa las notificaciones en la app.",
+        "number": 298
+    },
+    {
+        "id": "2.1.4.1.2.1.2",
+        "nombre": "Guarda productos para recibir alertas.",
+        "number": 299
+    },
+    {
+        "id": "2.1.4.2",
+        "nombre": "Problemas comunes",
+        "number": 300
+    },
+    {
+        "id": "2.1.4.2.1",
+        "nombre": "¿Por qué no puedo agregar el producto al carrito?",
+        "number": 301
+    },
+    {
+        "id": "2.1.4.2.1.1",
+        "nombre": "Causas comunes",
+        "number": 302
+    },
+    {
+        "id": "2.1.4.2.1.1.1",
+        "nombre": "El producto se agotó.",
+        "number": 303
+    },
+    {
+        "id": "2.1.4.2.1.1.2",
+        "nombre": "Llegaste al límite de unidades por usuario.",
+        "number": 304
+    },
+    {
+        "id": "2.1.5",
+        "nombre": "Promociones bancarias",
+        "number": 305
+    },
+    {
+        "id": "2.1.5.1",
+        "nombre": "Meses sin intereses",
+        "number": 306
+    },
+    {
+        "id": "2.1.5.1.1",
+        "nombre": "¿Cómo aplicar meses sin intereses?",
+        "number": 307
+    },
+    {
+        "id": "2.1.5.1.1.1",
+        "nombre": "Pasos para usar meses sin intereses",
+        "number": 308
+    },
+    {
+        "id": "2.1.5.1.1.1.1",
+        "nombre": "Selecciona un producto elegible.",
+        "number": 309
+    },
+    {
+        "id": "2.1.5.1.1.1.2",
+        "nombre": "Elige \"Meses sin intereses\" al pagar.",
+        "number": 310
+    },
+    {
+        "id": "2.1.5.1.1.1.3",
+        "nombre": "Selecciona el plazo deseado.",
+        "number": 311
+    },
+    {
+        "id": "2.1.5.1.2",
+        "nombre": "¿Por qué no aparece la opción de meses sin intereses?",
+        "number": 312
+    },
+    {
+        "id": "2.1.5.1.2.1",
+        "nombre": "Causas comunes",
+        "number": 313
+    },
+    {
+        "id": "2.1.5.1.2.1.1",
+        "nombre": "El producto no es elegible.",
+        "number": 314
+    },
+    {
+        "id": "2.1.5.1.2.1.2",
+        "nombre": "Tu tarjeta no participa en la promoción.",
+        "number": 315
+    },
+    {
+        "id": "2.1.5.2",
+        "nombre": "Descuentos con tarjetas",
+        "number": 316
+    },
+    {
+        "id": "2.1.5.2.1",
+        "nombre": "¿Cómo aplicar un descuento bancario?",
+        "number": 317
+    },
+    {
+        "id": "2.1.5.2.1.1",
+        "nombre": "Pasos para usar descuentos bancarios",
+        "number": 318
+    },
+    {
+        "id": "2.1.5.2.1.1.1",
+        "nombre": "Selecciona un producto elegible.",
+        "number": 319
+    },
+    {
+        "id": "2.1.5.2.1.1.2",
+        "nombre": "Usa una tarjeta participante al pagar.",
+        "number": 320
+    },
+    {
+        "id": "2.1.5.2.1.1.3",
+        "nombre": "Verifica que el descuento se aplique.",
+        "number": 321
+    },
+    {
+        "id": "2.1.6",
+        "nombre": "Promociones Prime",
+        "number": 322
+    },
+    {
+        "id": "2.1.6.1",
+        "nombre": "Ofertas exclusivas",
+        "number": 323
+    },
+    {
+        "id": "2.1.6.1.1",
+        "nombre": "¿Qué es Prime Day?",
+        "number": 324
+    },
+    {
+        "id": "2.1.6.1.1.1",
+        "nombre": "Definición y beneficios",
+        "number": 325
+    },
+    {
+        "id": "2.1.6.1.1.1.1",
+        "nombre": "Evento anual con descuentos exclusivos para miembros Prime.",
+        "number": 326
+    },
+    {
+        "id": "2.1.6.1.2",
+        "nombre": "¿Cómo acceder a ofertas Prime?",
+        "number": 327
+    },
+    {
+        "id": "2.1.6.1.2.1",
+        "nombre": "Pasos para acceder",
+        "number": 328
+    },
+    {
+        "id": "2.1.6.1.2.1.1",
+        "nombre": "Asegúrate de tener una membresía Prime activa.",
+        "number": 329
+    },
+    {
+        "id": "2.1.6.1.2.1.2",
+        "nombre": "Visita la sección \"Ofertas Prime\".",
+        "number": 330
+    },
+    {
+        "id": "2.1.6.2",
+        "nombre": "Problemas comunes",
+        "number": 331
+    },
+    {
+        "id": "2.1.6.2.1",
+        "nombre": "¿Por qué no veo las promociones Prime?",
+        "number": 332
+    },
+    {
+        "id": "2.1.6.2.1.1",
+        "nombre": "Causas comunes",
+        "number": 333
+    },
+    {
+        "id": "2.1.6.2.1.1.1",
+        "nombre": "No tienes una membresía Prime activa.",
+        "number": 334
+    },
+    {
+        "id": "2.1.6.2.1.1.2",
+        "nombre": "Las promociones ya expiraron.",
+        "number": 335
+    },
+    {
+        "id": "2.1.7",
+        "nombre": "Devoluciones y promociones",
+        "number": 336
+    },
+    {
+        "id": "2.1.7.1",
+        "nombre": "¿Pierdo el descuento si devuelvo un producto?",
+        "number": 337
+    },
+    {
+        "id": "2.1.7.1.1",
+        "nombre": "Política de devoluciones con promociones",
+        "number": 338
+    },
+    {
+        "id": "2.1.7.1.1.1",
+        "nombre": "Si devuelves un producto, el descuento no se aplica.",
+        "number": 339
+    },
+    {
+        "id": "2.1.7.1.1.2",
+        "nombre": "El reembolso será por el monto pagado después del descuento.",
+        "number": 340
+    },
+    {
+        "id": "2.1.7.2",
+        "nombre": "¿Cómo afecta una devolución al cashback?",
+        "number": 341
+    },
+    {
+        "id": "2.1.7.2.1",
+        "nombre": "Proceso de devolución con cashback",
+        "number": 342
+    },
+    {
+        "id": "2.1.7.2.1.1",
+        "nombre": "Si devuelves un producto, el cashback se cancela.",
+        "number": 343
+    },
+    {
+        "id": "2.1.7.2.1.1.1",
+        "nombre": "Si el cashback ya fue acreditado, se descontará del reembolso",
+        "number": 344
+    },
+    {
+        "id": "2.2",
+        "nombre": "Productos",
+        "number": 345
+    },
+    {
+        "id": "2.2.1",
+        "nombre": "Tecnologia",
+        "number": 346
+    },
+    {
+        "id": "2.2.1.1",
+        "nombre": "Celulares y accesorios",
+        "number": 347
+    },
+    {
+        "id": "2.2.1.1.1",
+        "nombre": "Informacion Celulares",
+        "number": 348
+    },
+    {
+        "id": "2.2.1.1.2",
+        "nombre": "Problemas Celulares",
+        "number": 349
+    },
+    {
+        "id": "2.2.1.1.3",
+        "nombre": "Reparaciones y Refacciones Celulares",
+        "number": 350
+    },
+    {
+        "id": "2.2.1.1.4",
+        "nombre": "Garantías Celulares",
+        "number": 351
+    },
+    {
+        "id": "2.2.1.1.5",
+        "nombre": "Devolución Celulares",
+        "number": 352
+    },
+    {
+        "id": "2.2.1.2",
+        "nombre": "Computo",
+        "number": 353
+    },
+    {
+        "id": "2.2.1.2.1",
+        "nombre": "Informacion Computo",
+        "number": 354
+    },
+    {
+        "id": "2.2.1.2.2",
+        "nombre": "Problemas Computo",
+        "number": 355
+    },
+    {
+        "id": "2.2.1.2.3",
+        "nombre": "Reparaciones y Refacciones Computo",
+        "number": 356
+    },
+    {
+        "id": "2.2.1.2.4",
+        "nombre": "Garantías Computo",
+        "number": 357
+    },
+    {
+        "id": "2.2.1.2.5",
+        "nombre": "Devoluciones Computo",
+        "number": 358
+    },
+    {
+        "id": "2.2.1.3",
+        "nombre": "SmartWatch",
+        "number": 359
+    },
+    {
+        "id": "2.2.1.3.1",
+        "nombre": "Informacion SmartWatch",
+        "number": 360
+    },
+    {
+        "id": "2.2.1.3.2",
+        "nombre": "Problemas SmartWatch",
+        "number": 361
+    },
+    {
+        "id": "2.2.1.3.3",
+        "nombre": "Reparaciones y Refacciones SmartWatch",
+        "number": 362
+    },
+    {
+        "id": "2.2.1.3.4",
+        "nombre": "Garantías SmartWatch",
+        "number": 363
+    },
+    {
+        "id": "2.2.1.3.5",
+        "nombre": "Devoluciónes SmartWatch",
+        "number": 364
+    },
+    {
+        "id": "2.2.1.4",
+        "nombre": "Audifonos",
+        "number": 365
+    },
+    {
+        "id": "2.2.1.4.1",
+        "nombre": "Informacion Audifonos",
+        "number": 366
+    },
+    {
+        "id": "2.2.1.4.2",
+        "nombre": "Problemas Audifonos",
+        "number": 367
+    },
+    {
+        "id": "2.2.1.4.3",
+        "nombre": "Reparaciones y Refacciones Audifonos",
+        "number": 368
+    },
+    {
+        "id": "2.2.1.4.4",
+        "nombre": "Garantías Audifonos",
+        "number": 369
+    },
+    {
+        "id": "2.2.1.4.5",
+        "nombre": "Devoluciónes Audifonos",
+        "number": 370
+    },
+    {
+        "id": "2.2.1.5",
+        "nombre": "Camara y fotografia",
+        "number": 371
+    },
+    {
+        "id": "2.2.1.5.1",
+        "nombre": "Informacion Camaras y Fotografia",
+        "number": 372
+    },
+    {
+        "id": "2.2.1.5.2",
+        "nombre": "Problemas Camaras y Fotografia",
+        "number": 373
+    },
+    {
+        "id": "2.2.1.5.3",
+        "nombre": "Problemas Camaras y Fotografia",
+        "number": 374
+    },
+    {
+        "id": "2.2.1.5.4",
+        "nombre": "Reparaciones y Refacciones Camaras y Fotografia",
+        "number": 375
+    },
+    {
+        "id": "2.2.1.5.5",
+        "nombre": "Devoluciónes Camaras y Fotografia",
+        "number": 376
+    },
+    {
+        "id": "2.2.1.6",
+        "nombre": "Television y Video",
+        "number": 377
+    },
+    {
+        "id": "2.2.1.6.1",
+        "nombre": "Informacion Television y Video",
+        "number": 378
+    },
+    {
+        "id": "2.2.1.6.2",
+        "nombre": "Problemas Television y Video",
+        "number": 379
+    },
+    {
+        "id": "2.2.1.6.3",
+        "nombre": "Problemas Television y Video",
+        "number": 380
+    },
+    {
+        "id": "2.2.1.6.4",
+        "nombre": "Reparaciones y Refacciones Television y Video",
+        "number": 381
+    },
+    {
+        "id": "2.2.1.6.5",
+        "nombre": "Garantías Television y Video",
+        "number": 382
+    },
+    {
+        "id": "2.2.1.7",
+        "nombre": "Audio y Equipos de Sonido",
+        "number": 383
+    },
+    {
+        "id": "2.2.1.7.1",
+        "nombre": "Informacion Audio y Equipo de Sonido",
+        "number": 384
+    },
+    {
+        "id": "2.2.1.7.2",
+        "nombre": "Problemas Audio y Equipo de Sonido",
+        "number": 385
+    },
+    {
+        "id": "2.2.1.7.3",
+        "nombre": "Reparaciones y Refacciones Audio y Equipo de Sonido",
+        "number": 386
+    },
+    {
+        "id": "2.2.1.7.4",
+        "nombre": "Garantías Audio y Equipo de Sonido",
+        "number": 387
+    },
+    {
+        "id": "2.2.1.7.5",
+        "nombre": "Devoluciones Audio y Equipo de Sonido",
+        "number": 388
+    },
+    {
+        "id": "2.2.1.8",
+        "nombre": "Instrumentos musicales",
+        "number": 389
+    },
+    {
+        "id": "2.2.1.8.1",
+        "nombre": "Informacion Instrumentos Musicales",
+        "number": 390
+    },
+    {
+        "id": "2.2.1.8.2",
+        "nombre": "Problemas Instrumentos Musicales",
+        "number": 391
+    },
+    {
+        "id": "2.2.1.8.3",
+        "nombre": "Reparaciones y Refacciones Instrumentos Musicales",
+        "number": 392
+    },
+    {
+        "id": "2.2.1.8.4",
+        "nombre": "Garantías Instrumentos Musicales",
+        "number": 393
+    },
+    {
+        "id": "2.2.1.8.5",
+        "nombre": "Devoluciones Instrumentos Musicales",
+        "number": 394
+    },
+    {
+        "id": "2.2.1.9",
+        "nombre": "Componentes",
+        "number": 395
+    },
+    {
+        "id": "2.2.1.9.1",
+        "nombre": "Informacion Componentes",
+        "number": 396
+    },
+    {
+        "id": "2.2.1.9.2",
+        "nombre": "Problemas Componentes",
+        "number": 397
+    },
+    {
+        "id": "2.2.1.9.3",
+        "nombre": "Reparaciones y Refacciones Componentes",
+        "number": 398
+    },
+    {
+        "id": "2.2.1.9.4",
+        "nombre": "Garantías Componentes",
+        "number": 399
+    },
+    {
+        "id": "2.2.1.9.5",
+        "nombre": "Devoluciones Componentes",
+        "number": 400
+    },
+    {
+        "id": "2.2.1.10",
+        "nombre": "Pilas y cargadores",
+        "number": 401
+    },
+    {
+        "id": "2.2.1.10.1",
+        "nombre": "Informacion Pilas y Cargadores",
+        "number": 402
+    },
+    {
+        "id": "2.2.1.10.2",
+        "nombre": "Problemas Pilas y Cargadores",
+        "number": 403
+    },
+    {
+        "id": "2.2.1.10.3",
+        "nombre": "Reparaciones y Refacciones Pilas y Cargadores",
+        "number": 404
+    },
+    {
+        "id": "2.2.1.10.4",
+        "nombre": "Garantías Pilas y Cargadores",
+        "number": 405
+    },
+    {
+        "id": "2.2.1.10.5",
+        "nombre": "Devoluciones Pilas y Cargadores",
+        "number": 406
+    },
+    {
+        "id": "2.2.1.11",
+        "nombre": "Tabletas",
+        "number": 407
+    },
+    {
+        "id": "2.2.1.11.1",
+        "nombre": "Informacion Tabletas",
+        "number": 408
+    },
+    {
+        "id": "2.2.1.11.2",
+        "nombre": "Problemas Tabletas",
+        "number": 409
+    },
+    {
+        "id": "2.2.1.11.3",
+        "nombre": "Reparacion y Refacciones Tabletas",
+        "number": 410
+    },
+    {
+        "id": "2.2.1.11.4",
+        "nombre": "Garantías Tabletas",
+        "number": 411
+    },
+    {
+        "id": "2.2.1.11.5",
+        "nombre": "Devoluciones Tabletas",
+        "number": 412
+    },
+    {
+        "id": "2.2.1.12",
+        "nombre": "Oficina y papeleria",
+        "number": 413
+    },
+    {
+        "id": "2.2.1.12.1",
+        "nombre": "Informacion Oficina y Papeleria",
+        "number": 414
+    },
+    {
+        "id": "2.2.1.12.2",
+        "nombre": "Problemas Oficina y Papeleria",
+        "number": 415
+    },
+    {
+        "id": "2.2.1.12.3",
+        "nombre": "Reparaciones y Refacciones Oficina y Papeleria",
+        "number": 416
+    },
+    {
+        "id": "2.2.1.12.4",
+        "nombre": "Garantías Oficina y Papeleria",
+        "number": 417
+    },
+    {
+        "id": "2.2.1.12.5",
+        "nombre": "Devoluciones Oficina y Papeleria",
+        "number": 418
+    },
+    {
+        "id": "2.2.2",
+        "nombre": "Hogar y Cocina",
+        "number": 419
+    },
+    {
+        "id": "2.2.2.1",
+        "nombre": "Electrodomesticos",
+        "number": 420
+    },
+    {
+        "id": "2.2.2.1.1",
+        "nombre": "Lavadoras",
+        "number": 421
+    },
+    {
+        "id": "2.2.2.1.1.1",
+        "nombre": "Informacion Lavadoras",
+        "number": 422
+    },
+    {
+        "id": "2.2.2.1.1.2",
+        "nombre": "Problemas Lavadoras",
+        "number": 423
+    },
+    {
+        "id": "2.2.2.1.1.3",
+        "nombre": "Reparaciones y Refacciones Lavadoras",
+        "number": 424
+    },
+    {
+        "id": "2.2.2.1.1.4",
+        "nombre": "Garantías Lavadoras",
+        "number": 425
+    },
+    {
+        "id": "2.2.2.1.1.5",
+        "nombre": "Devoluciones Lavadoras",
+        "number": 426
+    },
+    {
+        "id": "2.2.2.1.2",
+        "nombre": "Refirgeradores",
+        "number": 427
+    },
+    {
+        "id": "2.2.2.1.2.1",
+        "nombre": "Informacion Refrigeradores",
+        "number": 428
+    },
+    {
+        "id": "2.2.2.1.2.2",
+        "nombre": "Problemas Refrigeradores",
+        "number": 429
+    },
+    {
+        "id": "2.2.2.1.2.3",
+        "nombre": "Reparaciones y Refacciones Refrigeradores",
+        "number": 430
+    },
+    {
+        "id": "2.2.2.1.2.4",
+        "nombre": "Garantías Refrigeradores",
+        "number": 431
+    },
+    {
+        "id": "2.2.2.1.2.5",
+        "nombre": "Devoluciones Refrigeradores",
+        "number": 432
+    },
+    {
+        "id": "2.2.2.1.3",
+        "nombre": "Estufas",
+        "number": 433
+    },
+    {
+        "id": "2.2.2.1.3.1",
+        "nombre": "Informacion Estufas",
+        "number": 434
+    },
+    {
+        "id": "2.2.2.1.3.2",
+        "nombre": "Problemas Estufas",
+        "number": 435
+    },
+    {
+        "id": "2.2.2.1.3.3",
+        "nombre": "Reparaciones y Refacciones Estufas",
+        "number": 436
+    },
+    {
+        "id": "2.2.2.1.3.4",
+        "nombre": "Garantías Estufas",
+        "number": 437
+    },
+    {
+        "id": "2.2.2.1.3.5",
+        "nombre": "Devoluciones Estufas",
+        "number": 438
+    },
+    {
+        "id": "2.2.2.1.4",
+        "nombre": "Climatizacion y Calefaccion",
+        "number": 439
+    },
+    {
+        "id": "2.2.2.1.4.1",
+        "nombre": "Informacion Climatizacion y Calefaccion",
+        "number": 440
+    },
+    {
+        "id": "2.2.2.1.4.2",
+        "nombre": "Problemas Climatizacion y Calefaccion",
+        "number": 441
+    },
+    {
+        "id": "2.2.2.1.4.3",
+        "nombre": "Reparaciones y Refacciones Climatizacion y Calefaccion",
+        "number": 442
+    },
+    {
+        "id": "2.2.2.1.4.4",
+        "nombre": "Garantías Climatizacion y Calefaccion",
+        "number": 443
+    },
+    {
+        "id": "2.2.2.1.4.5",
+        "nombre": "Devoluciones Climatizacion y Calefaccion",
+        "number": 444
+    },
+    {
+        "id": "2.2.2.1.5",
+        "nombre": "Iluminacion",
+        "number": 445
+    },
+    {
+        "id": "2.2.2.1.5.1",
+        "nombre": "Informacion Iluminacion",
+        "number": 446
+    },
+    {
+        "id": "2.2.2.1.5.2",
+        "nombre": "Problemas Iluminacion",
+        "number": 447
+    },
+    {
+        "id": "2.2.2.1.5.3",
+        "nombre": "Reparaciones y Refacciones Iluminacion",
+        "number": 448
+    },
+    {
+        "id": "2.2.2.1.5.4",
+        "nombre": "Garantías Iluminacion",
+        "number": 449
+    },
+    {
+        "id": "2.2.2.1.5.5",
+        "nombre": "Devoluciones Iluminacion",
+        "number": 450
+    },
+    {
+        "id": "2.2.2.2",
+        "nombre": "Ropa",
+        "number": 451
+    },
+    {
+        "id": "2.2.2.2.1",
+        "nombre": "Tallas Ropa",
+        "number": 452
+    },
+    {
+        "id": "2.2.2.2.2",
+        "nombre": "Informacion Ropa",
+        "number": 453
+    },
+    {
+        "id": "2.2.2.2.3",
+        "nombre": "Genero ropa",
+        "number": 454
+    },
+    {
+        "id": "2.2.2.2.4",
+        "nombre": "Reseñas Ropa",
+        "number": 455
+    },
+    {
+        "id": "2.2.2.2.5",
+        "nombre": "Promociones ropa",
+        "number": 456
+    },
+    {
+        "id": "2.2.2.2.6",
+        "nombre": "Garantias ropa",
+        "number": 457
+    },
+    {
+        "id": "2.2.2.2.7",
+        "nombre": "Devoluciones Ropa",
+        "number": 458
+    },
+    {
+        "id": "2.2.2.3",
+        "nombre": "Muebles y decoración",
+        "number": 459
+    },
+    {
+        "id": "2.2.2.3.1",
+        "nombre": "Libreros para sala",
+        "number": 460
+    },
+    {
+        "id": "2.2.2.3.1.1",
+        "nombre": "Informacion Libreros para Sala",
+        "number": 461
+    },
+    {
+        "id": "2.2.2.3.1.2",
+        "nombre": "Problemas Libreros para Sala",
+        "number": 462
+    },
+    {
+        "id": "2.2.2.3.1.3",
+        "nombre": "Reparaciones y Refacciones Libreros para Sala",
+        "number": 463
+    },
+    {
+        "id": "2.2.2.3.1.4",
+        "nombre": "Garantias Libreros para Sala",
+        "number": 464
+    },
+    {
+        "id": "2.2.2.3.1.5",
+        "nombre": "Devoluciones Libreros para Sala",
+        "number": 465
+    },
+    {
+        "id": "2.2.2.3.2",
+        "nombre": "Muebles para TV",
+        "number": 466
+    },
+    {
+        "id": "2.2.2.3.2.1",
+        "nombre": "Informacion Muebles para TV",
+        "number": 467
+    },
+    {
+        "id": "2.2.2.3.2.2",
+        "nombre": "Problemas Muebles para TV",
+        "number": 468
+    },
+    {
+        "id": "2.2.2.3.2.3",
+        "nombre": "Reparaciones y Refacciones Muebles para TV",
+        "number": 469
+    },
+    {
+        "id": "2.2.2.3.2.4",
+        "nombre": "Garantias Muebles para TV",
+        "number": 470
+    },
+    {
+        "id": "2.2.2.3.2.5",
+        "nombre": "Devoluciones Muebles para TV",
+        "number": 471
+    },
+    {
+        "id": "2.2.2.3.3",
+        "nombre": "Comodas y Cajoneras",
+        "number": 472
+    },
+    {
+        "id": "2.2.2.3.3.1",
+        "nombre": "Informacion Comodas y Cajoneras",
+        "number": 473
+    },
+    {
+        "id": "2.2.2.3.3.2",
+        "nombre": "Problemas Comodas y Cajoneras",
+        "number": 474
+    },
+    {
+        "id": "2.2.2.3.3.3",
+        "nombre": "Reparaciones y Refacciones Comodas y Cajoneras",
+        "number": 475
+    },
+    {
+        "id": "2.2.2.3.3.4",
+        "nombre": "Garantias Comodas y Cajoneras",
+        "number": 476
+    },
+    {
+        "id": "2.2.2.3.3.5",
+        "nombre": "Devoluciones Comodas y Cajoneras",
+        "number": 477
+    },
+    {
+        "id": "2.2.2.3.4",
+        "nombre": "Buros",
+        "number": 478
+    },
+    {
+        "id": "2.2.2.3.4.1",
+        "nombre": "Informacion Buros",
+        "number": 479
+    },
+    {
+        "id": "2.2.2.3.4.2",
+        "nombre": "Problemas Buros",
+        "number": 480
+    },
+    {
+        "id": "2.2.2.3.4.3",
+        "nombre": "Reparaciones y Refacciones Buros",
+        "number": 481
+    },
+    {
+        "id": "2.2.2.3.4.4",
+        "nombre": "Garantias Buros",
+        "number": 482
+    },
+    {
+        "id": "2.2.2.3.4.5",
+        "nombre": "Devoluciones Buros",
+        "number": 483
+    },
+    {
+        "id": "2.2.2.3.5",
+        "nombre": "Mesas de Sala",
+        "number": 484
+    },
+    {
+        "id": "2.2.2.3.5.1",
+        "nombre": "Informacion Mesas de Sala",
+        "number": 485
+    },
+    {
+        "id": "2.2.2.3.5.2",
+        "nombre": "Problemas Mesas de Sala",
+        "number": 486
+    },
+    {
+        "id": "2.2.2.3.5.3",
+        "nombre": "Reparaciones y Refacciones Mesas de Sala",
+        "number": 487
+    },
+    {
+        "id": "2.2.2.3.5.4",
+        "nombre": "Garantias Mesas de Sala",
+        "number": 488
+    },
+    {
+        "id": "2.2.2.3.5.5",
+        "nombre": "Devoluciones Mesas de Sala",
+        "number": 489
+    },
+    {
+        "id": "2.2.2.3.6",
+        "nombre": "Mesas de Comedor",
+        "number": 490
+    },
+    {
+        "id": "2.2.2.3.6.1",
+        "nombre": "Informacion Mesas de Comedor",
+        "number": 491
+    },
+    {
+        "id": "2.2.2.3.6.2",
+        "nombre": "Problemas Mesas de Comedor",
+        "number": 492
+    },
+    {
+        "id": "2.2.2.3.6.3",
+        "nombre": "Reparaciones y Refacciones Mesas de Comedor",
+        "number": 493
+    },
+    {
+        "id": "2.2.2.3.6.4",
+        "nombre": "Garantias Mesas de Comedor",
+        "number": 494
+    },
+    {
+        "id": "2.2.2.3.6.5",
+        "nombre": "Devoluciones Mesas de Comedor",
+        "number": 495
+    },
+    {
+        "id": "2.2.2.3.7",
+        "nombre": "Decorado del Hogar",
+        "number": 496
+    },
+    {
+        "id": "2.2.2.3.7.1",
+        "nombre": "Informacion Decorado del Hogar",
+        "number": 497
+    },
+    {
+        "id": "2.2.2.3.7.2",
+        "nombre": "Problemas Decorado del Hogar",
+        "number": 498
+    },
+    {
+        "id": "2.2.2.3.7.3",
+        "nombre": "Reparaciones y Refacciones Decorado del Hogar",
+        "number": 499
+    },
+    {
+        "id": "2.2.2.3.7.4",
+        "nombre": "Garantias Decorado del Hogar",
+        "number": 500
+    },
+    {
+        "id": "2.2.2.3.7.5",
+        "nombre": "Devoluciones Decorado del Hogar",
+        "number": 501
+    },
+    {
+        "id": "2.2.2.4",
+        "nombre": "Baño",
+        "number": 502
+    },
+    {
+        "id": "2.2.2.4.1",
+        "nombre": "Regaderas",
+        "number": 503
+    },
+    {
+        "id": "2.2.2.5",
+        "nombre": "Higiene",
+        "number": 504
+    },
+    {
+        "id": "2.2.2.5.1",
+        "nombre": "Cuidado personal",
+        "number": 505
+    },
+    {
+        "id": "2.2.2.5.2",
+        "nombre": "Genero",
+        "number": 506
+    },
+    {
+        "id": "2.2.2.5.3",
+        "nombre": "Cara",
+        "number": 507
+    },
+    {
+        "id": "2.2.2.5.4",
+        "nombre": "Cuerpo",
+        "number": 508
+    },
+    {
+        "id": "2.2.3",
+        "nombre": "Entretenimiento",
+        "number": 509
+    },
+    {
+        "id": "2.2.3.1",
+        "nombre": "Videojuegos",
+        "number": 510
+    },
+    {
+        "id": "2.2.3.2",
+        "nombre": "Libros",
+        "number": 511
+    },
+    {
+        "id": "2.2.3.3",
+        "nombre": "Juegos de mesa",
+        "number": 512
+    },
+    {
+        "id": "2.2.4",
+        "nombre": "Mascotas",
+        "number": 513
+    },
+    {
+        "id": "2.2.4.1",
+        "nombre": "Gatos",
+        "number": 514
+    },
+    {
+        "id": "2.2.4.2",
+        "nombre": "Perros",
+        "number": 515
+    },
+    {
+        "id": "2.2.4.3",
+        "nombre": "Peces",
+        "number": 516
+    },
+    {
+        "id": "2.2.5",
+        "nombre": "Deportes",
+        "number": 517
+    },
+    {
+        "id": "2.2.5.1",
+        "nombre": "Futbol",
+        "number": 518
+    },
+    {
+        "id": "2.2.5.2",
+        "nombre": "Beisbol",
+        "number": 519
+    },
+    {
+        "id": "2.2.5.3",
+        "nombre": "Tenis",
+        "number": 520
+    },
+    {
+        "id": "2.2.5.4",
+        "nombre": "Voleibol",
+        "number": 521
+    },
+    {
+        "id": "2.2.5.5",
+        "nombre": "Artes Marciales",
+        "number": 522
+    },
+    {
+        "id": "2.2.5.6",
+        "nombre": "Atletismo",
+        "number": 523
+    },
+    {
+        "id": "2.2.5.7",
+        "nombre": "Balonmano",
+        "number": 524
+    },
+    {
+        "id": "2.2.5.8",
+        "nombre": "Basquetbol",
+        "number": 525
+    },
+    {
+        "id": "2.2.5.9",
+        "nombre": "Billar",
+        "number": 526
+    },
+    {
+        "id": "2.2.5.10",
+        "nombre": "Boliche",
+        "number": 527
+    },
+    {
+        "id": "2.2.5.11",
+        "nombre": "Box",
+        "number": 528
+    },
+    {
+        "id": "2.2.5.12",
+        "nombre": "Badminton",
+        "number": 529
+    },
+    {
+        "id": "2.2.5.13",
+        "nombre": "Caza",
+        "number": 530
+    },
+    {
+        "id": "2.2.5.14",
+        "nombre": "Ciclismo",
+        "number": 531
+    },
+    {
+        "id": "2.2.5.15",
+        "nombre": "Correr",
+        "number": 532
+    },
+    {
+        "id": "2.2.5.16",
+        "nombre": "Criquet",
+        "number": 533
+    },
+    {
+        "id": "2.2.5.17",
+        "nombre": "Deportes acuaticos",
+        "number": 534
+    },
+    {
+        "id": "2.2.5.18",
+        "nombre": "Deportes Ecuestres",
+        "number": 535
+    },
+    {
+        "id": "2.2.5.19",
+        "nombre": "Deportes de disco",
+        "number": 536
+    },
+    {
+        "id": "2.2.5.20",
+        "nombre": "Deportes de invierno",
+        "number": 537
+    },
+    {
+        "id": "2.2.5.21",
+        "nombre": "Futbol Americano",
+        "number": 538
+    },
+    {
+        "id": "2.2.5.22",
+        "nombre": "Gimnasia",
+        "number": 539
+    },
+    {
+        "id": "2.2.5.23",
+        "nombre": "Hockey",
+        "number": 540
+    },
+    {
+        "id": "2.2.5.24",
+        "nombre": "Lucha Libre",
+        "number": 541
+    },
+    {
+        "id": "2.2.5.25",
+        "nombre": "Patinaje",
+        "number": 542
+    },
+    {
+        "id": "2.2.5.26",
+        "nombre": "Pesca",
+        "number": 543
+    },
+    {
+        "id": "2.2.5.27",
+        "nombre": "Ping Pong",
+        "number": 544
+    },
+    {
+        "id": "2.2.5.28",
+        "nombre": "Polo",
+        "number": 545
+    },
+    {
+        "id": "2.2.5.29",
+        "nombre": "Pádel",
+        "number": 546
+    },
+    {
+        "id": "2.2.5.30",
+        "nombre": "Ropa deportiva",
+        "number": 547
+    },
+    {
+        "id": "2.2.5.31",
+        "nombre": "Rugby",
+        "number": 548
+    },
+    {
+        "id": "2.2.5.32",
+        "nombre": "Softball",
+        "number": 549
+    },
+    {
+        "id": "2.2.5.33",
+        "nombre": "Tiro con Arco",
+        "number": 550
+    },
+    {
+        "id": "2.2.5.34",
+        "nombre": "Trofeos,medallas y premios",
+        "number": 551
+    },
+    {
+        "id": "2.2.6",
+        "nombre": "Juguetes",
+        "number": 552
+    },
+    {
+        "id": "2.2.6.1",
+        "nombre": "Niños",
+        "number": 553
+    },
+    {
+        "id": "2.2.6.2",
+        "nombre": "Niñas",
+        "number": 554
+    },
+    {
+        "id": "2.2.6.3",
+        "nombre": "Mesa",
+        "number": 555
+    },
+    {
+        "id": "2.2.6.4",
+        "nombre": "Educativos",
+        "number": 556
+    },
+    {
+        "id": "2.2.6.5",
+        "nombre": "Peluches",
+        "number": 557
+    },
+    {
+        "id": "2.2.6.6",
+        "nombre": "Bebés",
+        "number": 558
+    },
+    {
+        "id": "2.2.6.7",
+        "nombre": "Bloques",
+        "number": 559
+    },
+    {
+        "id": "2.2.6.8",
+        "nombre": "Juguetes electronicos",
+        "number": 560
+    },
+    {
+        "id": "2.2.6.9",
+        "nombre": "Al aire libre",
+        "number": 561
+    },
+    {
+        "id": "2.2.6.10",
+        "nombre": "Disfraces",
+        "number": 562
+    },
+    {
+        "id": "2.2.7",
+        "nombre": "Auto",
+        "number": 563
+    },
+    {
+        "id": "2.2.7.1",
+        "nombre": "Accesorios para coche",
+        "number": 564
+    },
+    {
+        "id": "2.2.7.2",
+        "nombre": "Aceites y fluidos",
+        "number": 565
+    },
+    {
+        "id": "2.2.7.3",
+        "nombre": "Cuidado de coche y moto",
+        "number": 566
+    },
+    {
+        "id": "2.2.7.4",
+        "nombre": "Herramientas para coche",
+        "number": 567
+    },
+    {
+        "id": "2.2.7.5",
+        "nombre": "Llantas y rines para coche",
+        "number": 568
+    },
+    {
+        "id": "2.2.7.6",
+        "nombre": "Partes y refacciones",
+        "number": 569
+    },
+    {
+        "id": "2.2.7.7",
+        "nombre": "Pintura",
+        "number": 570
+    },
+    {
+        "id": "2.2.8",
+        "nombre": "Jardin",
+        "number": 571
+    },
+    {
+        "id": "2.2.8.1",
+        "nombre": "Parrillas",
+        "number": 572
+    },
+    {
+        "id": "2.2.8.2",
+        "nombre": "Muebles para patio",
+        "number": 573
+    },
+    {
+        "id": "2.2.8.3",
+        "nombre": "Sillas para patio",
+        "number": 574
+    },
+    {
+        "id": "2.2.8.4",
+        "nombre": "Tolods,sombrillas y pérgolas",
+        "number": 575
+    },
+    {
+        "id": "2.2.8.5",
+        "nombre": "Macetas",
+        "number": 576
+    },
+    {
+        "id": "2.2.8.6",
+        "nombre": "Iluminación de exteriores",
+        "number": 577
+    },
+    {
+        "id": "2.2.8.7",
+        "nombre": "Podadoras y tractores",
+        "number": 578
+    },
+    {
+        "id": "2.2.8.8",
+        "nombre": "Decoración",
+        "number": 579
+    },
+    {
+        "id": "2.2.8.9",
+        "nombre": "Albercas y jacuzzis",
+        "number": 580
+    },
+    {
+        "id": "2.2.8.10",
+        "nombre": "Plantas artificiales",
+        "number": 581
+    },
+    {
+        "id": "2.2.8.11",
+        "nombre": "Herramienta de jardineria",
+        "number": 582
+    }
+]

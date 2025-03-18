@@ -1,13 +1,13 @@
 [
     {
-        "nombre": "soporte y ayuda",
+        "nombre": "Soporte y ayuda",
         "id": "1",
         "Expresion": "soporte|ayuda|soporte y ayuda|necesito|ayudame|ayudar|tecnico|duda",
         "Respuesta": "Hemos detectado que necesitas contactar con soporte y ayuda, por favor, dime cual es tu problema.",
         "number": 1
     },
     {
-        "nombre": "pedidos",
+        "nombre": "Pedidos",
         "id": "1.1",
         "Expresion": "pedido|paquete|pedidos|producto|productos|compra|compras",
         "Respuesta": "¿Que inconveniente tienes con tu pedido?¿Necesitas darle seguimiento a un pedido, tuviste algun problema, quieres cancelar o modificar una direccion?",
@@ -168,7 +168,7 @@
         "number": 24
     },
     {
-        "nombre": "Asignar una calificación",
+        "nombre": "Asignar una calificacion",
         "id": "1.2.2.1",
         "Expresion": "asignar|añadir|calificacion|poner|dar",
         "Respuesta": "Para poder asignar una calificación debes de dirigirte al producto y escribir una reseña, ahi puedes agregar una calificación al producto.",
@@ -182,7 +182,7 @@
         "number": 26
     },
     {
-        "nombre": "Administar mis reseñas",
+        "nombre": "Administrar mis reseñas",
         "id": "1.2.3",
         "Expresion": "administrar|ver|revisar|verificar",
         "Respuesta": "¿Deseas elminar alguna reseña o actualizar?",
@@ -2292,7 +2292,7 @@
         "nombre": "Productos",
         "id": "2.2",
         "Expresion": "producto|productos|articulo|articulos|items",
-        "Respuesta": "¿De que categoría es tu producto?\nTecnología\nHogar y Cocina (Electrodomesticos, ropa, Muebles y decoracion, baño)\nHigiene\nEntretenimiento\nMascotas\nDeportes\nJuguetes\nAutos\nJardin",
+        "Respuesta": "¿De que categoría es tu producto?",
         "number": 345
     },
     {

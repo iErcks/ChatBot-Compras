@@ -1,0 +1,2130 @@
+[
+    {
+        "nombre": "Soporte y ayuda",
+        "id": "1"
+    },
+    {
+        "nombre": "Pedidos",
+        "id": "2"
+    },
+    {
+        "nombre": "Seguimiento",
+        "id": "3"
+    },
+    {
+        "nombre": "Rastreo",
+        "id": "4"
+    },
+    {
+        "nombre": "Fecha de entrega",
+        "id": "5"
+    },
+    {
+        "nombre": "Problemas",
+        "id": "6"
+    },
+    {
+        "nombre": "Retardos",
+        "id": "7"
+    },
+    {
+        "nombre": "Paquete dañado",
+        "id": "8"
+    },
+    {
+        "nombre": "Paquete abierto",
+        "id": "9"
+    },
+    {
+        "nombre": "No llego el pedido",
+        "id": "10"
+    },
+    {
+        "nombre": "Llego otro pedido",
+        "id": "11"
+    },
+    {
+        "nombre": "Paquete incompleto",
+        "id": "12"
+    },
+    {
+        "nombre": "Direccion incorrecta",
+        "id": "13"
+    },
+    {
+        "nombre": "Cancelar pedido",
+        "id": "14"
+    },
+    {
+        "nombre": "Razon",
+        "id": "15"
+    },
+    {
+        "nombre": "Modificar direccion",
+        "id": "16"
+    },
+    {
+        "nombre": "Antes de envio",
+        "id": "17"
+    },
+    {
+        "nombre": "Despues de comprar un producto",
+        "id": "18"
+    },
+    {
+        "nombre": "Añadir reseña",
+        "id": "19"
+    },
+    {
+        "nombre": "Tipos de reseñas",
+        "id": "20"
+    },
+    {
+        "nombre": "Sobre vendedores",
+        "id": "21"
+    },
+    {
+        "nombre": "Sobre productos",
+        "id": "22"
+    },
+    {
+        "nombre": "Sobre experiencias con paqueteria",
+        "id": "23"
+    },
+    {
+        "nombre": "Formas de escribir una reseña",
+        "id": "24"
+    },
+    {
+        "nombre": "Asignar una calificacion",
+        "id": "25"
+    },
+    {
+        "nombre": "Agregar fotos",
+        "id": "26"
+    },
+    {
+        "nombre": "Administrar mis reseñas",
+        "id": "27"
+    },
+    {
+        "nombre": "Eliminar reseñas",
+        "id": "28"
+    },
+    {
+        "nombre": "Actualizar reseñas",
+        "id": "29"
+    },
+    {
+        "nombre": "Reembolsos",
+        "id": "30"
+    },
+    {
+        "nombre": "Metodos de reembolso",
+        "id": "31"
+    },
+    {
+        "nombre": "Devolucion a tarjeta original",
+        "id": "32"
+    },
+    {
+        "nombre": "Credito Amazon",
+        "id": "33"
+    },
+    {
+        "nombre": "Otros metodos alternativos",
+        "id": "34"
+    },
+    {
+        "nombre": "Procesamiento",
+        "id": "35"
+    },
+    {
+        "nombre": "Tiempos estimados según método",
+        "id": "36"
+    },
+    {
+        "nombre": "Reembolso parcial vs. completo",
+        "id": "37"
+    },
+    {
+        "nombre": "Verificación de recepción de reembolso",
+        "id": "38"
+    },
+    {
+        "nombre": "Fecha estimada de reembolso",
+        "id": "39"
+    },
+    {
+        "nombre": "Resolución de problemas",
+        "id": "40"
+    },
+    {
+        "nombre": "Reembolso no recibido",
+        "id": "41"
+    },
+    {
+        "nombre": "Monto incorrecto",
+        "id": "42"
+    },
+    {
+        "nombre": "Método de reembolso incorrecto",
+        "id": "43"
+    },
+    {
+        "nombre": "Escalamiento a servicio humano",
+        "id": "44"
+    },
+    {
+        "nombre": "Devoluciones",
+        "id": "45"
+    },
+    {
+        "nombre": "Iniciación de Devolución",
+        "id": "46"
+    },
+    {
+        "nombre": "Motivos de devolución",
+        "id": "47"
+    },
+    {
+        "nombre": "Problemas con el producto",
+        "id": "48"
+    },
+    {
+        "nombre": "Garantía (Error de fábrica)",
+        "id": "49"
+    },
+    {
+        "nombre": "Producto equivocado",
+        "id": "50"
+    },
+    {
+        "nombre": "Insatisfecho",
+        "id": "51"
+    },
+    {
+        "nombre": "No cumplió expectativas",
+        "id": "52"
+    },
+    {
+        "nombre": "No me gustó",
+        "id": "53"
+    },
+    {
+        "nombre": "Prefiero no responder Seguimiento de devolución",
+        "id": "54"
+    },
+    {
+        "nombre": "Reglas de verificación",
+        "id": "55"
+    },
+    {
+        "nombre": "Verificación de elegibilidad según política",
+        "id": "56"
+    },
+    {
+        "nombre": "Solicitud de evidencia fotográfica",
+        "id": "57"
+    },
+    {
+        "nombre": "Comparación con descripción original",
+        "id": "58"
+    },
+    {
+        "nombre": "Verificación de fecha de compra",
+        "id": "59"
+    },
+    {
+        "nombre": "Seguimiento de Devolución",
+        "id": "60"
+    },
+    {
+        "nombre": "Estados de la devolución",
+        "id": "61"
+    },
+    {
+        "nombre": "Solicitada",
+        "id": "62"
+    },
+    {
+        "nombre": "Aprobada",
+        "id": "63"
+    },
+    {
+        "nombre": "En proceso",
+        "id": "64"
+    },
+    {
+        "nombre": "Recolección programada",
+        "id": "65"
+    },
+    {
+        "nombre": "Recibida",
+        "id": "66"
+    },
+    {
+        "nombre": "Procesada",
+        "id": "67"
+    },
+    {
+        "nombre": "Completada",
+        "id": "68"
+    },
+    {
+        "nombre": "Información de Seguimiento",
+        "id": "69"
+    },
+    {
+        "nombre": "Estado actual",
+        "id": "70"
+    },
+    {
+        "nombre": "Fecha de recolección",
+        "id": "71"
+    },
+    {
+        "nombre": "Historial de cambios de estado",
+        "id": "72"
+    },
+    {
+        "nombre": "Logística de Devolución",
+        "id": "73"
+    },
+    {
+        "nombre": "Opciones de devolución",
+        "id": "74"
+    },
+    {
+        "nombre": "Recolección a domicilio",
+        "id": "75"
+    },
+    {
+        "nombre": "Entrega en sucursal",
+        "id": "76"
+    },
+    {
+        "nombre": "Envío por cuenta propia",
+        "id": "77"
+    },
+    {
+        "nombre": "Instrucciones específicas",
+        "id": "78"
+    },
+    {
+        "nombre": "Instrucciones de empaquetado",
+        "id": "79"
+    },
+    {
+        "nombre": "Requisitos de documentación",
+        "id": "80"
+    },
+    {
+        "nombre": "Instrucciones de recolección",
+        "id": "81"
+    },
+    {
+        "nombre": "Ubicación de sucursales cercanas",
+        "id": "82"
+    },
+    {
+        "nombre": "Gestión de recolección",
+        "id": "83"
+    },
+    {
+        "nombre": "Programación Inicial",
+        "id": "84"
+    },
+    {
+        "nombre": "Reprogramación por vencimiento",
+        "id": "85"
+    },
+    {
+        "nombre": "Cancelación de recolección",
+        "id": "86"
+    },
+    {
+        "nombre": "Promociones",
+        "id": "87"
+    },
+    {
+        "nombre": "Gestión de promociones activas",
+        "id": "88"
+    },
+    {
+        "nombre": "Catálogo de promociones",
+        "id": "89"
+    },
+    {
+        "nombre": "Descuentos directos",
+        "id": "90"
+    },
+    {
+        "nombre": "Ofertas por temporada",
+        "id": "91"
+    },
+    {
+        "nombre": "Cupones de descuento",
+        "id": "92"
+    },
+    {
+        "nombre": "Promociones por categoría",
+        "id": "93"
+    },
+    {
+        "nombre": "Ofertas relámpago",
+        "id": "94"
+    },
+    {
+        "nombre": "Parámetros de promociones",
+        "id": "95"
+    },
+    {
+        "nombre": "Fechas de validez",
+        "id": "96"
+    },
+    {
+        "nombre": "Requisitos de compra mínima",
+        "id": "97"
+    },
+    {
+        "nombre": "Restricciones geográficas",
+        "id": "98"
+    },
+    {
+        "nombre": "Limitaciones por cuenta",
+        "id": "99"
+    },
+    {
+        "nombre": "Verificación de elegibilidad",
+        "id": "100"
+    },
+    {
+        "nombre": "Criterios de usuario",
+        "id": "101"
+    },
+    {
+        "nombre": "Historial de compras",
+        "id": "102"
+    },
+    {
+        "nombre": "Membresía (Prime/no Prime)",
+        "id": "103"
+    },
+    {
+        "nombre": "Ubicación geográfica",
+        "id": "104"
+    },
+    {
+        "nombre": "Antigüedad de cuenta",
+        "id": "105"
+    },
+    {
+        "nombre": "Criterios de producto",
+        "id": "106"
+    },
+    {
+        "nombre": "Categorías elegibles",
+        "id": "107"
+    },
+    {
+        "nombre": "Exclusiones específicas",
+        "id": "108"
+    },
+    {
+        "nombre": "Marcas participantes",
+        "id": "109"
+    },
+    {
+        "nombre": "Rangos de precio",
+        "id": "110"
+    },
+    {
+        "nombre": "Recomendaciones personalizadas",
+        "id": "111"
+    },
+    {
+        "nombre": "Motor de sugerencias",
+        "id": "112"
+    },
+    {
+        "nombre": "Basado en historial",
+        "id": "113"
+    },
+    {
+        "nombre": "Basado en intereses declarados",
+        "id": "114"
+    },
+    {
+        "nombre": "Basado en tendencias",
+        "id": "115"
+    },
+    {
+        "nombre": "Combinación de promociones",
+        "id": "116"
+    },
+    {
+        "nombre": "Compatibilidad entre promociones",
+        "id": "117"
+    },
+    {
+        "nombre": "Optimización de beneficios",
+        "id": "118"
+    },
+    {
+        "nombre": "Sugerencias de complementos",
+        "id": "119"
+    },
+    {
+        "nombre": "Metodos de pago",
+        "id": "120"
+    },
+    {
+        "nombre": "Problemas con el pago",
+        "id": "121"
+    },
+    {
+        "nombre": "Impuestos y cargos",
+        "id": "122"
+    },
+    {
+        "nombre": "Incluye impuestos",
+        "id": "123"
+    },
+    {
+        "nombre": "Cargos de envio",
+        "id": "124"
+    },
+    {
+        "nombre": "Cargos desconocidos o incorrectos",
+        "id": "125"
+    },
+    {
+        "nombre": "Ver transacciones",
+        "id": "126"
+    },
+    {
+        "nombre": "Cargo de autorizacion",
+        "id": "127"
+    },
+    {
+        "nombre": "Cambiar metodo de pago",
+        "id": "128"
+    },
+    {
+        "nombre": "Metodos de pago digitales",
+        "id": "129"
+    },
+    {
+        "nombre": "Kueski Pay",
+        "id": "130"
+    },
+    {
+        "nombre": "Pago rechazado",
+        "id": "131"
+    },
+    {
+        "nombre": "Costo con financiamiento",
+        "id": "132"
+    },
+    {
+        "nombre": "Meses sin intereses",
+        "id": "133"
+    },
+    {
+        "nombre": "Tarjetas de regalo",
+        "id": "134"
+    },
+    {
+        "nombre": "Tarjetas",
+        "id": "135"
+    },
+    {
+        "nombre": "Vales de despensa",
+        "id": "136"
+    },
+    {
+        "nombre": "Efectivo",
+        "id": "137"
+    },
+    {
+        "nombre": "Recordatorios y notificaciones",
+        "id": "138"
+    },
+    {
+        "nombre": "Pago pendiente",
+        "id": "139"
+    },
+    {
+        "nombre": "Pago rechazado",
+        "id": "140"
+    },
+    {
+        "nombre": "Pago aceptado",
+        "id": "141"
+    },
+    {
+        "nombre": "Factura",
+        "id": "142"
+    },
+    {
+        "nombre": "Facturacion",
+        "id": "143"
+    },
+    {
+        "nombre": "Billetera",
+        "id": "144"
+    },
+    {
+        "nombre": "Actualizar informacion",
+        "id": "145"
+    },
+    {
+        "nombre": "Vales de despensa",
+        "id": "146"
+    },
+    {
+        "nombre": "Kueski Pay",
+        "id": "147"
+    },
+    {
+        "nombre": "Meses sin intereses",
+        "id": "148"
+    },
+    {
+        "nombre": "Costo con financiamiento",
+        "id": "149"
+    },
+    {
+        "nombre": "Metodos de pago digitales",
+        "id": "150"
+    },
+    {
+        "nombre": "Tarjetas de regalo",
+        "id": "151"
+    },
+    {
+        "nombre": "Tarjetas",
+        "id": "152"
+    },
+    {
+        "nombre": "Efectivo",
+        "id": "153"
+    },
+    {
+        "nombre": "Impuestos y cargos",
+        "id": "154"
+    },
+    {
+        "nombre": "Incluye impuestos",
+        "id": "155"
+    },
+    {
+        "nombre": "Cargos de envio",
+        "id": "156"
+    },
+    {
+        "nombre": "Cargos desconocidos o incorrectos",
+        "id": "157"
+    },
+    {
+        "nombre": "Ver transacciones",
+        "id": "158"
+    },
+    {
+        "nombre": "Cargo de autorizacion",
+        "id": "159"
+    },
+    {
+        "nombre": "Recordatorios y notificaciones",
+        "id": "160"
+    },
+    {
+        "nombre": "Pagos",
+        "id": "161"
+    },
+    {
+        "nombre": "Compras",
+        "id": "162"
+    },
+    {
+        "nombre": "Entregas",
+        "id": "163"
+    },
+    {
+        "nombre": "Devoluciones",
+        "id": "164"
+    },
+    {
+        "nombre": "Cuenta",
+        "id": "165"
+    },
+    {
+        "nombre": "Registro y Creación de Cuenta",
+        "id": "166"
+    },
+    {
+        "nombre": "Como crear una cuenta",
+        "id": "167"
+    },
+    {
+        "nombre": "Verificacion de correo o numero de telefono",
+        "id": "168"
+    },
+    {
+        "nombre": "Problemas al registrarse",
+        "id": "169"
+    },
+    {
+        "nombre": "Requisitos para crear una cuenta",
+        "id": "170"
+    },
+    {
+        "nombre": "Inicio de sesión y seguridad",
+        "id": "171"
+    },
+    {
+        "nombre": "Olvide mi contraseña",
+        "id": "172"
+    },
+    {
+        "nombre": "Restablecer contraseña",
+        "id": "173"
+    },
+    {
+        "nombre": "Autenticacion en dos pasos",
+        "id": "174"
+    },
+    {
+        "nombre": "Problemas con inicio de sesión",
+        "id": "175"
+    },
+    {
+        "nombre": "Cambiar nombre de usuario",
+        "id": "176"
+    },
+    {
+        "nombre": "Bloqueo de cuenta",
+        "id": "177"
+    },
+    {
+        "nombre": "Datos personales y perfil",
+        "id": "178"
+    },
+    {
+        "nombre": "Actualizar correo electronico",
+        "id": "179"
+    },
+    {
+        "nombre": "Cambiar numero de telefono",
+        "id": "180"
+    },
+    {
+        "nombre": "Modificar direccion",
+        "id": "181"
+    },
+    {
+        "nombre": "Gestionar preferencias de comunicacion",
+        "id": "182"
+    },
+    {
+        "nombre": "Cambiar foto de perfil",
+        "id": "183"
+    },
+    {
+        "nombre": "Eliminar datos personales",
+        "id": "184"
+    },
+    {
+        "nombre": "Desactivar notificaciones",
+        "id": "185"
+    },
+    {
+        "nombre": "Cambiar frecuencia de notificaciones",
+        "id": "186"
+    },
+    {
+        "nombre": "Metodos de pago y facturacion",
+        "id": "187"
+    },
+    {
+        "nombre": "Agregar o eliminar metodos de pago",
+        "id": "188"
+    },
+    {
+        "nombre": "Problemas con pagos rechazados",
+        "id": "189"
+    },
+    {
+        "nombre": "Ver y descargar facturas",
+        "id": "190"
+    },
+    {
+        "nombre": "Métodos de pago aceptados",
+        "id": "191"
+    },
+    {
+        "nombre": "Cambiar método de pago predeterminado",
+        "id": "192"
+    },
+    {
+        "nombre": "Historial de pedidos y devoluciones",
+        "id": "193"
+    },
+    {
+        "nombre": "Ver pedidos anteriores",
+        "id": "194"
+    },
+    {
+        "nombre": "Solicitar devolucion o  rembolso",
+        "id": "195"
+    },
+    {
+        "nombre": "Estado de deovlucion o reembolso",
+        "id": "196"
+    },
+    {
+        "nombre": "Cancelar pedido",
+        "id": "197"
+    },
+    {
+        "nombre": "Seguimiento de pedidos",
+        "id": "198"
+    },
+    {
+        "nombre": "Devolución de productos defectuosos",
+        "id": "199"
+    },
+    {
+        "nombre": "Eliminar cuenta",
+        "id": "200"
+    },
+    {
+        "nombre": "Contactar con soporte",
+        "id": "201"
+    },
+    {
+        "nombre": "Reportar un problema técnico",
+        "id": "202"
+    },
+    {
+        "nombre": "Política de privacidad",
+        "id": "203"
+    },
+    {
+        "nombre": "Cerrar sesión en todos los dispositivos",
+        "id": "204"
+    },
+    {
+        "nombre": "Quejas y reclamos",
+        "id": "205"
+    },
+    {
+        "nombre": "Pedidos y Entregas",
+        "id": "206"
+    },
+    {
+        "nombre": "Pedido no recibido",
+        "id": "207"
+    },
+    {
+        "nombre": "Producto dañado o incorrecto",
+        "id": "208"
+    },
+    {
+        "nombre": "Retrasos en la entrega",
+        "id": "209"
+    },
+    {
+        "nombre": "Facturación y Pagos",
+        "id": "210"
+    },
+    {
+        "nombre": "Cobros indebidos",
+        "id": "211"
+    },
+    {
+        "nombre": "Problemas con reembolsos",
+        "id": "212"
+    },
+    {
+        "nombre": "Facturación incorrecta",
+        "id": "213"
+    },
+    {
+        "nombre": "Soporte Técnico",
+        "id": "214"
+    },
+    {
+        "nombre": "Problemas con la aplicación o el sitio web",
+        "id": "215"
+    },
+    {
+        "nombre": "Errores en la cuenta o datos personales",
+        "id": "216"
+    },
+    {
+        "nombre": "Servicio al cliente",
+        "id": "217"
+    },
+    {
+        "nombre": "Atención deficiente",
+        "id": "218"
+    },
+    {
+        "nombre": "Problemas con soporte vía chat o teléfono",
+        "id": "219"
+    },
+    {
+        "nombre": "Políticas y Reembolsos",
+        "id": "220"
+    },
+    {
+        "nombre": "No aceptan mi devolución",
+        "id": "221"
+    },
+    {
+        "nombre": "Problemas con garantías",
+        "id": "222"
+    },
+    {
+        "nombre": "Seguridad y Privacidad",
+        "id": "223"
+    },
+    {
+        "nombre": "Cuenta comprometida o hackeada",
+        "id": "224"
+    },
+    {
+        "nombre": "Uso indebido de datos personales",
+        "id": "225"
+    },
+    {
+        "nombre": "Compras",
+        "id": "226"
+    },
+    {
+        "nombre": "Promociones",
+        "id": "227"
+    },
+    {
+        "nombre": "Descuentos",
+        "id": "228"
+    },
+    {
+        "nombre": "Cómo aplicar un descuento",
+        "id": "229"
+    },
+    {
+        "nombre": "¿Cómo activar un cupón?",
+        "id": "230"
+    },
+    {
+        "nombre": "Pasos para activar un cupón",
+        "id": "231"
+    },
+    {
+        "nombre": "Problemas comunes al activar cupones",
+        "id": "232"
+    },
+    {
+        "nombre": "¿Los descuentos son automáticos?",
+        "id": "233"
+    },
+    {
+        "nombre": "¿Se pueden combinar múltiples descuentos?",
+        "id": "234"
+    },
+    {
+        "nombre": "Productos con descuento",
+        "id": "235"
+    },
+    {
+        "nombre": "¿Qué productos tienen descuento hoy?",
+        "id": "236"
+    },
+    {
+        "nombre": "Categorías con descuento",
+        "id": "237"
+    },
+    {
+        "nombre": "¿Cómo encontrar productos con descuento?",
+        "id": "238"
+    },
+    {
+        "nombre": "Restricciones de descuentos",
+        "id": "239"
+    },
+    {
+        "nombre": "¿Hay un límite de descuentos por usuario?",
+        "id": "240"
+    },
+    {
+        "nombre": "Restricciones geográficas",
+        "id": "241"
+    },
+    {
+        "nombre": "Cashback",
+        "id": "242"
+    },
+    {
+        "nombre": "Cómo funciona el cashback",
+        "id": "243"
+    },
+    {
+        "nombre": "¿Cómo activar el cashback?",
+        "id": "244"
+    },
+    {
+        "nombre": "Problemas con el cashback",
+        "id": "245"
+    },
+    {
+        "nombre": "¿Por qué no recibí mi cashback?",
+        "id": "246"
+    },
+    {
+        "nombre": "¿Cómo reclamar cashback no acreditado?",
+        "id": "247"
+    },
+    {
+        "nombre": "Términos y condiciones",
+        "id": "248"
+    },
+    {
+        "nombre": "¿El cashback aplica para productos internacionales?",
+        "id": "249"
+    },
+    {
+        "nombre": "¿El cashback expira?",
+        "id": "250"
+    },
+    {
+        "nombre": "Cupones",
+        "id": "251"
+    },
+    {
+        "nombre": "Cómo usar cupones",
+        "id": "252"
+    },
+    {
+        "nombre": "¿Dónde encuentro cupones?",
+        "id": "253"
+    },
+    {
+        "nombre": "¿Cómo activar un cupón?",
+        "id": "254"
+    },
+    {
+        "nombre": "Problemas con cupones",
+        "id": "255"
+    },
+    {
+        "nombre": "¿Por qué no se aplicó mi cupón?",
+        "id": "256"
+    },
+    {
+        "nombre": "Ofertas relampago",
+        "id": "257"
+    },
+    {
+        "nombre": "Cómo participar en ofertas relampago",
+        "id": "258"
+    },
+    {
+        "nombre": "¿Qué son las ofertas relampago?",
+        "id": "259"
+    },
+    {
+        "nombre": "¿Cómo recibir notificaciones de ofertas relampago?",
+        "id": "260"
+    },
+    {
+        "nombre": "Problemas comunes",
+        "id": "261"
+    },
+    {
+        "nombre": "¿Por qué no puedo agregar el producto al carrito?",
+        "id": "262"
+    },
+    {
+        "nombre": "Promociones bancarias",
+        "id": "263"
+    },
+    {
+        "nombre": "¿Por qué no aparece la opcion de meses sin intereses?",
+        "id": "264"
+    },
+    {
+        "nombre": "Descuentos con tarjetas",
+        "id": "265"
+    },
+    {
+        "nombre": "¿Cómo aplicar un descuento bancario?",
+        "id": "266"
+    },
+    {
+        "nombre": "Promociones Prime",
+        "id": "267"
+    },
+    {
+        "nombre": "Ofertas exclusivas",
+        "id": "268"
+    },
+    {
+        "nombre": "¿Qué es Prime Day?",
+        "id": "269"
+    },
+    {
+        "nombre": "¿Cómo acceder a ofertas Prime?",
+        "id": "270"
+    },
+    {
+        "nombre": "Problemas comunes",
+        "id": "271"
+    },
+    {
+        "nombre": "¿Por qué no veo las promociones Prime?",
+        "id": "272"
+    },
+    {
+        "nombre": "Devoluciones y promociones",
+        "id": "273"
+    },
+    {
+        "nombre": "¿Pierdo el descuento si devuelvo un producto?",
+        "id": "274"
+    },
+    {
+        "nombre": "Política de devoluciones con promociones",
+        "id": "275"
+    },
+    {
+        "nombre": "¿Cómo afecta una devolución al cashback?",
+        "id": "276"
+    },
+    {
+        "nombre": "Productos",
+        "id": "277"
+    },
+    {
+        "nombre": "Tecnología",
+        "id": "278"
+    },
+    {
+        "nombre": "Celulares y Accesorios",
+        "id": "279"
+    },
+    {
+        "nombre": "Informacion Celulares",
+        "id": "280"
+    },
+    {
+        "nombre": "Problemas Celulares",
+        "id": "281"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Celulares",
+        "id": "282"
+    },
+    {
+        "nombre": "Garantías Celulares",
+        "id": "283"
+    },
+    {
+        "nombre": "Devoluciones Celulares",
+        "id": "284"
+    },
+    {
+        "nombre": "Computo",
+        "id": "285"
+    },
+    {
+        "nombre": "Informacion Computo",
+        "id": "286"
+    },
+    {
+        "nombre": "Problemas Computo",
+        "id": "287"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Computo",
+        "id": "288"
+    },
+    {
+        "nombre": "Garantías Computo",
+        "id": "289"
+    },
+    {
+        "nombre": "Devoluciones Computo",
+        "id": "290"
+    },
+    {
+        "nombre": "SmartWatch",
+        "id": "291"
+    },
+    {
+        "nombre": "Informacion SmartWatch",
+        "id": "292"
+    },
+    {
+        "nombre": "Problemas SmartWatch",
+        "id": "293"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones SmartWatch",
+        "id": "294"
+    },
+    {
+        "nombre": "Garantías SmartWatch",
+        "id": "295"
+    },
+    {
+        "nombre": "Devoluciones SmartWatch",
+        "id": "296"
+    },
+    {
+        "nombre": "Audifonos",
+        "id": "297"
+    },
+    {
+        "nombre": "Informacion Audifonos",
+        "id": "298"
+    },
+    {
+        "nombre": "Problemas Audifonos",
+        "id": "299"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Audifonos",
+        "id": "300"
+    },
+    {
+        "nombre": "Garantías Audifonos",
+        "id": "301"
+    },
+    {
+        "nombre": "Devoluciones Audifonos",
+        "id": "302"
+    },
+    {
+        "nombre": "Camaras y Fotografia",
+        "id": "303"
+    },
+    {
+        "nombre": "Informacion Camaras y Fotografia",
+        "id": "304"
+    },
+    {
+        "nombre": "Problemas Camaras y Fotografia",
+        "id": "305"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Camaras y Fotografia",
+        "id": "306"
+    },
+    {
+        "nombre": "Garantías Camaras y Fotografia",
+        "id": "307"
+    },
+    {
+        "nombre": "Devoluciones Camaras y Fotografia",
+        "id": "308"
+    },
+    {
+        "nombre": "Television y Video",
+        "id": "309"
+    },
+    {
+        "nombre": "Informacion Television y Video",
+        "id": "310"
+    },
+    {
+        "nombre": "Problemas Television y Video",
+        "id": "311"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Television y Video",
+        "id": "312"
+    },
+    {
+        "nombre": "Garantías Television y Video",
+        "id": "313"
+    },
+    {
+        "nombre": "Devoluciones Television y Video",
+        "id": "314"
+    },
+    {
+        "nombre": "Audio y Equipo de Sonido",
+        "id": "315"
+    },
+    {
+        "nombre": "Informacion Audio y Equipo de Sonido",
+        "id": "316"
+    },
+    {
+        "nombre": "Problemas Audio y Equipo de Sonido",
+        "id": "317"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Audio y Equipo de Sonido",
+        "id": "318"
+    },
+    {
+        "nombre": "Garantías Audio y Equipo de Sonido",
+        "id": "319"
+    },
+    {
+        "nombre": "Devoluciones Audio y Equipo de Sonido",
+        "id": "320"
+    },
+    {
+        "nombre": "Instrumentos Musicales",
+        "id": "321"
+    },
+    {
+        "nombre": "Informacion Instrumentos Musicales",
+        "id": "322"
+    },
+    {
+        "nombre": "Problemas Instrumentos Musicales",
+        "id": "323"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Instrumentos Musicales",
+        "id": "324"
+    },
+    {
+        "nombre": "Garantías Instrumentos Musicales",
+        "id": "325"
+    },
+    {
+        "nombre": "Devoluciones Instrumentos Musicales",
+        "id": "326"
+    },
+    {
+        "nombre": "Componentes",
+        "id": "327"
+    },
+    {
+        "nombre": "Informacion Componentes",
+        "id": "328"
+    },
+    {
+        "nombre": "Problemas Componentes",
+        "id": "329"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Componentes",
+        "id": "330"
+    },
+    {
+        "nombre": "Garantías Componentes",
+        "id": "331"
+    },
+    {
+        "nombre": "Devoluciones Componentes",
+        "id": "332"
+    },
+    {
+        "nombre": "Pilas y Cargadores",
+        "id": "333"
+    },
+    {
+        "nombre": "Informacion Pilas y Cargadores",
+        "id": "334"
+    },
+    {
+        "nombre": "Problemas Pilas y Cargadores",
+        "id": "335"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Pilas y Cargadores",
+        "id": "336"
+    },
+    {
+        "nombre": "Garantías Pilas y Cargadores",
+        "id": "337"
+    },
+    {
+        "nombre": "Devoluciones Pilas y Cargadores",
+        "id": "338"
+    },
+    {
+        "nombre": "Tabletas",
+        "id": "339"
+    },
+    {
+        "nombre": "Informacion Tabletas",
+        "id": "340"
+    },
+    {
+        "nombre": "Problemas Tabletas",
+        "id": "341"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Tabletas",
+        "id": "342"
+    },
+    {
+        "nombre": "Garantías Tabletas",
+        "id": "343"
+    },
+    {
+        "nombre": "Devoluciones Tabletas",
+        "id": "344"
+    },
+    {
+        "nombre": "Oficina y Papeleria",
+        "id": "345"
+    },
+    {
+        "nombre": "Informacion Oficina y Papeleria",
+        "id": "346"
+    },
+    {
+        "nombre": "Problemas Oficina y Papeleria",
+        "id": "347"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Oficina y Papeleria",
+        "id": "348"
+    },
+    {
+        "nombre": "Garantías Oficina y Papeleria",
+        "id": "349"
+    },
+    {
+        "nombre": "Devoluciones Oficina y Papeleria",
+        "id": "350"
+    },
+    {
+        "nombre": "Hogar y Cocina",
+        "id": "351"
+    },
+    {
+        "nombre": "Electrodomesticos",
+        "id": "352"
+    },
+    {
+        "nombre": "Lavadoras",
+        "id": "353"
+    },
+    {
+        "nombre": "Informacion Lavadoras",
+        "id": "354"
+    },
+    {
+        "nombre": "Problemas Lavadoras",
+        "id": "355"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Lavadoras",
+        "id": "356"
+    },
+    {
+        "nombre": "Garantías Lavadoras",
+        "id": "357"
+    },
+    {
+        "nombre": "Devoluciones Lavadoras",
+        "id": "358"
+    },
+    {
+        "nombre": "Refrigeradores",
+        "id": "359"
+    },
+    {
+        "nombre": "Informacion Refrigeradores",
+        "id": "360"
+    },
+    {
+        "nombre": "Problemas Refrigeradores",
+        "id": "361"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Refrigeradores",
+        "id": "362"
+    },
+    {
+        "nombre": "Garantías Refrigeradores",
+        "id": "363"
+    },
+    {
+        "nombre": "Devoluciones Refrigeradores",
+        "id": "364"
+    },
+    {
+        "nombre": "Estufas",
+        "id": "365"
+    },
+    {
+        "nombre": "Informacion Estufas",
+        "id": "366"
+    },
+    {
+        "nombre": "Problemas Estufas",
+        "id": "367"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Estufas",
+        "id": "368"
+    },
+    {
+        "nombre": "Garantías Estufas",
+        "id": "369"
+    },
+    {
+        "nombre": "Devoluciones Estufas",
+        "id": "370"
+    },
+    {
+        "nombre": "Climatizacion y Calefaccion",
+        "id": "371"
+    },
+    {
+        "nombre": "Informacion Climatizacion y Calefaccion",
+        "id": "372"
+    },
+    {
+        "nombre": "Problemas Climatizacion y Calefaccion",
+        "id": "373"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Climatizacion y Calefaccion",
+        "id": "374"
+    },
+    {
+        "nombre": "Garantías Climatizacion y Calefaccion",
+        "id": "375"
+    },
+    {
+        "nombre": "Devoluciones Climatizacion y Calefaccion",
+        "id": "376"
+    },
+    {
+        "nombre": "Iluminacion",
+        "id": "377"
+    },
+    {
+        "nombre": "Informacion Iluminacion",
+        "id": "378"
+    },
+    {
+        "nombre": "Problemas Iluminacion",
+        "id": "379"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Iluminacion",
+        "id": "380"
+    },
+    {
+        "nombre": "Garantías Iluminacion",
+        "id": "381"
+    },
+    {
+        "nombre": "Devoluciones Iluminacion",
+        "id": "382"
+    },
+    {
+        "nombre": "Ropa",
+        "id": "383"
+    },
+    {
+        "nombre": "Tallas Ropa",
+        "id": "384"
+    },
+    {
+        "nombre": "Informacion Ropa",
+        "id": "385"
+    },
+    {
+        "nombre": "Genero ropa",
+        "id": "386"
+    },
+    {
+        "nombre": "Reseñas Ropa",
+        "id": "387"
+    },
+    {
+        "nombre": "Promociones ropa",
+        "id": "388"
+    },
+    {
+        "nombre": "Problemas Ropa",
+        "id": "389"
+    },
+    {
+        "nombre": "Garantias ropa",
+        "id": "390"
+    },
+    {
+        "nombre": "Devoluciones Ropa",
+        "id": "391"
+    },
+    {
+        "nombre": "Muebles y Decoracion",
+        "id": "392"
+    },
+    {
+        "nombre": "Libreros para Sala",
+        "id": "393"
+    },
+    {
+        "nombre": "Informacion Libreros para Sala",
+        "id": "394"
+    },
+    {
+        "nombre": "Problemas Libreros para Sala",
+        "id": "395"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Libreros para Sala",
+        "id": "396"
+    },
+    {
+        "nombre": "Garantias Libreros para Sala",
+        "id": "397"
+    },
+    {
+        "nombre": "Devoluciones Libreros para Sala",
+        "id": "398"
+    },
+    {
+        "nombre": "Muebles para TV",
+        "id": "399"
+    },
+    {
+        "nombre": "Informacion Muebles para TV",
+        "id": "400"
+    },
+    {
+        "nombre": "Problemas Muebles para TV",
+        "id": "401"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Muebles para TV",
+        "id": "402"
+    },
+    {
+        "nombre": "Garantias Muebles para TV",
+        "id": "403"
+    },
+    {
+        "nombre": "Devoluciones Muebles para TV",
+        "id": "404"
+    },
+    {
+        "nombre": "Comodas y Cajoneras",
+        "id": "405"
+    },
+    {
+        "nombre": "Informacion Comodas y Cajoneras",
+        "id": "406"
+    },
+    {
+        "nombre": "Problemas Comodas y Cajoneras",
+        "id": "407"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Comodas y Cajoneras",
+        "id": "408"
+    },
+    {
+        "nombre": "Garantias Comodas y Cajoneras",
+        "id": "409"
+    },
+    {
+        "nombre": "Devoluciones Comodas y Cajoneras",
+        "id": "410"
+    },
+    {
+        "nombre": "Buros",
+        "id": "411"
+    },
+    {
+        "nombre": "Informacion Buros",
+        "id": "412"
+    },
+    {
+        "nombre": "Problemas Buros",
+        "id": "413"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Buros",
+        "id": "414"
+    },
+    {
+        "nombre": "Garantias Buros",
+        "id": "415"
+    },
+    {
+        "nombre": "Devoluciones Buros",
+        "id": "416"
+    },
+    {
+        "nombre": "Mesas de Sala",
+        "id": "417"
+    },
+    {
+        "nombre": "Informacion Mesas de Sala",
+        "id": "418"
+    },
+    {
+        "nombre": "Problemas Mesas de Sala",
+        "id": "419"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Mesas de Sala",
+        "id": "420"
+    },
+    {
+        "nombre": "Garantias Mesas de Sala",
+        "id": "421"
+    },
+    {
+        "nombre": "Devoluciones Mesas de Sala",
+        "id": "422"
+    },
+    {
+        "nombre": "Mesas de Comedor",
+        "id": "423"
+    },
+    {
+        "nombre": "Informacion Mesas de Comedor",
+        "id": "424"
+    },
+    {
+        "nombre": "Problemas Mesas de Comedor",
+        "id": "425"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Mesas de Comedor",
+        "id": "426"
+    },
+    {
+        "nombre": "Garantias Mesas de Comedor",
+        "id": "427"
+    },
+    {
+        "nombre": "Devoluciones Mesas de Comedor",
+        "id": "428"
+    },
+    {
+        "nombre": "Decorado del Hogar",
+        "id": "429"
+    },
+    {
+        "nombre": "Informacion Decorado del Hogar",
+        "id": "430"
+    },
+    {
+        "nombre": "Problemas Decorado del Hogar",
+        "id": "431"
+    },
+    {
+        "nombre": "Reparaciones y Refacciones Decorado del Hogar",
+        "id": "432"
+    },
+    {
+        "nombre": "Garantias Decorado del Hogar",
+        "id": "433"
+    },
+    {
+        "nombre": "Devoluciones Decorado del Hogar",
+        "id": "434"
+    },
+    {
+        "nombre": "Higiene",
+        "id": "435"
+    },
+    {
+        "nombre": "Cuidado personal",
+        "id": "436"
+    },
+    {
+        "nombre": "Género",
+        "id": "437"
+    },
+    {
+        "nombre": "Cara",
+        "id": "438"
+    },
+    {
+        "nombre": "Cuerpo",
+        "id": "439"
+    },
+    {
+        "nombre": "Cabello",
+        "id": "440"
+    },
+    {
+        "nombre": "Manos y uñas",
+        "id": "441"
+    },
+    {
+        "nombre": "Higiene bucal",
+        "id": "442"
+    },
+    {
+        "nombre": "Higiene íntima",
+        "id": "443"
+    },
+    {
+        "nombre": "Afeitado y depilación",
+        "id": "444"
+    },
+    {
+        "nombre": "Desodorantes y fragancias",
+        "id": "445"
+    },
+    {
+        "nombre": "Botiquín y primeros auxilios",
+        "id": "446"
+    },
+    {
+        "nombre": "Entretenimiento",
+        "id": "447"
+    },
+    {
+        "nombre": "Videojuegos",
+        "id": "448"
+    },
+    {
+        "nombre": "Libros",
+        "id": "449"
+    },
+    {
+        "nombre": "Juegos de mesa",
+        "id": "450"
+    },
+    {
+        "nombre": "Películas y series",
+        "id": "451"
+    },
+    {
+        "nombre": "Música",
+        "id": "452"
+    },
+    {
+        "nombre": "Instrumentos musicales",
+        "id": "453"
+    },
+    {
+        "nombre": "Rompecabezas y pasatiempos",
+        "id": "454"
+    },
+    {
+        "nombre": "Coleccionables",
+        "id": "455"
+    },
+    {
+        "nombre": "Accesorios para videojuegos",
+        "id": "456"
+    },
+    {
+        "nombre": "Mascotas",
+        "id": "457"
+    },
+    {
+        "nombre": "Gatos",
+        "id": "458"
+    },
+    {
+        "nombre": "Perros",
+        "id": "459"
+    },
+    {
+        "nombre": "Peces",
+        "id": "460"
+    },
+    {
+        "nombre": "Juguetes para mascotas",
+        "id": "461"
+    },
+    {
+        "nombre": "Alimento para mascotas",
+        "id": "462"
+    },
+    {
+        "nombre": "Accesorios para mascotas",
+        "id": "463"
+    },
+    {
+        "nombre": "Higiene y limpieza",
+        "id": "464"
+    },
+    {
+        "nombre": "Aves",
+        "id": "465"
+    },
+    {
+        "nombre": "Roedores y pequeños mamíferos",
+        "id": "466"
+    },
+    {
+        "nombre": "Acuarios y decoración",
+        "id": "467"
+    },
+    {
+        "nombre": "Deportes",
+        "id": "468"
+    },
+    {
+        "nombre": "Futbol",
+        "id": "469"
+    },
+    {
+        "nombre": "Beisbol",
+        "id": "470"
+    },
+    {
+        "nombre": "Tenis",
+        "id": "471"
+    },
+    {
+        "nombre": "Voleibol",
+        "id": "472"
+    },
+    {
+        "nombre": "Artes Marciales",
+        "id": "473"
+    },
+    {
+        "nombre": "Atletismo",
+        "id": "474"
+    },
+    {
+        "nombre": "Balonmano",
+        "id": "475"
+    },
+    {
+        "nombre": "Basquetbol",
+        "id": "476"
+    },
+    {
+        "nombre": "Billar",
+        "id": "477"
+    },
+    {
+        "nombre": "Box",
+        "id": "478"
+    },
+    {
+        "nombre": "Badminton",
+        "id": "479"
+    },
+    {
+        "nombre": "Caza",
+        "id": "480"
+    },
+    {
+        "nombre": "Ciclismo",
+        "id": "481"
+    },
+    {
+        "nombre": "Correr",
+        "id": "482"
+    },
+    {
+        "nombre": "Criquet",
+        "id": "483"
+    },
+    {
+        "nombre": "Deportes acuaticos",
+        "id": "484"
+    },
+    {
+        "nombre": "Deportes Ecuestres",
+        "id": "485"
+    },
+    {
+        "nombre": "Deportes de disco",
+        "id": "486"
+    },
+    {
+        "nombre": "Deportes de invierno",
+        "id": "487"
+    },
+    {
+        "nombre": "Futbol Americano",
+        "id": "488"
+    },
+    {
+        "nombre": "Gimnasia",
+        "id": "489"
+    },
+    {
+        "nombre": "Hockey",
+        "id": "490"
+    },
+    {
+        "nombre": "Lucha Libre",
+        "id": "491"
+    },
+    {
+        "nombre": "Patinaje",
+        "id": "492"
+    },
+    {
+        "nombre": "Pesca",
+        "id": "493"
+    },
+    {
+        "nombre": "Ping Pong",
+        "id": "494"
+    },
+    {
+        "nombre": "Polo",
+        "id": "495"
+    },
+    {
+        "nombre": "Pádel",
+        "id": "496"
+    },
+    {
+        "nombre": "Ropa deportiva",
+        "id": "497"
+    },
+    {
+        "nombre": "Rugby",
+        "id": "498"
+    },
+    {
+        "nombre": "Softball",
+        "id": "499"
+    },
+    {
+        "nombre": "Tiro con Arco",
+        "id": "500"
+    },
+    {
+        "nombre": "Trofeos, medallas y premios",
+        "id": "501"
+    },
+    {
+        "nombre": "Juguetes",
+        "id": "502"
+    },
+    {
+        "nombre": "Juguetes para Niños",
+        "id": "503"
+    },
+    {
+        "nombre": "Juguetes para Niñas",
+        "id": "504"
+    },
+    {
+        "nombre": "Juegos de mesa",
+        "id": "505"
+    },
+    {
+        "nombre": "Juguetes educativos",
+        "id": "506"
+    },
+    {
+        "nombre": "Peluches",
+        "id": "507"
+    },
+    {
+        "nombre": "Juguetes para bebés",
+        "id": "508"
+    },
+    {
+        "nombre": "Construcción y bloques",
+        "id": "509"
+    },
+    {
+        "nombre": "Juguetes electrónicos",
+        "id": "510"
+    },
+    {
+        "nombre": "Juguetes al aire libre",
+        "id": "511"
+    },
+    {
+        "nombre": "Disfraces y juego de rol",
+        "id": "512"
+    },
+    {
+        "nombre": "Auto",
+        "id": "513"
+    },
+    {
+        "nombre": "Accesorios para coche",
+        "id": "514"
+    },
+    {
+        "nombre": "Aceites y fluidos",
+        "id": "515"
+    },
+    {
+        "nombre": "Cuidado de coche y moto",
+        "id": "516"
+    },
+    {
+        "nombre": "Herramientas para coche",
+        "id": "517"
+    },
+    {
+        "nombre": "Llantas y rines para coche",
+        "id": "518"
+    },
+    {
+        "nombre": "Partes y refacciones",
+        "id": "519"
+    },
+    {
+        "nombre": "Pintura",
+        "id": "520"
+    },
+    {
+        "nombre": "Jardín",
+        "id": "521"
+    },
+    {
+        "nombre": "Parrillas",
+        "id": "522"
+    },
+    {
+        "nombre": "Muebles para patio",
+        "id": "523"
+    },
+    {
+        "nombre": "Sillas para patio",
+        "id": "524"
+    },
+    {
+        "nombre": "Toldos, sombrillas y pérgolas",
+        "id": "525"
+    },
+    {
+        "nombre": "Macetas",
+        "id": "526"
+    },
+    {
+        "nombre": "Iluminación de exteriores",
+        "id": "527"
+    },
+    {
+        "nombre": "Podadoras y tractores",
+        "id": "528"
+    },
+    {
+        "nombre": "Decoración",
+        "id": "529"
+    },
+    {
+        "nombre": "Albercas y jacuzzis",
+        "id": "530"
+    },
+    {
+        "nombre": "Plantas artificiales",
+        "id": "531"
+    },
+    {
+        "nombre": "Herramienta de jardinería",
+        "id": "532"
+    }
+]
