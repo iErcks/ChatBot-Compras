@@ -52,14 +52,14 @@
         "nombre": "Paquete dañado",
         "id": "1.1.2.2",
         "Expresion": "daños|dañado|golpeado|abollado|golpe|golpes|lastimado|forzado|corrompido|mal|estado",
-        "Respuesta": "Lamentamos que tu paquete haya llegado dañado¿Te gustaria reportarlo o devolverlo?.Indicame que accione quieres tomar",
+        "Respuesta": "Lamentamos que tu paquete haya llegado dañado¿Te gustaria devolverlo?.Indicame que accione quieres tomar",
         "number": 8
     },
     {
         "nombre": "Paquete abierto",
         "id": "1.1.2.3",
         "Expresion": "abierto|sin sellos|violado|corrompido|revisado|con hoyos|hoyo",
-        "Respuesta": "Lamentamos que tu paquete haya llegado abierto,en ocasiones esos problemas son causados por paqueteria.¿Te gustaria reportarlo o devolverlo?.Indicame que accione quieres tomar",
+        "Respuesta": "Lamentamos que tu paquete haya llegado abierto,en ocasiones esos problemas son causados por paqueteria.¿Te gustaria  devolverlo?.Indicame que accione quieres tomar",
         "number": 9
     },
     {
@@ -73,7 +73,7 @@
         "nombre": "Llego otro pedido",
         "id": "1.1.2.5",
         "Expresion": "equivocacion|equivocado|no es mi paquete|no es mio|otro pedido|otro|otro paquete|equivocaron",
-        "Respuesta": "Tal vez hubo alguna confusion al momento de repartir los pedidos, ¿Te gustaria reportalo? Tambien puedes verificar con paqueteria este problema para que ellos puedan darte una solucion.",
+        "Respuesta": "Tal vez hubo alguna confusion al momento de repartir los pedidos, ¿Te gustaria devolverlo? Tambien puedes verificar con paqueteria este problema para que ellos puedan darte una solucion.",
         "number": 11
     },
     {
@@ -87,7 +87,7 @@
         "nombre": "Direccion incorrecta",
         "id": "1.1.2.7",
         "Expresion": "equivocacion de direccion|mala direccion|direccion incorrecta|incorrecta|paquete en otra dirreccion|equivocación de dirección|mala dirección|dirección incorrecta|incorrecta|paquete en otra dirrección|otra direccion|no es mi dirección",
-        "Respuesta": "Parece ser que hubo una equivocación con tu dirección. Lo que puedes hacer es reportarlo para solucionarlo.¿Te gustaria reportarlo?",
+        "Respuesta": "Parece ser que hubo una equivocación con tu dirección. Lo que puedes hacer es reportarlo para solucionarlo.¿Te gustaria devolverlo?",
         "number": 13
     },
     {
@@ -205,7 +205,7 @@
     {
         "nombre": "Reembolsos",
         "id": "1.3",
-        "Expresion": "reembolso|devolucion|dinero|plata|efectivo|mi dinero|regreso de dinero|devolver dinero|reembolsar|devolver|regresarme|platita|capital|fondos|retorno|retornar|cash|money|recuperar dinero|recuperacion|liquidez|pesos|bolivares|soles|dolares|euros|reintegro|reintegrar|reposicion|reponer|abono|abonar|acreditar|credito a favor|regreso|regrese|restitucion|restituir|compensacion|compensar|indemnizacion|indemnizar|reintegracion|a mi cuenta|a mi tarjeta|deposito|pago|quiero mi|dame mi|necesito mi|rembolso|rembolsar|devuelvan|regresen",
+        "Expresion": "reembolso|regreso de dinero|devolver dinero|reembolsar|regresarme|retorno|retornar|recuperar dinero|recuperacion|reposicion|reponer|regreso",
         "Respuesta": "Entiendo que necesitas ayuda con un reembolso. Puedo asistirte con los métodos de reembolso disponibles, información sobre el procesamiento o resolver problemas específicos que estés experimentando. ¿Qué te gustaría saber exactamente?",
         "number": 30
     },
@@ -240,7 +240,7 @@
     {
         "nombre": "Procesamiento",
         "id": "1.3.2",
-        "Expresion": "procesamiento|proceso|procesando|tramite|tramitando|gestion|gestionando|estado|estatus|avance|progreso|curso|procedimiento|desarrollo|realizando|ejecutando|llevando a cabo|transitando|operacion|operativo|funcionamiento|periodo|fase|etapa|ciclo|paso|nivel|punto|instancia|situacion|posicion|ubicacion|localizacion|seguimiento|seguir|rastro|rastreo|tracking|trazabilidad|traza|procesado|procesado|tramitado|gestionado|culminado|terminado|avanzado|evolucionado|desarrollado|ejecutado|operado|transcurrido|transcurso|como va|donde esta|que paso|como esta",
+        "Expresion": "procesamiento|proceso|procesando|tramite|tramitando|gestion|gestionando|estado|estatus|avance|progreso|curso|procedimiento|desarrollo|ejecutando|llevando a cabo|transitando|operacion|operativo|funcionamiento|periodo|fase|etapa|ciclo|paso|nivel|punto|instancia|situacion|posicion|ubicacion|localizacion|seguimiento|seguir|rastro|rastreo|tracking|trazabilidad|traza|procesado|procesado|tramitado|gestionado|culminado|terminado|avanzado|evolucionado|desarrollado|ejecutado|operado|transcurrido|transcurso|como va|donde esta|que paso|como esta",
         "Respuesta": "Tu reembolso está siendo procesado. Puedo darte información sobre los tiempos estimados según el método elegido, explicarte la diferencia entre reembolsos parciales y completos, ayudarte a verificar si ya se ha recibido, o indicarte la fecha estimada de finalización. ¿Qué te interesa saber?",
         "number": 35
     },
@@ -309,15 +309,15 @@
     },
     {
         "nombre": "Devoluciones",
-        "id": "1.7.4",
-        "Expresion": "devolucion|devoluciones|reembolso|reembolsos|retorno|reintegro|recobro|vuelta|devolver|regreso|reenvio|anulacion|cancelacion|correccion",
+        "id": "1.4",
+        "Expresion": "devolucion|devoluciones|reintegro|recobro|vuelta|devolver|anulacion",
         "Respuesta": "si, en caso de que tenga alguna devolucion pendiente, aceptada, rechazada, etc. le mandaremos un recordatorio y notificacion.",
-        "number": 158
+        "number": 45
     },
     {
         "nombre": "Iniciación de Devolución",
         "id": "1.4.1",
-        "Expresion": "iniciar devolucion|iniciar devolución|comenzar devolucion|comenzar devolución|empezar devolucion|empezar devolución|como empiezo|cómo empiezo|iniciar proceso|comenzar proceso|primeros pasos|que hago primero|qué hago primero|como devolver|cómo devolver|pasos para devolver|procedimiento|iniciar tramite|iniciar trámite|comenzar tramite|comenzar trámite|primera vez|nunca he devuelto|instrucciones devolucion|instrucciones devolución|guia devolucion|guía devolución|tutorial devolucion|tutorial devolución|ayuda con devolucion|ayuda con devolución|asistencia devolucion|asistencia devolución|devolucion paso a paso|devolución paso a paso|iniciar solicitud|comenzar solicitud|empezar solicitud|formulario devolucion|formulario devolución|donde inicio|dónde inicio|como empiezo devolucion|cómo empiezo devolución|por donde empiezo|por dónde empiezo|inicio de devolucion|inicio de devolución|quiero iniciar|necesito iniciar|deseo iniciar|quiero comenzar|pasos iniciales|como hago|cómo hago|que necesito|qué necesito|requisitos|documentos necesarios|informacion necesaria|información necesaria|devolucion rapida|devolución rápida|devolucion inmediata|devolución inmediata|devolucion urgente|devolución urgente|iniciar ya|comenzar ahora",
+        "Expresion": "iniciar devolucion|iniciar devolución|comenzar devolucion|comenzar devolución|empezar devolucion|empezar devolución|como empiezo|cómo empiezo|iniciar proceso|comenzar proceso|primeros pasos|que hago primero|qué hago primero|como devolver|cómo devolver|pasos para devolver|procedimiento|iniciar tramite|iniciar trámite|comenzar tramite|comenzar trámite|primera vez|nunca he devuelto|instrucciones devolucion|instrucciones devolución|guia devolucion|guía devolución|tutorial devolucion|tutorial devolución|ayuda con devolucion|ayuda con devolución|asistencia devolucion|asistencia devolución|devolucion paso a paso|devolución paso a paso|iniciar solicitud|comenzar solicitud|empezar solicitud|formulario devolucion|formulario devolución|donde inicio|dónde inicio|como empiezo devolucion|cómo empiezo devolución|por donde empiezo|por dónde empiezo|inicio de devolucion|inicio de devolución|quiero iniciar|necesito iniciar|deseo iniciar|quiero comenzar|pasos iniciales|como hago|cómo hago|que necesito|qué necesito|requisitos|documentos necesarios|informacion necesaria|información necesaria|devolucion rapida|devolución rápida|devolucion inmediata|devolución inmediata|devolucion urgente|devolución urgente|iniciar ya|comenzar ahora|iniciar",
         "Respuesta": "Veo que quieres iniciar una devolución. Te ayudaré con eso. Para comenzar el proceso necesito saber el motivo de tu devolución, ya que esto nos ayudará a procesarla correctamente. ¿Podrías indicarme por qué deseas devolver el producto? ¿Es porque tiene algún problema, llegó un producto equivocado, no cumplió tus expectativas o simplemente no te gustó? Conocer el motivo nos permitirá ofrecerte la mejor solución y, en algunos casos, podría no ser necesario que devuelvas físicamente el artículo.",
         "number": 46
     },
@@ -415,7 +415,7 @@
     {
         "nombre": "Seguimiento de Devolución",
         "id": "1.4.2",
-        "Expresion": "seguimiento devolucion|seguimiento devolución|rastrear devolucion|rastrear devolución|estado devolucion|estado devolución|estatus devolucion|estatus devolución|como va mi devolucion|cómo va mi devolución|mi devolucion|mi devolución|actualizar devolucion|actualizar devolución|actualización devolucion|actualización devolución|progreso devolucion|progreso devolución|avance devolucion|avance devolución|saber estado|consultar estado|revisar estado|verificar estado|comprobar estado|información devolucion|información devolución|informacion devolucion|informacion devolución|en que estado|en qué estado|que paso sigue|qué paso sigue|donde esta mi devolucion|dónde está mi devolución|que ha pasado|qué ha pasado|que ocurre|qué ocurre|que sucede|qué sucede|cuando termina|cuándo termina|tiempo estimado|plazo estimado|cuanto falta|cuánto falta|falta mucho|ver devolucion|ver devolución|monitorear devolucion|monitorear devolución|seguir proceso|seguir tramite|seguir trámite|numero seguimiento|número seguimiento|codigo seguimiento|código seguimiento|referencia devolucion|referencia devolución|encontrar devolucion|encontrar devolución|buscar devolucion|buscar devolución|estado actual|reembolso estado|estado reembolso|donde veo|dónde veo|como consulto|cómo consulto|notificaciones|actualizaciones|novedades|noticias|cambios|historial devolucion|historial devolución|timeline devolucion|timeline devolución",
+        "Expresion": "seguimiento devolucion|seguimiento devolución|rastrear devolucion|rastrear devolución|estado devolucion|estado devolución|estatus devolucion|estatus devolución|como va mi devolucion|cómo va mi devolución|mi devolucion|mi devolución|actualizar devolucion|actualizar devolución|actualización devolucion|actualización devolución|progreso devolucion|progreso devolución|avance devolucion|avance devolución|saber estado|consultar estado|revisar estado|verificar estado|comprobar estado|información devolucion|información devolución|informacion devolucion|informacion devolución|en que estado|en qué estado|que paso sigue|qué paso sigue|donde esta mi devolucion|dónde está mi devolución|que ha pasado|qué ha pasado|que ocurre|qué ocurre|que sucede|qué sucede|cuando termina|cuándo termina|tiempo estimado|plazo estimado|cuanto falta|cuánto falta|falta mucho|ver devolucion|ver devolución|monitorear devolucion|monitorear devolución|seguir proceso|seguir tramite|seguir trámite|numero seguimiento|número seguimiento|codigo seguimiento|código seguimiento|referencia devolucion|referencia devolución|encontrar devolucion|encontrar devolución|buscar devolucion|buscar devolución|estado actual|reembolso estado|estado reembolso|donde veo|dónde veo|como consulto|cómo consulto|notificaciones|actualizaciones|novedades|noticias|cambios|historial devolucion|historial devolución|timeline devolucion|timeline devolución|seguimiento",
         "Respuesta": "Entiendo que quieres conocer el estado de tu devolución. Puedes seguir todo el proceso en tiempo real desde la sección 'Mis pedidos' en tu cuenta de Amazon. Una vez allí, busca el pedido correspondiente y haz clic en 'Ver estado de devolución'. Ahí verás exactamente en qué etapa se encuentra (solicitada, aprobada, en proceso, recolección programada, recibida, procesada o completada), junto con fechas estimadas para cada paso. También recibirás notificaciones por correo electrónico cuando haya cambios importantes en el estado. Si tienes la app de Amazon, puedes activar las notificaciones push para estar al tanto inmediatamente. ¿Necesitas ayuda para encontrar esta información en tu cuenta?",
         "number": 60
     },
@@ -653,7 +653,7 @@
     {
         "nombre": "Ofertas relámpago",
         "id": "2.1.4",
-        "Expresion": "Ofertas|relámpago|descuentos|flash|promociones|rápidas|rebajas|express|ofertas|rápidas|descuentos|express|promociones|flash|rebajas|rápidas|ofertas|express|descuentos|rápidos|promociones|express|rebajas|flash|ofertas|flash|descuentos|relámpago|promociones|relámpago|rebajas|relámpago|oferta|flash|descuento|relámpago|promoción|rápida|rebaja|express|oferta|rápida|descuento|express|promoción|flash|rebaja|rápida|oferta|express|descuento|rápido|promoción|express|rebaja|flash|oferta|relámpago|descuento|flash|promoción|relámpago|rebaja|relámpago|ofertas|tiempo|limitado|descuentos|corta|duración|promociones|duración|limitada|rebajas|pocas|horas|ofertas|pocas|horas|descuentos|horas|límitadas|promociones|por|horas|rebajas|por|horas|ofertón|express|descuentazo|rápido|súper|oferta|limitada|super|oferta|limitada|promoción|por|tiempo|limitado|descuento|rápido|oferta|fugaz|rebaja|rápida|oferta|rápida|descuento|urgente|promoción|urgente|rebaja|urgente|ofertas|temporales|deal|of|the|day|oferta|del|día|descuento|del|día|promoción|del|día|rebaja|del|día|ofertas|24|horas|descuentos|24|horas|promociones|24|horas|rebajas|24|horas|ofertas|día|descuentos|día|promociones|día|rebajas|día|relampago|relámpago|relampagos|superoferta",
+        "Expresion": "Ofertas|relámpago|descuentos|flash|rápidas|rebajas|express|ofertas|rápidas|descuentos|express|promociones|flash|rebajas|rápidas|ofertas|express|descuentos|rápidos|promociones|express|rebajas|flash|ofertas|flash|descuentos|relámpago|promociones|relámpago|rebajas|relámpago|oferta|flash|descuento|relámpago|promoción|rápida|rebaja|express|oferta|rápida|descuento|express|promoción|flash|rebaja|rápida|oferta|express|descuento|rápido|promoción|express|rebaja|flash|oferta|relámpago|descuento|flash|relámpago|rebaja|relámpago|ofertas|tiempo|limitado|descuentos|corta|duración|promociones|duración|limitada|rebajas|pocas|horas|ofertas|pocas|horas|descuentos|horas|límitadas|promociones|por|horas|rebajas|por|horas|ofertón|express|descuentazo|rápido|súper|oferta|limitada|super|oferta|limitada|promoción|por|tiempo|limitado|descuento|rápido|oferta|fugaz|rebaja|rápida|oferta|rápida|descuento|urgente|promoción|urgente|rebaja|urgente|ofertas|temporales|deal|of|the|day|oferta|del|día|descuento|del|día|promoción|del|día|rebaja|del|día|ofertas|24|horas|descuentos|24|horas|promociones|24|horas|rebajas|24|horas|ofertas|día|descuentos|día|promociones|día|rebajas|día|relampago|relámpago|relampagos|superoferta",
         "Respuesta": "Las ofertas relámpago son uno de los tipos de descuento más emocionantes en Amazon. Son promociones con tiempo limitado que normalmente duran entre 4 y 12 horas, o hasta que se agoten las unidades disponibles. Encontrarás estas ofertas destacadas en nuestra sección 'Ofertas del día' con un contador que muestra el tiempo restante y el porcentaje de unidades ya reclamadas. Los miembros Prime tienen acceso exclusivo 30 minutos antes que el resto de usuarios a ciertas ofertas relámpago. Te recomiendo revisar esta sección varias veces al día, especialmente durante eventos como Prime Day o Black Friday, ya que las mejores ofertas se agotan rápidamente. ¿Te gustaría que configure alertas para notificarte cuando haya ofertas relámpago en alguna categoría que te interese?",
         "number": 290
     },
@@ -1192,7 +1192,7 @@
     {
         "nombre": "Quejas y reclamos",
         "id": "1.9",
-        "Expresion": "quejas|reclamos|problemas|insatisfacción|mal servicio",
+        "Expresion": "quejas|reclamos|problemas|insatisfacción|mal servicio|reclamo|queja|problema|insatisfaccion",
         "Respuesta": "Entiendo que tienes un problema. Por favor, selecciona la categoría que mejor describa tu queja o reclamo.",
         "number": 182
     },
@@ -2025,7 +2025,7 @@
     {
         "nombre": "Promociones bancarias",
         "id": "2.1.5",
-        "Expresion": ".*(promociones bancarias|descuento con tarjeta|meses sin intereses).*",
+        "Expresion": "promociones bancarias|descuento con tarjeta|meses sin intereses|promo bancaria|promos bancarias|descuento bancario|beneficios bancarios|ofertas bancarias|banco|tarjeta de crédito|tarjeta de débito",
         "Respuesta": "Existen descuentos y meses sin intereses al pagar con tarjetas de ciertos bancos.",
         "number": 305
     },
