@@ -6,7 +6,7 @@ with open('c:\\Users\\erick\\OneDrive\\Documentos\\ISC\\Semestre7\\MachineLearni
     mybd = json.load(file)
 
 
-back = "si|volver|regresar|retroceder|back"
+back = "si|regresar|retroceder|back"
 si = "si|s|yes|y|claro|porfavor|adelante"
 salir = "salir|exit|terminar|fin|cerrar|adios|chao|bye"
 
@@ -17,9 +17,6 @@ def cargar_categorias(ruta="Rangos.json"):
     return {int(k): v for k, v in cat.items()}
 
 categorias = cargar_categorias()
-
-#with open("indiceChatBot.json", "r", encoding="utf-8") as f:
- #   data = json.load(f)
 
 DiccEstados = {item["nombre"]: int(item["number"]) for item in mybd}
 
@@ -57,7 +54,7 @@ def buscarCoincidencia(opcion, categoria_id):
     for key, coincidencia in expresionesID.items():  # Corrección aquí
         #print (coincidencia)
         if re.search(coincidencia['Expresion'], opcion):
-            print(f"ChatBot: Tu interes es {coincidencia['nombre'].upper()} te dirigiremos al area correspondiente")
+            #print(f"ChatBot: Tu interes es {coincidencia['nombre'].upper()} te dirigiremos al area correspondiente")
             EstadoAnt = EstadoSig
             EstadoSig = DiccEstados[coincidencia['nombre']]
             
@@ -67,19 +64,17 @@ def buscarCoincidencia(opcion, categoria_id):
 
 
 def ImprimirCategorias(categorias):
+    #print (categorias)
     for cat in categorias:
         if cat in datos:
             print(f"-: {datos[cat]['nombre']}")
-            #print(f"ChatBot: {datos[cat]['Expresion']}")
-            #print(f"ChatBot: {datos[cat]['Respuesta']}")
-            #print(f"ChatBot: {cat}")
 
 
 def DirigeAEstado(categorias):
     global EstadoSig, EstadoAnt, salida, back, salir, Respuesta
     #print (f"Categorias: {categorias}")
     #print (f"EstadoActual: {EstadoSig}"
-    print(Respuesta)
+    print(f"ChatBot: {Respuesta}")
     ImprimirCategorias(categorias)
     if (len(categorias)) == 0:
         opcion = input("ChatBot: ¿Hay algo más en lo que te pueda ayudar? : ")
@@ -123,6 +118,6 @@ def chatBot():
         DirigeAEstado(categorias[EstadoSig])
 #print (DiccEstados['Rastreo'])
 print("Bienvenido a nuestro chatbot")
-Respuesta = "ChatBot: Soy tu ChatBot! en que puedo ayudarte?"
+Respuesta = "Soy tu ChatBot! en que puedo ayudarte?"
 chatBot()
-print("Gracias por usar nuestro chatbot")
+print("Gracias por usar Amazapan")
