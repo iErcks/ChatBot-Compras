@@ -606,7 +606,7 @@
         "id": "1.5",
         "Expresion": ".*(promociones|promo|ofertas|descuentos).*",
         "Respuesta": "Tenemos varias promociones disponibles, ¿en cuál te interesa profundizar?",
-        "number": 204
+        "number": 87
     },
     {
         "nombre": "Gestión de promociones activas",
@@ -1018,8 +1018,8 @@
         "nombre": "Compras",
         "id": "1.7.2",
         "Expresion": ".*(compras|compra|adquirir|quiero comprar).*",
-        "Respuesta": "Con gusto te ayudo con información sobre compras.",
-        "number": 203
+        "Respuesta": "Tu notificaciones sobre tu carrito de compras han sido activadas!",
+        "number": 156
     },
     {
         "nombre": "Entregas",
@@ -1136,7 +1136,7 @@
     {
         "nombre": "Metodos de pago y facturacion",
         "id": "1.8.4",
-        "Expresion": "(?:tarjeta(?:s)? (?:de (?:crédito|debito))?|pago(?:s)?|factura(?:ción|cion)|(?:métodos|metodos) (?:de pago|facturación)|paypal|pago (?:en efectivo|en línea)",
+        "Expresion": "métodos|metodos|pago|metodos de pago|formas de pago",
         "Respuesta": "¿En qué puedo ayudarte con tus métodos de pago o facturación?",
         "number": 174
     },
@@ -1337,6 +1337,20 @@
         "number": 202
     },
     {
+        "nombre": "Compras",
+        "id": "2",
+        "Expresion": ".*(compras|compra|adquirir|quiero comprar).*",
+        "Respuesta": "Con gusto te ayudo con información sobre compras.",
+        "number": 203
+    },
+    {
+        "nombre": "Promociones",
+        "id": "2.1",
+        "Expresion": ".*(promociones|promo|ofertas|descuentos).*",
+        "Respuesta": "Tenemos varias promociones disponibles, ¿en cuál te interesa profundizar?",
+        "number": 204
+    },
+    {
         "nombre": "Descuentos",
         "id": "2.1.1",
         "Expresion": ".*(descuentos|descuento|rebaja|rebajas).*",
@@ -1346,28 +1360,28 @@
     {
         "nombre": "Cómo aplicar un descuento",
         "id": "2.1.1.1",
-        "Expresion": ".*(como aplicar descuento|aplicar descuento|uso de descuento|ingresar descuento|colocar descuento).*",
+        "Expresion": ".*(como aplicar descuento|como aplicar un descuento|aplicar descuento|uso de descuento|ingresar descuento|colocar descuento).*",
         "Respuesta": "Para aplicar un descuento, primero revisa si hay algún código o cupón disponible.",
         "number": 206
     },
     {
         "nombre": "¿Cómo activar un cupón?",
         "id": "2.1.1.1.1",
-        "Expresion": "activar|cupon|cómo activar|activar cupón|usar cupón|código promocional|promoción|descuento|oferta",
+        "Expresion": "activar|cupon|cómo activar|activar cupón|usar cupón",
         "Respuesta": "Para activar un cupón en Amazon, sigue estos pasos: 1. Inicia sesión en tu cuenta de Amazon. 2. Navega hasta la página del producto al que deseas aplicar el cupón. 3. Si el cupón está disponible, verás una opción para 'Activar cupón' debajo del precio. 4. Haz clic en 'Activar cupón'. 5. Procede a la compra y el descuento se aplicará automáticamente al finalizar la compra. Si tienes algún problema, no dudes en contactarnos para más ayuda.",
         "number": 207
     },
     {
         "nombre": "Pasos para activar un cupón",
         "id": "2.1.3.1.2.1",
-        "Expresion": ".*(pasos para activar un cupon|activar cupon|usar cupon|aplicar cupon|pasos para cupon).*",
+        "Expresion": ".*(pasos para activar un cupon|activar cupon|usar cupon|aplicar cupon|pasos para cupon|activo un cupon| pasos).*",
         "Respuesta": "Busca el producto elegible.\nHaz clic en \"Activar cupón\".\nAgrega el producto al carrito.\nVerifica que el descuento se aplique antes de pagar.",
         "number": 280
     },
     {
         "nombre": "Busca el producto elegible.",
         "id": "2.1.1.1.1.1.1",
-        "Expresion": "busca|producto|elegible|encontrar|localizar|seleccionar|escoger|disponible|compatible|apto",
+        "Expresion": "busca|producto|elegible|encontrar|localizar|seleccionar|disponible|compatible",
         "Respuesta": "Parece que estás buscando un producto elegible. ¿Podrías proporcionarme más detalles sobre el producto que necesitas? Estoy aquí para ayudarte a encontrarlo.",
         "number": 209
     },
@@ -1381,35 +1395,35 @@
     {
         "nombre": "Agrega el producto al carrito.",
         "id": "2.1.1.1.1.1.3",
-        "Expresion": "agrega|añade|pon|coloca|mete|agregar|añadir|poner|colocar|meter|carrito|comprar|compra|producto",
+        "Expresion": "agrega|añade|pon|coloca|mete|agregar|añadir|poner|colocar|meter|carrito|producto",
         "Respuesta": "Para agregar un producto al carrito, simplemente haz clic en el botón 'Agregar al carrito' que aparece en la página del producto. Si necesitas ayuda adicional, no dudes en decírmelo.",
         "number": 211
     },
     {
         "nombre": "Verifica que el descuento se aplique antes de pagar.",
         "id": "2.1.1.1.1.1.4",
-        "Expresion": "descuento|aplicar descuento|verificar descuento|descuento antes de pagar|descuento en el pago|descuento no aplica|descuento no se aplica|descuento no funciona|descuento incorrecto|descuento no aparece",
+        "Expresion": "aplicar descuento|verificar descuento|descuento antes de pagar|descuento en el pago|descuento no aplica|descuento no se aplica|descuento no funciona|descuento incorrecto|descuento no aparece",
         "Respuesta": "Para asegurarte de que el descuento se aplique correctamente antes de finalizar tu compra, revisa que el código de descuento esté bien ingresado en el campo correspondiente. Si el descuento no se aplica, verifica que el código no haya expirado y que el producto sea elegible para la promoción. Si necesitas más ayuda, no dudes en contactarnos.",
         "number": 212
     },
     {
         "nombre": "Problemas comunes al activar cupones",
         "id": "2.1.1.1.1.2",
-        "Expresion": "activar|cupon|cupones|problema|comun|activacion|no funciona|error|dificultad|incidencia",
+        "Expresion": "problemas|cupones|problema|comun|no funciona|error|dificultad|incidencia",
         "Respuesta": "Parece que estás teniendo problemas para activar un cupón. No te preocupes, te puedo ayudar. Por favor, verifica que el código del cupón esté correctamente ingresado y que no haya expirado. Si el problema persiste, proporciona más detalles para que pueda asistirte mejor.",
         "number": 213
     },
     {
         "nombre": "\"Cupón no aplicable\": Verifica que el producto sea elegible.",
         "id": "2.1.1.1.1.2.1",
-        "Expresion": "cupón|cupon|no aplicable|elegible|verifica|producto|aplicar|descuento|promoción|promocion|código|codigo|oferta",
+        "Expresion": "cupón|cupon|no aplicable|elegible|verifica|producto|aplicar|descuento",
         "Respuesta": "Para asegurarte de que el cupón sea aplicable, verifica que el producto sea elegible para la promoción. Si tienes dudas, revisa los términos y condiciones de la oferta o contáctanos para más ayuda.",
         "number": 214
     },
     {
         "nombre": "\"Cupón ya utilizado\": Revisa si el cupón tiene límite de usos.",
         "id": "2.1.1.1.1.2.2",
-        "Expresion": "cupón|cupon|código|codigo|utilizado|usado|usar|usos|límite|limite|revisar|verificar|validez|valido|válido|promoción|promocion|descuento|oferta",
+        "Expresion": "utilizado|usado|usar|usos|límite|limite|revisar|verificar|validez|valido|válido",
         "Respuesta": "Parece que estás teniendo problemas con un cupón. Por favor, revisa si el cupón tiene un límite de usos o si ya ha sido utilizado. Si necesitas más ayuda, no dudes en contactarnos.",
         "number": 215
     },
@@ -1423,14 +1437,14 @@
     {
         "nombre": "¿Los descuentos son automáticos?",
         "id": "2.1.1.1.2",
-        "Expresion": "descuentos|automáticos|descuentos automáticos|aplican descuentos|como funcionan los descuentos|descuentos aplicados|descuentos en amazon|promociones|ofertas|cupones",
+        "Expresion": "descuentos|automáticos|aplican descuentos|como funcionan los descuentos|descuentos aplicados|descuentos en amazon",
         "Respuesta": "Los descuentos en Amazon suelen aplicarse automáticamente al agregar productos elegibles a tu carrito. Si el producto tiene un descuento activo, verás el precio reducido en la página del producto y en el resumen de tu pedido. Si tienes un código de cupón, asegúrate de ingresarlo durante el proceso de pago para aplicar el descuento correspondiente.",
         "number": 217
     },
     {
         "nombre": "Descuentos automáticos vs. manuales",
         "id": "2.1.1.1.2.1",
-        "Expresion": "descuentos|automaticos|manuales|promociones|ofertas|rebajas|descuento automatico|descuento manual|cupones|codigos de descuento",
+        "Expresion": "descuentos|automaticos|manuales|descuento automatico|descuento manual",
         "Respuesta": "Entiendo que tienes preguntas sobre descuentos automáticos y manuales. Los descuentos automáticos se aplican directamente al realizar la compra, mientras que los manuales requieren que ingreses un código o cupón. ¿Necesitas ayuda para aplicar un descuento o tienes alguna duda específica sobre cómo funcionan?",
         "number": 218
     },
@@ -1442,16 +1456,16 @@
         "number": 219
     },
     {
-        "nombre": "Descuentos manuales: Requieren ingresar un código o activar un",
+        "nombre": "Descuentos manuales: Requieren ingresar un código o activar un cupón",
         "id": "2.1.1.1.2.1.2",
-        "Expresion": "descuento|código|activar|promoción|cupón|oferta|descuentos manuales|código promocional",
+        "Expresion": "código|activar|cupón|oferta|descuentos manuales|código promocional",
         "Respuesta": "Para aplicar un descuento manual, necesitas ingresar un código promocional durante el proceso de compra o activar la oferta correspondiente. Si tienes un código, asegúrate de introducirlo en el campo indicado antes de finalizar tu pedido. Si necesitas ayuda para activar un descuento o tienes alguna duda, no dudes en decírmelo.",
         "number": 220
     },
     {
         "nombre": "¿Se pueden combinar múltiples descuentos?",
         "id": "2.1.1.1.3",
-        "Expresion": "combinar|descuentos|múltiples|aplicar|promociones|cupones|ofertas|descuentos múltiples|combinar descuentos|promociones combinadas",
+        "Expresion": "combinar|descuentos|múltiples|aplicar|promociones|descuentos múltiples|combinar descuentos|promociones combinadas",
         "Respuesta": "Sí, en Amazon es posible combinar múltiples descuentos en muchos casos, como cupones, ofertas y promociones. Sin embargo, esto depende de las políticas específicas de cada producto o vendedor. Te recomiendo revisar los términos y condiciones de cada descuento para confirmar si pueden aplicarse juntos. Si tienes dudas, no dudes en contactar al servicio de atención al cliente para obtener más detalles.",
         "number": 221
     },
@@ -1465,7 +1479,7 @@
     {
         "nombre": "Algunos descuentos no son acumulables.",
         "id": "2.1.1.1.3.1.1",
-        "Expresion": "descuentos|acumulables|no acumulables|promociones|ofertas|cupones|descuento no acumulable|no se acumula|no combinable",
+        "Expresion": "descuentos|acumulables|no acumulables|descuento no acumulable|no se acumula|no combinable",
         "Respuesta": "Entendemos que tienes dudas sobre los descuentos y su acumulación. Algunos descuentos no son acumulables, lo que significa que no pueden combinarse con otras promociones o cupones. Si tienes alguna pregunta específica sobre un descuento en particular, no dudes en proporcionarnos más detalles para ayudarte mejor.",
         "number": 223
     },
@@ -1479,7 +1493,7 @@
     {
         "nombre": "Productos con descuento",
         "id": "2.1.1.2",
-        "Expresion": "descuento|oferta|rebaja|promocion|productos con descuento|ahorro|economia|precio reducido|liquidacion|gangas",
+        "Expresion": "descuento|oferta|rebaja|promocion|productos con descuento|ahorro|precio reducido|liquidacion",
         "Respuesta": "¡Claro! En la sección de 'Productos con descuento' encontrarás una amplia variedad de artículos con precios reducidos. ¿Hay algún producto en particular que estés buscando o en qué puedo ayudarte?",
         "number": 225
     },
@@ -1493,7 +1507,7 @@
     {
         "nombre": "Categorías con descuento",
         "id": "2.1.1.2.1.1",
-        "Expresion": "descuento|ofertas|promociones|rebajas|descuentos especiales|precios bajos|ahorrar|economizar|descuento en categorías",
+        "Expresion": "descuento|categorias|categorías|rebajas|descuentos especiales|precios bajos|ahorrar|economizar|descuento en categorías",
         "Respuesta": "¡Claro! Parece que estás interesado en categorías con descuento. En esta sección encontrarás productos con ofertas especiales, promociones y precios reducidos. ¿Te gustaría que te muestre algunas opciones o tienes alguna categoría específica en mente?",
         "number": 227
     },
@@ -1521,7 +1535,7 @@
     {
         "nombre": "¿Cómo encontrar productos con descuento?",
         "id": "2.1.1.2.2",
-        "Expresion": "como encontrar|encontrar|buscar|ver|hallar productos|articulos|items con descuento|en oferta|en promocion|rebajados|donde estan|encuentro|veo|busco las ofertas|los descuentos|las promociones|buscar ofertas|descuentos|promociones|productos baratos|mejores ofertas|ver descuentos|encontrar gangas|productos rebajados|como ver ofertas|donde hay descuentos",
+        "Expresion": "como encontrar|encontrar|buscar|ver|hallar productos|articulos|items con descuento|las promociones|buscar ofertas|descuentos|promociones|productos baratos|mejores ofertas|ver descuentos|encontrar gangas|productos rebajados|como ver ofertas|donde hay descuentos",
         "Respuesta": "Hay varias formas sencillas de encontrar productos con descuento en nuestra plataforma: 1) Usa el filtro 'Ofertas' en la barra de búsqueda, 2) Visita nuestra sección 'Ofertas del día', 3) Activa las notificaciones de ofertas en la app, o 4) Revisa las etiquetas de descuento en los productos. ¿Te gustaría que te explique alguno de estos métodos con más detalle?",
         "number": 231
     },
@@ -1556,7 +1570,7 @@
     {
         "nombre": "¿Hay un límite de descuentos por usuario?",
         "id": "2.1.1.2.3.1",
-        "Expresion": "límite|descuento|usuario|cantidad|restricción|cupón|promoción|oferta|beneficio|descuentos por usuario",
+        "Expresion": "límite|usuario|cantidad|restricción|cupón|promoción|oferta|beneficio|descuentos por usuario",
         "Respuesta": "Sí, puede haber un límite de descuentos por usuario dependiendo de la promoción o oferta específica. Te recomendamos revisar los términos y condiciones de la oferta para conocer los detalles exactos. Si necesitas más ayuda, no dudes en contactarnos.",
         "number": 236
     },
@@ -1598,7 +1612,7 @@
     {
         "nombre": "Algunos descuentos solo aplican para productos locales.",
         "id": "2.1.1.2.3.2.1.1",
-        "Expresion": "descuentos|ofertas|promociones|productos locales|descuentos locales|ofertas locales|promociones locales|descuentos aplican|ofertas aplican|promociones aplican",
+        "Expresion": "descuentos|productos locales|descuentos locales|ofertas locales|promociones locales|descuentos aplican|ofertas aplican|promociones aplican",
         "Respuesta": "Algunos descuentos y promociones solo aplican para productos locales. Si tienes alguna duda sobre si un producto califica para un descuento, no dudes en preguntar y te ayudaré a verificar.",
         "number": 242
     },
@@ -1640,21 +1654,21 @@
     {
         "nombre": "Reembolso de un porcentaje de tu compra.",
         "id": "2.1.2.1.1.1.1",
-        "Expresion": "reembolso|devolución|porcentaje|compra|dinero|reembolsar|devolver|reintegro|reembolso de dinero|reembolso de compra",
+        "Expresion": "reembolso|porcentaje|compra|dinero|reembolsar|reintegro|reembolso de dinero|reembolso de compra",
         "Respuesta": "Entiendo que estás interesado en obtener un reembolso de un porcentaje de tu compra. Para ayudarte con esto, necesitaré algunos detalles adicionales, como el número de pedido y el motivo del reembolso. ¿Podrías proporcionarme esa información?",
         "number": 248
     },
     {
         "nombre": "Puede ser en efectivo o crédito de Amazon.",
         "id": "2.1.2.1.1.1.2",
-        "Expresion": "efectivo|crédito|pago|amazon pay|método de pago|forma de pago|pagar|dinero|tarjeta|transferencia",
+        "Expresion": "efectivo|crédito|pago|amazon pay|método de pago|forma de pago|pagar",
         "Respuesta": "Puedes realizar tu pago en efectivo o utilizando crédito de Amazon. ¿Necesitas más información sobre cómo procesar tu pago?",
         "number": 249
     },
     {
         "nombre": "¿Cómo activar el cashback?",
         "id": "2.1.2.1.2",
-        "Expresion": "activar|cashback|como activar|beneficio|reembolso|dinero de vuelta|promocion|descuento|recompensa",
+        "Expresion": "activar|cashback|como activar|beneficio|recompensa",
         "Respuesta": "Para activar el cashback, primero asegúrate de que tu cuenta esté vinculada a la promoción. Luego, realiza tus compras a través de los enlaces o tiendas participantes. El cashback se acreditará automáticamente en tu cuenta después de que se confirme la compra. Si tienes alguna duda o necesitas más ayuda, no dudes en contactarnos.",
         "number": 250
     },
@@ -1668,14 +1682,14 @@
     {
         "nombre": "Busca productos elegibles.",
         "id": "2.1.2.1.2.1.1",
-        "Expresion": "busca|productos|elegibles|encontrar|localizar|disponibles|seleccionar|opciones|catálogo|oferta|compra|adquirir|búsqueda|filtro|resultados",
+        "Expresion": "busca|productos|elegibles|encontrar|localizar|disponibles|opciones|catálogo|búsqueda|filtro|resultados",
         "Respuesta": "Puedo ayudarte a buscar productos elegibles en nuestro catálogo. Por favor, proporciona más detalles sobre lo que estás buscando, como el tipo de producto, marca o características específicas que necesitas.",
         "number": 252
     },
     {
         "nombre": "Activa la oferta de cashback.",
         "id": "2.1.2.1.2.1.2",
-        "Expresion": "cashback|oferta|activa|activar|promocion|descuento|beneficio|ahorro|dinero|reembolso",
+        "Expresion": "cashback|oferta|activa|activar|ahorro|dinero",
         "Respuesta": "Para activar la oferta de cashback, sigue estos pasos: 1) Inicia sesión en tu cuenta de Amazon. 2) Navega hasta la sección de ofertas y promociones. 3) Busca la oferta de cashback y haz clic en 'Activar oferta'. 4) Realiza tus compras como de costumbre y el cashback se aplicará automáticamente. Si tienes alguna duda o necesitas más ayuda, no dudes en contactarnos.",
         "number": 253
     },
@@ -1696,7 +1710,7 @@
     {
         "nombre": "Problemas con el cashback",
         "id": "2.1.2.2",
-        "Expresion": "cashback|problemas con cashback|reclamo cashback|no recibí cashback|cashback no funciona|error cashback|ayuda cashback|soporte cashback|duda cashback|necesito ayuda con cashback",
+        "Expresion": "cashback|problemas con cashback|reclamo cashback|cashback no funciona|error cashback|ayuda cashback|soporte cashback|duda cashback|necesito ayuda con cashback",
         "Respuesta": "Entiendo que tienes un problema con el cashback. Por favor, proporciona más detalles sobre el problema, como el número de pedido o la fecha en que deberías haber recibido el cashback. Esto nos ayudará a resolver tu consulta de manera más eficiente.",
         "number": 256
     },
@@ -1724,7 +1738,7 @@
     {
         "nombre": "No se activó la oferta antes de comprar.",
         "id": "2.1.2.2.1.1.2",
-        "Expresion": "olvide activar|no active|no aplique|no (active|aplique|aplique antes de comprar|aplique antes del pago)|como activar|como aplicar|cuando (debo|tengo que|hay que|tengo que activar|tengo que aplicar|tengo que activar antes de comprar|tengo que aplicar antes de comprar|tengo que activar antes del pago|tengo que aplicar antes del pago)|error al activar|no |sabia|conocia que debia|tenia que | activar|activacion previa|anterior|olvidé el paso de activacion|falta de activacion|activar cashback",
+        "Expresion": "olvide activar|no active|no aplique|no (active|aplique|aplique antes de comprar|aplique antes del pago)|como activar|como aplicar|tengo que activar|tengo que aplicar|tengo que activar antes de comprar|tengo que aplicar antes de comprar",
         "Respuesta": "Es importante activar el cashback ANTES de realizar la compra. Si no lo activaste, lamentablemente no se puede aplicar retroactivamente. Para futuras compras, recuerda: 1) Buscar la oferta de cashback, 2) Hacer clic en 'Activar oferta', 3) Verificar que aparezca como 'Activada', y solo entonces 4) Realizar la compra. ¿Te gustaría que te muestre dónde encontrar y activar las ofertas de cashback?",
         "number": 260
     },
@@ -1759,7 +1773,7 @@
     {
         "nombre": "Contacta a soporte con el número de pedido.",
         "id": "2.1.2.2.2.1.2",
-        "Expresion": "soporte|ayuda|soporte y ayuda|necesito|ayudame|ayudar|tecnico|duda|contacta|pedido|número de pedido|problema|asistencia|consultar|información|solución|resolver|incidencia",
+        "Expresion": "soporte|ayuda|soporte y ayuda|necesito|ayudame|ayudar|tecnico|contacta|pedido|número de pedido|problema|asistencia|consultar",
         "Respuesta": "Claro, para ayudarte con tu pedido, necesitaré el número de pedido. Por favor, proporcióname el número de pedido para que pueda contactar a soporte y resolver cualquier duda o problema que tengas.",
         "number": 265
     },
@@ -1850,7 +1864,7 @@
     {
         "nombre": "Busca cupones en productos específicos.",
         "id": "2.1.3.1.1.1.2",
-        "Expresion": "cupones|descuentos|promociones|ofertas|códigos|códigos de descuento|buscar cupones|buscar descuentos|buscar promociones|buscar ofertas|buscar códigos|buscar códigos de descuento",
+        "Expresion": "cupones|descuentos|promociones|ofertas|códigos|códigos de descuento|buscar cupones",
         "Respuesta": "Puedo ayudarte a buscar cupones o descuentos en productos específicos. Por favor, proporciona el nombre del producto o la categoría en la que estás interesado, y te ayudaré a encontrar las mejores ofertas disponibles.",
         "number": 278
     },
@@ -1871,21 +1885,21 @@
     {
         "nombre": "Agrega el producto al carrito.",
         "id": "2.1.3.1.2.1.2",
-        "Expresion": "como agregar|agregar|añadir|poner|al|en el carrito|agregar producto|añadir al carrito|añadir a la cesta|poner en el carrito|meter en el carrito|donde esta el boton de agregar al carrito|no puedo agregar al carrito|carrito de compras|añadir a la cesta|boton de agregar|agregar a mi pedido",
+        "Expresion": "como agregar|agregar|añadir|poner|al|en el carrito|agregar producto|añadir al carrito|añadir a la cesta|poner en el carrito",
         "Respuesta": "Para agregar un producto al carrito, simplemente busca el botón 'Agregar al carrito' o 'Añadir a la cesta' que aparece junto al producto. Este botón generalmente es de color azul o naranja y está ubicado debajo del precio. Si estás en la app móvil, desliza hacia abajo en la página del producto para encontrar el botón. ¿Tienes problemas para encontrar esta opción?",
         "number": 282
     },
     {
         "nombre": "Verifica que el descuento se aplique.",
         "id": "2.1.3.1.2.1.3",
-        "Expresion": "como verificar|verificar|comprobar|revisar|si|que|el descuento|la oferta|el cupon|la promocion|aplico|aplique|aplica|donde veo|aparece|no veo|no aparece|revisar descuento|confirmar descuento|verificar precio final|comprobar oferta|descuento no aparece|precio con descuento|validar cupon|descuento no funciona",
+        "Expresion": "como verificar|verificar|comprobar|revisar|si|que|el descuento|la oferta|el cupon|la promocion|aplico|aplique|aplica|validar cupon|descuento no funciona",
         "Respuesta": "Para verificar que el descuento se haya aplicado correctamente: 1) Revisa el subtotal en tu carrito de compras, 2) Busca la línea que muestra 'Descuento aplicado' en color verde, 3) Comprueba que el precio final refleje la reducción. Si no ves el descuento, asegúrate de que el cupón esté activo y que el producto sea elegible. ¿Necesitas ayuda para verificar tu descuento?",
         "number": 283
     },
     {
         "nombre": "Problemas con cupones",
         "id": "2.1.3.2",
-        "Expresion": "cupon|cupones|problema con cupon|problema con cupones|no funciona el cupon|no funciona mi cupon|error en el cupon|error en los cupones|no puedo usar el cupon|no puedo usar los cupones|ayuda con cupon|ayuda con cupones|soporte para cupon|soporte para cupones|necesito ayuda con el cupon|necesito ayuda con los cupones|duda sobre el cupon|duda sobre los cupones",
+        "Expresion": "cupon|cupones|problema con cupon|problema con cupones|no funciona el cupon|no funciona mi cupon|error en el cupon|error en los cupones",
         "Respuesta": "Entiendo que estás teniendo problemas con los cupones. Por favor, verifica que el código del cupón esté correctamente ingresado y que cumpla con las condiciones de uso. Si el problema persiste, proporciona más detalles para que pueda asistirte mejor.",
         "number": 284
     },
@@ -1934,7 +1948,7 @@
     {
         "nombre": "¿Qué son las ofertas relámpago?",
         "id": "2.1.4.1.1",
-        "Expresion": "ofertas relámpago|qué son|qué es|qué significa|qué ofertas|relámpago|ofertas rápidas|ofertas limitadas|ofertas especiales|qué son las ofertas|qué son las relámpago|qué son ofertas relámpago|qué significa ofertas relámpago|qué son las ofertas relámpago",
+        "Expresion": "ofertas relámpago|qué son|qué es|qué significa|qué ofertas|relámpago|ofertas rápidas|ofertas limitadas|ofertas especiales|qué son las ofertas|qué son las relámpago",
         "Respuesta": "Las ofertas relámpago en Amazon son promociones limitadas en tiempo que ofrecen descuentos significativos en productos seleccionados. Estas ofertas suelen durar unas pocas horas o hasta que se agoten las existencias. Son una excelente manera de ahorrar en productos populares, pero es importante actuar rápido, ya que las existencias son limitadas y las ofertas pueden agotarse rápidamente.",
         "number": 292
     },
@@ -1962,7 +1976,7 @@
     {
         "nombre": "¿Cómo recibir notificaciones de ofertas relámpago?",
         "id": "2.1.4.1.2",
-        "Expresion": "notificaciones|ofertas|relampago|recibir|avisos|alertas|promociones|descuentos|flash|sales|notificar|informar",
+        "Expresion": "notificaciones|ofertas|relampago|recibir|avisos|alertas|notificar|informar",
         "Respuesta": "Para recibir notificaciones de ofertas relámpago en Amazon, sigue estos pasos: 1) Abre la app de Amazon. 2) Ve a 'Configuración' o 'Notificaciones'. 3) Activa las notificaciones para ofertas relámpago. Así, serás el primero en enterarte de las mejores promociones.",
         "number": 296
     },
@@ -1983,7 +1997,7 @@
     {
         "nombre": "Guarda productos para recibir alertas.",
         "id": "2.1.4.1.2.1.2",
-        "Expresion": "guarda|productos|alertas|recibir|notificaciones|aviso|recordatorio|monitoreo|seguimiento|vigilancia",
+        "Expresion": "guarda|productos|aviso|recordatorio|monitoreo|seguimiento",
         "Respuesta": "Parece que estás interesado en recibir alertas sobre productos. ¿Te gustaría configurar una notificación para recibir avisos sobre cambios de precio, disponibilidad o promociones de un producto en particular?",
         "number": 299
     },
@@ -1997,7 +2011,7 @@
     {
         "nombre": "¿Por qué no puedo agregar el producto al carrito?",
         "id": "2.1.4.2.1",
-        "Expresion": ".*(por que no puedo agregar el producto al carrito|no deja poner carrito|no carrito| problemas con carrito).*",
+        "Expresion": "por que |no puedo| agregar |el producto al carrito|no deja poner carrito|no carrito| problemas con carrito",
         "Respuesta": "El artículo pudo agotarse o tal vez llegaste al límite de unidades.",
         "number": 301
     },
@@ -2025,7 +2039,7 @@
     {
         "nombre": "Promociones bancarias",
         "id": "2.1.5",
-        "Expresion": "promociones bancarias|descuento con tarjeta|meses sin intereses|promo bancaria|promos bancarias|descuento bancario|beneficios bancarios|ofertas bancarias|banco|tarjeta de crédito|tarjeta de débito",
+        "Expresion": ".*(promociones bancarias|descuento con tarjeta|meses sin intereses).*",
         "Respuesta": "Existen descuentos y meses sin intereses al pagar con tarjetas de ciertos bancos.",
         "number": 305
     },
@@ -2319,7 +2333,7 @@
     {
         "nombre": "Problemas Celulares",
         "id": "2.2.1.1.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu equipo. Por favor, intenta los siguientes pasos:\n1. Reinicia tu dispositivo.\n2. Asegúrate de que el software esté actualizado.\n3. Verifica que todos los componentes estén correctamente conectados.\nSi el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.\nEn caso de tener una garantía vigente, verifica los términos y condiciones para hacer válida la misma.",
         "number": 349
     },
@@ -2340,7 +2354,7 @@
     {
         "nombre": "Devolución Celulares",
         "id": "2.2.1.1.5",
-        "Expresion": "devolucion|devolver|celular|celulares|problema|falla|error|garantia|reembolso|cambio|reemplazo|defectuoso|mal estado|no funciona|no sirve|dañado|averiado",
+        "Expresion": "devolucion|devolver|celular|celulares|problema|falla|error|garantia|reembolso|cambio|reemplazo|defectuoso",
         "Respuesta": "Entiendo que tienes un problema con tu celular y necesitas ayuda con una devolución. Por favor, proporciona más detalles sobre el problema que estás experimentando, como el modelo del celular, el motivo de la devolución y cualquier otra información relevante. Esto nos ayudará a procesar tu solicitud de manera más eficiente.",
         "number": 352
     },
@@ -2361,7 +2375,7 @@
     {
         "nombre": "Problemas Computo",
         "id": "2.2.1.2.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu equipo de cómputo. Por favor, intenta los siguientes pasos:\n1. Reinicia tu dispositivo.\n2. Asegúrate de que el software esté actualizado.\n3. Verifica que todos los componentes estén correctamente conectados.\nSi el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.\nEn caso de tener una garantía vigente, verifica los términos y condiciones para hacer válida la misma.",
         "number": 355
     },
@@ -2382,7 +2396,7 @@
     {
         "nombre": "Devoluciones Computo",
         "id": "2.2.1.2.5",
-        "Expresion": "devolucion|devoluciones|devolver|regresar|reembolso|reembolsos",
+        "Expresion": "devolucion|devoluciones|devolver|regresar",
         "Respuesta": "Para realizar una devolución, por favor sigue las políticas de devolución del vendedor. Asegúrate de tener el recibo de compra y de que el producto esté en las condiciones especificadas en la política de devoluciones.",
         "number": 358
     },
@@ -2403,7 +2417,7 @@
     {
         "nombre": "Problemas SmartWatch",
         "id": "2.2.1.3.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu SmartWatch. Por favor, intenta los siguientes pasos:\n1. Reinicia tu dispositivo.\n2. Asegúrate de que el software esté actualizado.\n3. Verifica que todos los componentes estén correctamente conectados.\nSi el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.\nEn caso de tener una garantía vigente, verifica los términos y condiciones para hacer válida la misma.",
         "number": 361
     },
@@ -2445,7 +2459,7 @@
     {
         "nombre": "Problemas Audifonos",
         "id": "2.2.1.4.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos",
         "Respuesta": "Lamentamos que estés teniendo problemas con tus audífonos. Por favor, intenta los siguientes pasos:\n1. Reinicia tu dispositivo.\n2. Asegúrate de que el software esté actualizado.\n3. Verifica que todos los componentes estén correctamente conectados.\nSi el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.\nEn caso de tener una garantía vigente, verifica los términos y condiciones para hacer válida la misma.",
         "number": 367
     },
@@ -2487,7 +2501,7 @@
     {
         "nombre": "Problemas Camaras y Fotografia",
         "id": "2.2.1.5.3",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu cámara o equipo de fotografía. Por favor, intenta los siguientes pasos:\n1. Reinicia tu dispositivo.\n2. Asegúrate de que el software esté actualizado.\n3. Verifica que todos los componentes estén correctamente conectados.\nSi el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.\nEn caso de tener una garantía vigente, verifica los términos y condiciones para hacer válida la misma.",
         "number": 374
     },
@@ -2522,7 +2536,7 @@
     {
         "nombre": "Problemas Television y Video",
         "id": "2.2.1.6.3",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu cámara o equipo de fotografía. Por favor, intenta los siguientes pasos:\n1. Reinicia tu dispositivo.\n2. Asegúrate de que el software esté actualizado.\n3. Verifica que todos los componentes estén correctamente conectados.\nSi el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.\nEn caso de tener una garantía vigente, verifica los términos y condiciones para hacer válida la misma.",
         "number": 380
     },
@@ -2557,7 +2571,7 @@
     {
         "nombre": "Problemas Audio y Equipo de Sonido",
         "id": "2.2.1.7.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu equipo de audio o sonido. Por favor, intenta los siguientes pasos:\n1. Reinicia tu dispositivo.\n2. Asegúrate de que el software esté actualizado.\n3. Verifica que todos los componentes estén correctamente conectados.\nSi el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.\nEn caso de tener una garantía vigente, verifica los términos y condiciones para hacer válida la misma.",
         "number": 385
     },
@@ -2599,7 +2613,7 @@
     {
         "nombre": "Problemas Instrumentos Musicales",
         "id": "2.2.1.8.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu instrumento musical. Por favor, intenta los siguientes pasos:\n1. Asegúrate de que el instrumento esté correctamente afinado.\n2. Verifica que todas las piezas estén en buen estado.\n3. Si el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.\nEn caso de tener una garantía vigente, verifica los términos y condiciones para hacer válida la misma.",
         "number": 391
     },
@@ -2641,7 +2655,7 @@
     {
         "nombre": "Problemas Componentes",
         "id": "2.2.1.9.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|",
         "Respuesta": "Lamentamos que estés teniendo problemas con tus componentes. Por favor, intenta los siguientes pasos:\n1. Asegúrate de que los componentes estén correctamente conectados.\n2. Verifica que no haya daños físicos en los componentes.\n3. Si el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.\nEn caso de tener una garantía vigente, verifica los términos y condiciones para hacer válida la misma.",
         "number": 397
     },
@@ -2683,7 +2697,7 @@
     {
         "nombre": "Problemas Pilas y Cargadores",
         "id": "2.2.1.10.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas",
         "Respuesta": "Lamentamos que estés teniendo problemas con tus pilas o cargadores. Por favor, intenta los siguientes pasos:\n1. Asegúrate de que las pilas estén correctamente colocadas.\n2. Verifica que el cargador esté conectado a una fuente de energía adecuada.\n3. Si el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.\nEn caso de tener una garantía vigente, verifica los términos y condiciones para hacer válida la misma.",
         "number": 403
     },
@@ -2725,7 +2739,7 @@
     {
         "nombre": "Problemas Tabletas",
         "id": "2.2.1.11.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu tableta. Por favor, intenta los siguientes pasos:\n1. Reinicia tu dispositivo.\n2. Asegúrate de que el software esté actualizado.\n3. Verifica que todos los componentes estén correctamente conectados.\nSi el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.\nEn caso de tener una garantía vigente, verifica los términos y condiciones para hacer válida la misma.",
         "number": 409
     },
@@ -2767,7 +2781,7 @@
     {
         "nombre": "Problemas Oficina y Papeleria",
         "id": "2.2.1.12.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|",
         "Respuesta": "Lamentamos que estés teniendo problemas con tus productos de oficina y papelería. Por favor, intenta los siguientes pasos:\n1. Verifica que los productos estén en buen estado.\n2. Asegúrate de que los productos sean compatibles entre sí.\n3. Si el problema persiste, contacta al vendedor para obtener asistencia adicional.",
         "number": 415
     },
@@ -2823,7 +2837,7 @@
     {
         "nombre": "Problemas Lavadoras",
         "id": "2.2.2.1.1.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu lavadora. Por favor, intenta los siguientes pasos:\n1. Verifica que la lavadora esté correctamente conectada a la corriente eléctrica y al suministro de agua.\n2. Asegúrate de que la carga de ropa sea la adecuada y que la puerta esté cerrada correctamente.\n3. Si el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.",
         "number": 423
     },
@@ -2865,7 +2879,7 @@
     {
         "nombre": "Problemas Refrigeradores",
         "id": "2.2.2.1.2.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu refrigerador. Por favor, intenta los siguientes pasos:\n1. Verifica que el refrigerador esté correctamente conectado a la corriente eléctrica y que el termostato esté ajustado correctamente.\n2. Asegúrate de que la puerta esté cerrada correctamente y de que no haya obstrucciones en las rejillas de ventilación.\n3. Si el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.",
         "number": 429
     },
@@ -2907,7 +2921,7 @@
     {
         "nombre": "Problemas Estufas",
         "id": "2.2.2.1.3.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu estufa. Por favor, intenta los siguientes pasos:\n1. Verifica que la estufa esté correctamente conectada a la corriente eléctrica o al suministro de gas.\n2. Asegúrate de que los quemadores estén limpios y en buen estado.\n3. Si el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.",
         "number": 435
     },
@@ -2949,7 +2963,7 @@
     {
         "nombre": "Problemas Climatizacion y Calefaccion",
         "id": "2.2.2.1.4.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rota",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu sistema de climatización o calefacción. Por favor, intenta los siguientes pasos:\n1. Verifica que el sistema esté correctamente conectado a la corriente eléctrica o al suministro de gas.\n2. Asegúrate de que los filtros estén limpios y en buen estado.\n3. Si el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.",
         "number": 441
     },
@@ -2991,7 +3005,7 @@
     {
         "nombre": "Problemas Iluminacion",
         "id": "2.2.2.1.5.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu sistema de iluminación. Por favor, intenta los siguientes pasos:\n1. Verifica que las bombillas estén correctamente colocadas y en buen estado.\n2. Asegúrate de que el interruptor esté encendido y de que no haya problemas con la instalación eléctrica.\n3. Si el problema persiste, contacta al servicio técnico del fabricante o al vendedor para obtener asistencia adicional.",
         "number": 447
     },
@@ -3075,7 +3089,7 @@
     {
         "nombre": "Muebles y decoración",
         "id": "2.2.2.3",
-        "Expresion": "muebles|decoración|decorar|sillón|sofá|mesa|silla|estantería|armario|estilo|diseño|interior|hogar|living|sala|comedor|habitación|dormitorio|oficina|mueble|decorativo|accesorio|iluminación|lámpara|alfombra|cuadro|espejo|estantería|repisa|organizador|tapizado|tapicería|textil|cojín|mantel|cortina|persiana|estilo|diseño|interiorismo|decorador|decorativa|decorativos",
+        "Expresion": "muebles|decoración|decorar|sillón|sofá|mesa|silla|estantería|armario|estilo|diseño|interior|hogar|living|sala|comedor|habitación|dormitorio|oficina|mueble|decorativo",
         "Respuesta": "Parece que estás interesado en muebles y decoración. ¿Necesitas ayuda para elegir un mueble, accesorios decorativos o ideas para decorar tu espacio? Estoy aquí para ayudarte.",
         "number": 459
     },
@@ -3096,7 +3110,7 @@
     {
         "nombre": "Problemas Libreros para Sala",
         "id": "2.2.2.3.1.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu librero para sala. Por favor, intenta los siguientes pasos:\n1. Verifica que el librero esté correctamente ensamblado y en buen estado.\n2. Asegúrate de que la carga de libros sea la adecuada y que el librero esté nivelado.\n3. Si el problema persiste, contacta al vendedor para obtener asistencia adicional.",
         "number": 462
     },
@@ -3138,7 +3152,7 @@
     {
         "nombre": "Problemas Muebles para TV",
         "id": "2.2.2.3.2.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu mueble para TV. Por favor, intenta los siguientes pasos:\n1. Verifica que el mueble esté correctamente ensamblado y en buen estado.\n2. Asegúrate de que el televisor esté colocado de manera segura y que los cables estén conectados correctamente.\n3. Si el problema persiste, contacta al vendedor para obtener asistencia adicional.",
         "number": 468
     },
@@ -3180,7 +3194,7 @@
     {
         "nombre": "Problemas Comodas y Cajoneras",
         "id": "2.2.2.3.3.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu cómoda o cajonera. Por favor, intenta los siguientes pasos:\n1. Verifica que la cómoda o cajonera esté correctamente ensamblada y en buen estado.\n2. Asegúrate de que los cajones se deslicen suavemente y de que no haya obstrucciones.\n3. Si el problema persiste, contacta al vendedor para obtener asistencia adicional.",
         "number": 474
     },
@@ -3222,7 +3236,7 @@
     {
         "nombre": "Problemas Buros",
         "id": "2.2.2.3.4.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu buró o mesa de noche. Por favor, intenta los siguientes pasos:\n1. Verifica que el buró esté correctamente ensamblado y en buen estado.\n2. Asegúrate de que los cajones se deslicen suavemente y de que no haya obstrucciones.\n3. Si el problema persiste, contacta al vendedor para obtener asistencia adicional.",
         "number": 480
     },
@@ -3264,7 +3278,7 @@
     {
         "nombre": "Problemas Mesas de Sala",
         "id": "2.2.2.3.5.2",
-        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error|errores|roto|rota|rotos|rotas|funciona|funcionando|funcionar|sirve|sirviendo|sirven|servir|servia|pedí|pedir|compre|comprar|compré|comprado|comprando|",
+        "Expresion": "usado|usada|usados|usadas|problema|problemas|falla|fallas|error",
         "Respuesta": "Lamentamos que estés teniendo problemas con tu mesa de sala. Por favor, intenta los siguientes pasos:\n1. Verifica que la mesa esté correctamente ensamblada y en buen estado.\n2. Asegúrate de que la mesa esté nivelada y que no haya problemas con las patas.\n3. Si el problema persiste, contacta al vendedor para obtener asistencia adicional.",
         "number": 486
     },
@@ -3327,14 +3341,14 @@
     {
         "nombre": "Devoluciones Mesas de Comedor",
         "id": "2.2.2.3.6.5",
-        "Expresion": "devolucion|devoluciones|devolver|regresar|reembolso|reembolsos",
+        "Expresion": "devolucion|devoluciones|devolver|mesas|comedor|comedores|",
         "Respuesta": "Para realizar una devolución de tu mesa de comedor, por favor sigue las políticas de devolución del vendedor. Asegúrate de tener el recibo de compra y de que el producto esté en las condiciones especificadas en la política de devoluciones.",
         "number": 495
     },
     {
         "nombre": "Decorado del Hogar",
         "id": "2.2.2.3.7",
-        "Expresion": "decorado del hogar|decoración del hogar|decoracion del hogar|decorado de la casa|decoración de la casa|decoracion de la casa|decorado de la habitación|decoración de la habitación|decoracion de la habitación|decorado del cuarto|decoración del cuarto|decoracion del cuarto|decorado de la sala|decoración de la sala|decoracion de la sala|decorado del comedor|decoración del comedor|decoracion del comedor|decorado de la cocina|decoración de la cocina|decoracion de la cocina|decorado del baño|decoración del baño|decoracion del baño",
+        "Expresion": "decorado del hogar|decoración del hogar|decoracion del hogar|decorado de la casa|decoración de la casa|decoracion de la casa|decorado de la habitación|decorado de la cocina|decoración de la cocina|decoracion de la cocina|decorado del baño|decoración del baño|decoracion del baño",
         "Respuesta": "¿Cómo puedo ayudarte con el decorado de tu hogar?",
         "number": 496
     },
@@ -3404,7 +3418,7 @@
     {
         "nombre": "Genero",
         "id": "2.2.2.5.2",
-        "Expresion": "productos (para|de) (hombre|mujer)|articulos (para|de) (hombre|mujer)|higiene (masculina|femenina)|cuidado (masculino|femenino)|productos de belleza (para|de) (hombre|mujer)|desodorantes? (para|de) (hombre|mujer)|cremas? (para|de) (hombre|mujer)|afeitado|rasurado|depilacion|productos de aseo personal (para|de) (hombre|mujer)|cuidado personal por genero",
+        "Expresion": "productos | hombre|mujer|articulos |higiene |masculina|femenina|cuidado |productos de belleza |desodorantes|hombre|mujer|cremas|cuidado personal por genero",
         "Respuesta": "Contamos con una amplia gama de productos de higiene y cuidado personal específicos tanto para hombres como para mujeres. Nuestra selección incluye desde productos básicos de aseo hasta artículos especializados de cuidado personal. ¿Buscas productos para hombre o para mujer? ¿Hay algún artículo específico que necesites?",
         "number": 506
     },
@@ -3432,22 +3446,22 @@
     {
         "nombre": "Videojuegos",
         "id": "2.2.3.1",
-        "Expresion": "videojuegos|consolas|xbox|playstation|nintendo|juegos digitales",
-        "Respuesta": "¿Tienes alguna consola en mente o estás buscando un juego específico?",
+        "Expresion": "videojuegos|consolas|xbox|playstation|nintendo|juegos digitales|ps4|ps5|switch|gaming|gamer|juegos electronicos|juegos electrónicos|consola de juegos",
+        "Respuesta": "¡Bienvenido al mundo gaming! Explora nuestra increíble selección de videojuegos y consolas. Tenemos los últimos lanzamientos, clásicos inolvidables y los sistemas más populares como PlayStation, Xbox y Nintendo. Encuentra todo lo que necesitas para tu siguiente aventura gaming aquí: [enlace_videojuegos]",
         "number": 510
     },
     {
         "nombre": "Libros",
         "id": "2.2.3.2",
-        "Expresion": "libros|novelas|lectura|cuentos|libros de fantasía|literatura",
-        "Respuesta": "¿Qué tipo de libros te interesa? Puedo ayudarte a encontrar lecturas según tu gusto.",
+        "Expresion": "libros|novelas|lectura|cuentos|libros de fantasia|libros de fantasía|literatura|ebook|libro electronico|libro electrónico|kindle|audiolibro|best seller|best-seller",
+        "Respuesta": "¡Descubre mundos infinitos en nuestra biblioteca! Tenemos una extensa colección de libros para todos los gustos: bestsellers, novelas, libros académicos, literatura infantil y mucho más. Disponibles en formato físico, digital y audiolibro. Encuentra tu próxima aventura literaria aquí: [enlace_libros]",
         "number": 511
     },
     {
         "nombre": "Juegos de mesa",
         "id": "2.2.3.3",
-        "Expresion": "juegos de mesa|cartas|lotería|ajedrez|dominó|uno|jenga|monopoly|scrabble",
-        "Respuesta": "Seccion de Juegos de Mesa. ¿Qué juego de mesa estás buscando?",
+        "Expresion": "juegos de mesa|cartas|loteria|lotería|ajedrez|domino|dominó|uno|jenga|monopoly|scrabble|juegos familiares|juegos de tablero|board games",
+        "Respuesta": "¡Diversión garantizada con nuestra colección de juegos de mesa! Desde clásicos familiares como Monopoly y Scrabble hasta emocionantes juegos estratégicos. Perfectos para reuniones con amigos y familia. Todos nuestros juegos están completos y en excelente estado. Encuentra tu próximo juego favorito aquí: [enlace_juegos_mesa]",
         "number": 512
     },
     {
@@ -3460,22 +3474,22 @@
     {
         "nombre": "Gatos",
         "id": "2.2.4.1",
-        "Expresion": "gato|gatos|minino|michi|felino",
-        "Respuesta": " ¿Buscas comida, juguetes, rascadores o algo más para tu gato?",
+        "Expresion": "gato|gatos|minino|michi|felino|gatito|gatitos|cat|cats|arena para gato|comida para gato|juguetes para gato|rascador",
+        "Respuesta": "¡Mimos y cuidados para tu felino! Tenemos todo lo que tu gato necesita: alimentos premium, juguetes interactivos, rascadores resistentes, areneros innovadores y accesorios para su comodidad. Productos seleccionados pensando en el bienestar y felicidad de tu minino. Descubre nuestra colección felina aquí: [enlace_gatos]",
         "number": 514
     },
     {
         "nombre": "Perros",
         "id": "2.2.4.2",
-        "Expresion": "perro|perros|lomito|canino|firulais",
-        "Respuesta": " Estás en la sección de Perros. ¿Qué necesitas para tu mejor amigo?",
+        "Expresion": "perro|perros|lomito|canino|firulais|cachorro|cachorros|dog|dogs|comida para perro|juguetes para perro|correa|collar",
+        "Respuesta": "¡Todo para consentir a tu mejor amigo! Encuentra alimentos premium, juguetes resistentes, camas cómodas, correas y collares de calidad, y todo lo necesario para el cuidado de tu perro. Productos seleccionados para garantizar la salud y felicidad de tu mascota. Explora nuestra colección canina aquí: [enlace_perros]",
         "number": 515
     },
     {
         "nombre": "Peces",
         "id": "2.2.4.3",
-        "Expresion": "pez|peces|acuarios|peceras|acuario|pecera",
-        "Respuesta": "¿Buscas comida, filtros, decoración o tal vez una pecera nueva?",
+        "Expresion": "pez|peces|acuarios|peceras|acuario|pecera|fish|peces tropicales|filtro para pecera|comida para peces|decoracion acuario|decoración acuario",
+        "Respuesta": "¡Crea un mundo acuático fascinante! Ofrecemos todo para tu acuario: peceras de diversos tamaños, filtros eficientes, alimentos especializados, decoración atractiva y accesorios esenciales. Productos seleccionados para mantener un ambiente saludable para tus peces. Descubre todo para tu acuario aquí: [enlace_peces]",
         "number": 516
     },
     {
@@ -3488,162 +3502,162 @@
     {
         "nombre": "Futbol",
         "id": "2.2.5.1",
-        "Expresion": "futbol|fut|soccer",
-        "Respuesta": "Seccion de futbol.¿Que articulo de futbol buscas?",
+        "Expresion": "futbol|fútbol|fut|soccer|balon|balón|cancha|tacos|guantes de portero|uniformes de futbol|pelota|futbolista",
+        "Respuesta": "¡Vive la pasión del fútbol! Encuentra todo para el deporte rey: balones oficiales, tacos profesionales, uniformes de tus equipos favoritos y equipo de entrenamiento. Productos de las mejores marcas deportivas para todos los niveles. Descubre nuestra colección completa aquí: [enlace_futbol]",
         "number": 518
     },
     {
         "nombre": "Beisbol",
         "id": "2.2.5.2",
-        "Expresion": "beisbol|beis",
-        "Respuesta": "Sección de beisbol.¿Que articulo de beisbol buscas?",
+        "Expresion": "beisbol|béisbol|beis|baseball|bate|guante|pelota de beisbol|gorra|uniforme de beisbol|catcher",
+        "Respuesta": "¡Equípate para el diamante! Ofrecemos todo el equipo esencial para béisbol: bates profesionales, guantes de calidad, pelotas oficiales y todo el equipamiento necesario para el juego. Productos certificados de las mejores marcas. Encuentra tu equipo aquí: [enlace_beisbol]",
         "number": 519
     },
     {
         "nombre": "Tenis",
         "id": "2.2.5.3",
-        "Expresion": "tenis",
-        "Respuesta": "Sección de beisbol.¿Que articulo de beisbol buscas?",
+        "Expresion": "tenis|tennis|raqueta|pelotas de tenis|red de tenis|cancha de tenis|tenis court|wilson|head|babolat",
+        "Respuesta": "¡Domina la cancha con el mejor equipo! Descubre nuestra selección de raquetas profesionales, pelotas de alta calidad, accesorios especializados y ropa técnica para tenis. Productos de marcas líderes para mejorar tu juego. Explora nuestra colección aquí: [enlace_tenis]",
         "number": 520
     },
     {
         "nombre": "Voleibol",
         "id": "2.2.5.4",
-        "Expresion": "voleibol|voley|voli",
-        "Respuesta": "Seccion de Voleibol.¿Que articulo de Voleibol buscas?",
+        "Expresion": "voleibol|voley|voli|volleyball|voleybol|balon de voley|balón de voley|red de voleibol",
+        "Respuesta": "¡Eleva tu juego al siguiente nivel! Encuentra todo para voleibol: balones oficiales, redes profesionales, rodilleras protectoras y equipamiento especializado. Productos diseñados para un rendimiento óptimo en la cancha. Descubre nuestro equipo aquí: [enlace_voleibol]",
         "number": 521
     },
     {
         "nombre": "Artes Marciales",
         "id": "2.2.5.5",
-        "Expresion": "kickboxing|kunfu|arte|marciales",
-        "Respuesta": "Seccion de Artes marciales.¿Que articulo de artes marciales buscas?",
+        "Expresion": "kickboxing|kunfu|kung fu|arte|marciales|karate|taekwondo|judo|boxeo|mma|artes marciales mixtas|gi|dobok|guantes|protecciones",
+        "Respuesta": "¡Equípate para el combate con lo mejor! Ofrecemos todo el equipamiento necesario para artes marciales: uniformes tradicionales, protecciones certificadas, equipo de entrenamiento y accesorios especializados. Material de alta calidad para tu seguridad y rendimiento. Explora nuestro catálogo aquí: [enlace_artes_marciales]",
         "number": 522
     },
     {
         "nombre": "Atletismo",
         "id": "2.2.5.6",
-        "Expresion": "correr|atletismo|saltos|lanzaminetos|marcha",
-        "Respuesta": "Seccion de Atletismo.¿Que articulo de atletismo buscas?",
+        "Expresion": "correr|atletismo|saltos|lanzamientos|marcha|pista|campo|atletico|atlético|sprints|vallas|jabalina",
+        "Respuesta": "¡Supera tus límites con el mejor equipamiento atlético! Tenemos todo para atletismo: zapatillas especializadas, implementos de competición, ropa técnica y accesorios de entrenamiento. Equipo profesional para todas las disciplinas. Encuentra tu equipamiento aquí: [enlace_atletismo]",
         "number": 523
     },
     {
         "nombre": "Balonmano",
         "id": "2.2.5.7",
-        "Expresion": "balonmano|handball",
-        "Respuesta": "Seccion de Balonmano.¿Que articulo de balonmano buscas?",
+        "Expresion": "balonmano|handball|balon de mano|balón de mano|handbol|handebol|balonmanista",
+        "Respuesta": "¡Equípate para la intensidad del balonmano! Descubre nuestros balones oficiales, equipamiento protector, calzado especializado y ropa técnica. Productos diseñados para el dinamismo de este deporte. Encuentra todo tu equipo aquí: [enlace_balonmano]",
         "number": 524
     },
     {
         "nombre": "Basquetbol",
         "id": "2.2.5.8",
-        "Expresion": "basquet|basquetbol|baloncesto|basket",
-        "Respuesta": "Seccion de Basquetbol.¿Que articulo de basquetbol buscas?",
+        "Expresion": "basquet|basquetbol|baloncesto|basket|basketball|balon de basquet|balón de basquet|canasta|tablero|nba",
+        "Respuesta": "¡Salta a la acción con el mejor equipo de básquet! Ofrecemos balones oficiales, tableros profesionales, ropa técnica y todo el equipamiento necesario para la cancha. Productos de las mejores marcas del baloncesto. Descubre nuestra selección aquí: [enlace_basquetbol]",
         "number": 525
     },
     {
         "nombre": "Billar",
         "id": "2.2.5.9",
-        "Expresion": "billar|pool",
-        "Respuesta": "Seccion de Billar.¿Que articulo de billar buscas?",
+        "Expresion": "billar|pool|snooker|taco de billar|bolas de billar|mesa de billar|billarista|chalk|tiza de billar",
+        "Respuesta": "¡Eleva tu juego en la mesa de billar! Encuentra tacos profesionales, bolas de precisión, accesorios especializados y equipamiento de calidad. Todo lo necesario para disfrutar del billar al máximo nivel. Explora nuestra colección aquí: [enlace_billar]",
         "number": 526
     },
     {
         "nombre": "Boliche",
         "id": "2.2.5.10",
-        "Expresion": "boliche|bolos|juego de bolos|pista de bolos|bolichera|bolichero|equipo de boliche|accesorios de boliche|bolas de boliche|zapatos de boliche",
-        "Respuesta": "¡Claro! En la categoría de Boliche, puedes encontrar una variedad de productos relacionados con este deporte, como bolas, zapatos, accesorios y más. ¿Necesitas ayuda para encontrar algo en particular o tienes alguna pregunta sobre los productos disponibles?",
+        "Expresion": "boliche|bolos|juego de bolos|pista de bolos|bolichera|bolichero|equipo de boliche|accesorios de boliche|bolas de boliche|zapatos de boliche|bowling",
+        "Respuesta": "¡Prepárate para hacer chuza! Ofrecemos todo el equipo necesario para boliche: bolas profesionales personalizadas, zapatos especializados, accesorios de calidad y equipo de práctica. Material diseñado para mejorar tu juego. Encuentra tu equipo perfecto aquí: [enlace_boliche]",
         "number": 527
     },
     {
         "nombre": "Box",
         "id": "2.2.5.11",
-        "Expresion": "box",
-        "Respuesta": "Seccion de Box.¿Que articulo de Box buscas?",
+        "Expresion": "box|boxeo|guantes de box|saco de box|vendas|protector bucal|careta de box|boxeador|boxing|punching bag",
+        "Respuesta": "¡Equípate para el ring! Descubre nuestra selección de equipo de boxeo: guantes profesionales, sacos de entrenamiento, protecciones certificadas y accesorios especializados. Material de alta calidad para tu seguridad y rendimiento. Explora nuestro catálogo aquí: [enlace_box]",
         "number": 528
     },
     {
         "nombre": "Badminton",
         "id": "2.2.5.12",
-        "Expresion": "badminton",
-        "Respuesta": "Seccion de Badminton. ¿Qué artículo de badminton buscas?",
+        "Expresion": "badminton|bádminton|raqueta de badminton|pluma|volante|red de badminton|shuttlecock|badmintonista",
+        "Respuesta": "¡Descubre el emocionante mundo del bádminton! Tenemos todo el equipamiento necesario: raquetas profesionales, volantes de alta calidad, redes reglamentarias y accesorios especializados. Equipo diseñado para mejorar tu juego y rendimiento. Explora nuestra selección aquí: [enlace_badminton]",
         "number": 529
     },
     {
         "nombre": "Caza",
         "id": "2.2.5.13",
-        "Expresion": "caza|cacería",
-        "Respuesta": "Seccion de Caza. ¿Qué artículo de caza buscas?",
+        "Expresion": "caza|caceria|cacería|hunting|equipo de caza|ropa de caza|camuflaje|accesorios de caza|cazador|municion|munición",
+        "Respuesta": "¡Equípate para tu próxima expedición! Ofrecemos una completa línea de equipamiento para caza: ropa especializada con camuflaje, accesorios técnicos y equipo de alta calidad. Todo el material necesario para una experiencia segura y exitosa. Encuentra tu equipo aquí: [enlace_caza]",
         "number": 530
     },
     {
         "nombre": "Ciclismo",
         "id": "2.2.5.14",
-        "Expresion": "ciclismo|bicicleta|bici|ciclista",
-        "Respuesta": "Seccion de Ciclismo. ¿Qué artículo de ciclismo buscas?",
+        "Expresion": "ciclismo|bicicleta|bici|ciclista|cycling|mountain bike|mtb|ruta|cascos|pedales|guantes ciclismo|jersey|lycra|accesorios bicicleta",
+        "Respuesta": "¡Pedalea hacia la aventura con el mejor equipo! Descubre nuestra extensa colección de productos para ciclismo: bicicletas de alta gama, componentes de calidad, ropa técnica y accesorios especializados. Equipamiento para todas las modalidades y niveles. Encuentra todo para tu pasión aquí: [enlace_ciclismo]",
         "number": 531
     },
     {
         "nombre": "Correr",
         "id": "2.2.5.15",
-        "Expresion": "correr|running|trote",
-        "Respuesta": "Seccion de Correr. ¿Qué artículo para correr buscas?",
+        "Expresion": "correr|running|trote|jogging|tenis para correr|ropa running|accesorios running|runner|zapatillas|running shoes|cardio",
+        "Respuesta": "¡Supera tus metas con el equipo adecuado! Ofrecemos todo para runners: zapatillas especializadas, ropa técnica con tecnología moisture-wicking, accesorios de hidratación y dispositivos de seguimiento. Productos diseñados para mejorar tu rendimiento. Descubre nuestra colección aquí: [enlace_running]",
         "number": 532
     },
     {
         "nombre": "Criquet",
         "id": "2.2.5.16",
-        "Expresion": "criquet|cricket",
-        "Respuesta": "Seccion de Criquet. ¿Qué artículo de criquet buscas?",
+        "Expresion": "criquet|cricket|críquet|bate de criquet|pelota de criquet|wicket|guantes de criquet|protecciones criquet",
+        "Respuesta": "¡Equípate para el campo de críquet! Encuentra todo el equipamiento necesario: bates profesionales, pelotas reglamentarias, protecciones de calidad y accesorios especializados. Material certificado para un juego seguro y competitivo. Explora nuestro catálogo aquí: [enlace_criquet]",
         "number": 533
     },
     {
         "nombre": "Deportes acuaticos",
         "id": "2.2.5.17",
-        "Expresion": "acuatico|natación|buceo|esnórquel|surf|nado|agua",
-        "Respuesta": "Seccion de Deportes Acuáticos. ¿Qué artículo acuático buscas?",
+        "Expresion": "acuatico|acuático|natacion|natación|buceo|snorquel|esnórquel|surf|nado|agua|swimming|diving|traje de baño|goggles|aletas|tabla de surf",
+        "Respuesta": "¡Sumérgete en la aventura acuática! Tenemos todo el equipo necesario para deportes acuáticos: trajes de baño de alto rendimiento, equipos de buceo profesional, tablas de surf, accesorios de natación y más. Productos resistentes al agua y de larga duración. Descubre nuestro catálogo aquí: [enlace_deportes_acuaticos]",
         "number": 534
     },
     {
         "nombre": "Deportes Ecuestres",
         "id": "2.2.5.18",
-        "Expresion": "ecuestre|caballo|equitación|hipismo",
-        "Respuesta": "Seccion de Deportes Ecuestres. ¿Qué artículo ecuestre buscas?",
+        "Expresion": "ecuestre|caballo|equitacion|equitación|hipismo|horseback|riding|montura|silla de montar|equipo ecuestre|casco ecuestre",
+        "Respuesta": "¡Vive la elegancia ecuestre! Ofrecemos equipamiento completo para jinete y caballo: monturas de calidad, indumentaria especializada, accesorios de protección y productos para el cuidado equino. Material de primera calidad para la práctica segura. Explora nuestra colección aquí: [enlace_deportes_ecuestres]",
         "number": 535
     },
     {
         "nombre": "Deportes de disco",
         "id": "2.2.5.19",
-        "Expresion": "disco|frisbee|ultimate",
-        "Respuesta": "Seccion de Deportes de Disco. ¿Qué artículo de disco buscas?",
+        "Expresion": "disco|frisbee|ultimate|disco volador|flying disc|ultimate frisbee|disco ultimate|deportes de disco",
+        "Respuesta": "¡Descubre la emoción del ultimate y los deportes de disco! Contamos con discos profesionales, equipamiento especializado y accesorios para todos los niveles. Productos diseñados para máxima precisión y durabilidad. Encuentra tu equipo perfecto aquí: [enlace_deportes_disco]",
         "number": 536
     },
     {
         "nombre": "Deportes de invierno",
         "id": "2.2.5.20",
-        "Expresion": "deportes|invierno|esquí|snowboard|patinaje|hielo|frío|nieve|equipo de invierno|ropa térmica",
-        "Respuesta": "Parece que estás interesado en deportes de invierno. ¿Necesitas ayuda para encontrar equipos de esquí, snowboard, ropa térmica o accesorios para el frío? Estoy aquí para ayudarte.",
+        "Expresion": "deportes|invierno|esqui|esquí|snowboard|patinaje|hielo|frio|frío|nieve|equipo de invierno|ropa termica|ropa térmica|ski|winter sports",
+        "Respuesta": "¡Conquista la nieve con el mejor equipamiento! Ofrecemos todo para deportes de invierno: equipos de esquí y snowboard de alta calidad, ropa térmica especializada, accesorios de protección y equipo de seguridad. Material diseñado para mantener el calor y la comodidad. Descubre nuestra colección aquí: [enlace_deportes_invierno]",
         "number": 537
     },
     {
         "nombre": "Futbol Americano",
         "id": "2.2.5.21",
-        "Expresion": "futbol americano|football",
-        "Respuesta": "Seccion de Futbol Americano. ¿Qué artículo de futbol americano buscas?",
+        "Expresion": "futbol americano|fútbol americano|football|nfl|casco|hombreras|balon futbol americano|balón fútbol americano|protecciones football",
+        "Respuesta": "¡Equípate para el emparrillado! Encuentra todo el equipo necesario: cascos certificados, protecciones profesionales, balones oficiales y accesorios especializados. Material de alta resistencia para máxima protección y rendimiento. Explora nuestro catálogo aquí: [enlace_futbol_americano]",
         "number": 538
     },
     {
         "nombre": "Gimnasia",
         "id": "2.2.5.22",
-        "Expresion": "gimnasia|gimnasta|acrobacia",
-        "Respuesta": "Seccion de Gimnasia. ¿Qué artículo de gimnasia buscas?",
+        "Expresion": "gimnasia|gimnasta|acrobacia|gimnastico|gimnástico|leotardo|barra|viga|colchoneta|gimnasia artistica|gimnasia rítmica",
+        "Respuesta": "¡Alcanza la perfección en gimnasia! Ofrecemos equipamiento especializado: leotardos de competición, aparatos profesionales, colchonetas de seguridad y accesorios técnicos. Material certificado para un entrenamiento seguro y efectivo. Descubre nuestra selección aquí: [enlace_gimnasia]",
         "number": 539
     },
     {
         "nombre": "Hockey",
         "id": "2.2.5.23",
-        "Expresion": "hockey|stick|puck",
-        "Respuesta": "Seccion de Hockey. ¿Qué artículo de hockey buscas?",
+        "Expresion": "hockey|stick|puck|hockey sobre hielo|hockey sobre cesped|hockey césped|palo de hockey|protecciones hockey|equipo hockey",
+        "Respuesta": "¡Domina el juego con el mejor equipo de hockey! Tenemos todo lo necesario: sticks profesionales, protecciones certificadas, pucks reglamentarios y equipamiento especializado. Material diseñado para máximo rendimiento y seguridad. Encuentra tu equipo aquí: [enlace_hockey]",
         "number": 540
     },
     {
@@ -3720,7 +3734,7 @@
         "nombre": "Trofeos,medallas y premios",
         "id": "2.2.5.34",
         "Expresion": "trofeos|medallas|premios|reconocimientos|galardones|insignias|distinciones|premiacion|trofeo|medalla|premio",
-        "Respuesta": "¡Claro! En la categoría de 'Trofeos, medallas y premios' encontrarás una amplia variedad de productos para reconocer logros y celebrar éxitos. ¿Necesitas ayuda para elegir un trofeo, una medalla o algún otro tipo de premio? Estoy aquí para ayudarte.",
+        "Respuesta": "¡Claro! En la categoría de 'Trofeos, medallas y premios' encontrarás una amplia variedad de productos para reconocer logros y celebrar éxitos.Estoy aquí para ayudarte.",
         "number": 551
     },
     {
@@ -3733,71 +3747,71 @@
     {
         "nombre": "Niños",
         "id": "2.2.6.1",
-        "Expresion": "niños|niño|infantil|pequeños|pequeño|juegos para niños|ropa para niños|juguetes|juguete|educativo|educación infantil|actividades para niños|regalos para niños",
-        "Respuesta": "Parece que estás buscando productos relacionados con niños. En nuestra sección de 'Niños' encontrarás una amplia variedad de artículos como juguetes, ropa, libros educativos y mucho más. ¿Necesitas ayuda para encontrar algo en particular?",
+        "Expresion": "niños|niño|infantil|pequeños|pequeño|juegos para niños|ropa para niños|juguetes|juguete|educativo|educacion infantil|educación infantil|actividades para niños|regalos para niños|juegos infantiles|ropa infantil",
+        "Respuesta": "¡Bienvenido a nuestra mágica sección infantil! Descubre todo un mundo de diversión y aprendizaje para los pequeños de la casa. Tenemos una increíble selección de juguetes educativos, ropa cómoda y moderna, libros interactivos y mucho más. Todos nuestros productos están cuidadosamente seleccionados pensando en la seguridad y el desarrollo de los niños. Explora nuestra colección completa aquí: [enlace_seccion_niños]",
         "number": 553
     },
     {
         "nombre": "Niñas",
         "id": "2.2.6.2",
-        "Expresion": "niñas|niña|infantil|chicas|chica|ropa de niña|moda infantil|accesorios para niñas|zapatos de niña|juegos de niñas",
-        "Respuesta": "Parece que estás buscando productos para niñas. En nuestra sección de 'Niñas' encontrarás una amplia variedad de ropa, calzado, accesorios y juguetes diseñados especialmente para ellas. ¿Hay algo en particular que estés buscando?",
+        "Expresion": "niñas|niña|infantil|chicas|chica|ropa de niña|moda infantil|accesorios para niñas|zapatos de niña|juegos de niñas|vestidos|muñecas|accesorios infantiles",
+        "Respuesta": "¡Descubre nuestra encantadora colección para niñas! Tenemos todo lo que necesitas: desde adorable ropa y calzado hasta divertidos juguetes y accesorios. Nuestra selección incluye las últimas tendencias en moda infantil, con diseños coloridos y materiales de alta calidad que garantizan comodidad y estilo. Encuentra los mejores productos para las princesas de la casa aquí: [enlace_seccion_niñas]",
         "number": 554
     },
     {
         "nombre": "Mesa",
         "id": "2.2.6.3",
-        "Expresion": "mesa|mesas|mueble|muebles|comedor|sala|decoracion|decoración|interior|exterior|madera|madera|vidrio|metal|patio|jardin|jardín|oficina|hogar|estilo|diseño|diseño de interiores|mesa de centro|mesa de comedor|mesa de trabajo|mesa plegable|mesa extensible|mesa de exterior|mesa de jardín|mesa de patio",
-        "Respuesta": "¡Hola! Parece que estás interesado en mesas. ¿Necesitas ayuda para elegir una mesa para tu comedor, sala, oficina o jardín? ¿O tal vez tienes alguna duda sobre materiales como madera, vidrio o metal? Estoy aquí para ayudarte.",
+        "Expresion": "mesa|mesas|mueble|muebles|comedor|sala|decoracion|decoración|interior|exterior|madera|",
+        "Respuesta": "¡Transforma tus espacios con nuestras elegantes mesas! Ofrecemos una amplia colección para cada ambiente y necesidad: desde sofisticadas mesas de comedor hasta prácticas mesas de trabajo y encantadoras mesas de jardín. Fabricadas con materiales de primera calidad como madera maciza, vidrio templado y metal resistente. Cada pieza está diseñada para combinar estilo y funcionalidad. Encuentra la mesa perfecta para tu espacio aquí: [enlace_mesas]",
         "number": 555
     },
     {
         "nombre": "Educativos",
         "id": "2.2.6.4",
-        "Expresion": "educacion|aprendizaje|estudio|estudiar|aprender|clases|curso|cursos|material educativo|libros educativos|recursos educativos|enseñanza|formacion|academico|escolar",
-        "Respuesta": "Parece que estás interesado en productos educativos. En nuestra categoría de 'Educativos' encontrarás una amplia variedad de recursos, desde libros y cursos hasta materiales de enseñanza. ¿Necesitas ayuda para encontrar algo en particular?",
+        "Expresion": "educacion|educación|aprendizaje|estudio|estudiar|aprender|clases|curso|cursos|material educativo|libros educativos|recursos educativos|enseñanza|formacion|formación|academico|académico|escolar",
+        "Respuesta": "¡Impulsa el aprendizaje con nuestros recursos educativos de calidad! Disponemos de una extensa biblioteca de materiales didácticos, desde libros interactivos hasta juegos educativos y material escolar. Todos nuestros productos están diseñados por expertos en educación para maximizar el aprendizaje mientras se divierten. Descubre todas nuestras herramientas educativas aquí: [enlace_educativos]",
         "number": 556
     },
     {
         "nombre": "Peluches",
         "id": "2.2.6.5",
-        "Expresion": "peluche|peluches|muñecos de peluche|osito|oso de peluche|muñeco suave",
-        "Respuesta": "Seccion de Peluches. ¿Qué tipo de peluche estás buscando?",
+        "Expresion": "peluche|peluches|muñecos de peluche|osito|oso de peluche|muñeco suave|peluches suaves|animales de peluche|juguetes blandos",
+        "Respuesta": "¡Encuentra el compañero perfecto entre nuestros adorables peluches! Tenemos una encantadora colección de amigos suaves y abrazables, desde tiernos ositos hasta divertidos personajes. Fabricados con materiales suaves y seguros, perfectos para todas las edades. Cada peluche está diseñado para brindar amor y compañía. Descubre todos nuestros peluches aquí: [enlace_peluches]",
         "number": 557
     },
     {
         "nombre": "Bebés",
         "id": "2.2.6.6",
-        "Expresion": "bebé|bebés|recién nacido|recién nacidos|niño|niños|infantil|infantes|maternidad|puericultura|pañales|biberón|chupete|juguetes bebé|ropa bebé|cuna|carrito|silla de paseo|moises|baño bebé",
-        "Respuesta": "Parece que estás buscando productos relacionados con bebés. En la categoría de Bebés, puedes encontrar una amplia variedad de artículos como pañales, biberones, chupetes, juguetes, ropa, cunas, carritos y mucho más. ¿Hay algo específico que necesitas para tu bebé?",
+        "Expresion": "bebe|bebé|bebes|bebés|recien nacido|recién nacido|recien nacidos|recién nacidos|niño|niños|infantil|infantes|pañales|biberon|biberón|chupete|juguetes bebe|juguetes bebé|ropa bebe|ropa bebé|cuna|cunas",
+        "Respuesta": "¡Todo lo que tu bebé necesita en un solo lugar! Nuestra sección de bebés ofrece productos premium para el cuidado de los más pequeños: desde esenciales diarios como pañales y biberones hasta hermosa ropa, cunas seguras y juguetes para estimulación temprana. Todos nuestros productos cumplen con los más altos estándares de seguridad. Encuentra todo para tu bebé aquí: [enlace_bebes]",
         "number": 558
     },
     {
         "nombre": "Bloques",
         "id": "2.2.6.7",
-        "Expresion": "bloques|construccion|juegos de bloques|lego|armar|construir|montar|piezas|juguetes educativos",
-        "Respuesta": "Parece que estás interesado en la categoría de Bloques. ¿Necesitas ayuda para encontrar algún tipo específico de bloques, como bloques de construcción, juegos de bloques educativos o algo más? Estoy aquí para ayudarte.",
+        "Expresion": "bloques|construccion|construcción|juegos de bloques|lego|armar|construir|montar|piezas|juguetes educativos|bloques didacticos|bloques didácticos|juegos de construccion|juegos de construcción",
+        "Respuesta": "¡Despierta la creatividad con nuestros sets de bloques de construcción! Ofrecemos una fantástica selección de juegos de bloques que desarrollan habilidades motoras y pensamiento espacial mientras divierten. Desde clásicos bloques de madera hasta sistemas de construcción avanzados, tenemos opciones para todas las edades. Descubre todos nuestros sets de construcción aquí: [enlace_bloques]",
         "number": 559
     },
     {
         "nombre": "Juguetes electronicos",
         "id": "2.2.6.8",
-        "Expresion": "juguetes|electronicos|juguetes electronicos|juegos|tecnologia|niños|niñas|diversion|educativos|baterias|pilas|control remoto|robot|dron|interactivo",
-        "Respuesta": "Parece que estás interesado en juguetes electrónicos. Estos productos incluyen una variedad de opciones como robots, drones, juguetes interactivos y más. ¿Necesitas ayuda para elegir el adecuado o tienes alguna pregunta específica sobre un producto?",
+        "Expresion": "juguetes|electronicos|electrónicos|juguetes electronicos|juguetes electrónicos|juegos|tecnologia|tecnología|niños|niñas|diversion|diversión|educativos|baterias|baterías|pilas|control remoto|robot|dron|interactivo",
+        "Respuesta": "¡Explora el futuro del juego con nuestra colección de juguetes electrónicos! Desde fascinantes robots programables hasta emocionantes drones y juguetes interactivos que combinan diversión y aprendizaje. Todos nuestros productos incluyen tecnología de última generación y están diseñados para ser seguros y fáciles de usar. Descubre la diversión high-tech aquí: [enlace_juguetes_electronicos]",
         "number": 560
     },
     {
         "nombre": "Al aire libre",
         "id": "2.2.6.9",
-        "Expresion": "aire libre|exterior|camping|senderismo|acampada|excursion|naturaleza|aventura|montaña|bosque|parque|jardín|terraza|balcón|patio|barbacoa|picnic|deportes al aire libre|equipo de camping|mochila|tienda de campaña|saco de dormir|linterna|brújula|botas de montaña|ropa de exterior",
-        "Respuesta": "Parece que estás interesado en productos relacionados con actividades al aire libre. En esta categoría encontrarás desde equipo de camping y senderismo hasta accesorios para tu jardín o terraza. ¿Necesitas ayuda para encontrar algo en particular?",
+        "Expresion": "aire libre|exterior|camping|senderismo|acampada|excursion|excursión|naturaleza|aventura|montaña|montana|bosque|parque|deportes al aire libre|equipo de camping|mochila|actividades exterior",
+        "Respuesta": "¡Vive grandes aventuras al aire libre con nuestro equipo especializado! Tenemos todo lo necesario para tus actividades outdoor: desde resistente equipo de camping y senderismo hasta divertidos juegos de exterior. Nuestros productos están diseñados para resistir los elementos y garantizar tu comodidad en la naturaleza. Explora todo nuestro equipo de aventura aquí: [enlace_aire_libre]",
         "number": 561
     },
     {
         "nombre": "Disfraces",
         "id": "2.2.6.10",
-        "Expresion": "disfraz|disfraces|fiesta|halloween|carnaval|traje|vestuario|disfrazarse|disfrazado|disfrazar",
-        "Respuesta": "¡Claro! En nuestra sección de disfraces encontrarás una gran variedad de opciones para fiestas, Halloween, carnavales y más. ¿Buscas algo en particular o necesitas ayuda para elegir el disfraz perfecto?",
+        "Expresion": "disfraz|disfraces|fiesta|halloween|carnaval|traje|vestuario|disfrazarse|disfrazado|disfrazar|costume|cosplay|fantasia|fantasía",
+        "Respuesta": "¡Libera tu imaginación con nuestra fabulosa colección de disfraces! Tenemos trajes increíbles para todas las ocasiones: fiestas temáticas, Halloween, carnavales y más. Desde adorables disfraces infantiles hasta elaborados trajes para adultos, todos confeccionados con materiales de calidad y atención al detalle. Encuentra el disfraz perfecto para tu próxima aventura aquí: [enlace_disfraces]",
         "number": 562
     },
     {
@@ -3810,56 +3824,56 @@
     {
         "nombre": "Accesorios para coche",
         "id": "2.2.7.1",
-        "Expresion": "accesorios para coche|cubrevolante|alfombrillas|organizadores|soporte para celular|portavasos|accesorios interiores|accesorios exteriores",
-        "Respuesta": "Seccion de Accesorios para Coche. ¿Qué accesorio necesitas?",
+        "Expresion": "accesorios para coche|cubrevolante|alfombrillas|organizadores|soporte para celular|portavasos|accesorios interiores|accesorios exteriores|accesorios auto|accesorios carro|accesorios automovil|accesorios automóvil",
+        "Respuesta": "¡Personaliza tu vehículo con nuestra increíble selección de accesorios! Tenemos todo lo que necesitas para hacer tu auto más funcional y cómodo: desde prácticos portacelulares y organizadores hasta elegantes cubrevolantes y alfombrillas de alta calidad. Todos nuestros accesorios están diseñados para una instalación sencilla y larga durabilidad. Explora nuestra colección completa aquí: [enlace_accesorios_auto]",
         "number": 564
     },
     {
         "nombre": "Aceites y fluidos",
         "id": "2.2.7.2",
-        "Expresion": "aceite de motor|aceites|anticongelante|líquido de frenos|aditivos|fluido de transmisión|lubricantes",
-        "Respuesta": "Seccion de Aceites y Fluidos. ¿Qué tipo de aceite o fluido estás buscando?",
+        "Expresion": "aceite de motor|aceites|anticongelante|liquido de frenos|líquido de frenos|aditivos|fluido de transmision|fluido de transmisión|lubricantes|aceite sintetico|aceite sintético|refrigerante",
+        "Respuesta": "¡Mantén tu motor funcionando perfectamente! Ofrecemos una amplia gama de aceites y fluidos de las mejores marcas del mercado. Desde aceites sintéticos de alto rendimiento hasta fluidos especializados para transmisión y frenos, tenemos todo lo que tu vehículo necesita. Todos nuestros productos cumplen con las especificaciones más exigentes de los fabricantes. Encuentra el producto adecuado para tu vehículo aquí: [enlace_aceites_fluidos]",
         "number": 565
     },
     {
         "nombre": "Cuidado de coche y moto",
         "id": "2.2.7.3",
-        "Expresion": "cuidado de coche|cuidado de moto|limpieza de auto|encerado|shampoo para coche|lavado de auto|detallado",
-        "Respuesta": "Seccion de Cuidado de Coche y Moto. ¿Qué producto de limpieza o cuidado necesitas?",
+        "Expresion": "cuidado de coche|cuidado de moto|limpieza de auto|encerado|shampoo para coche|lavado de auto|detallado|pulido|cera|limpiador|brillo|auto|moto",
+        "Respuesta": "¡Dale a tu vehículo el cuidado que merece! Nuestra línea completa de productos de limpieza y detallado incluye todo lo necesario para mantener tu auto o moto impecable: shampoos especializados, ceras de alta duración, productos para pulido y más. Todos formulados para proteger y realzar el acabado de tu vehículo. Descubre nuestra selección completa aquí: [enlace_cuidado_vehicular]",
         "number": 566
     },
     {
         "nombre": "Herramientas para coche",
         "id": "2.2.7.4",
-        "Expresion": "herramientas para coche|gato hidráulico|kit de herramientas|llave de cruz|compresor|multímetro|reparación de coche",
-        "Respuesta": "Seccion de Herramientas para Coche. ¿Qué herramienta para coche buscas?",
+        "Expresion": "herramientas para coche|gato hidraulico|gato hidráulico|kit de herramientas|llave de cruz|compresor|reparacion de coche|reparación de coche|coche|herramientas auto|herramientas carro|scanner|escáner|scanner automotriz|escáner automotriz",
+        "Respuesta": "¡Equípate con las mejores herramientas para tu auto! Contamos con todo lo esencial: desde kits completos de herramientas hasta gatos hidráulicos de alta capacidad y compresores portátiles. Todas nuestras herramientas están fabricadas con materiales resistentes para garantizar años de uso confiable. Encuentra todas las herramientas que necesitas aquí: [enlace_herramientas_auto]",
         "number": 567
     },
     {
         "nombre": "Llantas y rines para coche",
         "id": "2.2.7.5",
-        "Expresion": "llantas|rines|neumáticos|ruedas|llantas para coche|rines deportivos",
-        "Respuesta": "Seccion de Llantas y Rines. ¿Qué tipo o medida de llanta o rin estás buscando?",
+        "Expresion": "llantas|rines|neumaticos|neumáticos|ruedas|llantas para coche|rines deportivos|aros|llantas auto|llantas carro|rines auto|rines carro",
+        "Respuesta": "¡Mejora el rendimiento y la apariencia de tu vehículo! Nuestra selección de llantas y rines incluye opciones para todos los modelos y estilos, desde rines deportivos de alto impacto hasta llantas de máximo rendimiento. Trabajamos con las mejores marcas para garantizar calidad, seguridad y estilo. Encuentra las llantas y rines perfectos para tu vehículo aquí: [enlace_llantas_rines]",
         "number": 568
     },
     {
         "nombre": "Partes y refacciones",
         "id": "2.2.7.6",
-        "Expresion": "partes de coche|refacciones|frenos|batería|amortiguadores|alternador|bujías|filtros",
-        "Respuesta": "Seccion de Partes y Refacciones. ¿Qué parte o refacción necesitas?",
+        "Expresion": "partes de coche|refacciones|frenos|bateria|batería|amortiguadores|alternador|bujias|bujías|filtros|repuestos|autopartes|balatas|pastillas de freno|suspension|suspensión",
+        "Respuesta": "¡Mantén tu vehículo en óptimas condiciones con refacciones de calidad! Ofrecemos una extensa línea de autopartes originales y de repuesto: desde sistemas de frenos y amortiguadores hasta baterías y filtros. Todas nuestras refacciones cumplen o superan las especificaciones del fabricante para garantizar el mejor rendimiento. Encuentra la parte exacta que necesitas aquí: [enlace_refacciones]",
         "number": 569
     },
     {
         "nombre": "Pintura",
         "id": "2.2.7.7",
-        "Expresion": "pintura para auto|spray automotriz|pintura en aerosol|retoque de pintura|esmalte automotriz",
-        "Respuesta": "Seccion de Pintura para Auto. ¿Qué tipo o color de pintura necesitas?",
+        "Expresion": "pintura para auto|spray automotriz|pintura en aerosol|retoque de pintura|esmalte automotriz|pintura coche|pintura automovil|pintura automóvil|primer|base|clear|transparente|barniz",
+        "Respuesta": "¡Dale un nuevo look a tu vehículo! Nuestra línea de pinturas automotrices incluye todo lo que necesitas para un acabado profesional: desde sprays para retoques rápidos hasta pinturas premium para trabajos completos. Disponibles en una amplia gama de colores y acabados, con fórmulas de secado rápido y larga duración. Encuentra el color perfecto para tu auto aquí: [enlace_pintura_auto]",
         "number": 570
     },
     {
         "nombre": "Jardin",
         "id": "2.2.8",
-        "Expresion": "jardin|jardinería|plantas|flores|herramientas de jardín|macetas|riego|huerto|paisajismo|cesped|abono|semillas|herramientas|mangueras|decoración exterior|terraza|patio|jardín vertical|jardín urbano",
+        "Expresion": "jardin|jardinería|jardineria|plantas|flores|herramientas de jardín|macetas|riego|huerto|paisajismo|cesped|abono|semillas|herramientas|mangueras|decoración exterior|terraza|patio|jardín vertical|jardín urbano",
         "Respuesta": "Parece que estás interesado en productos relacionados con jardinería. En nuestra categoría de Jardín encontrarás una amplia variedad de artículos como plantas, herramientas de jardinería, macetas, sistemas de riego y mucho más. ¿Hay algo específico que estés buscando o en lo que necesites ayuda?",
         "number": 571
     },
@@ -3867,77 +3881,78 @@
         "nombre": "Parrillas",
         "id": "2.2.8.1",
         "Expresion": "parrilla|parrillas|asador|asadores|bbq|barbacoa",
-        "Respuesta": "Seccion de Parrillas. ¿Qué tipo de parrilla o asador buscas?",
+        "Respuesta": "¡Excelente elección! En nuestra sección de parrillas y asadores encontrarás las mejores marcas del mercado. Tenemos desde parrillas de carbón tradicionales hasta modernas parrillas de gas con múltiples quemadores. Te invito a explorar nuestra colección en el siguiente enlace donde podrás ver todos los detalles, especificaciones y precios: [enlace_parrillas]",
         "number": 572
     },
     {
         "nombre": "Muebles para patio",
         "id": "2.2.8.2",
-        "Expresion": "muebles de jardín|muebles para patio|sala de exterior|mesa de jardín|muebles exteriores",
-        "Respuesta": "Seccion de Muebles para Patio. ¿Qué tipo de mueble buscas?",
+        "Expresion": "muebles de jardin|muebles de jardín|muebles para patio|sala de exterior|mesa de jardin|mesa de jardín|muebles exteriores",
+        "Respuesta": "¡Te encantará nuestra colección de muebles para patio! Tenemos sets completos de muebles resistentes a la intemperie, desde elegantes juegos de comedor hasta acogedores sofás para exterior. Todos nuestros muebles están diseñados para durar y dar estilo a tu espacio exterior. Puedes ver nuestra colección completa aquí: [enlace_muebles_patio]",
         "number": 573
     },
     {
         "nombre": "Sillas para patio",
         "id": "2.2.8.3",
-        "Expresion": "sillas de jardín|sillas para patio|sillas exteriores|reposeras",
-        "Respuesta": "Seccion de Sillas para Patio. ¿Qué tipo de silla buscas?",
+        "Expresion": "sillas de jardin|sillas de jardín|sillas para patio|sillas exteriores|reposeras",
+        "Respuesta": "¡Tengo justo lo que necesitas! Nuestra colección de sillas para patio incluye opciones para todos los gustos: desde cómodas sillas reclinables hasta elegantes sillas de comedor exterior. Todas están fabricadas con materiales resistentes a la intemperie y diseñadas para máxima comodidad. Descubre nuestra selección completa aquí: [enlace_sillas_patio]",
         "number": 574
     },
     {
         "nombre": "Tolods,sombrillas y pérgolas",
         "id": "2.2.8.4",
-        "Expresion": "tolods|sombrillas|pérgolas|sombrilla|pérgola|toldo|protección solar|exterior|terraza|jardín|sombra",
-        "Respuesta": "Parece que estás interesado en productos relacionados con tolods, sombrillas o pérgolas. Estos artículos son ideales para protegerte del sol y disfrutar de tu espacio exterior. ¿Necesitas ayuda para elegir el modelo adecuado o tienes alguna pregunta específica sobre estos productos?",
+        "Expresion": "tolods|sombrillas|pergolas|pérgolas|sombrilla|pergola|pérgola|toldo|proteccion solar|protección solar|exterior|terraza|jardin|jardín|sombra",
+        "Respuesta": "¡La protección solar perfecta para tu espacio exterior! Nuestra línea de toldos, sombrillas y pérgolas te ofrece soluciones elegantes y duraderas para crear áreas de sombra. Están diseñados para resistir diferentes condiciones climáticas y vienen en varios estilos y tamaños. Explora todas las opciones disponibles aquí: [enlace_proteccion_solar]",
         "number": 575
     },
     {
         "nombre": "Macetas",
         "id": "2.2.8.5",
         "Expresion": "maceta|macetas|jarrones|contenedores de plantas",
-        "Respuesta": "Seccion de Macetas. ¿Qué tipo o tamaño de maceta estás buscando?",
+        "Respuesta": "¡Tus plantas merecen lo mejor! Nuestra colección de macetas incluye una amplia variedad de estilos, tamaños y materiales. Desde elegantes macetas de cerámica hasta opciones modernas en fibra de vidrio, todas diseñadas para mantener tus plantas saludables y lucir hermosas. Descubre toda la colección aquí: [enlace_macetas]",
         "number": 576
     },
     {
         "nombre": "Iluminación de exteriores",
         "id": "2.2.8.6",
-        "Expresion": "iluminación de exteriores|luces de jardín|lámparas solares|focos exteriores|guirnaldas de luz",
-        "Respuesta": "Seccion de Iluminación de Exteriores. ¿Qué tipo de luz o lámpara buscas?",
+        "Expresion": "iluminacion de exteriores|iluminación de exteriores|luces de jardin|luces de jardín|lamparas solares|lámparas solares|focos exteriores|guirnaldas de luz",
+        "Respuesta": "¡Dale vida a tu jardín incluso de noche! Nuestra selección de iluminación exterior incluye desde elegantes faroles hasta prácticas luces solares y encantadoras guirnaldas. Son perfectas para crear el ambiente que deseas y aumentar la seguridad de tu espacio exterior. Mira todas las opciones disponibles aquí: [enlace_iluminacion_exterior]",
         "number": 577
     },
     {
         "nombre": "Podadoras y tractores",
         "id": "2.2.8.7",
-        "Expresion": "podadora|podadoras|tractor|tractores|cortacésped|cortar pasto",
-        "Respuesta": "Seccion de Podadoras y Tractores. ¿Qué herramienta para cortar pasto necesitas?",
+        "Expresion": "podadora|podadoras|tractor|tractores|cortacesped|cortacésped|cortar pasto",
+        "Respuesta": "¡Mantén tu jardín impecable con nuestros equipos de primera! Ofrecemos una amplia gama de podadoras y tractores de las mejores marcas, con diferentes potencias y características para adaptarse a cualquier tamaño de jardín. Encuentra el equipo perfecto para ti aquí: [enlace_podadoras_tractores]",
         "number": 578
     },
     {
         "nombre": "Decoración",
         "id": "2.2.8.8",
-        "Expresion": "decoración de jardín|fuentes|estatuas|adornos de jardín|faroles|campanas de viento",
-        "Respuesta": "Seccion de Decoración para Jardín. ¿Qué artículo decorativo estás buscando?",
+        "Expresion": "decoracion de jardin|decoración de jardín|fuentes|estatuas|adornos de jardin|adornos de jardín|faroles|campanas de viento",
+        "Respuesta": "¡Dale personalidad a tu jardín! Nuestra colección de decoración exterior incluye hermosas fuentes, estatuas elegantes, faroles encantadores y muchos más elementos decorativos que transformarán tu espacio exterior en un oasis personal. Explora todas nuestras opciones decorativas aquí: [enlace_decoracion_jardin]",
         "number": 579
     },
     {
         "nombre": "Albercas y jacuzzis",
         "id": "2.2.8.9",
         "Expresion": "alberca|albercas|jacuzzi|jacuzzis|piscina|inflable|piscinas inflables",
-        "Respuesta": "Seccion de Albercas y Jacuzzis. ¿Qué tipo de alberca o jacuzzi estás buscando?",
+        "Respuesta": "¡Convierte tu jardín en un oasis de diversión! Tenemos una increíble selección de albercas y jacuzzis para todos los espacios y presupuestos. Desde piscinas inflables hasta jacuzzis de lujo con hidromasaje, encontrarás la opción perfecta para refrescarte y relajarte. Explora todas las opciones aquí: [enlace_albercas_jacuzzis]",
         "number": 580
     },
     {
         "nombre": "Plantas artificiales",
         "id": "2.2.8.10",
         "Expresion": "plantas artificiales|flores artificiales|hojas decorativas|arreglos artificiales",
-        "Respuesta": "Seccion de Plantas Artificiales. ¿Qué tipo de planta decorativa buscas?",
+        "Respuesta": "¡Verdor y color sin mantenimiento! Nuestras plantas artificiales son asombrosamente realistas y perfectas para decorar cualquier espacio. Son ideales si buscas belleza duradera sin preocuparte por el riego o la luz solar. Fabricadas con materiales de alta calidad que lucen frescos todo el año. Descubre nuestra colección completa aquí: [enlace_plantas_artificiales]",
         "number": 581
     },
     {
         "nombre": "Herramienta de jardineria",
         "id": "2.2.8.11",
-        "Expresion": "herramientas|jardin|jardineria|pala|rastrillo|tijeras|podadora|regadera|manguera|azadon|machete|carretilla|cultivador|guantes|jardinero|sembrar|podar|cortar|plantar|herramientas para plantas|jardin|jardinería|herramienta de jardín|herramientas de jardinería|césped|plantas|flores|poda|riego|manguera|rastrillo|pala|tijeras|desbrozadora|cortacésped|abono|fertilizante|maceta|huerto",
-        "Respuesta": "¡Bienvenido a nuestra sección de herramientas de jardinería! Contamos con una amplia variedad de implementos para el cuidado de tu jardín, desde palas y rastrillos hasta tijeras de podar y regaderas. ¿Qué tipo de herramienta específica estás buscando? Puedo ayudarte a encontrar la herramienta ideal para tus necesidades de jardinería.",
+        "Expresion": "herramientas|jardin|jardineria|pala|rastrillo|tijeras|podadora|regadera|manguera|azadon|machete|carretilla|cultivador|guantes|jardinero|sembrar|podar|cortar|plantar|herramientas para plantas|jardin|jardinería|herramienta de jardín|herramientas de jardinería|cesped|césped|plantas|flores|poda|riego|manguera|rastrillo|pala|tijeras|desbrozadora|cortacesped|cortacésped|abono|fertilizante|maceta|huerto",
+        "Respuesta": "¡Todo lo que necesitas para tu jardín en un solo lugar! Nuestra colección completa de herramientas de jardinería incluye palas, rastrillos, tijeras de podar, regaderas y mucho más. Todas nuestras herramientas están fabricadas con materiales duraderos y diseñadas para hacer tu trabajo de jardinería más fácil y eficiente. Encuentra todas tus herramientas esenciales aquí: [enlace_herramientas_jardin]",
         "number": 582
     }
+  
 ]
