@@ -23,7 +23,7 @@
     {
         "nombre": "Rastreo",
         "id": "1.1.1.1",
-        "Expresion": "rastreo|seguimiento|rastrear|seguir|seguir pedido|seguir paquete|seguir producto|rastrear pedido|rastrear paquete|rastrear producto|seguimiento pedido|seguimiento paquete|seguimiento producto|lugar esta",
+        "Expresion": "rastreo|seguimiento|rastrear|seguir|seguir pedido|seguir paquete|seguir producto|rastrear pedido|rastrear paquete|rastrear producto|seguimiento pedido|seguimiento paquete|seguimiento producto",
         "Respuesta": "Perfecto,te proporciono la informacion que tu pedido actualmente se encuentre en 'UBICACION GENERICA'. ¿Deseas saber algo mas?",
         "number": 4
     },
@@ -37,7 +37,7 @@
     {
         "nombre": "Problemas con el pedido",
         "id": "1.1.2",
-        "Expresion": "problema|problemas|problema con pedido|problema con paquete|problema con producto|tuve problemas|problemas con|problemas en|problemas al recibir|tengo",
+        "Expresion": "problema|problemas|problema con pedido|problema con paquete|problema con producto|tuve problemas|problemas|problemas al recibir",
         "Respuesta": "Detectamos que tienes problemas con tu pedido, por favor, indicame cual es tu problema.¿Retardo?¿Algun problema o inconveniente con tu paquete?",
         "number": 6
     },
@@ -65,7 +65,7 @@
     {
         "nombre": "No llego el pedido",
         "id": "1.1.2.4",
-        "Expresion": "retardo|no llegó|aun no llega|sin llegar|",
+        "Expresion": "no llegó|aun no llega|sin llegar",
         "Respuesta": "Si tu pedido no llego en la fecha indicada por paqueteria, contactalos para que te puedan dar una solucion.",
         "number": 10
     },
@@ -93,7 +93,7 @@
     {
         "nombre": "Cancelar pedido",
         "id": "1.1.3",
-        "Expresion": "cancelar|pedido|cancelación|anular|devolución|reembolso|eliminar pedido|quitar pedido|no quiero|no deseo|error en el pedido",
+        "Expresion": "cancelar|cancelación|anular|eliminar|quitar",
         "Respuesta": "Entiendo que deseas cancelar un pedido. Para ayudarte, necesito algunos detalles. Por favor, proporciona el número de pedido o el correo electrónico asociado a la cuenta desde la que realizaste la compra. Si prefieres, también puedes cancelar el pedido directamente desde la sección 'Mis Pedidos' en tu cuenta de Amazon.",
         "number": 14
     },
@@ -107,14 +107,14 @@
     {
         "nombre": "Modificar direccion",
         "id": "1.1.4",
-        "Expresion": "actualizar direccion|modificar direccion|cambiar direccion|editar direccion|direccion|direccion de envio|modificar direccion de entrega",
+        "Expresion": "actualizar direccion|modificar direccion|cambiar direccion|editar direccion|modificar direccion de entrega",
         "Respuesta": "Para modificar su dirección, debe dirigirse a la sección de configuración de su cuenta, datos personales y seguir los pasos que se le indican. ¿Necesita ayuda con algo más?",
         "number": 16
     },
     {
         "nombre": "Antes de un envio",
         "id": "1.1.4.1",
-        "Expresion": "envio|antes del envio|preparar envio|preparacion de envio|etiqueta|empaquetar|empaque|embalaje|documentos de envio|guia de envio|seguimiento|rastreo|estado del envio|fecha de envio|horario de envio|direccion de envio|informacion de envio",
+        "Expresion": "antes del envio|preparar envio|preparacion de envio",
         "Respuesta": "Para preparar tu envío, asegúrate de que el paquete esté correctamente empaquetado y etiquetado. Si necesitas generar una guía de envío o tienes dudas sobre el proceso, puedes consultar nuestra guía de envíos en la sección de ayuda o contactar con nuestro soporte para más detalles.",
         "number": 17
     },
@@ -135,7 +135,7 @@
     {
         "nombre": "Tipos de reseñas",
         "id": "1.2.1",
-        "Expresion": "añadir un tipo|tipo|añadir",
+        "Expresion": "añadir un tipo|tipo",
         "Respuesta": "¿Sobre que te gustaria añadir una reseña?¿Vendedor?¿Productos?¿Experiencia con paqueteria?",
         "number": 20
     },
@@ -156,28 +156,28 @@
     {
         "nombre": "Sobre experiencias con paqueteria",
         "id": "1.2.1.3",
-        "Expresion": "experencia|paqueteria|paqueterias|envios|entrega|entrega|envio",
+        "Expresion": "paqueteria|paqueterias|envios|entrega|entrega|envio",
         "Respuesta": "Por supuesto, puedes escribir tu reseña acerca de la experencia con paqueteria directamente en la pagina responsable del envio de tus productos.",
         "number": 23
     },
     {
         "nombre": "Formas de escribir una reseña",
         "id": "1.2.2",
-        "Expresion": "quiero agregar|escribir|reseña",
+        "Expresion": "quiero agregar|escribir",
         "Respuesta": "¿Quieres asigna una calificacion o agregar fotos?",
         "number": 24
     },
     {
         "nombre": "Asignar una calificacion",
         "id": "1.2.2.1",
-        "Expresion": "asignar|añadir|calificacion|poner|dar",
+        "Expresion": "asignar|calificacion|poner|dar",
         "Respuesta": "Para poder asignar una calificación debes de dirigirte al producto y escribir una reseña, ahi puedes agregar una calificación al producto.",
         "number": 25
     },
     {
         "nombre": "Agregar fotos",
         "id": "1.2.2.2",
-        "Expresion": "agregar|foto|fotos|imagen|imagenes",
+        "Expresion": "foto|fotos|imagen|imagenes",
         "Respuesta": "Puedes subir tus fotos desde la publicacion del producto",
         "number": 26
     },
@@ -205,21 +205,21 @@
     {
         "nombre": "Reembolsos",
         "id": "1.3",
-        "Expresion": "reembolso|regreso de dinero|devolver dinero|reembolsar|regresarme|retorno|retornar|recuperar dinero|recuperacion|reposicion|reponer|regreso",
+        "Expresion": "reembolso|regreso de dinero|devolver dinero|reembolsar|regresarme|retorno|retornar|recuperar dinero|recuperacion|reposicion|reponer",
         "Respuesta": "Entiendo que necesitas ayuda con un reembolso. Puedo asistirte con los métodos de reembolso disponibles, información sobre el procesamiento o resolver problemas específicos que estés experimentando. ¿Qué te gustaría saber exactamente?",
         "number": 30
     },
     {
         "nombre": "Métodos de reembolso",
         "id": "1.3.1",
-        "Expresion": "metodos|formas|maneras|tipos|opciones|alternativas|modo|via|camino|proceso|procedimiento|mecanismo|sistema|reembolso|devolucion|dinero|tarjeta|credito|debito|cuenta|banco|transferencia|efectivo|billetera|monedero|deposito|giftcard|tarjeta regalo|voucher|cupon|nota de credito|como me|de que forma|cual es la forma|opciones para|que opciones|como puedo|por donde|bono|saldo a favor|cheque|pasos|cual metodo|que metodo|cual forma|que forma|en donde|metodo preferido|forma preferida|formato|modalidad|cual opcion|que opcion|metodo rapido|forma rapida|diferente forma|otra forma|mismo metodo|mismo medio|directo a",
+        "Expresion": "metodos|formas|maneras|tipos|opciones|alternativas|modo|via|camino|proceso|procedimiento|mecanismo|sistema|devolucion",
         "Respuesta": "Tenemos varias opciones para procesar tu reembolso. Puedes elegir entre devolución a tu tarjeta original, crédito en tu cuenta de Amazon para futuras compras, o explorar otros métodos alternativos. ¿Con cuál te sentirías más cómodo?",
         "number": 31
     },
     {
         "nombre": "Devolución a tarjeta original",
         "id": "1.3.1.1",
-        "Expresion": "devolucion|reembolso|dinero|tarjeta|original|misma tarjeta|la tarjeta que use|la tarjeta con que pague|mi tarjeta|tarjeta de credito|tarjeta de debito|visa|mastercard|american express|amex|la misma forma de pago|como pague|igual que pague|regreso a la tarjeta|devolver a la tarjeta|directo a mi tarjeta|banco|cuenta bancaria|tarjeta bancaria|mismo medio|mismo metodo|pago original|forma de pago original|mi forma de pago|forma original|tarjeta inicial|inicial|compra|metodo de compra|origen|mismo lugar|de donde salio|donde saque|donde pague|a donde|donde hice|mismo plastico|transferencia|devuelveme a|regresen a|tarjeta bancaria|metodo original|metodo inicial|primer metodo|primer medio|pago inicial",
+        "Expresion": "devolucion|dinero|tarjeta|original|misma tarjeta|la tarjeta que use|la tarjeta con que pague|mi tarjeta|tarjeta de credito|tarjeta de debito|visa|mastercard|american express|amex|la misma forma de pago|como pague|igual que pague|regreso a la tarjeta|devolver a la tarjeta|directo a mi tarjeta|banco|cuenta bancaria|tarjeta bancaria|mismo medio|mismo metodo|pago original|forma de pago original|mi forma de pago|forma original|tarjeta inicial|inicial|compra|metodo de compra|origen|mismo lugar|de donde salio|donde saque|donde pague|a donde|donde hice|mismo plastico|transferencia|devuelveme a|regresen a|tarjeta bancaria|metodo original|metodo inicial|primer metodo|primer medio|pago inicial",
         "Respuesta": "Perfecto, procesaré el reembolso directamente a la tarjeta que utilizaste para realizar tu compra original. Este método suele tardar entre 3-5 días hábiles, aunque algunos bancos pueden demorar un poco más. Te enviaré una confirmación por correo cuando inicie el proceso.",
         "number": 32
     },
@@ -254,14 +254,14 @@
     {
         "nombre": "Reembolso parcial vs. completo",
         "id": "1.3.2.2",
-        "Expresion": "reembolso|parcial|completo|porcentaje|parte|pedazo|fragmento|seccion|segmento|proporcion|fraccion|trozo|mitad|porcion|division|cuota|cuarto|total|integro|entero|cabal|pleno|absoluto|todo|unicamente|solo|nada mas|enteramente|completamente|parcialmente|mitad|un poco|algo|trozos|porciones|partes|fracciones|divisiones|porciones|descuento|diferencia|monto|valor|cantidad|suma|cifra|cuantia|medida|volumen|escala|magnitud|dimension|amplitud|extension|quiero solo|solo necesito|unicamente quiero|quiero completo|necesito todo|todo completo|parte del|algo del|mitad del|un poco del|una fraccion|una porcion",
+        "Expresion": "parcial|completo|porcentaje|parte|pedazo|fragmento|seccion|segmento|proporcion|fraccion|trozo|mitad|porcion|division|cuota|cuarto|total|integro|entero|cabal|pleno|absoluto|todo|unicamente|solo|nada mas|enteramente|completamente|parcialmente|mitad|un poco|algo|trozos|porciones|partes|fracciones|divisiones|porciones|descuento|diferencia|monto|valor|cantidad|suma|cifra|cuantia|medida|volumen|escala|magnitud|dimension|amplitud|extension|quiero solo|solo necesito|unicamente quiero|quiero completo|necesito todo|todo completo|parte del|algo del|mitad del|un poco del|una fraccion|una porcion",
         "Respuesta": "Veo que estás considerando opciones entre un reembolso parcial o completo. Si solo deseas devolver algunos artículos de tu pedido o hubo problema con parte de él, puedo ayudarte con un reembolso parcial. Si prefieres devolver todo, procesaría un reembolso completo. ¿Qué opción te conviene más en este momento?",
         "number": 37
     },
     {
         "nombre": "Verificación de recepción de reembolso",
         "id": "1.3.2.3",
-        "Expresion": "verificacion|recepcion|reembolso|comprobar|certificar|confirmar|corroborar|constatar|cotejar|revisar|examinar|inspeccionar|validar|compulsar|confrontar|chequear|check|validacion|constatacion|cotejo|comprobacion|confirmacion|corroboracion|inspeccion|revision|examen|contraste|testeo|test|verificar|comprobar|confirmar|validar|recibir|recibido|recepcionado|acreditar|acreditado|ingresado|registrado|reportado|anotado|llego|donde esta|no veo|no aparece|si aparece|si llego|ha llegado|ha sido|ha sido recibido|ha sido procesado|ya se|ya esta|ya tengo|ya aparece|ya entro|ya ingreso|ya se refleja|ya se observa|fue recibido|ha sido depositado|aparece como",
+        "Expresion": "verificacion|recepcion|reembolso|comprobar|certificar|confirmar|corroborar|constatar|cotejar|revisar|examinar|inspeccionar|validar|compulsar|confrontar|chequear|check|validacion|constatacion|cotejo|comprobacion|confirmacion|corroboracion|inspeccion|revision|contraste|testeo|test|verificar|comprobar|confirmar|validar|recibir|recibido|recepcionado|acreditar|acreditado|ingresado|registrado|reportado|anotado|llego|donde esta|no veo|no aparece|si aparece|si llego|ha llegado|ha sido|ha sido recibido|ha sido procesado|ya se|ya esta|ya tengo|ya aparece|ya entro|ya ingreso|ya se refleja|ya se observa|fue recibido|ha sido depositado|aparece como",
         "Respuesta": "Déjame verificar si tu reembolso ya ha sido recibido. Revisaré tanto en nuestro sistema como el estado de la transferencia al método de pago seleccionado. Si hay algún problema con la recepción, también puedo ayudarte a solucionarlo. ¿Me proporcionas el número de pedido para que pueda darte información exacta?",
         "number": 38
     },
@@ -275,28 +275,28 @@
     {
         "nombre": "Resolución de problemas",
         "id": "1.3.3",
-        "Expresion": "resolucion|problemas|reembolso|solucion|arreglo|remedio|correccion|reparacion|enmienda|rectificacion|ajuste|modificacion|alteracion|cambio|transformacion|variacion|replanteamiento|reajuste|dificultad|inconveniente|obstaculo|impedimento|complicacion|contratiempo|adversidad|molestia|incidencia|incomodidad|percance|incidente|situacion|mal|error|fallo|averia|defecto|imperfeccion|anomalia|anormalidad|irregularidad|solucionar|arreglar|remediar|reparar|corregir|enmendar|rectificar|modificar|ajustar|alterar|cambiar|transformar|variar|reajustar|asistir|ayudar|auxiliar|socorrer|apoyar|sustentar|respaldar|amparar|resolver|reparar|subsanar|enmendar|corregir|zanjar|liquidar|finiquitar|aclarar|despejar|eliminar",
+        "Expresion": "resolucion|problemas|solucion|arreglo|remedio|correccion|reparacion|enmienda|rectificacion|ajuste|modificacion|alteracion|cambio|transformacion|variacion|replanteamiento|reajuste|dificultad|inconveniente|obstaculo|impedimento|complicacion|contratiempo|adversidad|molestia|incidencia|incomodidad|percance|incidente|situacion|mal|error|fallo|averia|defecto|imperfeccion|anomalia|anormalidad|irregularidad|solucionar|arreglar|remediar|reparar|corregir|enmendar|rectificar|modificar|ajustar|alterar|cambiar|transformar|variar|reajustar|asistir|ayudar|auxiliar|socorrer|apoyar|sustentar|respaldar|amparar|resolver|reparar|subsanar|enmendar|corregir|zanjar|liquidar|finiquitar|aclarar|despejar|eliminar",
         "Respuesta": "Lamento que estés teniendo problemas con tu reembolso. Puedo ayudarte si no has recibido el reembolso, si el monto reembolsado es incorrecto, si el método de reembolso no es el que solicitaste, o incluso puedo escalarlo a un agente especializado. ¿Cuál es específicamente el problema que estás experimentando?",
         "number": 40
     },
     {
         "nombre": "Reembolso no recibido",
         "id": "1.3.3.1",
-        "Expresion": "reembolso|no recibido|no ha llegado|no aparece|no veo|no encuentro|no figura|no muestra|no refleja|no visualizo|no observo|no presenta|no exhibe|no manifiesta|no registra|no consta|no se ve|ausente|faltante|inexistente|nulo|desaparecido|perdido|extraviado|traspapelado|esfumado|volatilizado|escondido|donde esta|que paso con|donde quedo|sigue pendiente|todavia pendiente|sigue sin|todavia sin|sin recibir|sin llegar|sin aparecer|sin mostrar|sin reflejar|sin visualizar|sin observar|sin presentar|nunca llego|nunca aparecio|jamas llego|jamas aparecio|no he visto|no he recibido|no me ha llegado|no me aparece|no me figura|no me refleja|no se ha depositado|no se ha acreditado|no se ha abonado|sin acreditar|sin abonar|sin depositar",
+        "Expresion": "no recibido|no ha llegado|no aparece|no veo|no encuentro|no figura|no muestra|no refleja|no visualizo|no observo|no presenta|no exhibe|no manifiesta|no registra|no consta|no se ve|ausente|faltante|inexistente|nulo|desaparecido|perdido|extraviado|traspapelado|esfumado|volatilizado|escondido|donde esta|que paso con|donde quedo|sigue pendiente|todavia pendiente|sigue sin|todavia sin|sin recibir|sin llegar|sin aparecer|sin mostrar|sin reflejar|sin visualizar|sin observar|sin presentar|nunca llego|nunca aparecio|jamas llego|jamas aparecio|no he visto|no he recibido|no me ha llegado|no me aparece|no me figura|no me refleja|no se ha depositado|no se ha acreditado|no se ha abonado|sin acreditar|sin abonar|sin depositar",
         "Respuesta": "Entiendo tu preocupación por no haber recibido el reembolso todavía. Voy a revisar ahora mismo qué ha sucedido. A veces el banco puede demorar en reflejar la transacción en tu cuenta. Si identifico cualquier problema, puedo solucionarlo inmediatamente. ¿Me confirmas la fecha en que solicitaste el reembolso?",
         "number": 41
     },
     {
         "nombre": "Monto incorrecto",
         "id": "1.3.3.2",
-        "Expresion": "monto|incorrecto|reembolso|cantidad|suma|valor|cifra|cuantia|importe|costo|precio|tarifa|tasa|invalido|erroneo|equivocado|inexacto|impreciso|desacertado|errado|fallido|malo|diferente|distinto|divergente|desigual|disparejo|dispar|no es|no son|no esta|no coincide|no concuerda|no corresponde|no equivale|no iguala|no empata|no es igual|no es el mismo|es menor|es diferente|es distinto|es otro|no es lo|deberia ser|tendria que ser|debe ser|tiene que ser|devolvieron menos|reembolsaron menos|me dieron menos|pagaron menos|recibido menos|acreditado menos|abonado menos|depositado menos|transferido menos|rembolsado menos|devuelto menos|falta dinero|falta monto|faltan|devolucion parcial|reembolso parcial|reembolso a medias|devolucion a medias|menos dinero",
+        "Expresion": "monto|incorrecto|cantidad|suma|valor|cifra|cuantia|importe|costo|precio|tarifa|tasa|invalido|erroneo|equivocado|inexacto|impreciso|desacertado|errado|fallido|malo|diferente|distinto|divergente|desigual|disparejo|dispar|no es|no son|no esta|no coincide|no concuerda|no corresponde|no equivale|no iguala|no empata|no es igual|no es el mismo|es menor|es diferente|es distinto|es otro|no es lo|deberia ser|tendria que ser|debe ser|tiene que ser|devolvieron menos|reembolsaron menos|me dieron menos|pagaron menos|recibido menos|acreditado menos|abonado menos|depositado menos|transferido menos|rembolsado menos|devuelto menos|falta dinero|falta monto|faltan|devolucion parcial|reembolso parcial|reembolso a medias|devolucion a medias|menos dinero",
         "Respuesta": "Veo que el monto del reembolso no coincide con lo que esperabas. Revisaré detalladamente tu pedido para verificar si hubo algún descuento, cargo por envío no reembolsable o impuesto que haya afectado la cantidad final. Dame un momento para revisar esto y asegurarme de que recibas exactamente lo que te corresponde.",
         "number": 42
     },
     {
         "nombre": "Método de reembolso incorrecto",
         "id": "1.3.3.3",
-        "Expresion": "metodo|incorrecto|reembolso|modo|forma|manera|via|procedimiento|proceso|sistema|mecanismo|tecnica|practica|rutina|instrumento|canal|conducto|camino|medio|formato|metodologia|invalido|erroneo|equivocado|inexacto|impreciso|desacertado|errado|fallido|malo|no es|no esta|no aparece|distinto|diferente|divergente|desigual|disparejo|dispar|no coincide|no concuerda|no corresponde|no equivale|no iguala|no empata|no es igual|no es el mismo|es otro|deberia ser|tendria que ser|debe ser|tiene que ser|queria en|pedido en|solicitado en|elegido otro|eligio otro|seleccionado otro|escogido otro|me has aplicado|me han aplicado|me aplicaron|me pusieron|otra tarjeta|en otro lado|por otro medio|por otra via|por otra forma|de otra manera|a otra parte|otra cuenta|a otros|yo elegi|yo seleccione|yo escogi|yo pedi|yo solicite",
+        "Expresion": "metodo|incorrecto|modo|forma|manera|via|procedimiento|proceso|sistema|mecanismo|tecnica|practica|rutina|instrumento|canal|conducto|camino|medio|formato|metodologia|invalido|erroneo|equivocado|inexacto|impreciso|desacertado|errado|fallido|malo|no es|no esta|no aparece|distinto|diferente|divergente|desigual|disparejo|dispar|no coincide|no concuerda|no corresponde|no equivale|no iguala|no empata|no es igual|no es el mismo|es otro|deberia ser|tendria que ser|debe ser|tiene que ser|queria en|pedido en|solicitado en|elegido otro|eligio otro|seleccionado otro|escogido otro|me has aplicado|me han aplicado|me aplicaron|me pusieron|otra tarjeta|en otro lado|por otro medio|por otra via|por otra forma|de otra manera|a otra parte|otra cuenta|a otros|yo elegi|yo seleccione|yo escogi|yo pedi|yo solicite",
         "Respuesta": "Entiendo que el reembolso se procesó por un método diferente al que solicitaste. Esto no debería haber ocurrido y me disculpo por el inconveniente. Puedo cancelar este reembolso y procesarlo nuevamente usando el método que prefieres. ¿Me confirmas cuál es tu método preferido para solucionarlo de inmediato?",
         "number": 43
     },
@@ -310,7 +310,7 @@
     {
         "nombre": "Devoluciones",
         "id": "1.4",
-        "Expresion": "devolucion|devoluciones|reintegro|recobro|vuelta|devolver|anulacion",
+        "Expresion": "devolucion|devoluciones|reintegro|devolver",
         "Respuesta": "si, en caso de que tenga alguna devolucion pendiente, aceptada, rechazada, etc. le mandaremos un recordatorio y notificacion.",
         "number": 45
     },
@@ -371,7 +371,7 @@
         "number": 53
     },
     {
-        "nombre": "Prefiero no responder Seguimiento de devolución",
+        "nombre": "Prefiero no responder",
         "id": "1.4.1.1.7",
         "Expresion": "prefiero no responder|no quiero dar motivo|no quiero dar razón|no quiero dar razon|no quiero especificar|no quiero decir|no voy a responder|me reservo el motivo|motivo personal|razón personal|razon personal|privacidad|confidencial|seguimiento devolución|seguimiento devolucion|seguimiento del proceso|estado devolución|estado devolucion|como va mi devolución|como va mi devolucion|cómo va mi devolución|cómo va mi devolucion|estatus devolución|estatus devolucion|progreso devolución|progreso devolucion|avance devolución|avance devolucion|en qué va mi devolución|en que va mi devolucion|dónde está mi reembolso|donde esta mi reembolso|cuándo recibo reembolso|cuando recibo reembolso|reembolso pendiente|situación devolución|situacion devolucion|estado reembolso|status devolución|status devolucion|número seguimiento|numero seguimiento|código seguimiento|codigo seguimiento|referencia devolución|referencia devolucion|consultar devolución|consultar devolucion|verificar devolución|verificar devolucion|revisar devolución|revisar devolucion|actualización devolución|actualizacion devolucion|información devolución|informacion devolucion|noticias devolución|noticias devolucion",
         "Respuesta": "No hay problema si prefieres no indicar un motivo específico para tu devolución. Respetamos completamente tu privacidad. Puedes continuar con el proceso de devolución sin especificar una razón particular. Respecto al seguimiento, puedes consultar el estado de tu devolución en cualquier momento desde la sección 'Mis pedidos' en tu cuenta de Amazon, haciendo clic en 'Ver estado de devolución' junto al pedido correspondiente. Una vez que recibamos el producto (si es necesario devolverlo físicamente), procesaremos tu reembolso en un plazo aproximado de 3-5 días hábiles. ¿Necesitas alguna información adicional sobre cómo rastrear tu devolución o sobre los plazos de reembolso?",
@@ -603,7 +603,7 @@
     },
     {
         "nombre": "Promociones",
-        "id": "2.1",
+        "id": "1.5",
         "Expresion": ".*(promociones|promo|ofertas|descuentos).*",
         "Respuesta": "Tenemos varias promociones disponibles, ¿en cuál te interesa profundizar?",
         "number": 204
@@ -611,14 +611,14 @@
     {
         "nombre": "Gestión de promociones activas",
         "id": "1.5.1",
-        "Expresion": "Gestión|promociones|activas|administrar|descuentos|vigentes|ofertas|actuales|seguimiento|cupones|control|promociones|mis|descuentos|cupones|guardados|administración|descuentos|configuración|promociones|personalizar|ofertas|ajustes|promocionales|promo|activa|promociones|disponibles|mis|ofertas|guardadas|visualizar|promociones|guardar|promoción|promocion|cupón|cupon|disponible|descuento|aplicado|gestionar|guardadas|ahorros|activos|seguir|promociones|descuento|usado|cupones|aplicados|ver|ofertas|activas|listado|promocional|rastrear|ahorro|monitorear|descuentos|administracion|ofertas|activas|seguimiento|descuentos|gestor|cupones|organizacion|promociones|ordenar|cupones|filtrar|promociones|cupones|acumulados|dashboard|promocional|interfaz|ofertas|configurar|alertas|descuentos|historial|promociones|favoritas|guardar|para|después|descuentos|recurrentes|cupones|frecuentes|promoción|favorita|añadir|cupon|carrito|utilizacion|cupones|uso|promociones|promociones|activadas|tracker|descuentos|monitor|cupones|gestor|ahorros|checar|promociones|gestionar|ahorros|perfil|promocional|modificar|promoción|ajustar|descuentos|promociones|disponibles",
+        "Expresion": "Gestión|activas|administrar|descuentos|vigentes|ofertas|actuales|promociones|mis|descuentos|guardados",
         "Respuesta": "Para gestionar tus promociones activas en Amazon, tienes varias opciones muy útiles. Inicia sesión en tu cuenta y dirígete a 'Tus pedidos' donde encontrarás los descuentos aplicados a tus compras recientes. Para ver cupones guardados, visita la sección 'Cupones' donde podrás activarlos antes de realizar tu compra. Si eres miembro Prime, también tienes un apartado especial de 'Ofertas Prime' con promociones exclusivas. ¿Necesitas ayuda para encontrar alguna promoción específica que hayas guardado o quieres saber cómo activar varios cupones en una misma compra?",
         "number": 88
     },
     {
         "nombre": "Catálogo de promociones",
         "id": "1.5.1.1",
-        "Expresion": "Catálogo|promociones|descuentos|ofertas|libro|rebajas|listado|ofertas|inventario|descuentos|colección|promociones|directorio|ofertas|índice|descuentos|registro|promociones|compilación|ofertas|guía|descuentos|manual|promociones|repertorio|ofertas|catalogo|promociones|catálogo|descuentos|cataloggo|promosiones|lista|ofertas|menu|descuentos|explorador|promociones|buscador|ofertas|navegador|descuentos|índice|promociones|pagina|catálogo|página|catálogo|todas|promociones|todos|descuentos|todas|ofertas|sitio|promociones|hub|descuentos|centro|ofertas|repositorio|promociones|biblioteca|descuentos|archivo|ofertas|base|datos|promociones|coleccion|descuentos|compendio|ofertas|relación|ofertas|visualizador|promociones|mapa|descuentos|panorama|ofertas|índice|promocional|tabla|descuentos|matriz|ofertas|catalogo|digital|documento|promociones|fichero|descuentos|expediente|ofertas|dossier|promociones|portfolio|descuentos|album|ofertas|libro|promociones|clasificador|descuentos|orden|ofertas|vista|promociones|browse|descuentos|browse|ofertas|explorar|promociones|navegar|descuentos|recorrer|ofertas|recopilatorio|promociones|sumario|descuentos|ver|todas|promociones",
+        "Expresion": "Catálogo|promociones|ofertas|libro|rebajas|listado|ofertas|inventario|descuentos|colección|promociones|directorio|ofertas|índice|descuentos|registro|promociones|compilación|ofertas|guía|descuentos|manual|promociones|repertorio|ofertas|catalogo|promociones|catálogo|descuentos|cataloggo|promosiones|lista|ofertas|menu|descuentos|explorador|promociones|buscador|ofertas|navegador|descuentos|índice|promociones|pagina|catálogo|página|catálogo|todas|promociones|todos|descuentos|todas|ofertas|sitio|promociones|hub|descuentos|centro|ofertas|repositorio|promociones|biblioteca|descuentos|archivo|ofertas|base|datos|promociones|coleccion|descuentos|compendio|ofertas|relación|ofertas|visualizador|promociones|mapa|descuentos|panorama|ofertas|índice|promocional|tabla|descuentos|matriz|ofertas|catalogo|digital|documento|promociones|fichero|descuentos|expediente|ofertas|dossier|promociones|portfolio|descuentos|album|ofertas|libro|promociones|clasificador|descuentos|orden|ofertas|vista|promociones|browse|descuentos|browse|ofertas|explorar|promociones|navegar|descuentos|recorrer|ofertas|recopilatorio|promociones|sumario|descuentos|ver|todas|promociones",
         "Respuesta": "Nuestro catálogo de promociones en Amazon te permite explorar todos los descuentos disponibles de forma organizada y sencilla. Puedes filtrar por categorías (electrónica, hogar, moda, etc.), por tipo de oferta (descuentos directos, cupones, ofertas relámpago) o por porcentaje de descuento. Si buscas algo específico, usa la barra de búsqueda dentro de la sección de ofertas. Recuerda que las ofertas se actualizan diariamente, y algunas son exclusivas para miembros Prime. ¿Te interesa alguna categoría en particular o prefieres ver primero nuestras ofertas destacadas del día?",
         "number": 89
     },
@@ -639,7 +639,7 @@
     {
         "nombre": "Cupones de descuento",
         "id": "1.5.1.1.3",
-        "Expresion": "Cupones|descuento|códigos|promocionales|vales|descuento|vouchers|promocionales|bonos|rebaja|tickets|descuento|cheques|promocionales|códigos|descuento|vales|promocionales|bonos|descuento|tickets|promocionales|cheques|descuento|códigos|rebaja|vales|rebaja|cupones|promocionales|cupones|rebaja|vales|promoción|tickets|rebaja|cupon|descuento|código|promoción|vale|descuento|voucher|promocional|bono|rebaja|ticket|descuento|cheque|promocional|código|descuento|vale|promocional|bono|descuento|ticket|promocional|cheque|descuento|código|rebaja|vale|rebaja|cupón|promocional|cupón|rebaja|vale|promoción|cupones|cupon|código|descuento|descuentos|canjear|código|canjear|cupón|activar|código|activar|cupón|usar|código|usar|cupón|código|promocional|aplicar|descuento|aplicar|cupón|cupones|digitales|códigos|digitales|vales|digitales|cupones|virtuales|códigos|virtuales|vales|virtuales|cupones|online|códigos|online|vales|online|cupones|internet|códigos|internet|vales|internet|cupón|online|código|online|vale|online|introducir|código|introducir|cupón|canjear|vale|cupon|digital|online|codigo|descuento|online|descuento|adicional|código|secreto|código|exclusivo|descu3nto|cup0nes|cod1go|promoc1onal",
+        "Expresion": "Cupones|códigos|promocionales|vales|descuento|vouchers|promocionales|bonos|rebaja|tickets|descuento|cheques|promocionales|códigos|descuento|vales|promocionales|bonos|descuento|tickets|promocionales|cheques|descuento|códigos|rebaja|vales|rebaja|cupones|promocionales|cupones|rebaja|vales|promoción|tickets|rebaja|cupon|descuento|código|promoción|vale|descuento|voucher|promocional|bono|rebaja|ticket|descuento|cheque|promocional|código|descuento|vale|promocional|bono|descuento|ticket|promocional|cheque|descuento|código|rebaja|vale|rebaja|cupón|promocional|cupón|rebaja|vale|promoción|cupones|cupon|código|descuento|descuentos|canjear|código|canjear|cupón|activar|código|activar|cupón|usar|código|usar|cupón|código|promocional|aplicar|descuento|aplicar|cupón|cupones|digitales|códigos|digitales|vales|digitales|cupones|virtuales|códigos|virtuales|vales|virtuales|cupones|online|códigos|online|vales|online|cupones|internet|códigos|internet|vales|internet|cupón|online|código|online|vale|online|introducir|código|introducir|cupón|canjear|vale|cupon|digital|online|codigo|descuento|online|descuento|adicional|código|secreto|código|exclusivo|descu3nto|cup0nes|cod1go|promoc1onal",
         "Respuesta": "Los cupones de descuento en Amazon te permiten ahorrar aún más en tus compras favoritas. Para utilizarlos, simplemente navega a nuestra sección de 'Cupones' donde encontrarás descuentos adicionales que puedes activar con un solo clic. Una vez activado, el descuento se aplicará automáticamente cuando añadas el producto a tu carrito. También puedes introducir códigos promocionales durante el proceso de pago en el campo 'Añadir código promocional'. Recuerda que algunos cupones son exclusivos para miembros Prime, otros tienen fecha de vencimiento y algunos solo aplican a productos específicos. Si tienes problemas para aplicar un cupón, verifica que el producto sea elegible y que el cupón esté activo. ¿Necesitas ayuda para encontrar cupones para alguna categoría específica?",
         "number": 92
     },
@@ -807,7 +807,7 @@
     {
         "nombre": "Combinación de promociones",
         "id": "1.5.3.2",
-        "Expresion": "combinacion|combinación|promociones|combinacion de promociones|combinación de promociones|combinar promociones|promociones combinadas|promociones acumulables|promociones acumulativas|promociones apilables|promociones stackeables|stack|stacking|stackear|apilar|acumular|acumular ofertas|acumular descuentos|acumular promociones|combinar ofertas|combinar descuentos|descuentos combinados|ofertas combinadas|multiple discounts|promociones múltiples|promociones multiples|promociones simultaneas|promociones simultáneas|varios descuentos|varias ofertas|varias promociones|promociones conjuntas|promociones en conjunto|ofertas conjuntas|descuentos conjuntos|promociones mixtas|ofertas mixtas|descuentos mixtos|promocion sobre promocion|promoción sobre promoción|oferta sobre oferta|descuento sobre descuento|double dip|triple dip|promociones dobles|promociones triples|doble beneficio|triple beneficio|multiple benefits|multi-promocion|multi-promoción|multi-oferta|multi-descuento|cupones combinados|cupones acumulados|codigos combinados|códigos combinados|codigos acumulados|códigos acumulados|suma de beneficios|suma de descuentos|suma de promociones|promociones adicionales|descuentos adicionales|ofertas adicionales|complementary offers|ofertas complementarias",
+        "Expresion": "combinacion|combinación|combinacion de promociones|combinación de promociones|combinar promociones|promociones combinadas|promociones acumulables|promociones acumulativas|promociones apilables|promociones stackeables|stack|stacking|stackear|apilar|acumular|acumular ofertas|acumular descuentos|acumular promociones|combinar ofertas|combinar descuentos|descuentos combinados|ofertas combinadas|multiple discounts|promociones múltiples|promociones multiples|promociones simultaneas|promociones simultáneas|varios descuentos|varias ofertas|varias promociones|promociones conjuntas|promociones en conjunto|ofertas conjuntas|descuentos conjuntos|promociones mixtas|ofertas mixtas|descuentos mixtos|promocion sobre promocion|promoción sobre promoción|oferta sobre oferta|descuento sobre descuento|double dip|triple dip|promociones dobles|promociones triples|doble beneficio|triple beneficio|multiple benefits|multi-promocion|multi-promoción|multi-oferta|multi-descuento|cupones combinados|cupones acumulados|codigos combinados|códigos combinados|codigos acumulados|códigos acumulados|suma de beneficios|suma de descuentos|suma de promociones|promociones adicionales|descuentos adicionales|ofertas adicionales|complementary offers|ofertas complementarias",
         "Respuesta": "¡La combinación de promociones es una excelente estrategia para maximizar tus ahorros en Amazon! Se trata de aprovechar varias ofertas y descuentos simultáneamente en una misma compra. Por ejemplo, podrías aplicar un código promocional de 15% de descuento, utilizar puntos acumulados de Amazon Rewards, aprovechar una oferta del tipo \"compra 2 y obtén 1 gratis\", y todo esto mientras pagas con una tarjeta que te da cashback adicional. Algunas combinaciones funcionan especialmente bien, como utilizar cupones de categoría junto con ofertas relámpago, o aprovechar descuentos por suscripción automática combinados con promociones estacionales. Te recomiendo verificar siempre los términos y condiciones, ya que no todas las promociones son acumulables entre sí. Nuestro sistema está diseñado para ayudarte a aplicar automáticamente la mejor combinación posible, pero a veces vale la pena experimentar con diferentes órdenes de aplicación. ¿Te gustaría que te ayude con alguna combinación específica que tengas en mente?",
         "number": 116
     },
@@ -989,7 +989,7 @@
     {
         "nombre": "Facturacion",
         "id": "1.6.3",
-        "Expresion": "factura|boleta|recibo|comprobante|nota|ticket|documento|estado|resumen",
+        "Expresion": "facturacion|comprobante|nota|ticket|documento|estado|resumen",
         "Respuesta": "Puedes solicitar una factura electrónica (factura fiscal digital en línea o CFDI) para todos los pedidos\nfísicos vendidos y enviados por Amazon México. Debes tener un número de Registro Federal de Contribuyentes\n(RFC) registrado en tu cuenta antes de solicitar un CFDI.\n\nPara mas informacion visitar: https://www.amazon.com.mx/gp/help/customer/display.html/ref=hp_gt_ppv_?nodeId=200961550.",
         "number": 143
     },
@@ -1016,7 +1016,7 @@
     },
     {
         "nombre": "Compras",
-        "id": "2",
+        "id": "1.7.2",
         "Expresion": ".*(compras|compra|adquirir|quiero comprar).*",
         "Respuesta": "Con gusto te ayudo con información sobre compras.",
         "number": 203
